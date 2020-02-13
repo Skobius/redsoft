@@ -1,0 +1,126 @@
+.header {
+  border-bottom: 1px solid #E1E1E1;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: rem(24) 0 rem(22);
+
+    @include media-breakpoint-down(tab) {
+      flex-direction: column;
+    }
+  }
+
+  &__left {
+    display: flex;
+
+    @include media-breakpoint-down(tab) {
+      align-items: center;
+    }
+  }
+
+  &__links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: rem(-4) 0 0;
+    padding-left: rem(48);
+
+    @include media-breakpoint-down(tab) {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    li {
+      &:not(:last-child) {
+        padding-right: rem(49);
+
+        @include media-breakpoint-down(tab) {
+          padding-right: 0;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: rem(14);
+        line-height: 150%;
+        color: #343030;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &__search {
+    display: flex;
+    margin-top: rem(-4);
+
+    @include media-breakpoint-down(tab) {
+      margin-top: rem(20);
+    }
+
+    &-input {
+      padding-left: rem(16);
+      width: rem(296);
+      border: 1px solid #E1E1E1;
+      box-sizing: border-box;
+      font-style: normal;
+      font-weight: normal;
+      font-size: rem(14);
+      line-height: 150%;
+      height: rem(48);
+      background: transparent;
+      outline: none;
+      color: #343030;
+
+      @include media-breakpoint-down(tab) {
+        width: rem(150);
+      }
+
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: #9F9F9F;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: #9F9F9F;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: #9F9F9F;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: #9F9F9F;
+      }
+    }
+
+    &-btn {
+      border: 1px solid #E1E1E1;
+      width: rem(122);
+      height: rem(48);
+      background: #403432;
+      border-radius: 0;
+      font-style: normal;
+      font-weight: bold;
+      font-size: rem(14);
+      line-height: 150%;
+      color: #FFFFFF;
+      outline: none;
+      cursor: pointer;
+
+      &:hover {
+        background: #776763;
+      }
+
+      &--disable {
+        background: #C1B4B1;
+      }
+
+      &--cart {
+        background: #5B3A32;
+      }
+    }
+  }
+}

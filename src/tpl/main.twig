@@ -1,0 +1,74 @@
+{% extends '/tpl/inc/page.twig' %}
+{% block content %}
+    <div class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__header">
+                    Картины эпохи Возрождения
+                </div>
+                <div class="main__cards">
+                    <div class="card" data-id="1">
+                        <div class="card__img"><img src="images/card1.jpg" alt="card"></div>
+                        <div class="card__inner">
+                            <div class="card__header">«Рождение Венеры» Сандро Боттичелли</div>
+                            <div class="card__bottom">
+                                <div class="card__money">
+                                    <span class="card__money-sale">2 000 000 $</span>
+                                    <span class="card__money-true">1 000 000 $</span>
+                                </div>
+                                <div class="card__btn-block card__btn-block">
+                                    <div class="card__btn js-card__btn">Купить</div>
+                                    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                                    <div class="card__btn card__btn--cart">{% include 'tpl/inc/svg/true.svg' %} В корзине</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="2">
+                        <div class="card__img"><img src="images/card2.jpg" alt="card"></div>
+                        <div class="card__inner">
+                            <div class="card__header">«Тайная вечеря» Леонардо да Винчи</div>
+                            <div class="card__bottom">
+                                <div class="card__money">
+                                    <span class="card__money-true">3 000 000 $</span>
+                                </div>
+                                <div class="card__btn-block card__btn-block">
+                                    <div class="card__btn js-card__btn">Купить</div>
+                                    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                                    <div class="card__btn card__btn--cart">{% include 'tpl/inc/svg/true.svg' %} В корзине</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" data-id="3">
+                        <div class="card__img"><img src="images/card3.jpg" alt="card"></div>
+                        <div class="card__inner">
+                            <div class="card__header">«Сотворение Адама» Микеланджело</div>
+                            <div class="card__bottom">
+                                <div class="card__money">
+                                    <span class="card__money-sale">6 000 000 $</span>
+                                    <span class="card__money-true">5 000 000 $</span>
+                                </div>
+                                <div class="card__btn-block card__btn-block">
+                                    <div class="card__btn js-card__btn">Купить</div>
+                                    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                                    <div class="card__btn card__btn--cart">{% include 'tpl/inc/svg/true.svg' %} В корзине</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card--none" data-id="4">
+                        <div class="card__img"><img src="images/card4.jpg" alt="card"></div>
+                        <div class="card__inner">
+                            <div class="card__header">«Урок анатомии» Рембрандт</div>
+                            <div class="card__bottom">
+                                <span class="card__bottom-text">Продана на аукционе</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="all"></div>
+{% endblock %}
