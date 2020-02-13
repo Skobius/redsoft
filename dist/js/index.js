@@ -10748,7 +10748,7 @@ __webpack_require__(346);
 __webpack_require__(347);
 
 
-window.Swiper = __WEBPACK_IMPORTED_MODULE_0__swiper__["default"];
+window.Swiper = __WEBPACK_IMPORTED_MODULE_0__swiper___default.a;
 
 __webpack_require__(349);
 
@@ -11817,30 +11817,4595 @@ var Button = function ($) {
 /***/ }),
 
 /***/ 343:
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: SyntaxError: /Users/glebsimdyankin/Documents/work/redsoft/src/scripts/libs/select2.js: Unexpected token, expected \",\" (1:475)\n\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 1 | \u001b[39m\u001b[90m/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */\u001b[39m\u001b[33m!\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[32m\"function\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m define\u001b[33m&&\u001b[39mdefine\u001b[33m.\u001b[39mamd\u001b[33m?\u001b[39mdefine([\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39ma)\u001b[33m:\u001b[39m\u001b[32m\"object\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m module\u001b[33m&&\u001b[39mmodule\u001b[33m.\u001b[39mexports\u001b[33m?\u001b[39mmodule\u001b[33m.\u001b[39mexports\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39m\u001b[32m\"undefined\"\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mtypeof\u001b[39m window\u001b[33m?\u001b[39mrequire(\u001b[32m\"jquery\"\u001b[39m)\u001b[33m:\u001b[39mrequire(\u001b[32m\"jquery\"\u001b[39m)(b))\u001b[33m,\u001b[39ma(c)\u001b[33m,\u001b[39mc}\u001b[33m:\u001b[39ma(jQuery)}(\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mif\u001b[39m(a\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mfn\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mselect2\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mselect2\u001b[33m.\u001b[39mamd)\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mselect2\u001b[33m.\u001b[39mamd\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mfunction\u001b[39m(){\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39mb\u001b[33m||\u001b[39m\u001b[33m!\u001b[39mb\u001b[33m.\u001b[39mrequirejs){b\u001b[33m?\u001b[39mc\u001b[33m=\u001b[39mb\u001b[33m:\u001b[39mb\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m a\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md\u001b[33m;\u001b[39m\u001b[33m!\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mfunction\u001b[39m e(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m v\u001b[33m.\u001b[39mcall(a\u001b[33m,\u001b[39mb)}\u001b[36mfunction\u001b[39m f(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mg\u001b[33m,\u001b[39mh\u001b[33m,\u001b[39mi\u001b[33m,\u001b[39mj\u001b[33m,\u001b[39mk\u001b[33m,\u001b[39ml\u001b[33m,\u001b[39mm\u001b[33m,\u001b[39mn\u001b[33m,\u001b[39mo\u001b[33m=\u001b[39mb\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39msplit(\u001b[32m\"/\"\u001b[39m)\u001b[33m,\u001b[39mp\u001b[33m=\u001b[39mt\u001b[33m.\u001b[39mmap\u001b[33m,\u001b[39mq\u001b[33m=\u001b[39mp\u001b[33m&&\u001b[39mp[\u001b[32m\"*\"\u001b[39m]\u001b[33m||\u001b[39m{}\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(a){\u001b[36mfor\u001b[39m(a\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39msplit(\u001b[32m\"/\"\u001b[39m)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mlength\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mt\u001b[33m.\u001b[39mnodeIdCompat\u001b[33m&&\u001b[39mx\u001b[33m.\u001b[39mtest(a[g])\u001b[33m&&\u001b[39m(a[g]\u001b[33m=\u001b[39ma[g]\u001b[33m.\u001b[39mreplace(x\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m))\u001b[33m,\u001b[39m\u001b[32m\".\"\u001b[39m\u001b[33m===\u001b[39ma[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m)\u001b[33m&&\u001b[39mo\u001b[33m&&\u001b[39m(n\u001b[33m=\u001b[39mo\u001b[33m.\u001b[39mslice(\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mo\u001b[33m.\u001b[39mlength\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m=\u001b[39mn\u001b[33m.\u001b[39mconcat(a))\u001b[33m,\u001b[39mk\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mk\u001b[33m<\u001b[39m\u001b[33ma\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mk\u001b[33m++\u001b[39m)\u001b[36mif\u001b[39m(\u001b[32m\".\"\u001b[39m\u001b[33m===\u001b[39m(m\u001b[33m=\u001b[39ma[k]))a\u001b[33m.\u001b[39msplice(k\u001b[33m,\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39mk\u001b[33m-=\u001b[39m\u001b[35m1\u001b[39m\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m \u001b[36mif\u001b[39m(\u001b[32m\"..\"\u001b[39m\u001b[33m===\u001b[39mm){\u001b[36mif\u001b[39m(\u001b[35m0\u001b[39m\u001b[33m===\u001b[39mk\u001b[33m||\u001b[39m\u001b[35m1\u001b[39m\u001b[33m===\u001b[39mk\u001b[33m&&\u001b[39m\u001b[32m\"..\"\u001b[39m\u001b[33m===\u001b[39ma[\u001b[35m2\u001b[39m]\u001b[33m||\u001b[39m\u001b[32m\"..\"\u001b[39m\u001b[33m===\u001b[39ma[k\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m])\u001b[36mcontinue\u001b[39m\u001b[33m;\u001b[39mk\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39msplice(k\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m\u001b[35m2\u001b[39m)\u001b[33m,\u001b[39mk\u001b[33m-=\u001b[39m\u001b[35m2\u001b[39m)}a\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mjoin(\u001b[32m\"/\"\u001b[39m)}\u001b[36mif\u001b[39m((o\u001b[33m||\u001b[39mq)\u001b[33m&&\u001b[39mp){\u001b[36mfor\u001b[39m(c\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39msplit(\u001b[32m\"/\"\u001b[39m)\u001b[33m,\u001b[39mk\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mk\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mk\u001b[33m-=\u001b[39m\u001b[35m1\u001b[39m){\u001b[36mif\u001b[39m(d\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mslice(\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mk)\u001b[33m.\u001b[39mjoin(\u001b[32m\"/\"\u001b[39m)\u001b[33m,\u001b[39mo)\u001b[36mfor\u001b[39m(l\u001b[33m=\u001b[39mo\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39ml\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39ml\u001b[33m-=\u001b[39m\u001b[35m1\u001b[39m)\u001b[36mif\u001b[39m((e\u001b[33m=\u001b[39mp[o\u001b[33m.\u001b[39mslice(\u001b[35m0\u001b[39m\u001b[33m,\u001b[39ml)\u001b[33m.\u001b[39mjoin(\u001b[32m\"/\"\u001b[39m)])\u001b[33m&&\u001b[39m(e\u001b[33m=\u001b[39me[d])){f\u001b[33m=\u001b[39me\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39mk\u001b[33m;\u001b[39m\u001b[36mbreak\u001b[39m}\u001b[36mif\u001b[39m(f)\u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m\u001b[33m!\u001b[39mi\u001b[33m&&\u001b[39mq\u001b[33m&&\u001b[39mq[d]\u001b[33m&&\u001b[39m(i\u001b[33m=\u001b[39mq[d]\u001b[33m,\u001b[39mj\u001b[33m=\u001b[39mk)}\u001b[33m!\u001b[39mf\u001b[33m&&\u001b[39mi\u001b[33m&&\u001b[39m(f\u001b[33m=\u001b[39mi\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39mj)\u001b[33m,\u001b[39mf\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39msplice(\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mh\u001b[33m,\u001b[39mf)\u001b[33m,\u001b[39ma\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mjoin(\u001b[32m\"/\"\u001b[39m))}\u001b[36mreturn\u001b[39m a}\u001b[36mfunction\u001b[39m g(a\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m \u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mw\u001b[33m.\u001b[39mcall(arguments\u001b[33m,\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mtypeof\u001b[39m d[\u001b[35m0\u001b[39m]\u001b[33m&&\u001b[39m\u001b[35m1\u001b[39m\u001b[33m===\u001b[39md\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39md\u001b[33m.\u001b[39mpush(\u001b[36mnull\u001b[39m)\u001b[33m,\u001b[39mo\u001b[33m.\u001b[39mapply(b\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mconcat([a\u001b[33m,\u001b[39mc]))}}\u001b[36mfunction\u001b[39m h(a){\u001b[36mreturn\u001b[39m \u001b[36mfunction\u001b[39m(b){\u001b[36mreturn\u001b[39m f(b\u001b[33m,\u001b[39ma)}}\u001b[36mfunction\u001b[39m i(a){\u001b[36mreturn\u001b[39m \u001b[36mfunction\u001b[39m(b){r[a]\u001b[33m=\u001b[39mb}}\u001b[36mfunction\u001b[39m j(a){\u001b[36mif\u001b[39m(e(s\u001b[33m,\u001b[39ma)){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39ms[a]\u001b[33m;\u001b[39m\u001b[36mdelete\u001b[39m s[a]\u001b[33m,\u001b[39mu[a]\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mn\u001b[33m.\u001b[39mapply(b\u001b[33m,\u001b[39mc)}\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39me(r\u001b[33m,\u001b[39ma)\u001b[33m&&\u001b[39m\u001b[33m!\u001b[39me(u\u001b[33m,\u001b[39ma))\u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m\"No \"\u001b[39m\u001b[33m+\u001b[39ma)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m r[a]}\u001b[36mfunction\u001b[39m k(a){\u001b[36mvar\u001b[39m b\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39ma\u001b[33m?\u001b[39ma\u001b[33m.\u001b[39mindexOf(\u001b[32m\"!\"\u001b[39m)\u001b[33m:\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m&&\u001b[39m(b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39msubstring(\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39ma\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39msubstring(c\u001b[33m+\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mlength))\u001b[33m,\u001b[39m[b\u001b[33m,\u001b[39ma]}\u001b[36mfunction\u001b[39m l(a){\u001b[36mreturn\u001b[39m a\u001b[33m?\u001b[39mk(a)\u001b[33m:\u001b[39m[]}\u001b[36mfunction\u001b[39m m(a){\u001b[36mreturn\u001b[39m \u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m t\u001b[33m&&\u001b[39mt\u001b[33m.\u001b[39mconfig\u001b[33m&&\u001b[39mt\u001b[33m.\u001b[39mconfig[a]\u001b[33m||\u001b[39m{}}}\u001b[36mvar\u001b[39m n\u001b[33m,\u001b[39mo\u001b[33m,\u001b[39mp\u001b[33m,\u001b[39mq\u001b[33m,\u001b[39mr\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39ms\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39mt\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39mu\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39mv\u001b[33m=\u001b[39m\u001b[33mObject\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mhasOwnProperty\u001b[33m,\u001b[39mw\u001b[33m=\u001b[39m[]\u001b[33m.\u001b[39mslice\u001b[33m,\u001b[39mx\u001b[33m=\u001b[39m\u001b[35m/\\.js$/\u001b[39m\u001b[33m;\u001b[39mp\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m,\u001b[39md\u001b[33m=\u001b[39mk(a)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39md[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mb[\u001b[35m1\u001b[39m]\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m a\u001b[33m=\u001b[39md[\u001b[35m1\u001b[39m]\u001b[33m,\u001b[39me\u001b[33m&&\u001b[39m(e\u001b[33m=\u001b[39mf(e\u001b[33m,\u001b[39mg)\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39mj(e))\u001b[33m,\u001b[39me\u001b[33m?\u001b[39ma\u001b[33m=\u001b[39mc\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mnormalize\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39mnormalize(a\u001b[33m,\u001b[39mh(g))\u001b[33m:\u001b[39mf(a\u001b[33m,\u001b[39mg)\u001b[33m:\u001b[39m(a\u001b[33m=\u001b[39mf(a\u001b[33m,\u001b[39mg)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39mk(a)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39md[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39ma\u001b[33m=\u001b[39md[\u001b[35m1\u001b[39m]\u001b[33m,\u001b[39me\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39mj(e)))\u001b[33m,\u001b[39m{f\u001b[33m:\u001b[39me\u001b[33m?\u001b[39me\u001b[33m+\u001b[39m\u001b[32m\"!\"\u001b[39m\u001b[33m+\u001b[39ma\u001b[33m:\u001b[39ma\u001b[33m,\u001b[39mn\u001b[33m:\u001b[39ma\u001b[33m,\u001b[39mpr\u001b[33m:\u001b[39me\u001b[33m,\u001b[39mp\u001b[33m:\u001b[39mc}}\u001b[33m,\u001b[39mq\u001b[33m=\u001b[39m{require\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m g(a)}\u001b[33m,\u001b[39mexports\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39mr[a]\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39mb\u001b[33m?\u001b[39mb\u001b[33m:\u001b[39mr[a]\u001b[33m=\u001b[39m{}}\u001b[33m,\u001b[39mmodule\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m{id\u001b[33m:\u001b[39ma\u001b[33m,\u001b[39muri\u001b[33m:\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39mexports\u001b[33m:\u001b[39mr[a]\u001b[33m,\u001b[39mconfig\u001b[33m:\u001b[39mm(a)}}}\u001b[33m,\u001b[39mn\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md\u001b[33m,\u001b[39mf){\u001b[36mvar\u001b[39m h\u001b[33m,\u001b[39mk\u001b[33m,\u001b[39mm\u001b[33m,\u001b[39mn\u001b[33m,\u001b[39mo\u001b[33m,\u001b[39mt\u001b[33m,\u001b[39mv\u001b[33m,\u001b[39mw\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39mx\u001b[33m=\u001b[39m\u001b[36mtypeof\u001b[39m d\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(f\u001b[33m=\u001b[39mf\u001b[33m||\u001b[39ma\u001b[33m,\u001b[39mt\u001b[33m=\u001b[39ml(f)\u001b[33m,\u001b[39m\u001b[32m\"undefined\"\u001b[39m\u001b[33m===\u001b[39mx\u001b[33m||\u001b[39m\u001b[32m\"function\"\u001b[39m\u001b[33m===\u001b[39mx){\u001b[36mfor\u001b[39m(c\u001b[33m=\u001b[39m\u001b[33m!\u001b[39mc\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39md\u001b[33m.\u001b[39mlength\u001b[33m?\u001b[39m[\u001b[32m\"require\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"exports\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"module\"\u001b[39m]\u001b[33m:\u001b[39mc\u001b[33m,\u001b[39mo\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mo\u001b[33m<\u001b[39m\u001b[33mc\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mo\u001b[33m+=\u001b[39m\u001b[35m1\u001b[39m)\u001b[36mif\u001b[39m(n\u001b[33m=\u001b[39mp(c[o]\u001b[33m,\u001b[39mt)\u001b[33m,\u001b[39m\u001b[32m\"require\"\u001b[39m\u001b[33m===\u001b[39m(k\u001b[33m=\u001b[39mn\u001b[33m.\u001b[39mf))w[o]\u001b[33m=\u001b[39mq\u001b[33m.\u001b[39mrequire(a)\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m \u001b[36mif\u001b[39m(\u001b[32m\"exports\"\u001b[39m\u001b[33m===\u001b[39mk)w[o]\u001b[33m=\u001b[39mq\u001b[33m.\u001b[39mexports(a)\u001b[33m,\u001b[39mv\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m \u001b[36mif\u001b[39m(\u001b[32m\"module\"\u001b[39m\u001b[33m===\u001b[39mk)h\u001b[33m=\u001b[39mw[o]\u001b[33m=\u001b[39mq\u001b[33m.\u001b[39mmodule(a)\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m \u001b[36mif\u001b[39m(e(r\u001b[33m,\u001b[39mk)\u001b[33m||\u001b[39me(s\u001b[33m,\u001b[39mk)\u001b[33m||\u001b[39me(u\u001b[33m,\u001b[39mk))w[o]\u001b[33m=\u001b[39mj(k)\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m{\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39mn\u001b[33m.\u001b[39mp)\u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(a\u001b[33m+\u001b[39m\u001b[32m\" missing \"\u001b[39m\u001b[33m+\u001b[39mk)\u001b[33m;\u001b[39mn\u001b[33m.\u001b[39mp\u001b[33m.\u001b[39mload(n\u001b[33m.\u001b[39mn\u001b[33m,\u001b[39mg(f\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39mi(k)\u001b[33m,\u001b[39m{})\u001b[33m,\u001b[39mw[o]\u001b[33m=\u001b[39mr[k]}m\u001b[33m=\u001b[39md\u001b[33m?\u001b[39md\u001b[33m.\u001b[39mapply(r[a]\u001b[33m,\u001b[39mw)\u001b[33m:\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m&&\u001b[39m(h\u001b[33m&&\u001b[39mh\u001b[33m.\u001b[39mexports\u001b[33m!==\u001b[39mb\u001b[33m&&\u001b[39mh\u001b[33m.\u001b[39mexports\u001b[33m!==\u001b[39mr[a]\u001b[33m?\u001b[39mr[a]\u001b[33m=\u001b[39mh\u001b[33m.\u001b[39mexports\u001b[33m:\u001b[39mm\u001b[33m===\u001b[39mb\u001b[33m&&\u001b[39mv\u001b[33m||\u001b[39m(r[a]\u001b[33m=\u001b[39mm))}\u001b[36melse\u001b[39m a\u001b[33m&&\u001b[39m(r[a]\u001b[33m=\u001b[39md)}\u001b[33m,\u001b[39ma\u001b[33m=\u001b[39mc\u001b[33m=\u001b[39mo\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me\u001b[33m,\u001b[39mf){\u001b[36mif\u001b[39m(\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m a)\u001b[36mreturn\u001b[39m q[a]\u001b[33m?\u001b[39mq[a](c)\u001b[33m:\u001b[39mj(p(a\u001b[33m,\u001b[39ml(c))\u001b[33m.\u001b[39mf)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39ma\u001b[33m.\u001b[39msplice){\u001b[36mif\u001b[39m(t\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39mt\u001b[33m.\u001b[39mdeps\u001b[33m&&\u001b[39mo(t\u001b[33m.\u001b[39mdeps\u001b[33m,\u001b[39mt\u001b[33m.\u001b[39mcallback)\u001b[33m,\u001b[39m\u001b[33m!\u001b[39mc)\u001b[36mreturn\u001b[39m\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39msplice\u001b[33m?\u001b[39m(a\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39md\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m)\u001b[33m:\u001b[39ma\u001b[33m=\u001b[39mb}\u001b[36mreturn\u001b[39m c\u001b[33m=\u001b[39mc\u001b[33m||\u001b[39m\u001b[36mfunction\u001b[39m(){}\u001b[33m,\u001b[39m\u001b[32m\"function\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m d\u001b[33m&&\u001b[39m(d\u001b[33m=\u001b[39me\u001b[33m,\u001b[39me\u001b[33m=\u001b[39mf)\u001b[33m,\u001b[39me\u001b[33m?\u001b[39mn(b\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)\u001b[33m:\u001b[39msetTimeout(\u001b[36mfunction\u001b[39m(){n(b\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)}\u001b[33m,\u001b[39m\u001b[35m4\u001b[39m)\u001b[33m,\u001b[39mo}\u001b[33m,\u001b[39mo\u001b[33m.\u001b[39mconfig\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m o(a)}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39m_defined\u001b[33m=\u001b[39mr\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mif\u001b[39m(\u001b[32m\"string\"\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mtypeof\u001b[39m a)\u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m\"See almond README: incorrect module build, no module name\"\u001b[39m)\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39msplice\u001b[33m||\u001b[39m(c\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39m[])\u001b[33m,\u001b[39me(r\u001b[33m,\u001b[39ma)\u001b[33m||\u001b[39me(s\u001b[33m,\u001b[39ma)\u001b[33m||\u001b[39m(s[a]\u001b[33m=\u001b[39m[a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc])}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mamd\u001b[33m=\u001b[39m{jQuery\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}}()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mrequirejs\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mrequire\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine\u001b[33m=\u001b[39md}}()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"almond\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma\u001b[33m||\u001b[39m$\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mnull\u001b[39m\u001b[33m==\u001b[39mb\u001b[33m&&\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39merror\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39merror(\u001b[32m\"Select2: An instance of jQuery or a jQuery-compatible library was not found. Make sure that you are including jQuery before Select2 on your web page.\"\u001b[39m)\u001b[33m,\u001b[39mb})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/utils\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfunction\u001b[39m b(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mprototype\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m[]\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m d \u001b[36min\u001b[39m b){\u001b[32m\"function\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m b[d]\u001b[33m&&\u001b[39m(\u001b[32m\"constructor\"\u001b[39m\u001b[33m!==\u001b[39md\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mpush(d))}\u001b[36mreturn\u001b[39m c}\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mfunction\u001b[39m c(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mconstructor\u001b[33m=\u001b[39ma}\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m{}\u001b[33m.\u001b[39mhasOwnProperty\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m e \u001b[36min\u001b[39m b)d\u001b[33m.\u001b[39mcall(b\u001b[33m,\u001b[39me)\u001b[33m&&\u001b[39m(a[e]\u001b[33m=\u001b[39mb[e])\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mprototype\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mprototype\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m c\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39m__super__\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m,\u001b[39ma}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mc){\u001b[36mfunction\u001b[39m d(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[33mArray\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39munshift\u001b[33m,\u001b[39md\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39me\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mconstructor\u001b[33m;\u001b[39md\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39m(b\u001b[33m.\u001b[39mcall(arguments\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mconstructor)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mconstructor)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39marguments)}\u001b[36mfunction\u001b[39m e(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mconstructor\u001b[33m=\u001b[39md}\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mb(c)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mb(a)\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39mdisplayName\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mdisplayName\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m e\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m h\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mh\u001b[33m<\u001b[39m\u001b[33mg\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mh\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m i\u001b[33m=\u001b[39mg[h]\u001b[33m;\u001b[39md\u001b[33m.\u001b[39mprototype[i]\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mprototype[i]}\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m j\u001b[33m=\u001b[39m(\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){}\u001b[33m;\u001b[39ma \u001b[36min\u001b[39m d\u001b[33m.\u001b[39mprototype\u001b[33m&&\u001b[39m(b\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mprototype[a])\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mprototype[a]\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[33mArray\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39munshift\u001b[33m.\u001b[39mcall(arguments\u001b[33m,\u001b[39mb)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39marguments)}})\u001b[33m,\u001b[39mk\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mk\u001b[33m<\u001b[39m\u001b[33mf\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mk\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m l\u001b[33m=\u001b[39mf[k]\u001b[33m;\u001b[39md\u001b[33m.\u001b[39mprototype[l]\u001b[33m=\u001b[39mj(l)}\u001b[36mreturn\u001b[39m d}\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners\u001b[33m=\u001b[39m{}}\u001b[33m;\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mon\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners\u001b[33m||\u001b[39m{}\u001b[33m,\u001b[39ma \u001b[36min\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners[a]\u001b[33m.\u001b[39mpush(b)\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners[a]\u001b[33m=\u001b[39m[b]}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mtrigger\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[33mArray\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mslice\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mcall(arguments\u001b[33m,\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners\u001b[33m||\u001b[39m{}\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39mc\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39m[])\u001b[33m,\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mpush({})\u001b[33m,\u001b[39mc[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39m_type\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39ma \u001b[36min\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvoke(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners[a]\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcall(arguments\u001b[33m,\u001b[39m\u001b[35m1\u001b[39m))\u001b[33m,\u001b[39m\u001b[32m\"*\"\u001b[39m\u001b[36min\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvoke(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlisteners[\u001b[32m\"*\"\u001b[39m]\u001b[33m,\u001b[39marguments)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39minvoke\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39md\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mc\u001b[33m<\u001b[39m\u001b[33md\u001b[39m\u001b[33m;\u001b[39mc\u001b[33m++\u001b[39m)a[c]\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mObservable\u001b[39m\u001b[33m=\u001b[39md\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mgenerateChars\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mc\u001b[33m<\u001b[39m\u001b[33ma\u001b[39m\u001b[33m;\u001b[39mc\u001b[33m++\u001b[39m){b\u001b[33m+=\u001b[39m\u001b[33mMath\u001b[39m\u001b[33m.\u001b[39mfloor(\u001b[35m36\u001b[39m\u001b[33m*\u001b[39m\u001b[33mMath\u001b[39m\u001b[33m.\u001b[39mrandom())\u001b[33m.\u001b[39mtoString(\u001b[35m36\u001b[39m)}\u001b[36mreturn\u001b[39m b}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m \u001b[36mfunction\u001b[39m(){a\u001b[33m.\u001b[39mapply(b\u001b[33m,\u001b[39marguments)}}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m_convertData\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m b \u001b[36min\u001b[39m a){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39msplit(\u001b[32m\"-\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39ma\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[35m1\u001b[39m\u001b[33m!==\u001b[39mc\u001b[33m.\u001b[39mlength){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39me\u001b[33m<\u001b[39m\u001b[33mc\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39me\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mc[e]\u001b[33m;\u001b[39mf\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39msubstring(\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoLowerCase()\u001b[33m+\u001b[39mf\u001b[33m.\u001b[39msubstring(\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39mf \u001b[36min\u001b[39m d\u001b[33m||\u001b[39m(d[f]\u001b[33m=\u001b[39m{})\u001b[33m,\u001b[39me\u001b[33m==\u001b[39mc\u001b[33m.\u001b[39mlength\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m&&\u001b[39m(d[f]\u001b[33m=\u001b[39ma[b])\u001b[33m,\u001b[39md\u001b[33m=\u001b[39md[f]}\u001b[36mdelete\u001b[39m a[b]}}\u001b[36mreturn\u001b[39m a}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mhasScroll\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma(c)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mstyle\u001b[33m.\u001b[39moverflowX\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mstyle\u001b[33m.\u001b[39moverflowY\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m(e\u001b[33m!==\u001b[39mf\u001b[33m||\u001b[39m\u001b[32m\"hidden\"\u001b[39m\u001b[33m!==\u001b[39mf\u001b[33m&&\u001b[39m\u001b[32m\"visible\"\u001b[39m\u001b[33m!==\u001b[39mf)\u001b[33m&&\u001b[39m(\u001b[32m\"scroll\"\u001b[39m\u001b[33m===\u001b[39me\u001b[33m||\u001b[39m\u001b[32m\"scroll\"\u001b[39m\u001b[33m===\u001b[39mf\u001b[33m||\u001b[39m(d\u001b[33m.\u001b[39minnerHeight()\u001b[33m<\u001b[39m\u001b[33mc\u001b[39m\u001b[33m.\u001b[39mscrollHeight\u001b[33m||\u001b[39md\u001b[33m.\u001b[39minnerWidth()\u001b[33m<\u001b[39m\u001b[33mc\u001b[39m\u001b[33m.\u001b[39mscrollWidth))}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mescapeMarkup\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m{\u001b[32m\"\\\\\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"&#92;\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"&\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"&amp;\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"<\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"&lt;\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\">\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"&gt;\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m'\"'\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"&quot;\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"'\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"&#39;\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"/\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"&#47;\"\u001b[39m}\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mtypeof\u001b[39m a\u001b[33m?\u001b[39ma\u001b[33m:\u001b[39m\u001b[33mString\u001b[39m(a)\u001b[33m.\u001b[39mreplace(\u001b[35m/[&<>\"'\\/\\\\]/g\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m b[a]})}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mappendMany\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mif\u001b[39m(\u001b[32m\"1.7\"\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mjquery\u001b[33m.\u001b[39msubstr(\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[35m3\u001b[39m)){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma()\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mmap(c\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m=\u001b[39md\u001b[33m.\u001b[39madd(a)})\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39md}b\u001b[33m.\u001b[39mappend(c)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m__cache\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39m\u001b[33mGetUniqueElementId\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mgetAttribute(\u001b[32m\"data-select2-id\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mnull\u001b[39m\u001b[33m==\u001b[39mb\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mid\u001b[33m?\u001b[39m(b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39msetAttribute(\u001b[32m\"data-select2-id\"\u001b[39m\u001b[33m,\u001b[39mb))\u001b[33m:\u001b[39m(a\u001b[33m.\u001b[39msetAttribute(\u001b[32m\"data-select2-id\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33m++\u001b[39me)\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mtoString()))\u001b[33m,\u001b[39mb}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mGetUniqueElementId\u001b[39m(a)\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39m__cache[e]\u001b[33m||\u001b[39m(c\u001b[33m.\u001b[39m__cache[e]\u001b[33m=\u001b[39m{})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m__cache[e][b]\u001b[33m=\u001b[39md}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mGetUniqueElementId\u001b[39m(b)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m d\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39m__cache[e]\u001b[33m&&\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mc\u001b[33m.\u001b[39m__cache[e][d]\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39m__cache[e][d]\u001b[33m:\u001b[39ma(b)\u001b[33m.\u001b[39mdata(d)\u001b[33m:\u001b[39mc\u001b[33m.\u001b[39m__cache[e]}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mRemoveData\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mGetUniqueElementId\u001b[39m(a)\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mc\u001b[33m.\u001b[39m__cache[b]\u001b[33m&&\u001b[39m\u001b[36mdelete\u001b[39m c\u001b[33m.\u001b[39m__cache[b]}\u001b[33m,\u001b[39mc})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/results\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mfunction\u001b[39m c(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39md){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdata\u001b[33m=\u001b[39md\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m(c\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mObservable\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mrender\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma(\u001b[32m'<ul class=\"select2-results__options\" role=\"tree\"></ul>'\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"multiple\"\u001b[39m)\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-multiselectable\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"true\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39mb}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mclear\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mempty()}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdisplayMessage\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"escapeMarkup\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclear()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhideLoading()\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma(\u001b[32m'<li role=\"treeitem\" aria-live=\"assertive\" class=\"select2-results__option\"></li>'\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"translations\"\u001b[39m)\u001b[33m.\u001b[39mget(b\u001b[33m.\u001b[39mmessage)\u001b[33m;\u001b[39md\u001b[33m.\u001b[39mappend(c(e(b\u001b[33m.\u001b[39margs)))\u001b[33m,\u001b[39md[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mclassName\u001b[33m+=\u001b[39m\u001b[32m\" select2-results__message\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mappend(d)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mhideMessages\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-results__message\"\u001b[39m)\u001b[33m.\u001b[39mremove()}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mappend\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhideLoading()\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m[]\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ma\u001b[33m.\u001b[39mresults\u001b[33m||\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mresults\u001b[33m.\u001b[39mlength)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m(\u001b[35m0\u001b[39m\u001b[33m===\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mchildren()\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:message\"\u001b[39m\u001b[33m,\u001b[39m{message\u001b[33m:\u001b[39m\u001b[32m\"noResults\"\u001b[39m}))\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mresults\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msort(a\u001b[33m.\u001b[39mresults)\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mc\u001b[33m<\u001b[39m\u001b[33ma\u001b[39m\u001b[33m.\u001b[39mresults\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mc\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mresults[c]\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moption(d)\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mpush(e)}\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mappend(b)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mposition\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){b\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-results\"\u001b[39m)\u001b[33m.\u001b[39mappend(a)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39msort\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"sorter\"\u001b[39m)(a)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mhighlightFirstItem\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-results__option[aria-selected]\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mfilter(\u001b[32m\"[aria-selected=true]\"\u001b[39m)\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mtrigger(\u001b[32m\"mouseenter\"\u001b[39m)\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mtrigger(\u001b[32m\"mouseenter\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mensureHighlightVisible()}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39msetClasses\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdata\u001b[33m.\u001b[39mcurrent(\u001b[36mfunction\u001b[39m(d){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mmap(d\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mid\u001b[33m.\u001b[39mtoString()})\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-results__option[aria-selected]\"\u001b[39m)\u001b[33m.\u001b[39meach(\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m+\u001b[39md\u001b[33m.\u001b[39mid\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39md\u001b[33m.\u001b[39melement\u001b[33m&&\u001b[39md\u001b[33m.\u001b[39melement\u001b[33m.\u001b[39mselected\u001b[33m||\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39md\u001b[33m.\u001b[39melement\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39minArray(f\u001b[33m,\u001b[39me)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-selected\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"true\"\u001b[39m)\u001b[33m:\u001b[39mc\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-selected\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"false\"\u001b[39m)})})}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mshowLoading\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhideLoading()\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"translations\"\u001b[39m)\u001b[33m.\u001b[39mget(\u001b[32m\"searching\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m{disabled\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mloading\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mtext\u001b[33m:\u001b[39mb(a)}\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moption(c)\u001b[33m;\u001b[39md\u001b[33m.\u001b[39mclassName\u001b[33m+=\u001b[39m\u001b[32m\" loading-results\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mprepend(d)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mhideLoading\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mfind(\u001b[32m\".loading-results\"\u001b[39m)\u001b[33m.\u001b[39mremove()}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39moption\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mcreateElement(\u001b[32m\"li\"\u001b[39m)\u001b[33m;\u001b[39md\u001b[33m.\u001b[39mclassName\u001b[33m=\u001b[39m\u001b[32m\"select2-results__option\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m{role\u001b[33m:\u001b[39m\u001b[32m\"treeitem\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"aria-selected\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"false\"\u001b[39m}\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39mdisabled\u001b[33m&&\u001b[39m(\u001b[36mdelete\u001b[39m e[\u001b[32m\"aria-selected\"\u001b[39m]\u001b[33m,\u001b[39me[\u001b[32m\"aria-disabled\"\u001b[39m]\u001b[33m=\u001b[39m\u001b[32m\"true\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39mc\u001b[33m.\u001b[39mid\u001b[33m&&\u001b[39m\u001b[36mdelete\u001b[39m e[\u001b[32m\"aria-selected\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mc\u001b[33m.\u001b[39m_resultId\u001b[33m&&\u001b[39m(d\u001b[33m.\u001b[39mid\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39m_resultId)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mtitle\u001b[33m&&\u001b[39m(d\u001b[33m.\u001b[39mtitle\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mtitle)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mchildren\u001b[33m&&\u001b[39m(e\u001b[33m.\u001b[39mrole\u001b[33m=\u001b[39m\u001b[32m\"group\"\u001b[39m\u001b[33m,\u001b[39me[\u001b[32m\"aria-label\"\u001b[39m]\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mtext\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m e[\u001b[32m\"aria-selected\"\u001b[39m])\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m f \u001b[36min\u001b[39m e){\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39me[f]\u001b[33m;\u001b[39md\u001b[33m.\u001b[39msetAttribute(f\u001b[33m,\u001b[39mg)}\u001b[36mif\u001b[39m(c\u001b[33m.\u001b[39mchildren){\u001b[36mvar\u001b[39m h\u001b[33m=\u001b[39ma(d)\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mcreateElement(\u001b[32m\"strong\"\u001b[39m)\u001b[33m;\u001b[39mi\u001b[33m.\u001b[39mclassName\u001b[33m=\u001b[39m\u001b[32m\"select2-results__group\"\u001b[39m\u001b[33m;\u001b[39ma(i)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtemplate(c\u001b[33m,\u001b[39mi)\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m j\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39mk\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mk\u001b[33m<\u001b[39m\u001b[33mc\u001b[39m\u001b[33m.\u001b[39mchildren\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mk\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m l\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mchildren[k]\u001b[33m,\u001b[39mm\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moption(l)\u001b[33m;\u001b[39mj\u001b[33m.\u001b[39mpush(m)}\u001b[36mvar\u001b[39m n\u001b[33m=\u001b[39ma(\u001b[32m\"<ul></ul>\"\u001b[39m\u001b[33m,\u001b[39m{\u001b[36mclass\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"select2-results__options select2-results__options--nested\"\u001b[39m})\u001b[33m;\u001b[39mn\u001b[33m.\u001b[39mappend(j)\u001b[33m,\u001b[39mh\u001b[33m.\u001b[39mappend(i)\u001b[33m,\u001b[39mh\u001b[33m.\u001b[39mappend(n)}\u001b[36melse\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtemplate(c\u001b[33m,\u001b[39md)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(d\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39md}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(c\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mid\u001b[33m+\u001b[39m\u001b[32m\"-results\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mattr(\u001b[32m\"id\"\u001b[39m\u001b[33m,\u001b[39mf)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"results:all\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){e\u001b[33m.\u001b[39mclear()\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mappend(a\u001b[33m.\u001b[39mdata)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39misOpen()\u001b[33m&&\u001b[39m(e\u001b[33m.\u001b[39msetClasses()\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mhighlightFirstItem())})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"results:append\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){e\u001b[33m.\u001b[39mappend(a\u001b[33m.\u001b[39mdata)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39misOpen()\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39msetClasses()})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"query\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){e\u001b[33m.\u001b[39mhideMessages()\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mshowLoading(a)})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"select\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){c\u001b[33m.\u001b[39misOpen()\u001b[33m&&\u001b[39m(e\u001b[33m.\u001b[39msetClasses()\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mhighlightFirstItem())})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"unselect\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){c\u001b[33m.\u001b[39misOpen()\u001b[33m&&\u001b[39m(e\u001b[33m.\u001b[39msetClasses()\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mhighlightFirstItem())})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"open\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){e\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-expanded\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"true\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-hidden\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"false\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39msetClasses()\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mensureHighlightVisible()})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){e\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-expanded\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"false\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-hidden\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"true\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"aria-activedescendant\"\u001b[39m)})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"results:toggle\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mgetHighlightedResults()\u001b[33m;\u001b[39m\u001b[35m0\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mtrigger(\u001b[32m\"mouseup\"\u001b[39m)})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"results:select\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mgetHighlightedResults()\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[35m0\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39mlength){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[32m\"true\"\u001b[39m\u001b[33m==\u001b[39ma\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-selected\"\u001b[39m)\u001b[33m?\u001b[39me\u001b[33m.\u001b[39mtrigger(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m{})\u001b[33m:\u001b[39me\u001b[33m.\u001b[39mtrigger(\u001b[32m\"select\"\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39mc})}})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"results:previous\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mgetHighlightedResults()\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mfind(\u001b[32m\"[aria-selected]\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mindex(a)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39m(c\u001b[33m<=\u001b[39m\u001b[35m0\u001b[39m)){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mc\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m;\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39m(d\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39meq(d)\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39mtrigger(\u001b[32m\"mouseenter\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39moffset()\u001b[33m.\u001b[39mtop\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39moffset()\u001b[33m.\u001b[39mtop\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop()\u001b[33m+\u001b[39m(h\u001b[33m-\u001b[39mg)\u001b[33m;\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39md\u001b[33m?\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop(\u001b[35m0\u001b[39m)\u001b[33m:\u001b[39mh\u001b[33m-\u001b[39mg\u001b[33m<\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop(i)}})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"results:next\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mgetHighlightedResults()\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mfind(\u001b[32m\"[aria-selected]\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mindex(a)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39mc\u001b[33m+\u001b[39m\u001b[35m1\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39m(d\u001b[33m>=\u001b[39mb\u001b[33m.\u001b[39mlength)){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39meq(d)\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39mtrigger(\u001b[32m\"mouseenter\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39moffset()\u001b[33m.\u001b[39mtop\u001b[33m+\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mouterHeight(\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39moffset()\u001b[33m.\u001b[39mtop\u001b[33m+\u001b[39mf\u001b[33m.\u001b[39mouterHeight(\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop()\u001b[33m+\u001b[39mh\u001b[33m-\u001b[39mg\u001b[33m;\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39md\u001b[33m?\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop(\u001b[35m0\u001b[39m)\u001b[33m:\u001b[39mh\u001b[33m>\u001b[39mg\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop(i)}})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"results:focus\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){a\u001b[33m.\u001b[39melement\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-results__option--highlighted\"\u001b[39m)})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"results:message\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){e\u001b[33m.\u001b[39mdisplayMessage(a)})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mmousewheel\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mon(\u001b[32m\"mousewheel\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop()\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mget(\u001b[35m0\u001b[39m)\u001b[33m.\u001b[39mscrollHeight\u001b[33m-\u001b[39mb\u001b[33m+\u001b[39ma\u001b[33m.\u001b[39mdeltaY\u001b[33m,\u001b[39md\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mdeltaY\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39mb\u001b[33m-\u001b[39ma\u001b[33m.\u001b[39mdeltaY\u001b[33m<=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mdeltaY\u001b[33m<\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39mc\u001b[33m<=\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mheight()\u001b[33m;\u001b[39md\u001b[33m?\u001b[39m(e\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop(\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mpreventDefault()\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mstopPropagation())\u001b[33m:\u001b[39mf\u001b[33m&&\u001b[39m(e\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop(e\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mget(\u001b[35m0\u001b[39m)\u001b[33m.\u001b[39mscrollHeight\u001b[33m-\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mheight())\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mpreventDefault()\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mstopPropagation())})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mon(\u001b[32m\"mouseup\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\".select2-results__option[aria-selected]\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[32m\"true\"\u001b[39m\u001b[33m===\u001b[39md\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-selected\"\u001b[39m))\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m(e\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"multiple\"\u001b[39m)\u001b[33m?\u001b[39me\u001b[33m.\u001b[39mtrigger(\u001b[32m\"unselect\"\u001b[39m\u001b[33m,\u001b[39m{originalEvent\u001b[33m:\u001b[39mc\u001b[33m,\u001b[39mdata\u001b[33m:\u001b[39mf})\u001b[33m:\u001b[39me\u001b[33m.\u001b[39mtrigger(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m{}))\u001b[33m;\u001b[39me\u001b[33m.\u001b[39mtrigger(\u001b[32m\"select\"\u001b[39m\u001b[33m,\u001b[39m{originalEvent\u001b[33m:\u001b[39mc\u001b[33m,\u001b[39mdata\u001b[33m:\u001b[39mf})})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mon(\u001b[32m\"mouseenter\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\".select2-results__option[aria-selected]\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m)\u001b[33m;\u001b[39me\u001b[33m.\u001b[39mgetHighlightedResults()\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"select2-results__option--highlighted\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:focus\"\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39md\u001b[33m,\u001b[39melement\u001b[33m:\u001b[39ma(\u001b[36mthis\u001b[39m)})})}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mgetHighlightedResults\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-results__option--highlighted\"\u001b[39m)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdestroy\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mremove()}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mensureHighlightVisible\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgetHighlightedResults()\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[35m0\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39mlength){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mfind(\u001b[32m\"[aria-selected]\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mindex(a)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39moffset()\u001b[33m.\u001b[39mtop\u001b[33m,\u001b[39me\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39moffset()\u001b[33m.\u001b[39mtop\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop()\u001b[33m+\u001b[39m(e\u001b[33m-\u001b[39md)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39me\u001b[33m-\u001b[39md\u001b[33m;\u001b[39mf\u001b[33m-=\u001b[39m\u001b[35m2\u001b[39m\u001b[33m*\u001b[39ma\u001b[33m.\u001b[39mouterHeight(\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m<=\u001b[39m\u001b[35m2\u001b[39m\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop(\u001b[35m0\u001b[39m)\u001b[33m:\u001b[39m(g\u001b[33m>\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mouterHeight()\u001b[33m||\u001b[39mg\u001b[33m<\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mscrollTop(f)}}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mtemplate\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"templateResult\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"escapeMarkup\"\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39md(b\u001b[33m,\u001b[39mc)\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39mf\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39mstyle\u001b[33m.\u001b[39mdisplay\u001b[33m=\u001b[39m\u001b[32m\"none\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m f\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39minnerHTML\u001b[33m=\u001b[39me(f)\u001b[33m:\u001b[39ma(c)\u001b[33m.\u001b[39mappend(f)}\u001b[33m,\u001b[39mc})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/keys\"\u001b[39m\u001b[33m,\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m{\u001b[33mBACKSPACE\u001b[39m\u001b[33m:\u001b[39m\u001b[35m8\u001b[39m\u001b[33m,\u001b[39m\u001b[33mTAB\u001b[39m\u001b[33m:\u001b[39m\u001b[35m9\u001b[39m\u001b[33m,\u001b[39m\u001b[33mENTER\u001b[39m\u001b[33m:\u001b[39m\u001b[35m13\u001b[39m\u001b[33m,\u001b[39m\u001b[33mSHIFT\u001b[39m\u001b[33m:\u001b[39m\u001b[35m16\u001b[39m\u001b[33m,\u001b[39m\u001b[33mCTRL\u001b[39m\u001b[33m:\u001b[39m\u001b[35m17\u001b[39m\u001b[33m,\u001b[39m\u001b[33mALT\u001b[39m\u001b[33m:\u001b[39m\u001b[35m18\u001b[39m\u001b[33m,\u001b[39m\u001b[33mESC\u001b[39m\u001b[33m:\u001b[39m\u001b[35m27\u001b[39m\u001b[33m,\u001b[39m\u001b[33mSPACE\u001b[39m\u001b[33m:\u001b[39m\u001b[35m32\u001b[39m\u001b[33m,\u001b[39m\u001b[33mPAGE_UP\u001b[39m\u001b[33m:\u001b[39m\u001b[35m33\u001b[39m\u001b[33m,\u001b[39m\u001b[33mPAGE_DOWN\u001b[39m\u001b[33m:\u001b[39m\u001b[35m34\u001b[39m\u001b[33m,\u001b[39m\u001b[33mEND\u001b[39m\u001b[33m:\u001b[39m\u001b[35m35\u001b[39m\u001b[33m,\u001b[39m\u001b[33mHOME\u001b[39m\u001b[33m:\u001b[39m\u001b[35m36\u001b[39m\u001b[33m,\u001b[39m\u001b[33mLEFT\u001b[39m\u001b[33m:\u001b[39m\u001b[35m37\u001b[39m\u001b[33m,\u001b[39m\u001b[33mUP\u001b[39m\u001b[33m:\u001b[39m\u001b[35m38\u001b[39m\u001b[33m,\u001b[39m\u001b[33mRIGHT\u001b[39m\u001b[33m:\u001b[39m\u001b[35m39\u001b[39m\u001b[33m,\u001b[39m\u001b[33mDOWN\u001b[39m\u001b[33m:\u001b[39m\u001b[35m40\u001b[39m\u001b[33m,\u001b[39m\u001b[33mDELETE\u001b[39m\u001b[33m:\u001b[39m\u001b[35m46\u001b[39m}})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/selection/base\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../utils\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../keys\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mfunction\u001b[39m d(a\u001b[33m,\u001b[39mb){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m(d\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mObservable\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mrender\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39ma(\u001b[32m'<span class=\"select2-selection\" role=\"combobox\"  aria-haspopup=\"true\" aria-expanded=\"false\"></span>'\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_tabindex\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"old-tabindex\"\u001b[39m)\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_tabindex\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"old-tabindex\"\u001b[39m)\u001b[33m:\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m)\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_tabindex\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m))\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mattr(\u001b[32m\"title\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mattr(\u001b[32m\"title\"\u001b[39m))\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_tabindex)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39mc}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m(a\u001b[33m.\u001b[39mid\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m+\u001b[39m\u001b[32m\"-results\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcontainer\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"focus\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39mtrigger(\u001b[32m\"focus\"\u001b[39m\u001b[33m,\u001b[39ma)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"blur\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39m_handleBlur(a)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"keydown\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39mtrigger(\u001b[32m\"keypress\"\u001b[39m\u001b[33m,\u001b[39ma)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mwhich\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mSPACE\u001b[39m\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mpreventDefault()})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mon(\u001b[32m\"results:focus\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-activedescendant\"\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mdata\u001b[33m.\u001b[39m_resultId)})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mon(\u001b[32m\"selection:update\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39mupdate(a\u001b[33m.\u001b[39mdata)})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mon(\u001b[32m\"open\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){d\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-expanded\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"true\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-owns\"\u001b[39m\u001b[33m,\u001b[39me)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m_attachCloseHandler(a)})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mon(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){d\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-expanded\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"false\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"aria-activedescendant\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"aria-owns\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfocus()\u001b[33m,\u001b[39mwindow\u001b[33m.\u001b[39msetTimeout(\u001b[36mfunction\u001b[39m(){d\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfocus()}\u001b[33m,\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m_detachCloseHandler(a)})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mon(\u001b[32m\"enable\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){d\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m_tabindex)})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mon(\u001b[32m\"disable\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){d\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"-1\"\u001b[39m)})}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_handleBlur\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39mwindow\u001b[33m.\u001b[39msetTimeout(\u001b[36mfunction\u001b[39m(){document\u001b[33m.\u001b[39mactiveElement\u001b[33m==\u001b[39mc\u001b[33m.\u001b[39m$selection[\u001b[35m0\u001b[39m]\u001b[33m||\u001b[39ma\u001b[33m.\u001b[39mcontains(c\u001b[33m.\u001b[39m$selection[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39mdocument\u001b[33m.\u001b[39mactiveElement)\u001b[33m||\u001b[39mc\u001b[33m.\u001b[39mtrigger(\u001b[32m\"blur\"\u001b[39m\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39m\u001b[35m1\u001b[39m)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_attachCloseHandler\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(c){a(document\u001b[33m.\u001b[39mbody)\u001b[33m.\u001b[39mon(\u001b[32m\"mousedown.select2.\"\u001b[39m\u001b[33m+\u001b[39mc\u001b[33m.\u001b[39mid\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma(c\u001b[33m.\u001b[39mtarget)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mclosest(\u001b[32m\".select2\"\u001b[39m)\u001b[33m;\u001b[39ma(\u001b[32m\".select2.select2-container--open\"\u001b[39m)\u001b[33m.\u001b[39meach(\u001b[36mfunction\u001b[39m(){a(\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m!=\u001b[39me[\u001b[35m0\u001b[39m]\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"element\"\u001b[39m)\u001b[33m.\u001b[39mselect2(\u001b[32m\"close\"\u001b[39m)})})}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_detachCloseHandler\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b){a(document\u001b[33m.\u001b[39mbody)\u001b[33m.\u001b[39moff(\u001b[32m\"mousedown.select2.\"\u001b[39m\u001b[33m+\u001b[39mb\u001b[33m.\u001b[39mid)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mposition\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){b\u001b[33m.\u001b[39mfind(\u001b[32m\".selection\"\u001b[39m)\u001b[33m.\u001b[39mappend(a)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdestroy\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_detachCloseHandler(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcontainer)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mupdate\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m\"The `update` method must be defined in child classes.\"\u001b[39m)}\u001b[33m,\u001b[39md})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/selection/single\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./base\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../utils\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../keys\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mfunction\u001b[39m e(){e\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39marguments)}\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m(e\u001b[33m,\u001b[39mb)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mrender\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mrender\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-selection--single\"\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mhtml(\u001b[32m'<span class=\"select2-selection__rendered\"></span><span class=\"select2-selection__arrow\" role=\"presentation\"><b role=\"presentation\"></b></span>'\u001b[39m)\u001b[33m,\u001b[39ma}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39me\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mbind\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39marguments)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m+\u001b[39m\u001b[32m\"-container\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__rendered\"\u001b[39m)\u001b[33m.\u001b[39mattr(\u001b[32m\"id\"\u001b[39m\u001b[33m,\u001b[39md)\u001b[33m.\u001b[39mattr(\u001b[32m\"role\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"textbox\"\u001b[39m)\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-readonly\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"true\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-labelledby\"\u001b[39m\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"mousedown\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[35m1\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mwhich\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mtrigger(\u001b[32m\"toggle\"\u001b[39m\u001b[33m,\u001b[39m{originalEvent\u001b[33m:\u001b[39ma})})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"focus\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"blur\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mon(\u001b[32m\"focus\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b){a\u001b[33m.\u001b[39misOpen()\u001b[33m||\u001b[39mc\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfocus()})}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mclear\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__rendered\"\u001b[39m)\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mempty()\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"title\"\u001b[39m)}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdisplay\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"templateSelection\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"escapeMarkup\"\u001b[39m)(c(a\u001b[33m,\u001b[39mb))}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mselectionContainer\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m a(\u001b[32m\"<span></span>\"\u001b[39m)}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mupdate\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mif\u001b[39m(\u001b[35m0\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mlength)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclear()\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__rendered\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdisplay(b\u001b[33m,\u001b[39mc)\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39mempty()\u001b[33m.\u001b[39mappend(d)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mattr(\u001b[32m\"title\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mtitle\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39mtext)}\u001b[33m,\u001b[39me})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/selection/multiple\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./base\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mfunction\u001b[39m d(a\u001b[33m,\u001b[39mb){d\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39marguments)}\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m(d\u001b[33m,\u001b[39mb)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mrender\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39md\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mrender\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-selection--multiple\"\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mhtml(\u001b[32m'<ul class=\"select2-selection__rendered\"></ul>'\u001b[39m)\u001b[33m,\u001b[39ma}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39me){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39md\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mbind\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39marguments)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"click\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){f\u001b[33m.\u001b[39mtrigger(\u001b[32m\"toggle\"\u001b[39m\u001b[33m,\u001b[39m{originalEvent\u001b[33m:\u001b[39ma})})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"click\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\".select2-selection__choice__remove\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39mf\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"disabled\"\u001b[39m)){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mparent()\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(e[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m)\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39mtrigger(\u001b[32m\"unselect\"\u001b[39m\u001b[33m,\u001b[39m{originalEvent\u001b[33m:\u001b[39mb\u001b[33m,\u001b[39mdata\u001b[33m:\u001b[39mg})}})}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mclear\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__rendered\"\u001b[39m)\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mempty()\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"title\"\u001b[39m)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdisplay\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"templateSelection\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"escapeMarkup\"\u001b[39m)(c(a\u001b[33m,\u001b[39mb))}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mselectionContainer\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m a(\u001b[32m'<li class=\"select2-selection__choice\"><span class=\"select2-selection__choice__remove\" role=\"presentation\">&times;</span></li>'\u001b[39m)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mupdate\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclear()\u001b[33m,\u001b[39m\u001b[35m0\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39mlength){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39md\u001b[33m<\u001b[39m\u001b[33ma\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39md\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma[d]\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselectionContainer()\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdisplay(e\u001b[33m,\u001b[39mf)\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39mappend(g)\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39mattr(\u001b[32m\"title\"\u001b[39m\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mtitle\u001b[33m||\u001b[39me\u001b[33m.\u001b[39mtext)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(f[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m\u001b[33m,\u001b[39me)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mpush(f)}\u001b[36mvar\u001b[39m h\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__rendered\"\u001b[39m)\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39mappendMany(h\u001b[33m,\u001b[39mb)}}\u001b[33m,\u001b[39md})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/selection/placeholder\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"../utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfunction\u001b[39m b(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mplaceholder\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mnormalizePlaceholder(c\u001b[33m.\u001b[39mget(\u001b[32m\"placeholder\"\u001b[39m))\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mnormalizePlaceholder\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m b\u001b[33m&&\u001b[39m(b\u001b[33m=\u001b[39m{id\u001b[33m:\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39mtext\u001b[33m:\u001b[39mb})\u001b[33m,\u001b[39mb}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mcreatePlaceholder\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselectionContainer()\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mhtml(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdisplay(b))\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-selection__placeholder\"\u001b[39m)\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"select2-selection__choice\"\u001b[39m)\u001b[33m,\u001b[39mc}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mupdate\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[35m1\u001b[39m\u001b[33m==\u001b[39mb\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39mb[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mid\u001b[33m!=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mplaceholder\u001b[33m.\u001b[39mid\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m1\u001b[39m\u001b[33m||\u001b[39mc)\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclear()\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcreatePlaceholder(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mplaceholder)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__rendered\"\u001b[39m)\u001b[33m.\u001b[39mappend(d)}\u001b[33m,\u001b[39mb})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/selection/allowClear\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../keys\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mfunction\u001b[39m d(){}\u001b[36mreturn\u001b[39m d\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mplaceholder\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"debug\"\u001b[39m)\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39merror\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39merror(\u001b[32m\"Select2: The `allowClear` option should be used in combination with the `placeholder` option.\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"mousedown\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\".select2-selection__clear\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39m_handleClear(a)})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mon(\u001b[32m\"keypress\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39m_handleKeyboardClear(a\u001b[33m,\u001b[39mb)})}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_handleClear\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"disabled\"\u001b[39m)){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__clear\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[35m0\u001b[39m\u001b[33m!==\u001b[39md\u001b[33m.\u001b[39mlength){b\u001b[33m.\u001b[39mstopPropagation()\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(d[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mval()\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mval(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mplaceholder\u001b[33m.\u001b[39mid)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39m{data\u001b[33m:\u001b[39me}\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"clear\"\u001b[39m\u001b[33m,\u001b[39mg)\u001b[33m,\u001b[39mg\u001b[33m.\u001b[39mprevented)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mval(f)\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m h\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mh\u001b[33m<\u001b[39m\u001b[33me\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mh\u001b[33m++\u001b[39m)\u001b[36mif\u001b[39m(g\u001b[33m=\u001b[39m{data\u001b[33m:\u001b[39me[h]}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"unselect\"\u001b[39m\u001b[33m,\u001b[39mg)\u001b[33m,\u001b[39mg\u001b[33m.\u001b[39mprevented)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mval(f)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mtrigger(\u001b[32m\"change\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"toggle\"\u001b[39m\u001b[33m,\u001b[39m{})}}}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_handleKeyboardClear\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){d\u001b[33m.\u001b[39misOpen()\u001b[33m||\u001b[39mc\u001b[33m.\u001b[39mwhich\u001b[33m!=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mDELETE\u001b[39m\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mwhich\u001b[33m!=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mBACKSPACE\u001b[39m\u001b[33m||\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_handleClear(c)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mupdate\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39md){\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__placeholder\"\u001b[39m)\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m||\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39md\u001b[33m.\u001b[39mlength)){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma(\u001b[32m'<span class=\"select2-selection__clear\">&times;</span>'\u001b[39m)\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(e[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__rendered\"\u001b[39m)\u001b[33m.\u001b[39mprepend(e)}}\u001b[33m,\u001b[39md})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/selection/search\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../utils\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../keys\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mfunction\u001b[39m d(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){a\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)}\u001b[36mreturn\u001b[39m d\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mrender\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39ma(\u001b[32m'<li class=\"select2-search select2-search--inline\"><input class=\"select2-search__field\" type=\"search\" tabindex=\"-1\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"none\" spellcheck=\"false\" role=\"textbox\" aria-autocomplete=\"list\" /></li>'\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$searchContainer\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mfind(\u001b[32m\"input\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_transferTabIndex()\u001b[33m,\u001b[39md}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mon(\u001b[32m\"open\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){f\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mtrigger(\u001b[32m\"focus\"\u001b[39m)})\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mon(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){f\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mval(\u001b[32m\"\"\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"aria-activedescendant\"\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mtrigger(\u001b[32m\"focus\"\u001b[39m)})\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mon(\u001b[32m\"enable\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){f\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mprop(\u001b[32m\"disabled\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39m_transferTabIndex()})\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mon(\u001b[32m\"disable\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){f\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mprop(\u001b[32m\"disabled\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)})\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mon(\u001b[32m\"focus\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){f\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mtrigger(\u001b[32m\"focus\"\u001b[39m)})\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mon(\u001b[32m\"results:focus\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){f\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-activedescendant\"\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mid)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"focusin\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\".select2-search--inline\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){f\u001b[33m.\u001b[39mtrigger(\u001b[32m\"focus\"\u001b[39m\u001b[33m,\u001b[39ma)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"focusout\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\".select2-search--inline\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){f\u001b[33m.\u001b[39m_handleBlur(a)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"keydown\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\".select2-search--inline\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mif\u001b[39m(a\u001b[33m.\u001b[39mstopPropagation()\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39mtrigger(\u001b[32m\"keypress\"\u001b[39m\u001b[33m,\u001b[39ma)\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39m_keyUpPrevented\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39misDefaultPrevented()\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mwhich\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mBACKSPACE\u001b[39m\u001b[33m&&\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m===\u001b[39mf\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mval()){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39m$searchContainer\u001b[33m.\u001b[39mprev(\u001b[32m\".select2-selection__choice\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(d\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(d[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m)\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39msearchRemoveChoice(e)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mpreventDefault()}}})\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mdocumentMode\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39mg\u001b[33m&&\u001b[39mg\u001b[33m<=\u001b[39m\u001b[35m11\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"input.searchcheck\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\".select2-search--inline\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mif\u001b[39m(h)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m f\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39moff(\u001b[32m\"input.search input.searchcheck\"\u001b[39m)\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39moff(\u001b[32m\"keyup.search\"\u001b[39m)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mon(\u001b[32m\"keyup.search input.search\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\".select2-search--inline\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mif\u001b[39m(h\u001b[33m&&\u001b[39m\u001b[32m\"input\"\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mtype)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m f\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39moff(\u001b[32m\"input.search input.searchcheck\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mwhich\u001b[33m;\u001b[39mb\u001b[33m!=\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mSHIFT\u001b[39m\u001b[33m&&\u001b[39mb\u001b[33m!=\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mCTRL\u001b[39m\u001b[33m&&\u001b[39mb\u001b[33m!=\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mALT\u001b[39m\u001b[33m&&\u001b[39mb\u001b[33m!=\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mTAB\u001b[39m\u001b[33m&&\u001b[39mf\u001b[33m.\u001b[39mhandleSearch(a)})}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_transferTabIndex\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"-1\"\u001b[39m)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mcreatePlaceholder\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mattr(\u001b[32m\"placeholder\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mtext)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mupdate\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search[\u001b[35m0\u001b[39m]\u001b[33m==\u001b[39mdocument\u001b[33m.\u001b[39mactiveElement\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mattr(\u001b[32m\"placeholder\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__rendered\"\u001b[39m)\u001b[33m.\u001b[39mappend(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$searchContainer)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresizeSearch()\u001b[33m,\u001b[39mc){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mfind(\u001b[32m\"[data-select2-tag]\"\u001b[39m)\u001b[33m.\u001b[39mlength\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mfocus()\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mfocus()}}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mhandleSearch\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresizeSearch()\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_keyUpPrevented){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mval()\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"query\"\u001b[39m\u001b[33m,\u001b[39m{term\u001b[33m:\u001b[39ma})}\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_keyUpPrevented\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39msearchRemoveChoice\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"unselect\"\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39mb})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mval(b\u001b[33m.\u001b[39mtext)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhandleSearch()}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mresizeSearch\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mcss(\u001b[32m\"width\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"25px\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[32m\"\"\u001b[39m\u001b[33m!==\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mattr(\u001b[32m\"placeholder\"\u001b[39m))a\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-selection__rendered\"\u001b[39m)\u001b[33m.\u001b[39minnerWidth()\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m{a\u001b[33m=\u001b[39m\u001b[35m.75\u001b[39m\u001b[33m*\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mval()\u001b[33m.\u001b[39mlength\u001b[33m+\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m+\u001b[39m\u001b[32m\"em\"\u001b[39m}\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mcss(\u001b[32m\"width\"\u001b[39m\u001b[33m,\u001b[39ma)}\u001b[33m,\u001b[39md})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/selection/eventRelay\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfunction\u001b[39m b(){}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m[\u001b[32m\"open\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"opening\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"closing\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"select\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"selecting\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"unselect\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"unselecting\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"clear\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"clearing\"\u001b[39m]\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m[\u001b[32m\"opening\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"closing\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"selecting\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"unselecting\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"clearing\"\u001b[39m]\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"*\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mif\u001b[39m(\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39minArray(b\u001b[33m,\u001b[39mf)){c\u001b[33m=\u001b[39mc\u001b[33m||\u001b[39m{}\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39m\u001b[33mEvent\u001b[39m(\u001b[32m\"select2:\"\u001b[39m\u001b[33m+\u001b[39mb\u001b[33m,\u001b[39m{params\u001b[33m:\u001b[39mc})\u001b[33m;\u001b[39me\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mtrigger(d)\u001b[33m,\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39minArray(b\u001b[33m,\u001b[39mg)\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39mprevented\u001b[33m=\u001b[39md\u001b[33m.\u001b[39misDefaultPrevented())}})}\u001b[33m,\u001b[39mb})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/translation\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"require\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mfunction\u001b[39m c(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdict\u001b[33m=\u001b[39ma\u001b[33m||\u001b[39m{}}\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mall\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdict}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mget\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdict[a]}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mextend\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdict\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend({}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mall()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdict)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m_cache\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mloadPath\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39m(a \u001b[36min\u001b[39m c\u001b[33m.\u001b[39m_cache)){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mb(a)\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39m_cache[a]\u001b[33m=\u001b[39md}\u001b[36mreturn\u001b[39m \u001b[36mnew\u001b[39m c(c\u001b[33m.\u001b[39m_cache[a])}\u001b[33m,\u001b[39mc})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/diacritics\"\u001b[39m\u001b[33m,\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m{\u001b[32m\"Ⓐ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ａ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"À\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Á\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Â\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ầ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ấ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ã\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ā\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ă\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ằ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ắ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ä\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ả\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Å\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǻ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǎ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ạ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ậ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ặ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ą\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⱥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɐ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"A\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꜳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"AA\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Æ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"AE\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"AE\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"AE\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꜵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"AO\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꜷ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"AU\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꜹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"AV\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꜻ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"AV\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꜽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"AY\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"B\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｂ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"B\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"B\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"B\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"B\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƀ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"B\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"B\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"B\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓒ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ć\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ĉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ċ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Č\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ç\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƈ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȼ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꜿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"C\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｄ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ď\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Đ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƌ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɖ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝺ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"D\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"DZ\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǆ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"DZ\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǲ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Dz\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Dz\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓔ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"È\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"É\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ê\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ề\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ế\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ễ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ể\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ē\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ĕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ė\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ë\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẻ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ě\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ệ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ę\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"E\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"F\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｆ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"F\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"F\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƒ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"F\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝼ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"F\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓖ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ĝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ğ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ġ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ģ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɠ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꞡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ᵹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"G\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｈ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ĥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ħ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⱨ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⱶ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"H\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓘ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ì\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Í\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Î\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ĩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ī\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ĭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"İ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ï\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḯ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ỉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǐ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ị\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Į\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɨ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"I\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"J\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｊ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"J\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ĵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"J\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"J\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓚ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḱ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ķ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⱪ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꞣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"K\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｌ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ŀ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ĺ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ľ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḷ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ļ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḻ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ł\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƚ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⱡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꞁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"L\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"LJ\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǈ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Lj\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓜ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"M\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"M\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ḿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"M\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"M\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"M\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɱ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"M\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɯ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"M\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｎ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ń\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ñ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ň\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ņ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƞ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɲ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꞑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꞥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"N\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǌ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"NJ\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Nj\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓞ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ò\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ó\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ô\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ồ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ố\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ỗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ổ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Õ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ō\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ŏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȯ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȱ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ö\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ỏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ő\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǒ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ơ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ờ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ớ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ỡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ở\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ợ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ọ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ộ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ø\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɔ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"OI\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"OO\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"OU\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"P\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｐ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"P\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"P\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"P\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"P\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ᵽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"P\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"P\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"P\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"P\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓠ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Q\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Q\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Q\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Q\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Q\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｒ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ŕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ř\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ŗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꞧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꞃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"R\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓢ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẞ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ś\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ŝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Š\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ș\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ş\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꞩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꞅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"S\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｔ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ť\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ț\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ţ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṱ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṯ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ŧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ʈ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⱦ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꞇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"T\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꜩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"TZ\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓤ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ù\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ú\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Û\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ũ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ū\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṻ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ŭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ü\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǜ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǘ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǖ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǚ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ủ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ů\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ű\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ǔ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ư\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ừ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ứ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ữ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ử\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ự\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ụ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ų\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṷ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ʉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"U\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"V\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｖ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"V\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"V\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ṿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"V\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ʋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"V\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"V\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ʌ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"V\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"VY\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓦ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"W\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"W\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"W\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"W\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ŵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"W\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"W\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"W\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"W\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⱳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"W\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"X\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｘ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"X\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"X\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"X\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓨ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ỳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ý\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ŷ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ỹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ÿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ỷ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ỵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƴ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ỿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⓩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ｚ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ź\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ż\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ž\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ẕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ƶ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ȥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ɀ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ⱬ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ꝣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓐ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ａ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẚ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"à\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"á\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"â\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ầ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ấ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ã\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ā\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ă\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ằ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ắ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ä\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ả\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"å\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǻ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǎ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ạ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ậ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ặ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ą\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⱥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɐ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"a\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꜳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"aa\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"æ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ae\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ae\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ae\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꜵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ao\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꜷ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"au\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꜹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"av\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꜻ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"av\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꜽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ay\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"b\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｂ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"b\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"b\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"b\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"b\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƀ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"b\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"b\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"b\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓒ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ć\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ĉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ċ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"č\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ç\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƈ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȼ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꜿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ↄ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"c\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｄ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ď\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"đ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƌ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɖ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝺ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"d\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"dz\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǆ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"dz\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓔ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"è\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"é\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ê\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ề\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ế\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ễ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ể\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ē\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ĕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ė\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ë\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẻ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ě\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ệ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ę\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"e\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"f\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｆ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"f\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"f\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƒ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"f\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝼ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"f\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓖ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ĝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ğ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ġ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ģ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɠ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꞡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ᵹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"g\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｈ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ĥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẖ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ħ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⱨ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⱶ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"h\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"hv\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓘ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ì\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"í\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"î\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ĩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ī\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ĭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ï\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḯ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ỉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǐ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ị\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"į\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɨ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ı\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"i\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"j\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｊ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"j\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ĵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"j\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǰ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"j\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"j\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓚ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḱ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ķ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⱪ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꞣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"k\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｌ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ŀ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ĺ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ľ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḷ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ļ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḻ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ſ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ł\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƚ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⱡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꞁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"l\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"lj\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓜ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"m\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"m\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ḿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"m\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"m\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"m\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɱ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"m\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɯ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"m\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｎ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ń\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ñ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ň\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ņ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƞ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɲ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ŉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꞑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꞥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"n\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǌ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"nj\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓞ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ò\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ó\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ô\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ồ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ố\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ỗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ổ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"õ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ō\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ŏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȯ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȱ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ö\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ỏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ő\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǒ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ơ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ờ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ớ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ỡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ở\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ợ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ọ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ộ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ø\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɔ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"o\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"oi\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ou\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"oo\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"p\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｐ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"p\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"p\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"p\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"p\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ᵽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"p\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"p\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"p\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"p\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓠ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"q\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"q\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"q\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"q\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"q\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｒ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ŕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ř\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ŗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꞧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꞃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"r\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓢ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ß\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ś\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ŝ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"š\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ș\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ş\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꞩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꞅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẛ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"s\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｔ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṫ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ť\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ț\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ţ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṱ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṯ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ŧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ʈ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⱦ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꞇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"t\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꜩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"tz\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓤ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ù\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ú\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"û\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ũ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ū\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṻ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ŭ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ü\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǜ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǘ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǖ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǚ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ủ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ů\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ű\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ǔ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ư\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ừ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ứ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ữ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ử\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ự\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ụ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ų\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṷ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ʉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"u\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"v\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｖ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"v\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṽ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"v\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ṿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"v\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ʋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"v\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝟ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"v\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ʌ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"v\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝡ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"vy\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓦ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"w\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｗ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"w\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẁ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"w\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẃ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"w\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ŵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"w\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẇ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"w\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẅ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"w\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẘ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"w\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẉ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"w\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⱳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"w\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓧ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"x\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｘ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"x\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"x\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẍ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"x\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓨ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ỳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ý\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ŷ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ỹ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȳ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ÿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ỷ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẙ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ỵ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƴ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɏ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ỿ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"y\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⓩ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ｚ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ź\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẑ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ż\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ž\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẓ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ẕ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ƶ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ȥ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ɀ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ⱬ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ꝣ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"z\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ά\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Α\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Έ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Ε\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ή\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Η\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ί\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Ι\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ϊ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Ι\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ό\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Ο\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ύ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Υ\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ϋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Υ\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Ώ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"Ω\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ά\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"α\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"έ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ε\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ή\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"η\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ί\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ι\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ϊ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ι\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ΐ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ι\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ό\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ο\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ύ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"υ\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ϋ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"υ\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ΰ\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"υ\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ω\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"ω\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"ς\"\u001b[39m\u001b[33m:\u001b[39m\u001b[32m\"σ\"\u001b[39m}})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/data/base\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"../utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfunction\u001b[39m b(a\u001b[33m,\u001b[39mc){b\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)}\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m(b\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39m\u001b[33mObservable\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mcurrent\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m\"The `current` method must be defined in child classes.\"\u001b[39m)}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mquery\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m\"The `query` method must be defined in child classes.\"\u001b[39m)}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdestroy\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mgenerateResultId\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mid\u001b[33m+\u001b[39m\u001b[32m\"-result-\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m d\u001b[33m+=\u001b[39ma\u001b[33m.\u001b[39mgenerateChars(\u001b[35m4\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mc\u001b[33m.\u001b[39mid\u001b[33m?\u001b[39md\u001b[33m+=\u001b[39m\u001b[32m\"-\"\u001b[39m\u001b[33m+\u001b[39mc\u001b[33m.\u001b[39mid\u001b[33m.\u001b[39mtoString()\u001b[33m:\u001b[39md\u001b[33m+=\u001b[39m\u001b[32m\"-\"\u001b[39m\u001b[33m+\u001b[39ma\u001b[33m.\u001b[39mgenerateChars(\u001b[35m4\u001b[39m)\u001b[33m,\u001b[39md}\u001b[33m,\u001b[39mb})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/data/select\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"./base\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../utils\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mfunction\u001b[39m d(a\u001b[33m,\u001b[39mb){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m(d\u001b[33m,\u001b[39ma)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mcurrent\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mfind(\u001b[32m\":selected\"\u001b[39m)\u001b[33m.\u001b[39meach(\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39mc(\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mitem(a)\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mpush(e)})\u001b[33m,\u001b[39ma(b)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mselect\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(a\u001b[33m.\u001b[39mselected\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mc(a\u001b[33m.\u001b[39melement)\u001b[33m.\u001b[39mis(\u001b[32m\"option\"\u001b[39m))\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39melement\u001b[33m.\u001b[39mselected\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[36mvoid\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mtrigger(\u001b[32m\"change\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mprop(\u001b[32m\"multiple\"\u001b[39m))\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrent(\u001b[36mfunction\u001b[39m(d){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m[]\u001b[33m;\u001b[39ma\u001b[33m=\u001b[39m[a]\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mpush\u001b[33m.\u001b[39mapply(a\u001b[33m,\u001b[39md)\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mf\u001b[33m<\u001b[39m\u001b[33ma\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mf\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39ma[f]\u001b[33m.\u001b[39mid\u001b[33m;\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39minArray(g\u001b[33m,\u001b[39me)\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39mpush(g)}b\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mval(e)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mtrigger(\u001b[32m\"change\"\u001b[39m)})\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m{\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mval(d)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mtrigger(\u001b[32m\"change\"\u001b[39m)}}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39munselect\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mprop(\u001b[32m\"multiple\"\u001b[39m)){\u001b[36mif\u001b[39m(a\u001b[33m.\u001b[39mselected\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mc(a\u001b[33m.\u001b[39melement)\u001b[33m.\u001b[39mis(\u001b[32m\"option\"\u001b[39m))\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39melement\u001b[33m.\u001b[39mselected\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m\u001b[36mvoid\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mtrigger(\u001b[32m\"change\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrent(\u001b[36mfunction\u001b[39m(d){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mf\u001b[33m<\u001b[39m\u001b[33md\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mf\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39md[f]\u001b[33m.\u001b[39mid\u001b[33m;\u001b[39mg\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m&&\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39minArray(g\u001b[33m,\u001b[39me)\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39mpush(g)}b\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mval(e)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mtrigger(\u001b[32m\"change\"\u001b[39m)})}}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcontainer\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mon(\u001b[32m\"select\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){c\u001b[33m.\u001b[39mselect(a\u001b[33m.\u001b[39mdata)})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mon(\u001b[32m\"unselect\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){c\u001b[33m.\u001b[39munselect(a\u001b[33m.\u001b[39mdata)})}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdestroy\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mfind(\u001b[32m\"*\"\u001b[39m)\u001b[33m.\u001b[39meach(\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39m\u001b[33mRemoveData\u001b[39m(\u001b[36mthis\u001b[39m)})}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mquery\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mchildren()\u001b[33m.\u001b[39meach(\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39mc(\u001b[36mthis\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39mis(\u001b[32m\"option\"\u001b[39m)\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39mis(\u001b[32m\"optgroup\"\u001b[39m)){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mitem(b)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mmatches(a\u001b[33m,\u001b[39mf)\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!==\u001b[39mg\u001b[33m&&\u001b[39md\u001b[33m.\u001b[39mpush(g)}})\u001b[33m,\u001b[39mb({results\u001b[33m:\u001b[39md})}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39maddOptions\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){b\u001b[33m.\u001b[39mappendMany(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m,\u001b[39ma)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39moption\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m d\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mchildren\u001b[33m?\u001b[39m(d\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mcreateElement(\u001b[32m\"optgroup\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mlabel\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mtext)\u001b[33m:\u001b[39m(d\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mcreateElement(\u001b[32m\"option\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39md\u001b[33m.\u001b[39mtextContent\u001b[33m?\u001b[39md\u001b[33m.\u001b[39mtextContent\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mtext\u001b[33m:\u001b[39md\u001b[33m.\u001b[39minnerText\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mtext)\u001b[33m,\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m&&\u001b[39m(d\u001b[33m.\u001b[39mvalue\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mid)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mdisabled\u001b[33m&&\u001b[39m(d\u001b[33m.\u001b[39mdisabled\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mselected\u001b[33m&&\u001b[39m(d\u001b[33m.\u001b[39mselected\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mtitle\u001b[33m&&\u001b[39m(d\u001b[33m.\u001b[39mtitle\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mtitle)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39mc(d)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_normalizeItem(a)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m f\u001b[33m.\u001b[39melement\u001b[33m=\u001b[39md\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(d\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m\u001b[33m,\u001b[39mf)\u001b[33m,\u001b[39me}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mitem\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39m(d\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m)))\u001b[36mreturn\u001b[39m d\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(a\u001b[33m.\u001b[39mis(\u001b[32m\"option\"\u001b[39m))d\u001b[33m=\u001b[39m{id\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mval()\u001b[33m,\u001b[39mtext\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mtext()\u001b[33m,\u001b[39mdisabled\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"disabled\"\u001b[39m)\u001b[33m,\u001b[39mselected\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"selected\"\u001b[39m)\u001b[33m,\u001b[39mtitle\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"title\"\u001b[39m)}\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m \u001b[36mif\u001b[39m(a\u001b[33m.\u001b[39mis(\u001b[32m\"optgroup\"\u001b[39m)){d\u001b[33m=\u001b[39m{text\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"label\"\u001b[39m)\u001b[33m,\u001b[39mchildren\u001b[33m:\u001b[39m[]\u001b[33m,\u001b[39mtitle\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"title\"\u001b[39m)}\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mchildren(\u001b[32m\"option\"\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mg\u001b[33m<\u001b[39m\u001b[33me\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mg\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m h\u001b[33m=\u001b[39mc(e[g])\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mitem(h)\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39mpush(i)}d\u001b[33m.\u001b[39mchildren\u001b[33m=\u001b[39mf}\u001b[36mreturn\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_normalizeItem(d)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39melement\u001b[33m=\u001b[39ma[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39md}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_normalizeItem\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){a\u001b[33m!==\u001b[39m\u001b[33mObject\u001b[39m(a)\u001b[33m&&\u001b[39m(a\u001b[33m=\u001b[39m{id\u001b[33m:\u001b[39ma\u001b[33m,\u001b[39mtext\u001b[33m:\u001b[39ma})\u001b[33m,\u001b[39ma\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mextend({}\u001b[33m,\u001b[39m{text\u001b[33m:\u001b[39m\u001b[32m\"\"\u001b[39m}\u001b[33m,\u001b[39ma)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m{selected\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mdisabled\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m}\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mid\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m.\u001b[39mtoString())\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ma\u001b[33m.\u001b[39mtext\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mtext\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mtext\u001b[33m.\u001b[39mtoString())\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ma\u001b[33m.\u001b[39m_resultId\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m&&\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcontainer\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39m_resultId\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgenerateResultId(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcontainer\u001b[33m,\u001b[39ma))\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mextend({}\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39ma)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mmatches\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"matcher\"\u001b[39m)(a\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39md})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/data/array\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"./select\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../utils\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mfunction\u001b[39m d(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mget(\u001b[32m\"data\"\u001b[39m)\u001b[33m||\u001b[39m[]\u001b[33m;\u001b[39md\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39mb)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39maddOptions(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mconvertToOptions(c))}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m(d\u001b[33m,\u001b[39ma)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mselect\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mfind(\u001b[32m\"option\"\u001b[39m)\u001b[33m.\u001b[39mfilter(\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mvalue\u001b[33m==\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m.\u001b[39mtoString()})\u001b[33m;\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39m(b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moption(a)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39maddOptions(b))\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mselect\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39ma)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mconvertToOptions\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfunction\u001b[39m d(a){\u001b[36mreturn\u001b[39m \u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m c(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mval()\u001b[33m==\u001b[39ma\u001b[33m.\u001b[39mid}}\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mfind(\u001b[32m\"option\"\u001b[39m)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mmap(\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m e\u001b[33m.\u001b[39mitem(c(\u001b[36mthis\u001b[39m))\u001b[33m.\u001b[39mid})\u001b[33m.\u001b[39mget()\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mi\u001b[33m<\u001b[39m\u001b[33ma\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mi\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m j\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_normalizeItem(a[i])\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(c\u001b[33m.\u001b[39minArray(j\u001b[33m.\u001b[39mid\u001b[33m,\u001b[39mg)\u001b[33m>=\u001b[39m\u001b[35m0\u001b[39m){\u001b[36mvar\u001b[39m k\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mfilter(d(j))\u001b[33m,\u001b[39ml\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mitem(k)\u001b[33m,\u001b[39mm\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39mj\u001b[33m,\u001b[39ml)\u001b[33m,\u001b[39mn\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moption(m)\u001b[33m;\u001b[39mk\u001b[33m.\u001b[39mreplaceWith(n)}\u001b[36melse\u001b[39m{\u001b[36mvar\u001b[39m o\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moption(j)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(j\u001b[33m.\u001b[39mchildren){\u001b[36mvar\u001b[39m p\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mconvertToOptions(j\u001b[33m.\u001b[39mchildren)\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mappendMany(o\u001b[33m,\u001b[39mp)}h\u001b[33m.\u001b[39mpush(o)}}\u001b[36mreturn\u001b[39m h}\u001b[33m,\u001b[39md})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/data/ajax\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"./array\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../utils\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mfunction\u001b[39m d(a\u001b[33m,\u001b[39mb){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39majaxOptions\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_applyDefaults(b\u001b[33m.\u001b[39mget(\u001b[32m\"ajax\"\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39majaxOptions\u001b[33m.\u001b[39mprocessResults\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mprocessResults\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39majaxOptions\u001b[33m.\u001b[39mprocessResults)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39mb)}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m(d\u001b[33m,\u001b[39ma)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_applyDefaults\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m{data\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mextend({}\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39m{q\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mterm})}\u001b[33m,\u001b[39mtransport\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39majax(a)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m e\u001b[33m.\u001b[39mthen(b)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mfail(d)\u001b[33m,\u001b[39me}}\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mextend({}\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mprocessResults\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mquery\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mfunction\u001b[39m d(){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mtransport(f\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(d){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mprocessResults(d\u001b[33m,\u001b[39ma)\u001b[33m;\u001b[39me\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"debug\"\u001b[39m)\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39merror\u001b[33m&&\u001b[39m(f\u001b[33m&&\u001b[39mf\u001b[33m.\u001b[39mresults\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39misArray(f\u001b[33m.\u001b[39mresults)\u001b[33m||\u001b[39mconsole\u001b[33m.\u001b[39merror(\u001b[32m\"Select2: The AJAX results did not return an array in the `results` key of the response.\"\u001b[39m))\u001b[33m,\u001b[39mb(f)}\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[32m\"status\"\u001b[39m\u001b[36min\u001b[39m d\u001b[33m&&\u001b[39m(\u001b[35m0\u001b[39m\u001b[33m===\u001b[39md\u001b[33m.\u001b[39mstatus\u001b[33m||\u001b[39m\u001b[32m\"0\"\u001b[39m\u001b[33m===\u001b[39md\u001b[33m.\u001b[39mstatus)\u001b[33m||\u001b[39me\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:message\"\u001b[39m\u001b[33m,\u001b[39m{message\u001b[33m:\u001b[39m\u001b[32m\"errorLoading\"\u001b[39m})})\u001b[33m;\u001b[39me\u001b[33m.\u001b[39m_request\u001b[33m=\u001b[39md}\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_request\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39misFunction(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_request\u001b[33m.\u001b[39mabort)\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_request\u001b[33m.\u001b[39mabort()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_request\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mextend({type\u001b[33m:\u001b[39m\u001b[32m\"GET\"\u001b[39m}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39majaxOptions)\u001b[33m;\u001b[39m\u001b[32m\"function\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m f\u001b[33m.\u001b[39murl\u001b[33m&&\u001b[39m(f\u001b[33m.\u001b[39murl\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39murl\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m,\u001b[39ma))\u001b[33m,\u001b[39m\u001b[32m\"function\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m f\u001b[33m.\u001b[39mdata\u001b[33m&&\u001b[39m(f\u001b[33m.\u001b[39mdata\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mdata\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m,\u001b[39ma))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39majaxOptions\u001b[33m.\u001b[39mdelay\u001b[33m&&\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ma\u001b[33m.\u001b[39mterm\u001b[33m?\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_queryTimeout\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mclearTimeout(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_queryTimeout)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_queryTimeout\u001b[33m=\u001b[39mwindow\u001b[33m.\u001b[39msetTimeout(d\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39majaxOptions\u001b[33m.\u001b[39mdelay))\u001b[33m:\u001b[39md()}\u001b[33m,\u001b[39md})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/data/tags\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfunction\u001b[39m b(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mget(\u001b[32m\"tags\"\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mget(\u001b[32m\"createTag\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39mf\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcreateTag\u001b[33m=\u001b[39mf)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mget(\u001b[32m\"insertTag\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39mg\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minsertTag\u001b[33m=\u001b[39mg)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39misArray(e))\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m h\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mh\u001b[33m<\u001b[39m\u001b[33me\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mh\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m i\u001b[33m=\u001b[39me[h]\u001b[33m,\u001b[39mj\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_normalizeItem(i)\u001b[33m,\u001b[39mk\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moption(j)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mappend(k)}}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mquery\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mfunction\u001b[39m d(a\u001b[33m,\u001b[39mf){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mresults\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mh\u001b[33m<\u001b[39m\u001b[33mg\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mh\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m i\u001b[33m=\u001b[39mg[h]\u001b[33m,\u001b[39mj\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mi\u001b[33m.\u001b[39mchildren\u001b[33m&&\u001b[39m\u001b[33m!\u001b[39md({results\u001b[33m:\u001b[39mi\u001b[33m.\u001b[39mchildren}\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m((i\u001b[33m.\u001b[39mtext\u001b[33m||\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m.\u001b[39mtoUpperCase()\u001b[33m===\u001b[39m(b\u001b[33m.\u001b[39mterm\u001b[33m||\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m.\u001b[39mtoUpperCase()\u001b[33m||\u001b[39mj)\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39mf\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mdata\u001b[33m=\u001b[39mg\u001b[33m,\u001b[39m\u001b[36mvoid\u001b[39m c(a))}\u001b[36mif\u001b[39m(f)\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m k\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mcreateTag(b)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mk){\u001b[36mvar\u001b[39m l\u001b[33m=\u001b[39me\u001b[33m.\u001b[39moption(k)\u001b[33m;\u001b[39ml\u001b[33m.\u001b[39mattr(\u001b[32m\"data-select2-tag\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39maddOptions([l])\u001b[33m,\u001b[39me\u001b[33m.\u001b[39minsertTag(g\u001b[33m,\u001b[39mk)}a\u001b[33m.\u001b[39mresults\u001b[33m=\u001b[39mg\u001b[33m,\u001b[39mc(a)}\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_removeOldTags()\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39mb\u001b[33m.\u001b[39mterm\u001b[33m||\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mb\u001b[33m.\u001b[39mpage)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m a\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39md)}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mcreateTag\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mtrim(c\u001b[33m.\u001b[39mterm)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m===\u001b[39md\u001b[33m?\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m:\u001b[39m{id\u001b[33m:\u001b[39md\u001b[33m,\u001b[39mtext\u001b[33m:\u001b[39md}}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39minsertTag\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){b\u001b[33m.\u001b[39munshift(c)}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_removeOldTags\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_lastTag\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mfind(\u001b[32m\"option[data-select2-tag]\"\u001b[39m)\u001b[33m.\u001b[39meach(\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselected\u001b[33m||\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mremove()})}\u001b[33m,\u001b[39mb})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/data/tokenizer\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfunction\u001b[39m b(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mget(\u001b[32m\"tokenizer\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39md\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtokenizer\u001b[33m=\u001b[39md)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){a\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mdropdown\u001b[33m.\u001b[39m$search\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39mselection\u001b[33m.\u001b[39m$search\u001b[33m||\u001b[39mc\u001b[33m.\u001b[39mfind(\u001b[32m\".select2-search__field\"\u001b[39m)}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mquery\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mfunction\u001b[39m e(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mg\u001b[33m.\u001b[39m_normalizeItem(b)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39mg\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mfind(\u001b[32m\"option\"\u001b[39m)\u001b[33m.\u001b[39mfilter(\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m a(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mval()\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39mid})\u001b[33m.\u001b[39mlength){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mg\u001b[33m.\u001b[39moption(c)\u001b[33m;\u001b[39md\u001b[33m.\u001b[39mattr(\u001b[32m\"data-select2-tag\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39mg\u001b[33m.\u001b[39m_removeOldTags()\u001b[33m,\u001b[39mg\u001b[33m.\u001b[39maddOptions([d])}f(c)}\u001b[36mfunction\u001b[39m f(a){g\u001b[33m.\u001b[39mtrigger(\u001b[32m\"select\"\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39ma})}\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39mterm\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mterm\u001b[33m||\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m h\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtokenizer(c\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m,\u001b[39me)\u001b[33m;\u001b[39mh\u001b[33m.\u001b[39mterm\u001b[33m!==\u001b[39mc\u001b[33m.\u001b[39mterm\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mval(h\u001b[33m.\u001b[39mterm)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mfocus())\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mterm\u001b[33m=\u001b[39mh\u001b[33m.\u001b[39mterm)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mtokenizer\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mget(\u001b[32m\"tokenSeparators\"\u001b[39m)\u001b[33m||\u001b[39m[]\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mterm\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcreateTag\u001b[33m||\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m{id\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mterm\u001b[33m,\u001b[39mtext\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mterm}}\u001b[33m;\u001b[39mh\u001b[33m<\u001b[39m\u001b[33mg\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39m){\u001b[36mvar\u001b[39m j\u001b[33m=\u001b[39mg[h]\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39minArray(j\u001b[33m,\u001b[39mf)){\u001b[36mvar\u001b[39m k\u001b[33m=\u001b[39mg\u001b[33m.\u001b[39msubstr(\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mh)\u001b[33m,\u001b[39ml\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend({}\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39m{term\u001b[33m:\u001b[39mk})\u001b[33m,\u001b[39mm\u001b[33m=\u001b[39mi(l)\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mm\u001b[33m?\u001b[39m(e(m)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mg\u001b[33m.\u001b[39msubstr(h\u001b[33m+\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m||\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m:\u001b[39mh\u001b[33m++\u001b[39m}\u001b[36melse\u001b[39m h\u001b[33m++\u001b[39m}\u001b[36mreturn\u001b[39m{term\u001b[33m:\u001b[39mg}}\u001b[33m,\u001b[39mb})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/data/minimumInputLength\"\u001b[39m\u001b[33m,\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mfunction\u001b[39m a(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mminimumInputLength\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mget(\u001b[32m\"minimumInputLength\"\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)}\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mquery\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39mterm\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mterm\u001b[33m||\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mterm\u001b[33m.\u001b[39mlength\u001b[33m<\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mminimumInputLength)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:message\"\u001b[39m\u001b[33m,\u001b[39m{message\u001b[33m:\u001b[39m\u001b[32m\"inputTooShort\"\u001b[39m\u001b[33m,\u001b[39margs\u001b[33m:\u001b[39m{minimum\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mminimumInputLength\u001b[33m,\u001b[39minput\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mterm\u001b[33m,\u001b[39mparams\u001b[33m:\u001b[39mb}})\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)}\u001b[33m,\u001b[39ma})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/data/maximumInputLength\"\u001b[39m\u001b[33m,\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mfunction\u001b[39m a(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mmaximumInputLength\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mget(\u001b[32m\"maximumInputLength\"\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)}\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mquery\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39mterm\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mterm\u001b[33m||\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mmaximumInputLength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mterm\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mmaximumInputLength)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:message\"\u001b[39m\u001b[33m,\u001b[39m{message\u001b[33m:\u001b[39m\u001b[32m\"inputTooLong\"\u001b[39m\u001b[33m,\u001b[39margs\u001b[33m:\u001b[39m{maximum\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mmaximumInputLength\u001b[33m,\u001b[39minput\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mterm\u001b[33m,\u001b[39mparams\u001b[33m:\u001b[39mb}})\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)}\u001b[33m,\u001b[39ma})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/data/maximumSelectionLength\"\u001b[39m\u001b[33m,\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mfunction\u001b[39m a(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mmaximumSelectionLength\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mget(\u001b[32m\"maximumSelectionLength\"\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)}\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mquery\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrent(\u001b[36mfunction\u001b[39m(e){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39me\u001b[33m?\u001b[39me\u001b[33m.\u001b[39mlength\u001b[33m:\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(d\u001b[33m.\u001b[39mmaximumSelectionLength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39mf\u001b[33m>=\u001b[39md\u001b[33m.\u001b[39mmaximumSelectionLength)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m d\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:message\"\u001b[39m\u001b[33m,\u001b[39m{message\u001b[33m:\u001b[39m\u001b[32m\"maximumSelected\"\u001b[39m\u001b[33m,\u001b[39margs\u001b[33m:\u001b[39m{maximum\u001b[33m:\u001b[39md\u001b[33m.\u001b[39mmaximumSelectionLength}})\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mcall(d\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)})}\u001b[33m,\u001b[39ma})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/dropdown\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mfunction\u001b[39m c(a\u001b[33m,\u001b[39mb){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m(c\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mObservable\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mrender\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma(\u001b[32m'<span class=\"select2-dropdown\"><span class=\"select2-results\"></span></span>'\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mattr(\u001b[32m\"dir\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"dir\"\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdown\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39mb}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mposition\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdestroy\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdown\u001b[33m.\u001b[39mremove()}\u001b[33m,\u001b[39mc})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/dropdown/search\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mfunction\u001b[39m c(){}\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mrender\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39ma(\u001b[32m'<span class=\"select2-search select2-search--dropdown\"><input class=\"select2-search__field\" type=\"search\" tabindex=\"-1\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"none\" spellcheck=\"false\" role=\"textbox\" /></span>'\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$searchContainer\u001b[33m=\u001b[39md\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mfind(\u001b[32m\"input\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprepend(d)\u001b[33m,\u001b[39mc}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mon(\u001b[32m\"keydown\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){e\u001b[33m.\u001b[39mtrigger(\u001b[32m\"keypress\"\u001b[39m\u001b[33m,\u001b[39ma)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39m_keyUpPrevented\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39misDefaultPrevented()})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mon(\u001b[32m\"input\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b){a(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39moff(\u001b[32m\"keyup\"\u001b[39m)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mon(\u001b[32m\"keyup input\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){e\u001b[33m.\u001b[39mhandleSearch(a)})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"open\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){e\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m\u001b[33m,\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mfocus()\u001b[33m,\u001b[39mwindow\u001b[33m.\u001b[39msetTimeout(\u001b[36mfunction\u001b[39m(){e\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mfocus()}\u001b[33m,\u001b[39m\u001b[35m0\u001b[39m)})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){e\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mval(\u001b[32m\"\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mblur()})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"focus\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){c\u001b[33m.\u001b[39misOpen()\u001b[33m||\u001b[39me\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mfocus()})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"results:all\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mif\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ma\u001b[33m.\u001b[39mquery\u001b[33m.\u001b[39mterm\u001b[33m||\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mquery\u001b[33m.\u001b[39mterm){e\u001b[33m.\u001b[39mshowSearch(a)\u001b[33m?\u001b[39me\u001b[33m.\u001b[39m$searchContainer\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"select2-search--hide\"\u001b[39m)\u001b[33m:\u001b[39me\u001b[33m.\u001b[39m$searchContainer\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-search--hide\"\u001b[39m)}})}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mhandleSearch\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_keyUpPrevented){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$search\u001b[33m.\u001b[39mval()\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"query\"\u001b[39m\u001b[33m,\u001b[39m{term\u001b[33m:\u001b[39mb})}\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_keyUpPrevented\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mshowSearch\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39mc})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/dropdown/hidePlaceholder\"\u001b[39m\u001b[33m,\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mfunction\u001b[39m a(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mplaceholder\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mnormalizePlaceholder(c\u001b[33m.\u001b[39mget(\u001b[32m\"placeholder\"\u001b[39m))\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)}\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mappend\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){b\u001b[33m.\u001b[39mresults\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mremovePlaceholder(b\u001b[33m.\u001b[39mresults)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mnormalizePlaceholder\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m b\u001b[33m&&\u001b[39m(b\u001b[33m=\u001b[39m{id\u001b[33m:\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39mtext\u001b[33m:\u001b[39mb})\u001b[33m,\u001b[39mb}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mremovePlaceholder\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mslice(\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mlength\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m;\u001b[39md\u001b[33m>=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39md\u001b[33m--\u001b[39m){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39mb[d]\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mplaceholder\u001b[33m.\u001b[39mid\u001b[33m===\u001b[39me\u001b[33m.\u001b[39mid\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39msplice(d\u001b[33m,\u001b[39m\u001b[35m1\u001b[39m)}\u001b[36mreturn\u001b[39m c}\u001b[33m,\u001b[39ma})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/dropdown/infiniteScroll\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfunction\u001b[39m b(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlastParams\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$loadingMore\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcreateLoadingMore()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloading\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mappend\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$loadingMore\u001b[33m.\u001b[39mremove()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloading\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mshowLoadingMore(b)\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mappend(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$loadingMore)}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"query\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){e\u001b[33m.\u001b[39mlastParams\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mloading\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mon(\u001b[32m\"query:append\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){e\u001b[33m.\u001b[39mlastParams\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mloading\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mon(\u001b[32m\"scroll\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mcontains(document\u001b[33m.\u001b[39mdocumentElement\u001b[33m,\u001b[39me\u001b[33m.\u001b[39m$loadingMore[\u001b[35m0\u001b[39m])\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39me\u001b[33m.\u001b[39mloading\u001b[33m&&\u001b[39mb){e\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39moffset()\u001b[33m.\u001b[39mtop\u001b[33m+\u001b[39me\u001b[33m.\u001b[39m$results\u001b[33m.\u001b[39mouterHeight(\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m+\u001b[39m\u001b[35m50\u001b[39m\u001b[33m>=\u001b[39me\u001b[33m.\u001b[39m$loadingMore\u001b[33m.\u001b[39moffset()\u001b[33m.\u001b[39mtop\u001b[33m+\u001b[39me\u001b[33m.\u001b[39m$loadingMore\u001b[33m.\u001b[39mouterHeight(\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39mloadMore()}})}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mloadMore\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mloading\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend({}\u001b[33m,\u001b[39m{page\u001b[33m:\u001b[39m\u001b[35m1\u001b[39m}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlastParams)\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mpage\u001b[33m++\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"query:append\"\u001b[39m\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mshowLoadingMore\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mpagination\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mpagination\u001b[33m.\u001b[39mmore}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mcreateLoadingMore\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma(\u001b[32m'<li class=\"select2-results__option select2-results__option--load-more\"role=\"treeitem\" aria-disabled=\"true\"></li>'\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"translations\"\u001b[39m)\u001b[33m.\u001b[39mget(\u001b[32m\"loadingMore\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mhtml(c(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlastParams))\u001b[33m,\u001b[39mb}\u001b[33m,\u001b[39mb})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/dropdown/attachBody\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"../utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mfunction\u001b[39m c(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdownParent\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mget(\u001b[32m\"dropdownParent\"\u001b[39m)\u001b[33m||\u001b[39ma(document\u001b[33m.\u001b[39mbody)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)}\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mon(\u001b[32m\"open\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){d\u001b[33m.\u001b[39m_showDropdown()\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m_attachPositioningHandler(b)\u001b[33m,\u001b[39me\u001b[33m||\u001b[39m(e\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mon(\u001b[32m\"results:all\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){d\u001b[33m.\u001b[39m_positionDropdown()\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m_resizeDropdown()})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mon(\u001b[32m\"results:append\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){d\u001b[33m.\u001b[39m_positionDropdown()\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m_resizeDropdown()}))})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mon(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){d\u001b[33m.\u001b[39m_hideDropdown()\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m_detachPositioningHandler(b)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdownContainer\u001b[33m.\u001b[39mon(\u001b[32m\"mousedown\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){a\u001b[33m.\u001b[39mstopPropagation()})}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdestroy\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){a\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdownContainer\u001b[33m.\u001b[39mremove()}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mposition\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){b\u001b[33m.\u001b[39mattr(\u001b[32m\"class\"\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mattr(\u001b[32m\"class\"\u001b[39m))\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"select2\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-container--open\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcss({position\u001b[33m:\u001b[39m\u001b[32m\"absolute\"\u001b[39m\u001b[33m,\u001b[39mtop\u001b[33m:\u001b[39m\u001b[33m-\u001b[39m\u001b[35m999999\u001b[39m})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m=\u001b[39mc}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mrender\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39ma(\u001b[32m\"<span></span>\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mappend(d)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdownContainer\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39mc}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_hideDropdown\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdownContainer\u001b[33m.\u001b[39mdetach()}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_attachPositioningHandler\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(c\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[32m\"scroll.select2.\"\u001b[39m\u001b[33m+\u001b[39md\u001b[33m.\u001b[39mid\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m\u001b[32m\"resize.select2.\"\u001b[39m\u001b[33m+\u001b[39md\u001b[33m.\u001b[39mid\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m\u001b[32m\"orientationchange.select2.\"\u001b[39m\u001b[33m+\u001b[39md\u001b[33m.\u001b[39mid\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mparents()\u001b[33m.\u001b[39mfilter(b\u001b[33m.\u001b[39mhasScroll)\u001b[33m;\u001b[39mi\u001b[33m.\u001b[39meach(\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"select2-scroll-position\"\u001b[39m\u001b[33m,\u001b[39m{x\u001b[33m:\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mscrollLeft()\u001b[33m,\u001b[39my\u001b[33m:\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mscrollTop()})})\u001b[33m,\u001b[39mi\u001b[33m.\u001b[39mon(f\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"select2-scroll-position\"\u001b[39m)\u001b[33m;\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mscrollTop(d\u001b[33m.\u001b[39my)})\u001b[33m,\u001b[39ma(window)\u001b[33m.\u001b[39mon(f\u001b[33m+\u001b[39m\u001b[32m\" \"\u001b[39m\u001b[33m+\u001b[39mg\u001b[33m+\u001b[39m\u001b[32m\" \"\u001b[39m\u001b[33m+\u001b[39mh\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){e\u001b[33m.\u001b[39m_positionDropdown()\u001b[33m,\u001b[39me\u001b[33m.\u001b[39m_resizeDropdown()})}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_detachPositioningHandler\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(c\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[32m\"scroll.select2.\"\u001b[39m\u001b[33m+\u001b[39md\u001b[33m.\u001b[39mid\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[32m\"resize.select2.\"\u001b[39m\u001b[33m+\u001b[39md\u001b[33m.\u001b[39mid\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m\u001b[32m\"orientationchange.select2.\"\u001b[39m\u001b[33m+\u001b[39md\u001b[33m.\u001b[39mid\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mparents()\u001b[33m.\u001b[39mfilter(b\u001b[33m.\u001b[39mhasScroll)\u001b[33m.\u001b[39moff(e)\u001b[33m,\u001b[39ma(window)\u001b[33m.\u001b[39moff(e\u001b[33m+\u001b[39m\u001b[32m\" \"\u001b[39m\u001b[33m+\u001b[39mf\u001b[33m+\u001b[39m\u001b[32m\" \"\u001b[39m\u001b[33m+\u001b[39mg)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_positionDropdown\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma(window)\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdown\u001b[33m.\u001b[39mhasClass(\u001b[32m\"select2-dropdown--above\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdown\u001b[33m.\u001b[39mhasClass(\u001b[32m\"select2-dropdown--below\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39moffset()\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39mbottom\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mtop\u001b[33m+\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mouterHeight(\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39m{height\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mouterHeight(\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)}\u001b[33m;\u001b[39mg\u001b[33m.\u001b[39mtop\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mtop\u001b[33m,\u001b[39mg\u001b[33m.\u001b[39mbottom\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mtop\u001b[33m+\u001b[39mg\u001b[33m.\u001b[39mheight\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m h\u001b[33m=\u001b[39m{height\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdown\u001b[33m.\u001b[39mouterHeight(\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)}\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39m{top\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mscrollTop()\u001b[33m,\u001b[39mbottom\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mscrollTop()\u001b[33m+\u001b[39mb\u001b[33m.\u001b[39mheight()}\u001b[33m,\u001b[39mj\u001b[33m=\u001b[39mi\u001b[33m.\u001b[39mtop\u001b[33m<\u001b[39m\u001b[33mf\u001b[39m\u001b[33m.\u001b[39mtop\u001b[33m-\u001b[39mh\u001b[33m.\u001b[39mheight\u001b[33m,\u001b[39mk\u001b[33m=\u001b[39mi\u001b[33m.\u001b[39mbottom\u001b[33m>\u001b[39mf\u001b[33m.\u001b[39mbottom\u001b[33m+\u001b[39mh\u001b[33m.\u001b[39mheight\u001b[33m,\u001b[39ml\u001b[33m=\u001b[39m{left\u001b[33m:\u001b[39mf\u001b[33m.\u001b[39mleft\u001b[33m,\u001b[39mtop\u001b[33m:\u001b[39mg\u001b[33m.\u001b[39mbottom}\u001b[33m,\u001b[39mm\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdownParent\u001b[33m;\u001b[39m\u001b[32m\"static\"\u001b[39m\u001b[33m===\u001b[39mm\u001b[33m.\u001b[39mcss(\u001b[32m\"position\"\u001b[39m)\u001b[33m&&\u001b[39m(m\u001b[33m=\u001b[39mm\u001b[33m.\u001b[39moffsetParent())\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m n\u001b[33m=\u001b[39mm\u001b[33m.\u001b[39moffset()\u001b[33m;\u001b[39ml\u001b[33m.\u001b[39mtop\u001b[33m-=\u001b[39mn\u001b[33m.\u001b[39mtop\u001b[33m,\u001b[39ml\u001b[33m.\u001b[39mleft\u001b[33m-=\u001b[39mn\u001b[33m.\u001b[39mleft\u001b[33m,\u001b[39mc\u001b[33m||\u001b[39md\u001b[33m||\u001b[39m(e\u001b[33m=\u001b[39m\u001b[32m\"below\"\u001b[39m)\u001b[33m,\u001b[39mk\u001b[33m||\u001b[39m\u001b[33m!\u001b[39mj\u001b[33m||\u001b[39mc\u001b[33m?\u001b[39m\u001b[33m!\u001b[39mj\u001b[33m&&\u001b[39mk\u001b[33m&&\u001b[39mc\u001b[33m&&\u001b[39m(e\u001b[33m=\u001b[39m\u001b[32m\"below\"\u001b[39m)\u001b[33m:\u001b[39me\u001b[33m=\u001b[39m\u001b[32m\"above\"\u001b[39m\u001b[33m,\u001b[39m(\u001b[32m\"above\"\u001b[39m\u001b[33m==\u001b[39me\u001b[33m||\u001b[39mc\u001b[33m&&\u001b[39m\u001b[32m\"below\"\u001b[39m\u001b[33m!==\u001b[39me)\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mtop\u001b[33m=\u001b[39mg\u001b[33m.\u001b[39mtop\u001b[33m-\u001b[39mn\u001b[33m.\u001b[39mtop\u001b[33m-\u001b[39mh\u001b[33m.\u001b[39mheight)\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39me\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdown\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"select2-dropdown--below select2-dropdown--above\"\u001b[39m)\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-dropdown--\"\u001b[39m\u001b[33m+\u001b[39me)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"select2-container--below select2-container--above\"\u001b[39m)\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-container--\"\u001b[39m\u001b[33m+\u001b[39me))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdownContainer\u001b[33m.\u001b[39mcss(l)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_resizeDropdown\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m{width\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mouterWidth(\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m+\u001b[39m\u001b[32m\"px\"\u001b[39m}\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"dropdownAutoWidth\"\u001b[39m)\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mminWidth\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mwidth\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mposition\u001b[33m=\u001b[39m\u001b[32m\"relative\"\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mwidth\u001b[33m=\u001b[39m\u001b[32m\"auto\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdown\u001b[33m.\u001b[39mcss(a)}\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_showDropdown\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdownContainer\u001b[33m.\u001b[39mappendTo(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdownParent)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_positionDropdown()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_resizeDropdown()}\u001b[33m,\u001b[39mc})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/dropdown/minimumResultsForSearch\"\u001b[39m\u001b[33m,\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mfunction\u001b[39m a(b){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39md\u001b[33m<\u001b[39m\u001b[33mb\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39md\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39mb[d]\u001b[33m;\u001b[39me\u001b[33m.\u001b[39mchildren\u001b[33m?\u001b[39mc\u001b[33m+=\u001b[39ma(e\u001b[33m.\u001b[39mchildren)\u001b[33m:\u001b[39mc\u001b[33m++\u001b[39m}\u001b[36mreturn\u001b[39m c}\u001b[36mfunction\u001b[39m b(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mminimumResultsForSearch\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mget(\u001b[32m\"minimumResultsForSearch\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mminimumResultsForSearch\u001b[33m<\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mminimumResultsForSearch\u001b[33m=\u001b[39m\u001b[35m1\u001b[39m\u001b[33m/\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mshowSearch\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m(a(c\u001b[33m.\u001b[39mdata\u001b[33m.\u001b[39mresults)\u001b[33m<\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mminimumResultsForSearch)\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc)}\u001b[33m,\u001b[39mb})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/dropdown/selectOnClose\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"../utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mfunction\u001b[39m b(){}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mon(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39m_handleSelectOnClose(a)})}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_handleSelectOnClose\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mif\u001b[39m(c\u001b[33m&&\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mc\u001b[33m.\u001b[39moriginalSelect2Event){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39moriginalSelect2Event\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[32m\"select\"\u001b[39m\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m_type\u001b[33m||\u001b[39m\u001b[32m\"unselect\"\u001b[39m\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m_type)\u001b[36mreturn\u001b[39m}\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgetHighlightedResults()\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39m(e\u001b[33m.\u001b[39mlength\u001b[33m<\u001b[39m\u001b[35m1\u001b[39m)){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(e[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mf\u001b[33m.\u001b[39melement\u001b[33m&&\u001b[39mf\u001b[33m.\u001b[39melement\u001b[33m.\u001b[39mselected\u001b[33m||\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39mf\u001b[33m.\u001b[39melement\u001b[33m&&\u001b[39mf\u001b[33m.\u001b[39mselected\u001b[33m||\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"select\"\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39mf})}}\u001b[33m,\u001b[39mb})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/dropdown/closeOnSelect\"\u001b[39m\u001b[33m,\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mfunction\u001b[39m a(){}\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mbind\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mon(\u001b[32m\"select\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39m_selectTriggered(a)})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mon(\u001b[32m\"unselect\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39m_selectTriggered(a)})}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_selectTriggered\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39moriginalEvent\u001b[33m;\u001b[39mc\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mctrlKey\u001b[33m||\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m{originalEvent\u001b[33m:\u001b[39mc\u001b[33m,\u001b[39moriginalSelect2Event\u001b[33m:\u001b[39mb})}\u001b[33m,\u001b[39ma})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/i18n/en\"\u001b[39m\u001b[33m,\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m{errorLoading\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m\u001b[32m\"The results could not be loaded.\"\u001b[39m}\u001b[33m,\u001b[39minputTooLong\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39minput\u001b[33m.\u001b[39mlength\u001b[33m-\u001b[39ma\u001b[33m.\u001b[39mmaximum\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m\u001b[32m\"Please delete \"\u001b[39m\u001b[33m+\u001b[39mb\u001b[33m+\u001b[39m\u001b[32m\" character\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[35m1\u001b[39m\u001b[33m!=\u001b[39mb\u001b[33m&&\u001b[39m(c\u001b[33m+=\u001b[39m\u001b[32m\"s\"\u001b[39m)\u001b[33m,\u001b[39mc}\u001b[33m,\u001b[39minputTooShort\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m\u001b[32m\"Please enter \"\u001b[39m\u001b[33m+\u001b[39m(a\u001b[33m.\u001b[39mminimum\u001b[33m-\u001b[39ma\u001b[33m.\u001b[39minput\u001b[33m.\u001b[39mlength)\u001b[33m+\u001b[39m\u001b[32m\" or more characters\"\u001b[39m}\u001b[33m,\u001b[39mloadingMore\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m\u001b[32m\"Loading more results…\"\u001b[39m}\u001b[33m,\u001b[39mmaximumSelected\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[32m\"You can only select \"\u001b[39m\u001b[33m+\u001b[39ma\u001b[33m.\u001b[39mmaximum\u001b[33m+\u001b[39m\u001b[32m\" item\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[35m1\u001b[39m\u001b[33m!=\u001b[39ma\u001b[33m.\u001b[39mmaximum\u001b[33m&&\u001b[39m(b\u001b[33m+=\u001b[39m\u001b[32m\"s\"\u001b[39m)\u001b[33m,\u001b[39mb}\u001b[33m,\u001b[39mnoResults\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m\u001b[32m\"No results found\"\u001b[39m}\u001b[33m,\u001b[39msearching\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m\u001b[32m\"Searching…\"\u001b[39m}}})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/defaults\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"require\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./results\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./selection/single\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./selection/multiple\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./selection/placeholder\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./selection/allowClear\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./selection/search\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./selection/eventRelay\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./utils\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./translation\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./diacritics\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./data/select\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./data/array\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./data/ajax\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./data/tags\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./data/tokenizer\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./data/minimumInputLength\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./data/maximumInputLength\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./data/maximumSelectionLength\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./dropdown\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./dropdown/search\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./dropdown/hidePlaceholder\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./dropdown/infiniteScroll\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./dropdown/attachBody\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./dropdown/minimumResultsForSearch\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./dropdown/selectOnClose\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./dropdown/closeOnSelect\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./i18n/en\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mg\u001b[33m,\u001b[39mh\u001b[33m,\u001b[39mi\u001b[33m,\u001b[39mj\u001b[33m,\u001b[39mk\u001b[33m,\u001b[39ml\u001b[33m,\u001b[39mm\u001b[33m,\u001b[39mn\u001b[33m,\u001b[39mo\u001b[33m,\u001b[39mp\u001b[33m,\u001b[39mq\u001b[33m,\u001b[39mr\u001b[33m,\u001b[39ms\u001b[33m,\u001b[39mt\u001b[33m,\u001b[39mu\u001b[33m,\u001b[39mv\u001b[33m,\u001b[39mw\u001b[33m,\u001b[39mx\u001b[33m,\u001b[39my\u001b[33m,\u001b[39mz\u001b[33m,\u001b[39m\u001b[33mA\u001b[39m\u001b[33m,\u001b[39m\u001b[33mB\u001b[39m\u001b[33m,\u001b[39m\u001b[33mC\u001b[39m){\u001b[36mfunction\u001b[39m \u001b[33mD\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mreset()}\u001b[36mreturn\u001b[39m \u001b[33mD\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mapply\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(l){\u001b[36mif\u001b[39m(l\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdefaults\u001b[33m,\u001b[39ml)\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ml\u001b[33m.\u001b[39mdataAdapter){\u001b[36mif\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39majax\u001b[33m?\u001b[39ml\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39mo\u001b[33m:\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39mdata\u001b[33m?\u001b[39ml\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39mn\u001b[33m:\u001b[39ml\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39mm\u001b[33m,\u001b[39ml\u001b[33m.\u001b[39mminimumInputLength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m,\u001b[39mr))\u001b[33m,\u001b[39ml\u001b[33m.\u001b[39mmaximumInputLength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m,\u001b[39ms))\u001b[33m,\u001b[39ml\u001b[33m.\u001b[39mmaximumSelectionLength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m,\u001b[39mt))\u001b[33m,\u001b[39ml\u001b[33m.\u001b[39mtags\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m,\u001b[39mp))\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ml\u001b[33m.\u001b[39mtokenSeparators\u001b[33m&&\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ml\u001b[33m.\u001b[39mtokenizer\u001b[33m||\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m,\u001b[39mq))\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39mquery){\u001b[36mvar\u001b[39m \u001b[33mC\u001b[39m\u001b[33m=\u001b[39mb(l\u001b[33m.\u001b[39mamdBase\u001b[33m+\u001b[39m\u001b[32m\"compat/query\"\u001b[39m)\u001b[33m;\u001b[39ml\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m,\u001b[39m\u001b[33mC\u001b[39m)}\u001b[36mif\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39minitSelection){\u001b[36mvar\u001b[39m \u001b[33mD\u001b[39m\u001b[33m=\u001b[39mb(l\u001b[33m.\u001b[39mamdBase\u001b[33m+\u001b[39m\u001b[32m\"compat/initSelection\"\u001b[39m)\u001b[33m;\u001b[39ml\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdataAdapter\u001b[33m,\u001b[39m\u001b[33mD\u001b[39m)}}\u001b[36mif\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ml\u001b[33m.\u001b[39mresultsAdapter\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mresultsAdapter\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39majax\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mresultsAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mresultsAdapter\u001b[33m,\u001b[39mx))\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39mplaceholder\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mresultsAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mresultsAdapter\u001b[33m,\u001b[39mw))\u001b[33m,\u001b[39ml\u001b[33m.\u001b[39mselectOnClose\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mresultsAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mresultsAdapter\u001b[33m,\u001b[39m\u001b[33mA\u001b[39m)))\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ml\u001b[33m.\u001b[39mdropdownAdapter){\u001b[36mif\u001b[39m(l\u001b[33m.\u001b[39mmultiple)l\u001b[33m.\u001b[39mdropdownAdapter\u001b[33m=\u001b[39mu\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m{\u001b[36mvar\u001b[39m \u001b[33mE\u001b[39m\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(u\u001b[33m,\u001b[39mv)\u001b[33m;\u001b[39ml\u001b[33m.\u001b[39mdropdownAdapter\u001b[33m=\u001b[39m\u001b[33mE\u001b[39m}\u001b[36mif\u001b[39m(\u001b[35m0\u001b[39m\u001b[33m!==\u001b[39ml\u001b[33m.\u001b[39mminimumResultsForSearch\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mdropdownAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdropdownAdapter\u001b[33m,\u001b[39mz))\u001b[33m,\u001b[39ml\u001b[33m.\u001b[39mcloseOnSelect\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mdropdownAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdropdownAdapter\u001b[33m,\u001b[39m\u001b[33mB\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39mdropdownCssClass\u001b[33m||\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39mdropdownCss\u001b[33m||\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39madaptDropdownCssClass){\u001b[36mvar\u001b[39m \u001b[33mF\u001b[39m\u001b[33m=\u001b[39mb(l\u001b[33m.\u001b[39mamdBase\u001b[33m+\u001b[39m\u001b[32m\"compat/dropdownCss\"\u001b[39m)\u001b[33m;\u001b[39ml\u001b[33m.\u001b[39mdropdownAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdropdownAdapter\u001b[33m,\u001b[39m\u001b[33mF\u001b[39m)}l\u001b[33m.\u001b[39mdropdownAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mdropdownAdapter\u001b[33m,\u001b[39my)}\u001b[36mif\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ml\u001b[33m.\u001b[39mselectionAdapter){\u001b[36mif\u001b[39m(l\u001b[33m.\u001b[39mmultiple\u001b[33m?\u001b[39ml\u001b[33m.\u001b[39mselectionAdapter\u001b[33m=\u001b[39me\u001b[33m:\u001b[39ml\u001b[33m.\u001b[39mselectionAdapter\u001b[33m=\u001b[39md\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39mplaceholder\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mselectionAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mselectionAdapter\u001b[33m,\u001b[39mf))\u001b[33m,\u001b[39ml\u001b[33m.\u001b[39mallowClear\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mselectionAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mselectionAdapter\u001b[33m,\u001b[39mg))\u001b[33m,\u001b[39ml\u001b[33m.\u001b[39mmultiple\u001b[33m&&\u001b[39m(l\u001b[33m.\u001b[39mselectionAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mselectionAdapter\u001b[33m,\u001b[39mh))\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39mcontainerCssClass\u001b[33m||\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39mcontainerCss\u001b[33m||\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ml\u001b[33m.\u001b[39madaptContainerCssClass){\u001b[36mvar\u001b[39m \u001b[33mG\u001b[39m\u001b[33m=\u001b[39mb(l\u001b[33m.\u001b[39mamdBase\u001b[33m+\u001b[39m\u001b[32m\"compat/containerCss\"\u001b[39m)\u001b[33m;\u001b[39ml\u001b[33m.\u001b[39mselectionAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mselectionAdapter\u001b[33m,\u001b[39m\u001b[33mG\u001b[39m)}l\u001b[33m.\u001b[39mselectionAdapter\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(l\u001b[33m.\u001b[39mselectionAdapter\u001b[33m,\u001b[39mi)}\u001b[36mif\u001b[39m(\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m l\u001b[33m.\u001b[39mlanguage)\u001b[36mif\u001b[39m(l\u001b[33m.\u001b[39mlanguage\u001b[33m.\u001b[39mindexOf(\u001b[32m\"-\"\u001b[39m)\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m){\u001b[36mvar\u001b[39m \u001b[33mH\u001b[39m\u001b[33m=\u001b[39ml\u001b[33m.\u001b[39mlanguage\u001b[33m.\u001b[39msplit(\u001b[32m\"-\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[33mI\u001b[39m\u001b[33m=\u001b[39m\u001b[33mH\u001b[39m[\u001b[35m0\u001b[39m]\u001b[33m;\u001b[39ml\u001b[33m.\u001b[39mlanguage\u001b[33m=\u001b[39m[l\u001b[33m.\u001b[39mlanguage\u001b[33m,\u001b[39m\u001b[33mI\u001b[39m]}\u001b[36melse\u001b[39m l\u001b[33m.\u001b[39mlanguage\u001b[33m=\u001b[39m[l\u001b[33m.\u001b[39mlanguage]\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(a\u001b[33m.\u001b[39misArray(l\u001b[33m.\u001b[39mlanguage)){\u001b[36mvar\u001b[39m \u001b[33mJ\u001b[39m\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m k\u001b[33m;\u001b[39ml\u001b[33m.\u001b[39mlanguage\u001b[33m.\u001b[39mpush(\u001b[32m\"en\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m \u001b[33mK\u001b[39m\u001b[33m=\u001b[39ml\u001b[33m.\u001b[39mlanguage\u001b[33m,\u001b[39m\u001b[33mL\u001b[39m\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[33mL\u001b[39m\u001b[33m<\u001b[39m\u001b[33mK\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39m\u001b[33mL\u001b[39m\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m \u001b[33mM\u001b[39m\u001b[33m=\u001b[39m\u001b[33mK\u001b[39m[\u001b[33mL\u001b[39m]\u001b[33m,\u001b[39m\u001b[33mN\u001b[39m\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39m\u001b[36mtry\u001b[39m{\u001b[33mN\u001b[39m\u001b[33m=\u001b[39mk\u001b[33m.\u001b[39mloadPath(\u001b[33mM\u001b[39m)}\u001b[36mcatch\u001b[39m(a){\u001b[36mtry\u001b[39m{\u001b[33mM\u001b[39m\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdefaults\u001b[33m.\u001b[39mamdLanguageBase\u001b[33m+\u001b[39m\u001b[33mM\u001b[39m\u001b[33m,\u001b[39m\u001b[33mN\u001b[39m\u001b[33m=\u001b[39mk\u001b[33m.\u001b[39mloadPath(\u001b[33mM\u001b[39m)}\u001b[36mcatch\u001b[39m(a){l\u001b[33m.\u001b[39mdebug\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn(\u001b[32m'Select2: The language file for \"'\u001b[39m\u001b[33m+\u001b[39m\u001b[33mM\u001b[39m\u001b[33m+\u001b[39m\u001b[32m'\" could not be automatically loaded. A fallback will be used instead.'\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mcontinue\u001b[39m}}\u001b[33mJ\u001b[39m\u001b[33m.\u001b[39mextend(\u001b[33mN\u001b[39m)}l\u001b[33m.\u001b[39mtranslations\u001b[33m=\u001b[39m\u001b[33mJ\u001b[39m}\u001b[36melse\u001b[39m{\u001b[36mvar\u001b[39m \u001b[33mO\u001b[39m\u001b[33m=\u001b[39mk\u001b[33m.\u001b[39mloadPath(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdefaults\u001b[33m.\u001b[39mamdLanguageBase\u001b[33m+\u001b[39m\u001b[32m\"en\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[33mP\u001b[39m\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m k(l\u001b[33m.\u001b[39mlanguage)\u001b[33m;\u001b[39m\u001b[33mP\u001b[39m\u001b[33m.\u001b[39mextend(\u001b[33mO\u001b[39m)\u001b[33m,\u001b[39ml\u001b[33m.\u001b[39mtranslations\u001b[33m=\u001b[39m\u001b[33mP\u001b[39m}\u001b[36mreturn\u001b[39m l}\u001b[33m,\u001b[39m\u001b[33mD\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mreset\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mfunction\u001b[39m b(a){\u001b[36mfunction\u001b[39m b(a){\u001b[36mreturn\u001b[39m l[a]\u001b[33m||\u001b[39ma}\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mreplace(\u001b[35m/[^\\u0000-\\u007E]/g\u001b[39m\u001b[33m,\u001b[39mb)}\u001b[36mfunction\u001b[39m c(d\u001b[33m,\u001b[39me){\u001b[36mif\u001b[39m(\u001b[32m\"\"\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mtrim(d\u001b[33m.\u001b[39mterm))\u001b[36mreturn\u001b[39m e\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(e\u001b[33m.\u001b[39mchildren\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39mchildren\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39me)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mchildren\u001b[33m.\u001b[39mlength\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m;\u001b[39mg\u001b[33m>=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mg\u001b[33m--\u001b[39m){\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39mc(d\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mchildren[g])\u001b[33m&&\u001b[39mf\u001b[33m.\u001b[39mchildren\u001b[33m.\u001b[39msplice(g\u001b[33m,\u001b[39m\u001b[35m1\u001b[39m)}\u001b[36mreturn\u001b[39m f\u001b[33m.\u001b[39mchildren\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m?\u001b[39mf\u001b[33m:\u001b[39mc(d\u001b[33m,\u001b[39mf)}\u001b[36mvar\u001b[39m h\u001b[33m=\u001b[39mb(e\u001b[33m.\u001b[39mtext)\u001b[33m.\u001b[39mtoUpperCase()\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39mb(d\u001b[33m.\u001b[39mterm)\u001b[33m.\u001b[39mtoUpperCase()\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m h\u001b[33m.\u001b[39mindexOf(i)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m?\u001b[39me\u001b[33m:\u001b[39m\u001b[36mnull\u001b[39m}\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdefaults\u001b[33m=\u001b[39m{amdBase\u001b[33m:\u001b[39m\u001b[32m\"./\"\u001b[39m\u001b[33m,\u001b[39mamdLanguageBase\u001b[33m:\u001b[39m\u001b[32m\"./i18n/\"\u001b[39m\u001b[33m,\u001b[39mcloseOnSelect\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mdebug\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mdropdownAutoWidth\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mescapeMarkup\u001b[33m:\u001b[39mj\u001b[33m.\u001b[39mescapeMarkup\u001b[33m,\u001b[39mlanguage\u001b[33m:\u001b[39m\u001b[33mC\u001b[39m\u001b[33m,\u001b[39mmatcher\u001b[33m:\u001b[39mc\u001b[33m,\u001b[39mminimumInputLength\u001b[33m:\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mmaximumInputLength\u001b[33m:\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mmaximumSelectionLength\u001b[33m:\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mminimumResultsForSearch\u001b[33m:\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mselectOnClose\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39msorter\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a}\u001b[33m,\u001b[39mtemplateResult\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mtext}\u001b[33m,\u001b[39mtemplateSelection\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mtext}\u001b[33m,\u001b[39mtheme\u001b[33m:\u001b[39m\u001b[32m\"default\"\u001b[39m\u001b[33m,\u001b[39mwidth\u001b[33m:\u001b[39m\u001b[32m\"resolve\"\u001b[39m}}\u001b[33m,\u001b[39m\u001b[33mD\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mset\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mcamelCase(b)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39me[d]\u001b[33m=\u001b[39mc\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39m_convertData(e)\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdefaults\u001b[33m,\u001b[39mf)}\u001b[33m,\u001b[39m\u001b[36mnew\u001b[39m \u001b[33mD\u001b[39m})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/options\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"require\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./defaults\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mfunction\u001b[39m e(b\u001b[33m,\u001b[39me){\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39me\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfromElement(e)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions)\u001b[33m,\u001b[39me\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39mis(\u001b[32m\"input\"\u001b[39m)){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39ma(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mget(\u001b[32m\"amdBase\"\u001b[39m)\u001b[33m+\u001b[39m\u001b[32m\"compat/inputData\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39md\u001b[33m.\u001b[39m\u001b[33mDecorate\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdataAdapter\u001b[33m,\u001b[39mf)}}\u001b[36mreturn\u001b[39m e\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mfromElement\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m[\u001b[32m\"select2\"\u001b[39m]\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mmultiple\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mmultiple\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"multiple\"\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdisabled\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdisabled\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"disabled\"\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mlanguage\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mprop(\u001b[32m\"lang\"\u001b[39m)\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mlanguage\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"lang\"\u001b[39m)\u001b[33m.\u001b[39mtoLowerCase()\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mclosest(\u001b[32m\"[lang]\"\u001b[39m)\u001b[33m.\u001b[39mprop(\u001b[32m\"lang\"\u001b[39m)\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mlanguage\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mclosest(\u001b[32m\"[lang]\"\u001b[39m)\u001b[33m.\u001b[39mprop(\u001b[32m\"lang\"\u001b[39m)))\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdir\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mprop(\u001b[32m\"dir\"\u001b[39m)\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdir\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"dir\"\u001b[39m)\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mclosest(\u001b[32m\"[dir]\"\u001b[39m)\u001b[33m.\u001b[39mprop(\u001b[32m\"dir\"\u001b[39m)\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdir\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mclosest(\u001b[32m\"[dir]\"\u001b[39m)\u001b[33m.\u001b[39mprop(\u001b[32m\"dir\"\u001b[39m)\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdir\u001b[33m=\u001b[39m\u001b[32m\"ltr\"\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"disabled\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdisabled)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mprop(\u001b[32m\"multiple\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mmultiple)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"select2Tags\"\u001b[39m)\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdebug\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn(\u001b[32m'Select2: The `data-select2-tags` attribute has been changed to use the `data-data` and `data-tags=\"true\"` attributes and will be removed in future versions of Select2.'\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"data\"\u001b[39m\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"select2Tags\"\u001b[39m))\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"tags\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m))\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"ajaxUrl\"\u001b[39m)\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mdebug\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn(\u001b[32m\"Select2: The `data-ajax-url` attribute has been changed to `data-ajax--url` and support for the old attribute will be removed in future versions of Select2.\"\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mattr(\u001b[32m\"ajax--url\"\u001b[39m\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"ajaxUrl\"\u001b[39m))\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"ajax-Url\"\u001b[39m\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"ajaxUrl\"\u001b[39m)))\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39me\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mjquery\u001b[33m&&\u001b[39m\u001b[32m\"1.\"\u001b[39m\u001b[33m==\u001b[39mb\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mjquery\u001b[33m.\u001b[39msubstr(\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[35m2\u001b[39m)\u001b[33m&&\u001b[39ma[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mdataset\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39ma[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mdataset\u001b[33m,\u001b[39md\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m]))\u001b[33m:\u001b[39md\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m])\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39me)\u001b[33m;\u001b[39mf\u001b[33m=\u001b[39md\u001b[33m.\u001b[39m_convertData(f)\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m g \u001b[36min\u001b[39m f)b\u001b[33m.\u001b[39minArray(g\u001b[33m,\u001b[39mc)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m||\u001b[39m(b\u001b[33m.\u001b[39misPlainObject(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions[g])\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mextend(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions[g]\u001b[33m,\u001b[39mf[g])\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions[g]\u001b[33m=\u001b[39mf[g])\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mget\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions[a]}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mset\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions[a]\u001b[33m=\u001b[39mb}\u001b[33m,\u001b[39me})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"select2/core\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./options\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./utils\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./keys\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39md){\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"select2\"\u001b[39m)\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"select2\"\u001b[39m)\u001b[33m.\u001b[39mdestroy()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mid\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_generateId(a)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39md\u001b[33m||\u001b[39m{}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m b(d\u001b[33m,\u001b[39ma)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mconstructor\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m)\u001b[33m||\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"old-tabindex\"\u001b[39m\u001b[33m,\u001b[39mf)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"-1\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"dataAdapter\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m g(a\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m h\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mrender()\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_placeContainer(h)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m i\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"selectionAdapter\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselection\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m i(a\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselection\u001b[33m.\u001b[39mrender()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselection\u001b[33m.\u001b[39mposition(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$selection\u001b[33m,\u001b[39mh)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m j\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"dropdownAdapter\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdropdown\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m j(a\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdown\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdropdown\u001b[33m.\u001b[39mrender()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdropdown\u001b[33m.\u001b[39mposition(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdown\u001b[33m,\u001b[39mh)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m k\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"resultsAdapter\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresults\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m k(a\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresults\u001b[33m.\u001b[39mrender()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresults\u001b[33m.\u001b[39mposition(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$results\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$dropdown)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m l\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_bindAdapters()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_registerDomEvents()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_registerDataEvents()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_registerSelectionEvents()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_registerDropdownEvents()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_registerResultsEvents()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_registerEvents()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter\u001b[33m.\u001b[39mcurrent(\u001b[36mfunction\u001b[39m(a){l\u001b[33m.\u001b[39mtrigger(\u001b[32m\"selection:update\"\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39ma})})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-hidden-accessible\"\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-hidden\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"true\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncAttributes()\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(a[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"select2\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mdata(\u001b[32m\"select2\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m)}\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39m\u001b[33mExtend\u001b[39m(e\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mObservable\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_generateId\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ma\u001b[33m.\u001b[39mattr(\u001b[32m\"id\"\u001b[39m)\u001b[33m?\u001b[39ma\u001b[33m.\u001b[39mattr(\u001b[32m\"id\"\u001b[39m)\u001b[33m:\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ma\u001b[33m.\u001b[39mattr(\u001b[32m\"name\"\u001b[39m)\u001b[33m?\u001b[39ma\u001b[33m.\u001b[39mattr(\u001b[32m\"name\"\u001b[39m)\u001b[33m+\u001b[39m\u001b[32m\"-\"\u001b[39m\u001b[33m+\u001b[39mc\u001b[33m.\u001b[39mgenerateChars(\u001b[35m2\u001b[39m)\u001b[33m:\u001b[39mc\u001b[33m.\u001b[39mgenerateChars(\u001b[35m4\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mreplace(\u001b[35m/(:|\\.|\\[|\\]|,)/g\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39m\u001b[32m\"select2-\"\u001b[39m\u001b[33m+\u001b[39mb}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_placeContainer\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){a\u001b[33m.\u001b[39minsertAfter(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_resolveWidth(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"width\"\u001b[39m))\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mb\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mcss(\u001b[32m\"width\"\u001b[39m\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_resolveWidth\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[35m/^width:(([-+]?([0-9]*\\.)?[0-9]+)(px|em|ex|%|in|cm|mm|pt|pc))/i\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[32m\"resolve\"\u001b[39m\u001b[33m==\u001b[39mb){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_resolveWidth(a\u001b[33m,\u001b[39m\u001b[32m\"style\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39md\u001b[33m?\u001b[39md\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_resolveWidth(a\u001b[33m,\u001b[39m\u001b[32m\"element\"\u001b[39m)}\u001b[36mif\u001b[39m(\u001b[32m\"element\"\u001b[39m\u001b[33m==\u001b[39mb){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mouterWidth(\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m e\u001b[33m<=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m?\u001b[39m\u001b[32m\"auto\"\u001b[39m\u001b[33m:\u001b[39me\u001b[33m+\u001b[39m\u001b[32m\"px\"\u001b[39m}\u001b[36mif\u001b[39m(\u001b[32m\"style\"\u001b[39m\u001b[33m==\u001b[39mb){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mattr(\u001b[32m\"style\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[32m\"string\"\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mtypeof\u001b[39m f)\u001b[36mreturn\u001b[39m \u001b[36mnull\u001b[39m\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39msplit(\u001b[32m\";\"\u001b[39m)\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39mg\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mh\u001b[33m<\u001b[39m\u001b[33mi\u001b[39m\u001b[33m;\u001b[39mh\u001b[33m+=\u001b[39m\u001b[35m1\u001b[39m){\u001b[36mvar\u001b[39m j\u001b[33m=\u001b[39mg[h]\u001b[33m.\u001b[39mreplace(\u001b[35m/\\s/g\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m,\u001b[39mk\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39mmatch(c)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m!==\u001b[39mk\u001b[33m&&\u001b[39mk\u001b[33m.\u001b[39mlength\u001b[33m>=\u001b[39m\u001b[35m1\u001b[39m)\u001b[36mreturn\u001b[39m k[\u001b[35m1\u001b[39m]}\u001b[36mreturn\u001b[39m \u001b[36mnull\u001b[39m}\u001b[36mreturn\u001b[39m b}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_bindAdapters\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter\u001b[33m.\u001b[39mbind(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselection\u001b[33m.\u001b[39mbind(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdropdown\u001b[33m.\u001b[39mbind(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresults\u001b[33m.\u001b[39mbind(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container)}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_registerDomEvents\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mon(\u001b[32m\"change.select2\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39mdataAdapter\u001b[33m.\u001b[39mcurrent(\u001b[36mfunction\u001b[39m(a){b\u001b[33m.\u001b[39mtrigger(\u001b[32m\"selection:update\"\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39ma})})})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mon(\u001b[32m\"focus.select2\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){b\u001b[33m.\u001b[39mtrigger(\u001b[32m\"focus\"\u001b[39m\u001b[33m,\u001b[39ma)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncA\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mbind(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncAttributes\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncS\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mbind(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncSubtree\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mattachEvent\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mattachEvent(\u001b[32m\"onpropertychange\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncA)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mwindow\u001b[33m.\u001b[39m\u001b[33mMutationObserver\u001b[39m\u001b[33m||\u001b[39mwindow\u001b[33m.\u001b[39m\u001b[33mWebKitMutationObserver\u001b[39m\u001b[33m||\u001b[39mwindow\u001b[33m.\u001b[39m\u001b[33mMozMutationObserver\u001b[39m\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39md\u001b[33m?\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_observer\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m d(\u001b[36mfunction\u001b[39m(c){a\u001b[33m.\u001b[39meach(c\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_syncA)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39meach(c\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_syncS)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_observer\u001b[33m.\u001b[39mobserve(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m{attributes\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mchildList\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39msubtree\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m}))\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39maddEventListener\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39maddEventListener(\u001b[32m\"DOMAttrModified\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_syncA\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39maddEventListener(\u001b[32m\"DOMNodeInserted\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_syncS\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39maddEventListener(\u001b[32m\"DOMNodeRemoved\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_syncS\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m))}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_registerDataEvents\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter\u001b[33m.\u001b[39mon(\u001b[32m\"*\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){a\u001b[33m.\u001b[39mtrigger(b\u001b[33m,\u001b[39mc)})}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_registerSelectionEvents\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m[\u001b[32m\"toggle\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"focus\"\u001b[39m]\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselection\u001b[33m.\u001b[39mon(\u001b[32m\"toggle\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39mtoggleDropdown()})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselection\u001b[33m.\u001b[39mon(\u001b[32m\"focus\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){b\u001b[33m.\u001b[39mfocus(a)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselection\u001b[33m.\u001b[39mon(\u001b[32m\"*\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(d\u001b[33m,\u001b[39me){\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39minArray(d\u001b[33m,\u001b[39mc)\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mtrigger(d\u001b[33m,\u001b[39me)})}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_registerDropdownEvents\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdropdown\u001b[33m.\u001b[39mon(\u001b[32m\"*\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){a\u001b[33m.\u001b[39mtrigger(b\u001b[33m,\u001b[39mc)})}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_registerResultsEvents\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresults\u001b[33m.\u001b[39mon(\u001b[32m\"*\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){a\u001b[33m.\u001b[39mtrigger(b\u001b[33m,\u001b[39mc)})}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_registerEvents\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mon(\u001b[32m\"open\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){a\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-container--open\"\u001b[39m)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mon(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){a\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"select2-container--open\"\u001b[39m)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mon(\u001b[32m\"enable\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){a\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"select2-container--disabled\"\u001b[39m)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mon(\u001b[32m\"disable\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){a\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-container--disabled\"\u001b[39m)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mon(\u001b[32m\"blur\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){a\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"select2-container--focus\"\u001b[39m)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mon(\u001b[32m\"query\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b){a\u001b[33m.\u001b[39misOpen()\u001b[33m||\u001b[39ma\u001b[33m.\u001b[39mtrigger(\u001b[32m\"open\"\u001b[39m\u001b[33m,\u001b[39m{})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter\u001b[33m.\u001b[39mquery(b\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(c){a\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:all\"\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39mc\u001b[33m,\u001b[39mquery\u001b[33m:\u001b[39mb})})})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mon(\u001b[32m\"query:append\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter\u001b[33m.\u001b[39mquery(b\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(c){a\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:append\"\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39mc\u001b[33m,\u001b[39mquery\u001b[33m:\u001b[39mb})})})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mon(\u001b[32m\"keypress\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mwhich\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39misOpen()\u001b[33m?\u001b[39mc\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m\u001b[33mESC\u001b[39m\u001b[33m||\u001b[39mc\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m\u001b[33mTAB\u001b[39m\u001b[33m||\u001b[39mc\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m\u001b[33mUP\u001b[39m\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39maltKey\u001b[33m?\u001b[39m(a\u001b[33m.\u001b[39mclose()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mpreventDefault())\u001b[33m:\u001b[39mc\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m\u001b[33mENTER\u001b[39m\u001b[33m?\u001b[39m(a\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:select\"\u001b[39m\u001b[33m,\u001b[39m{})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mpreventDefault())\u001b[33m:\u001b[39mc\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m\u001b[33mSPACE\u001b[39m\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mctrlKey\u001b[33m?\u001b[39m(a\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:toggle\"\u001b[39m\u001b[33m,\u001b[39m{})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mpreventDefault())\u001b[33m:\u001b[39mc\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m\u001b[33mUP\u001b[39m\u001b[33m?\u001b[39m(a\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:previous\"\u001b[39m\u001b[33m,\u001b[39m{})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mpreventDefault())\u001b[33m:\u001b[39mc\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m\u001b[33mDOWN\u001b[39m\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mtrigger(\u001b[32m\"results:next\"\u001b[39m\u001b[33m,\u001b[39m{})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mpreventDefault())\u001b[33m:\u001b[39m(c\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m\u001b[33mENTER\u001b[39m\u001b[33m||\u001b[39mc\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m\u001b[33mSPACE\u001b[39m\u001b[33m||\u001b[39mc\u001b[33m===\u001b[39md\u001b[33m.\u001b[39m\u001b[33mDOWN\u001b[39m\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39maltKey)\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mopen()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mpreventDefault())})}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_syncAttributes\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mset(\u001b[32m\"disabled\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mprop(\u001b[32m\"disabled\"\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"disabled\"\u001b[39m)\u001b[33m?\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39misOpen()\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclose()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"disable\"\u001b[39m\u001b[33m,\u001b[39m{}))\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"enable\"\u001b[39m\u001b[33m,\u001b[39m{})}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39m_syncSubtree\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39ma\u001b[33m||\u001b[39m\u001b[33m!\u001b[39ma\u001b[33m.\u001b[39mtarget\u001b[33m||\u001b[39m\u001b[32m\"OPTION\"\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mtarget\u001b[33m.\u001b[39mnodeName\u001b[33m||\u001b[39m\u001b[32m\"OPTGROUP\"\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mtarget\u001b[33m.\u001b[39mnodeName){\u001b[36mif\u001b[39m(b)\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39maddedNodes\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39maddedNodes\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m)\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39me\u001b[33m<\u001b[39m\u001b[33mb\u001b[39m\u001b[33m.\u001b[39maddedNodes\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39me\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39maddedNodes[e]\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39mselected\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)}\u001b[36melse\u001b[39m b\u001b[33m.\u001b[39mremovedNodes\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mremovedNodes\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m c\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mc\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter\u001b[33m.\u001b[39mcurrent(\u001b[36mfunction\u001b[39m(a){d\u001b[33m.\u001b[39mtrigger(\u001b[32m\"selection:update\"\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39ma})})}}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mtrigger\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m__super__\u001b[33m.\u001b[39mtrigger\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m{open\u001b[33m:\u001b[39m\u001b[32m\"opening\"\u001b[39m\u001b[33m,\u001b[39mclose\u001b[33m:\u001b[39m\u001b[32m\"closing\"\u001b[39m\u001b[33m,\u001b[39mselect\u001b[33m:\u001b[39m\u001b[32m\"selecting\"\u001b[39m\u001b[33m,\u001b[39munselect\u001b[33m:\u001b[39m\u001b[32m\"unselecting\"\u001b[39m\u001b[33m,\u001b[39mclear\u001b[33m:\u001b[39m\u001b[32m\"clearing\"\u001b[39m}\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m===\u001b[39mb\u001b[33m&&\u001b[39m(b\u001b[33m=\u001b[39m{})\u001b[33m,\u001b[39ma \u001b[36min\u001b[39m d){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39md[a]\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m{prevented\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mname\u001b[33m:\u001b[39ma\u001b[33m,\u001b[39margs\u001b[33m:\u001b[39mb}\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(c\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mg)\u001b[33m,\u001b[39mg\u001b[33m.\u001b[39mprevented)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m(b\u001b[33m.\u001b[39mprevented\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)}c\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mtoggleDropdown\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"disabled\"\u001b[39m)\u001b[33m||\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39misOpen()\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclose()\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mopen())}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mopen\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39misOpen()\u001b[33m||\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"query\"\u001b[39m\u001b[33m,\u001b[39m{})}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mclose\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39misOpen()\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m{})}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39misOpen\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mhasClass(\u001b[32m\"select2-container--open\"\u001b[39m)}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mhasFocus\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mhasClass(\u001b[32m\"select2-container--focus\"\u001b[39m)}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mfocus\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhasFocus()\u001b[33m||\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-container--focus\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtrigger(\u001b[32m\"focus\"\u001b[39m\u001b[33m,\u001b[39m{}))}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39menable\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"debug\"\u001b[39m)\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn(\u001b[32m'Select2: The `select2(\"enable\")` method has been deprecated and will be removed in later Select2 versions. Use $element.prop(\"disabled\") instead.'\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39ma\u001b[33m&&\u001b[39m\u001b[35m0\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39mlength\u001b[33m||\u001b[39m(a\u001b[33m=\u001b[39m[\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m])\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[33m!\u001b[39ma[\u001b[35m0\u001b[39m]\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mprop(\u001b[32m\"disabled\"\u001b[39m\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdata\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"debug\"\u001b[39m)\u001b[33m&&\u001b[39marguments\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn(\u001b[32m'Select2: Data can no longer be set using `select2(\"data\")`. You should consider setting the value instead using `$element.val()`.'\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m[]\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter\u001b[33m.\u001b[39mcurrent(\u001b[36mfunction\u001b[39m(b){a\u001b[33m=\u001b[39mb})\u001b[33m,\u001b[39ma}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mval\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"debug\"\u001b[39m)\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn(\u001b[32m'Select2: The `select2(\"val\")` method has been deprecated and will be removed in later Select2 versions. Use $element.val() instead.'\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39mb\u001b[33m||\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mlength)\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mval()\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mb[\u001b[35m0\u001b[39m]\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39misArray(c)\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mmap(c\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mtoString()}))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mval(c)\u001b[33m.\u001b[39mtrigger(\u001b[32m\"change\"\u001b[39m)}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mdestroy\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39mremove()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mdetachEvent\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mdetachEvent(\u001b[32m\"onpropertychange\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncA)\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_observer\u001b[33m?\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_observer\u001b[33m.\u001b[39mdisconnect()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_observer\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m)\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mremoveEventListener\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mremoveEventListener(\u001b[32m\"DOMAttrModified\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncA\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mremoveEventListener(\u001b[32m\"DOMNodeInserted\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncS\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mremoveEventListener(\u001b[32m\"DOMNodeRemoved\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncS\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncA\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m_syncS\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39moff(\u001b[32m\".select2\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"old-tabindex\"\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"select2-hidden-accessible\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-hidden\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"false\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mRemoveData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element[\u001b[35m0\u001b[39m])\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element\u001b[33m.\u001b[39mremoveData(\u001b[32m\"select2\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter\u001b[33m.\u001b[39mdestroy()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselection\u001b[33m.\u001b[39mdestroy()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdropdown\u001b[33m.\u001b[39mdestroy()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresults\u001b[33m.\u001b[39mdestroy()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdataAdapter\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mselection\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdropdown\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresults\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m}\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mrender\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma(\u001b[32m'<span class=\"select2 select2-container\"><span class=\"selection\"></span><span class=\"dropdown-wrapper\" aria-hidden=\"true\"></span></span>'\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mattr(\u001b[32m\"dir\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"dir\"\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$container\u001b[33m.\u001b[39maddClass(\u001b[32m\"select2-container--\"\u001b[39m\u001b[33m+\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptions\u001b[33m.\u001b[39mget(\u001b[32m\"theme\"\u001b[39m))\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39m\u001b[33mStoreData\u001b[39m(b[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"element\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$element)\u001b[33m,\u001b[39mb}\u001b[33m,\u001b[39me})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"jquery-mousewheel\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mdefine(\u001b[32m\"jquery.select2\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[32m\"jquery\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"jquery-mousewheel\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./select2/core\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./select2/defaults\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"./select2/utils\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me){\u001b[36mif\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ma\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mselect2){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39m[\u001b[32m\"open\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"close\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"destroy\"\u001b[39m]\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mselect2\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mif\u001b[39m(\u001b[32m\"object\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m(b\u001b[33m=\u001b[39mb\u001b[33m||\u001b[39m{}))\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39meach(\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39mb)\u001b[33m;\u001b[39m\u001b[36mnew\u001b[39m c(a(\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39md)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m b){\u001b[36mvar\u001b[39m d\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m\u001b[33mArray\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mslice\u001b[33m.\u001b[39mcall(arguments\u001b[33m,\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39meach(\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39me\u001b[33m.\u001b[39m\u001b[33mGetData\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"select2\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ma\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39merror\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39merror(\u001b[32m\"The select2('\"\u001b[39m\u001b[33m+\u001b[39mb\u001b[33m+\u001b[39m\u001b[32m\"') method was called on an element that is not using Select2.\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39ma[b]\u001b[33m.\u001b[39mapply(a\u001b[33m,\u001b[39mg)})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39minArray(b\u001b[33m,\u001b[39mf)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m:\u001b[39md}\u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m\"Invalid arguments for Select2: \"\u001b[39m\u001b[33m+\u001b[39mb)}}\u001b[36mreturn\u001b[39m \u001b[36mnull\u001b[39m\u001b[33m==\u001b[39ma\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mselect2\u001b[33m.\u001b[39mdefaults\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mselect2\u001b[33m.\u001b[39mdefaults\u001b[33m=\u001b[39md)\u001b[33m,\u001b[39mc})\u001b[33m,\u001b[39m{define\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mdefine\u001b[33m,\u001b[39mrequire\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mrequire}}()\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mrequire(\u001b[32m\"jquery.select2\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mselect2\u001b[33m.\u001b[39mamd\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39mc})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   | \u001b[39m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 2 | \u001b[39m\u001b[0m\n    at raise (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:6325:17)\n    at unexpected (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:7642:16)\n    at expect (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:7628:28)\n    at parseObj (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9150:14)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8784:28)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:3601:20)\n    at parseExprSubscripts (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8412:23)\n    at parseMaybeUnary (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8392:21)\n    at parseExprOps (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8267:23)\n    at parseMaybeConditional (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8240:23)\n    at parseMaybeAssign (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8187:21)\n    at parseExpression (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8135:23)\n    at parseStatementContent (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9958:23)\n    at parseStatement (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9829:17)\n    at parseIfStatement (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:10183:28)\n    at parseStatementContent (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9874:21)");
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+/*! Select2 4.0.6-rc.1 | https://github.com/select2/select2/blob/master/LICENSE.md */
+!function (a) {
+   true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(23)], __WEBPACK_AMD_DEFINE_FACTORY__ = (a),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : "object" == (typeof module === "undefined" ? "undefined" : _typeof(module)) && module.exports ? module.exports = function (b, c) {
+    return void 0 === c && (c = "undefined" != typeof window ? require("jquery") : require("jquery")(b)), a(c), c;
+  } : a(jQuery);
+}(function (a) {
+  var b = function () {
+    if (a && a.fn && a.fn.select2 && a.fn.select2.amd) var b = a.fn.select2.amd;
+    var b;
+    return function () {
+      if (!b || !b.requirejs) {
+        b ? c = b : b = {};
+        var a, c, d;
+        !function (b) {
+          function e(a, b) {
+            return v.call(a, b);
+          }
+
+          function f(a, b) {
+            var c,
+                d,
+                e,
+                f,
+                g,
+                h,
+                i,
+                j,
+                k,
+                l,
+                m,
+                n,
+                o = b && b.split("/"),
+                p = t.map,
+                q = p && p["*"] || {};
+
+            if (a) {
+              for (a = a.split("/"), g = a.length - 1, t.nodeIdCompat && x.test(a[g]) && (a[g] = a[g].replace(x, "")), "." === a[0].charAt(0) && o && (n = o.slice(0, o.length - 1), a = n.concat(a)), k = 0; k < a.length; k++) {
+                if ("." === (m = a[k])) a.splice(k, 1), k -= 1;else if (".." === m) {
+                  if (0 === k || 1 === k && ".." === a[2] || ".." === a[k - 1]) continue;
+                  k > 0 && (a.splice(k - 1, 2), k -= 2);
+                }
+              }
+
+              a = a.join("/");
+            }
+
+            if ((o || q) && p) {
+              for (c = a.split("/"), k = c.length; k > 0; k -= 1) {
+                if (d = c.slice(0, k).join("/"), o) for (l = o.length; l > 0; l -= 1) {
+                  if ((e = p[o.slice(0, l).join("/")]) && (e = e[d])) {
+                    f = e, h = k;
+                    break;
+                  }
+                }
+                if (f) break;
+                !i && q && q[d] && (i = q[d], j = k);
+              }
+
+              !f && i && (f = i, h = j), f && (c.splice(0, h, f), a = c.join("/"));
+            }
+
+            return a;
+          }
+
+          function g(a, c) {
+            return function () {
+              var d = w.call(arguments, 0);
+              return "string" != typeof d[0] && 1 === d.length && d.push(null), _o.apply(b, d.concat([a, c]));
+            };
+          }
+
+          function h(a) {
+            return function (b) {
+              return f(b, a);
+            };
+          }
+
+          function i(a) {
+            return function (b) {
+              r[a] = b;
+            };
+          }
+
+          function j(a) {
+            if (e(s, a)) {
+              var c = s[a];
+              delete s[a], u[a] = !0, n.apply(b, c);
+            }
+
+            if (!e(r, a) && !e(u, a)) throw new Error("No " + a);
+            return r[a];
+          }
+
+          function k(a) {
+            var b,
+                c = a ? a.indexOf("!") : -1;
+            return c > -1 && (b = a.substring(0, c), a = a.substring(c + 1, a.length)), [b, a];
+          }
+
+          function l(a) {
+            return a ? k(a) : [];
+          }
+
+          function m(a) {
+            return function () {
+              return t && t.config && t.config[a] || {};
+            };
+          }
+
+          var n,
+              _o,
+              p,
+              q,
+              r = {},
+              s = {},
+              t = {},
+              u = {},
+              v = Object.prototype.hasOwnProperty,
+              w = [].slice,
+              x = /\.js$/;
+
+          p = function p(a, b) {
+            var c,
+                d = k(a),
+                e = d[0],
+                g = b[1];
+            return a = d[1], e && (e = f(e, g), c = j(e)), e ? a = c && c.normalize ? c.normalize(a, h(g)) : f(a, g) : (a = f(a, g), d = k(a), e = d[0], a = d[1], e && (c = j(e))), {
+              f: e ? e + "!" + a : a,
+              n: a,
+              pr: e,
+              p: c
+            };
+          }, q = {
+            require: function require(a) {
+              return g(a);
+            },
+            exports: function exports(a) {
+              var b = r[a];
+              return void 0 !== b ? b : r[a] = {};
+            },
+            module: function module(a) {
+              return {
+                id: a,
+                uri: "",
+                exports: r[a],
+                config: m(a)
+              };
+            }
+          }, n = function n(a, c, d, f) {
+            var h,
+                k,
+                m,
+                n,
+                o,
+                t,
+                v,
+                w = [],
+                x = _typeof(d);
+
+            if (f = f || a, t = l(f), "undefined" === x || "function" === x) {
+              for (c = !c.length && d.length ? ["require", "exports", "module"] : c, o = 0; o < c.length; o += 1) {
+                if (n = p(c[o], t), "require" === (k = n.f)) w[o] = q.require(a);else if ("exports" === k) w[o] = q.exports(a), v = !0;else if ("module" === k) h = w[o] = q.module(a);else if (e(r, k) || e(s, k) || e(u, k)) w[o] = j(k);else {
+                  if (!n.p) throw new Error(a + " missing " + k);
+                  n.p.load(n.n, g(f, !0), i(k), {}), w[o] = r[k];
+                }
+              }
+
+              m = d ? d.apply(r[a], w) : void 0, a && (h && h.exports !== b && h.exports !== r[a] ? r[a] = h.exports : m === b && v || (r[a] = m));
+            } else a && (r[a] = d);
+          }, a = c = _o = function o(a, c, d, e, f) {
+            if ("string" == typeof a) return q[a] ? q[a](c) : j(p(a, l(c)).f);
+
+            if (!a.splice) {
+              if (t = a, t.deps && _o(t.deps, t.callback), !c) return;
+              c.splice ? (a = c, c = d, d = null) : a = b;
+            }
+
+            return c = c || function () {}, "function" == typeof d && (d = e, e = f), e ? n(b, a, c, d) : setTimeout(function () {
+              n(b, a, c, d);
+            }, 4), _o;
+          }, _o.config = function (a) {
+            return _o(a);
+          }, a._defined = r, d = function d(a, b, c) {
+            if ("string" != typeof a) throw new Error("See almond README: incorrect module build, no module name");
+            b.splice || (c = b, b = []), e(r, a) || e(s, a) || (s[a] = [a, b, c]);
+          }, d.amd = {
+            jQuery: !0
+          };
+        }(), b.requirejs = a, b.require = c, b.define = d;
+      }
+    }(), b.define("almond", function () {}), b.define("jquery", [], function () {
+      var b = a || $;
+      return null == b && console && console.error && console.error("Select2: An instance of jQuery or a jQuery-compatible library was not found. Make sure that you are including jQuery before Select2 on your web page."), b;
+    }), b.define("select2/utils", ["jquery"], function (a) {
+      function b(a) {
+        var b = a.prototype,
+            c = [];
+
+        for (var d in b) {
+          "function" == typeof b[d] && "constructor" !== d && c.push(d);
+        }
+
+        return c;
+      }
+
+      var c = {};
+      c.Extend = function (a, b) {
+        function c() {
+          this.constructor = a;
+        }
+
+        var d = {}.hasOwnProperty;
+
+        for (var e in b) {
+          d.call(b, e) && (a[e] = b[e]);
+        }
+
+        return c.prototype = b.prototype, a.prototype = new c(), a.__super__ = b.prototype, a;
+      }, c.Decorate = function (a, c) {
+        function d() {
+          var b = Array.prototype.unshift,
+              d = c.prototype.constructor.length,
+              e = a.prototype.constructor;
+          d > 0 && (b.call(arguments, a.prototype.constructor), e = c.prototype.constructor), e.apply(this, arguments);
+        }
+
+        function e() {
+          this.constructor = d;
+        }
+
+        var f = b(c),
+            g = b(a);
+        c.displayName = a.displayName, d.prototype = new e();
+
+        for (var h = 0; h < g.length; h++) {
+          var i = g[h];
+          d.prototype[i] = a.prototype[i];
+        }
+
+        for (var j = function j(a) {
+          var b = function b() {};
+
+          (a in d.prototype) && (b = d.prototype[a]);
+          var e = c.prototype[a];
+          return function () {
+            return Array.prototype.unshift.call(arguments, b), e.apply(this, arguments);
+          };
+        }, k = 0; k < f.length; k++) {
+          var l = f[k];
+          d.prototype[l] = j(l);
+        }
+
+        return d;
+      };
+
+      var d = function d() {
+        this.listeners = {};
+      };
+
+      d.prototype.on = function (a, b) {
+        this.listeners = this.listeners || {}, a in this.listeners ? this.listeners[a].push(b) : this.listeners[a] = [b];
+      }, d.prototype.trigger = function (a) {
+        var b = Array.prototype.slice,
+            c = b.call(arguments, 1);
+        this.listeners = this.listeners || {}, null == c && (c = []), 0 === c.length && c.push({}), c[0]._type = a, a in this.listeners && this.invoke(this.listeners[a], b.call(arguments, 1)), "*" in this.listeners && this.invoke(this.listeners["*"], arguments);
+      }, d.prototype.invoke = function (a, b) {
+        for (var c = 0, d = a.length; c < d; c++) {
+          a[c].apply(this, b);
+        }
+      }, c.Observable = d, c.generateChars = function (a) {
+        for (var b = "", c = 0; c < a; c++) {
+          b += Math.floor(36 * Math.random()).toString(36);
+        }
+
+        return b;
+      }, c.bind = function (a, b) {
+        return function () {
+          a.apply(b, arguments);
+        };
+      }, c._convertData = function (a) {
+        for (var b in a) {
+          var c = b.split("-"),
+              d = a;
+
+          if (1 !== c.length) {
+            for (var e = 0; e < c.length; e++) {
+              var f = c[e];
+              f = f.substring(0, 1).toLowerCase() + f.substring(1), f in d || (d[f] = {}), e == c.length - 1 && (d[f] = a[b]), d = d[f];
+            }
+
+            delete a[b];
+          }
+        }
+
+        return a;
+      }, c.hasScroll = function (b, c) {
+        var d = a(c),
+            e = c.style.overflowX,
+            f = c.style.overflowY;
+        return (e !== f || "hidden" !== f && "visible" !== f) && ("scroll" === e || "scroll" === f || d.innerHeight() < c.scrollHeight || d.innerWidth() < c.scrollWidth);
+      }, c.escapeMarkup = function (a) {
+        var b = {
+          "\\": "&#92;",
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          '"': "&quot;",
+          "'": "&#39;",
+          "/": "&#47;"
+        };
+        return "string" != typeof a ? a : String(a).replace(/[&<>"'\/\\]/g, function (a) {
+          return b[a];
+        });
+      }, c.appendMany = function (b, c) {
+        if ("1.7" === a.fn.jquery.substr(0, 3)) {
+          var d = a();
+          a.map(c, function (a) {
+            d = d.add(a);
+          }), c = d;
+        }
+
+        b.append(c);
+      }, c.__cache = {};
+      var e = 0;
+      return c.GetUniqueElementId = function (a) {
+        var b = a.getAttribute("data-select2-id");
+        return null == b && (a.id ? (b = a.id, a.setAttribute("data-select2-id", b)) : (a.setAttribute("data-select2-id", ++e), b = e.toString())), b;
+      }, c.StoreData = function (a, b, d) {
+        var e = c.GetUniqueElementId(a);
+        c.__cache[e] || (c.__cache[e] = {}), c.__cache[e][b] = d;
+      }, c.GetData = function (b, d) {
+        var e = c.GetUniqueElementId(b);
+        return d ? c.__cache[e] && null != c.__cache[e][d] ? c.__cache[e][d] : a(b).data(d) : c.__cache[e];
+      }, c.RemoveData = function (a) {
+        var b = c.GetUniqueElementId(a);
+        null != c.__cache[b] && delete c.__cache[b];
+      }, c;
+    }), b.define("select2/results", ["jquery", "./utils"], function (a, b) {
+      function c(a, b, d) {
+        this.$element = a, this.data = d, this.options = b, c.__super__.constructor.call(this);
+      }
+
+      return b.Extend(c, b.Observable), c.prototype.render = function () {
+        var b = a('<ul class="select2-results__options" role="tree"></ul>');
+        return this.options.get("multiple") && b.attr("aria-multiselectable", "true"), this.$results = b, b;
+      }, c.prototype.clear = function () {
+        this.$results.empty();
+      }, c.prototype.displayMessage = function (b) {
+        var c = this.options.get("escapeMarkup");
+        this.clear(), this.hideLoading();
+        var d = a('<li role="treeitem" aria-live="assertive" class="select2-results__option"></li>'),
+            e = this.options.get("translations").get(b.message);
+        d.append(c(e(b.args))), d[0].className += " select2-results__message", this.$results.append(d);
+      }, c.prototype.hideMessages = function () {
+        this.$results.find(".select2-results__message").remove();
+      }, c.prototype.append = function (a) {
+        this.hideLoading();
+        var b = [];
+        if (null == a.results || 0 === a.results.length) return void (0 === this.$results.children().length && this.trigger("results:message", {
+          message: "noResults"
+        }));
+        a.results = this.sort(a.results);
+
+        for (var c = 0; c < a.results.length; c++) {
+          var d = a.results[c],
+              e = this.option(d);
+          b.push(e);
+        }
+
+        this.$results.append(b);
+      }, c.prototype.position = function (a, b) {
+        b.find(".select2-results").append(a);
+      }, c.prototype.sort = function (a) {
+        return this.options.get("sorter")(a);
+      }, c.prototype.highlightFirstItem = function () {
+        var a = this.$results.find(".select2-results__option[aria-selected]"),
+            b = a.filter("[aria-selected=true]");
+        b.length > 0 ? b.first().trigger("mouseenter") : a.first().trigger("mouseenter"), this.ensureHighlightVisible();
+      }, c.prototype.setClasses = function () {
+        var c = this;
+        this.data.current(function (d) {
+          var e = a.map(d, function (a) {
+            return a.id.toString();
+          });
+          c.$results.find(".select2-results__option[aria-selected]").each(function () {
+            var c = a(this),
+                d = b.GetData(this, "data"),
+                f = "" + d.id;
+            null != d.element && d.element.selected || null == d.element && a.inArray(f, e) > -1 ? c.attr("aria-selected", "true") : c.attr("aria-selected", "false");
+          });
+        });
+      }, c.prototype.showLoading = function (a) {
+        this.hideLoading();
+        var b = this.options.get("translations").get("searching"),
+            c = {
+          disabled: !0,
+          loading: !0,
+          text: b(a)
+        },
+            d = this.option(c);
+        d.className += " loading-results", this.$results.prepend(d);
+      }, c.prototype.hideLoading = function () {
+        this.$results.find(".loading-results").remove();
+      }, c.prototype.option = function (c) {
+        var d = document.createElement("li");
+        d.className = "select2-results__option";
+        var e = {
+          role: "treeitem",
+          "aria-selected": "false"
+        };
+        c.disabled && (delete e["aria-selected"], e["aria-disabled"] = "true"), null == c.id && delete e["aria-selected"], null != c._resultId && (d.id = c._resultId), c.title && (d.title = c.title), c.children && (e.role = "group", e["aria-label"] = c.text, delete e["aria-selected"]);
+
+        for (var f in e) {
+          var g = e[f];
+          d.setAttribute(f, g);
+        }
+
+        if (c.children) {
+          var h = a(d),
+              i = document.createElement("strong");
+          i.className = "select2-results__group";
+          a(i);
+          this.template(c, i);
+
+          for (var j = [], k = 0; k < c.children.length; k++) {
+            var l = c.children[k],
+                m = this.option(l);
+            j.push(m);
+          }
+
+          var n = a("<ul></ul>", {
+            "class": "select2-results__options select2-results__options--nested"
+          });
+          n.append(j), h.append(i), h.append(n);
+        } else this.template(c, d);
+
+        return b.StoreData(d, "data", c), d;
+      }, c.prototype.bind = function (c, d) {
+        var e = this,
+            f = c.id + "-results";
+        this.$results.attr("id", f), c.on("results:all", function (a) {
+          e.clear(), e.append(a.data), c.isOpen() && (e.setClasses(), e.highlightFirstItem());
+        }), c.on("results:append", function (a) {
+          e.append(a.data), c.isOpen() && e.setClasses();
+        }), c.on("query", function (a) {
+          e.hideMessages(), e.showLoading(a);
+        }), c.on("select", function () {
+          c.isOpen() && (e.setClasses(), e.highlightFirstItem());
+        }), c.on("unselect", function () {
+          c.isOpen() && (e.setClasses(), e.highlightFirstItem());
+        }), c.on("open", function () {
+          e.$results.attr("aria-expanded", "true"), e.$results.attr("aria-hidden", "false"), e.setClasses(), e.ensureHighlightVisible();
+        }), c.on("close", function () {
+          e.$results.attr("aria-expanded", "false"), e.$results.attr("aria-hidden", "true"), e.$results.removeAttr("aria-activedescendant");
+        }), c.on("results:toggle", function () {
+          var a = e.getHighlightedResults();
+          0 !== a.length && a.trigger("mouseup");
+        }), c.on("results:select", function () {
+          var a = e.getHighlightedResults();
+
+          if (0 !== a.length) {
+            var c = b.GetData(a[0], "data");
+            "true" == a.attr("aria-selected") ? e.trigger("close", {}) : e.trigger("select", {
+              data: c
+            });
+          }
+        }), c.on("results:previous", function () {
+          var a = e.getHighlightedResults(),
+              b = e.$results.find("[aria-selected]"),
+              c = b.index(a);
+
+          if (!(c <= 0)) {
+            var d = c - 1;
+            0 === a.length && (d = 0);
+            var f = b.eq(d);
+            f.trigger("mouseenter");
+            var g = e.$results.offset().top,
+                h = f.offset().top,
+                i = e.$results.scrollTop() + (h - g);
+            0 === d ? e.$results.scrollTop(0) : h - g < 0 && e.$results.scrollTop(i);
+          }
+        }), c.on("results:next", function () {
+          var a = e.getHighlightedResults(),
+              b = e.$results.find("[aria-selected]"),
+              c = b.index(a),
+              d = c + 1;
+
+          if (!(d >= b.length)) {
+            var f = b.eq(d);
+            f.trigger("mouseenter");
+            var g = e.$results.offset().top + e.$results.outerHeight(!1),
+                h = f.offset().top + f.outerHeight(!1),
+                i = e.$results.scrollTop() + h - g;
+            0 === d ? e.$results.scrollTop(0) : h > g && e.$results.scrollTop(i);
+          }
+        }), c.on("results:focus", function (a) {
+          a.element.addClass("select2-results__option--highlighted");
+        }), c.on("results:message", function (a) {
+          e.displayMessage(a);
+        }), a.fn.mousewheel && this.$results.on("mousewheel", function (a) {
+          var b = e.$results.scrollTop(),
+              c = e.$results.get(0).scrollHeight - b + a.deltaY,
+              d = a.deltaY > 0 && b - a.deltaY <= 0,
+              f = a.deltaY < 0 && c <= e.$results.height();
+          d ? (e.$results.scrollTop(0), a.preventDefault(), a.stopPropagation()) : f && (e.$results.scrollTop(e.$results.get(0).scrollHeight - e.$results.height()), a.preventDefault(), a.stopPropagation());
+        }), this.$results.on("mouseup", ".select2-results__option[aria-selected]", function (c) {
+          var d = a(this),
+              f = b.GetData(this, "data");
+          if ("true" === d.attr("aria-selected")) return void (e.options.get("multiple") ? e.trigger("unselect", {
+            originalEvent: c,
+            data: f
+          }) : e.trigger("close", {}));
+          e.trigger("select", {
+            originalEvent: c,
+            data: f
+          });
+        }), this.$results.on("mouseenter", ".select2-results__option[aria-selected]", function (c) {
+          var d = b.GetData(this, "data");
+          e.getHighlightedResults().removeClass("select2-results__option--highlighted"), e.trigger("results:focus", {
+            data: d,
+            element: a(this)
+          });
+        });
+      }, c.prototype.getHighlightedResults = function () {
+        return this.$results.find(".select2-results__option--highlighted");
+      }, c.prototype.destroy = function () {
+        this.$results.remove();
+      }, c.prototype.ensureHighlightVisible = function () {
+        var a = this.getHighlightedResults();
+
+        if (0 !== a.length) {
+          var b = this.$results.find("[aria-selected]"),
+              c = b.index(a),
+              d = this.$results.offset().top,
+              e = a.offset().top,
+              f = this.$results.scrollTop() + (e - d),
+              g = e - d;
+          f -= 2 * a.outerHeight(!1), c <= 2 ? this.$results.scrollTop(0) : (g > this.$results.outerHeight() || g < 0) && this.$results.scrollTop(f);
+        }
+      }, c.prototype.template = function (b, c) {
+        var d = this.options.get("templateResult"),
+            e = this.options.get("escapeMarkup"),
+            f = d(b, c);
+        null == f ? c.style.display = "none" : "string" == typeof f ? c.innerHTML = e(f) : a(c).append(f);
+      }, c;
+    }), b.define("select2/keys", [], function () {
+      return {
+        BACKSPACE: 8,
+        TAB: 9,
+        ENTER: 13,
+        SHIFT: 16,
+        CTRL: 17,
+        ALT: 18,
+        ESC: 27,
+        SPACE: 32,
+        PAGE_UP: 33,
+        PAGE_DOWN: 34,
+        END: 35,
+        HOME: 36,
+        LEFT: 37,
+        UP: 38,
+        RIGHT: 39,
+        DOWN: 40,
+        DELETE: 46
+      };
+    }), b.define("select2/selection/base", ["jquery", "../utils", "../keys"], function (a, b, c) {
+      function d(a, b) {
+        this.$element = a, this.options = b, d.__super__.constructor.call(this);
+      }
+
+      return b.Extend(d, b.Observable), d.prototype.render = function () {
+        var c = a('<span class="select2-selection" role="combobox"  aria-haspopup="true" aria-expanded="false"></span>');
+        return this._tabindex = 0, null != b.GetData(this.$element[0], "old-tabindex") ? this._tabindex = b.GetData(this.$element[0], "old-tabindex") : null != this.$element.attr("tabindex") && (this._tabindex = this.$element.attr("tabindex")), c.attr("title", this.$element.attr("title")), c.attr("tabindex", this._tabindex), this.$selection = c, c;
+      }, d.prototype.bind = function (a, b) {
+        var d = this,
+            e = (a.id, a.id + "-results");
+        this.container = a, this.$selection.on("focus", function (a) {
+          d.trigger("focus", a);
+        }), this.$selection.on("blur", function (a) {
+          d._handleBlur(a);
+        }), this.$selection.on("keydown", function (a) {
+          d.trigger("keypress", a), a.which === c.SPACE && a.preventDefault();
+        }), a.on("results:focus", function (a) {
+          d.$selection.attr("aria-activedescendant", a.data._resultId);
+        }), a.on("selection:update", function (a) {
+          d.update(a.data);
+        }), a.on("open", function () {
+          d.$selection.attr("aria-expanded", "true"), d.$selection.attr("aria-owns", e), d._attachCloseHandler(a);
+        }), a.on("close", function () {
+          d.$selection.attr("aria-expanded", "false"), d.$selection.removeAttr("aria-activedescendant"), d.$selection.removeAttr("aria-owns"), d.$selection.focus(), window.setTimeout(function () {
+            d.$selection.focus();
+          }, 0), d._detachCloseHandler(a);
+        }), a.on("enable", function () {
+          d.$selection.attr("tabindex", d._tabindex);
+        }), a.on("disable", function () {
+          d.$selection.attr("tabindex", "-1");
+        });
+      }, d.prototype._handleBlur = function (b) {
+        var c = this;
+        window.setTimeout(function () {
+          document.activeElement == c.$selection[0] || a.contains(c.$selection[0], document.activeElement) || c.trigger("blur", b);
+        }, 1);
+      }, d.prototype._attachCloseHandler = function (c) {
+        a(document.body).on("mousedown.select2." + c.id, function (c) {
+          var d = a(c.target),
+              e = d.closest(".select2");
+          a(".select2.select2-container--open").each(function () {
+            a(this), this != e[0] && b.GetData(this, "element").select2("close");
+          });
+        });
+      }, d.prototype._detachCloseHandler = function (b) {
+        a(document.body).off("mousedown.select2." + b.id);
+      }, d.prototype.position = function (a, b) {
+        b.find(".selection").append(a);
+      }, d.prototype.destroy = function () {
+        this._detachCloseHandler(this.container);
+      }, d.prototype.update = function (a) {
+        throw new Error("The `update` method must be defined in child classes.");
+      }, d;
+    }), b.define("select2/selection/single", ["jquery", "./base", "../utils", "../keys"], function (a, b, c, d) {
+      function e() {
+        e.__super__.constructor.apply(this, arguments);
+      }
+
+      return c.Extend(e, b), e.prototype.render = function () {
+        var a = e.__super__.render.call(this);
+
+        return a.addClass("select2-selection--single"), a.html('<span class="select2-selection__rendered"></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>'), a;
+      }, e.prototype.bind = function (a, b) {
+        var c = this;
+
+        e.__super__.bind.apply(this, arguments);
+
+        var d = a.id + "-container";
+        this.$selection.find(".select2-selection__rendered").attr("id", d).attr("role", "textbox").attr("aria-readonly", "true"), this.$selection.attr("aria-labelledby", d), this.$selection.on("mousedown", function (a) {
+          1 === a.which && c.trigger("toggle", {
+            originalEvent: a
+          });
+        }), this.$selection.on("focus", function (a) {}), this.$selection.on("blur", function (a) {}), a.on("focus", function (b) {
+          a.isOpen() || c.$selection.focus();
+        });
+      }, e.prototype.clear = function () {
+        var a = this.$selection.find(".select2-selection__rendered");
+        a.empty(), a.removeAttr("title");
+      }, e.prototype.display = function (a, b) {
+        var c = this.options.get("templateSelection");
+        return this.options.get("escapeMarkup")(c(a, b));
+      }, e.prototype.selectionContainer = function () {
+        return a("<span></span>");
+      }, e.prototype.update = function (a) {
+        if (0 === a.length) return void this.clear();
+        var b = a[0],
+            c = this.$selection.find(".select2-selection__rendered"),
+            d = this.display(b, c);
+        c.empty().append(d), c.attr("title", b.title || b.text);
+      }, e;
+    }), b.define("select2/selection/multiple", ["jquery", "./base", "../utils"], function (a, b, c) {
+      function d(a, b) {
+        d.__super__.constructor.apply(this, arguments);
+      }
+
+      return c.Extend(d, b), d.prototype.render = function () {
+        var a = d.__super__.render.call(this);
+
+        return a.addClass("select2-selection--multiple"), a.html('<ul class="select2-selection__rendered"></ul>'), a;
+      }, d.prototype.bind = function (b, e) {
+        var f = this;
+        d.__super__.bind.apply(this, arguments), this.$selection.on("click", function (a) {
+          f.trigger("toggle", {
+            originalEvent: a
+          });
+        }), this.$selection.on("click", ".select2-selection__choice__remove", function (b) {
+          if (!f.options.get("disabled")) {
+            var d = a(this),
+                e = d.parent(),
+                g = c.GetData(e[0], "data");
+            f.trigger("unselect", {
+              originalEvent: b,
+              data: g
+            });
+          }
+        });
+      }, d.prototype.clear = function () {
+        var a = this.$selection.find(".select2-selection__rendered");
+        a.empty(), a.removeAttr("title");
+      }, d.prototype.display = function (a, b) {
+        var c = this.options.get("templateSelection");
+        return this.options.get("escapeMarkup")(c(a, b));
+      }, d.prototype.selectionContainer = function () {
+        return a('<li class="select2-selection__choice"><span class="select2-selection__choice__remove" role="presentation">&times;</span></li>');
+      }, d.prototype.update = function (a) {
+        if (this.clear(), 0 !== a.length) {
+          for (var b = [], d = 0; d < a.length; d++) {
+            var e = a[d],
+                f = this.selectionContainer(),
+                g = this.display(e, f);
+            f.append(g), f.attr("title", e.title || e.text), c.StoreData(f[0], "data", e), b.push(f);
+          }
+
+          var h = this.$selection.find(".select2-selection__rendered");
+          c.appendMany(h, b);
+        }
+      }, d;
+    }), b.define("select2/selection/placeholder", ["../utils"], function (a) {
+      function b(a, b, c) {
+        this.placeholder = this.normalizePlaceholder(c.get("placeholder")), a.call(this, b, c);
+      }
+
+      return b.prototype.normalizePlaceholder = function (a, b) {
+        return "string" == typeof b && (b = {
+          id: "",
+          text: b
+        }), b;
+      }, b.prototype.createPlaceholder = function (a, b) {
+        var c = this.selectionContainer();
+        return c.html(this.display(b)), c.addClass("select2-selection__placeholder").removeClass("select2-selection__choice"), c;
+      }, b.prototype.update = function (a, b) {
+        var c = 1 == b.length && b[0].id != this.placeholder.id;
+        if (b.length > 1 || c) return a.call(this, b);
+        this.clear();
+        var d = this.createPlaceholder(this.placeholder);
+        this.$selection.find(".select2-selection__rendered").append(d);
+      }, b;
+    }), b.define("select2/selection/allowClear", ["jquery", "../keys", "../utils"], function (a, b, c) {
+      function d() {}
+
+      return d.prototype.bind = function (a, b, c) {
+        var d = this;
+        a.call(this, b, c), null == this.placeholder && this.options.get("debug") && window.console && console.error && console.error("Select2: The `allowClear` option should be used in combination with the `placeholder` option."), this.$selection.on("mousedown", ".select2-selection__clear", function (a) {
+          d._handleClear(a);
+        }), b.on("keypress", function (a) {
+          d._handleKeyboardClear(a, b);
+        });
+      }, d.prototype._handleClear = function (a, b) {
+        if (!this.options.get("disabled")) {
+          var d = this.$selection.find(".select2-selection__clear");
+
+          if (0 !== d.length) {
+            b.stopPropagation();
+            var e = c.GetData(d[0], "data"),
+                f = this.$element.val();
+            this.$element.val(this.placeholder.id);
+            var g = {
+              data: e
+            };
+            if (this.trigger("clear", g), g.prevented) return void this.$element.val(f);
+
+            for (var h = 0; h < e.length; h++) {
+              if (g = {
+                data: e[h]
+              }, this.trigger("unselect", g), g.prevented) return void this.$element.val(f);
+            }
+
+            this.$element.trigger("change"), this.trigger("toggle", {});
+          }
+        }
+      }, d.prototype._handleKeyboardClear = function (a, c, d) {
+        d.isOpen() || c.which != b.DELETE && c.which != b.BACKSPACE || this._handleClear(c);
+      }, d.prototype.update = function (b, d) {
+        if (b.call(this, d), !(this.$selection.find(".select2-selection__placeholder").length > 0 || 0 === d.length)) {
+          var e = a('<span class="select2-selection__clear">&times;</span>');
+          c.StoreData(e[0], "data", d), this.$selection.find(".select2-selection__rendered").prepend(e);
+        }
+      }, d;
+    }), b.define("select2/selection/search", ["jquery", "../utils", "../keys"], function (a, b, c) {
+      function d(a, b, c) {
+        a.call(this, b, c);
+      }
+
+      return d.prototype.render = function (b) {
+        var c = a('<li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="-1" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="textbox" aria-autocomplete="list" /></li>');
+        this.$searchContainer = c, this.$search = c.find("input");
+        var d = b.call(this);
+        return this._transferTabIndex(), d;
+      }, d.prototype.bind = function (a, d, e) {
+        var f = this;
+        a.call(this, d, e), d.on("open", function () {
+          f.$search.trigger("focus");
+        }), d.on("close", function () {
+          f.$search.val(""), f.$search.removeAttr("aria-activedescendant"), f.$search.trigger("focus");
+        }), d.on("enable", function () {
+          f.$search.prop("disabled", !1), f._transferTabIndex();
+        }), d.on("disable", function () {
+          f.$search.prop("disabled", !0);
+        }), d.on("focus", function (a) {
+          f.$search.trigger("focus");
+        }), d.on("results:focus", function (a) {
+          f.$search.attr("aria-activedescendant", a.id);
+        }), this.$selection.on("focusin", ".select2-search--inline", function (a) {
+          f.trigger("focus", a);
+        }), this.$selection.on("focusout", ".select2-search--inline", function (a) {
+          f._handleBlur(a);
+        }), this.$selection.on("keydown", ".select2-search--inline", function (a) {
+          if (a.stopPropagation(), f.trigger("keypress", a), f._keyUpPrevented = a.isDefaultPrevented(), a.which === c.BACKSPACE && "" === f.$search.val()) {
+            var d = f.$searchContainer.prev(".select2-selection__choice");
+
+            if (d.length > 0) {
+              var e = b.GetData(d[0], "data");
+              f.searchRemoveChoice(e), a.preventDefault();
+            }
+          }
+        });
+        var g = document.documentMode,
+            h = g && g <= 11;
+        this.$selection.on("input.searchcheck", ".select2-search--inline", function (a) {
+          if (h) return void f.$selection.off("input.search input.searchcheck");
+          f.$selection.off("keyup.search");
+        }), this.$selection.on("keyup.search input.search", ".select2-search--inline", function (a) {
+          if (h && "input" === a.type) return void f.$selection.off("input.search input.searchcheck");
+          var b = a.which;
+          b != c.SHIFT && b != c.CTRL && b != c.ALT && b != c.TAB && f.handleSearch(a);
+        });
+      }, d.prototype._transferTabIndex = function (a) {
+        this.$search.attr("tabindex", this.$selection.attr("tabindex")), this.$selection.attr("tabindex", "-1");
+      }, d.prototype.createPlaceholder = function (a, b) {
+        this.$search.attr("placeholder", b.text);
+      }, d.prototype.update = function (a, b) {
+        var c = this.$search[0] == document.activeElement;
+
+        if (this.$search.attr("placeholder", ""), a.call(this, b), this.$selection.find(".select2-selection__rendered").append(this.$searchContainer), this.resizeSearch(), c) {
+          this.$element.find("[data-select2-tag]").length ? this.$element.focus() : this.$search.focus();
+        }
+      }, d.prototype.handleSearch = function () {
+        if (this.resizeSearch(), !this._keyUpPrevented) {
+          var a = this.$search.val();
+          this.trigger("query", {
+            term: a
+          });
+        }
+
+        this._keyUpPrevented = !1;
+      }, d.prototype.searchRemoveChoice = function (a, b) {
+        this.trigger("unselect", {
+          data: b
+        }), this.$search.val(b.text), this.handleSearch();
+      }, d.prototype.resizeSearch = function () {
+        this.$search.css("width", "25px");
+        var a = "";
+        if ("" !== this.$search.attr("placeholder")) a = this.$selection.find(".select2-selection__rendered").innerWidth();else {
+          a = .75 * (this.$search.val().length + 1) + "em";
+        }
+        this.$search.css("width", a);
+      }, d;
+    }), b.define("select2/selection/eventRelay", ["jquery"], function (a) {
+      function b() {}
+
+      return b.prototype.bind = function (b, c, d) {
+        var e = this,
+            f = ["open", "opening", "close", "closing", "select", "selecting", "unselect", "unselecting", "clear", "clearing"],
+            g = ["opening", "closing", "selecting", "unselecting", "clearing"];
+        b.call(this, c, d), c.on("*", function (b, c) {
+          if (-1 !== a.inArray(b, f)) {
+            c = c || {};
+            var d = a.Event("select2:" + b, {
+              params: c
+            });
+            e.$element.trigger(d), -1 !== a.inArray(b, g) && (c.prevented = d.isDefaultPrevented());
+          }
+        });
+      }, b;
+    }), b.define("select2/translation", ["jquery", "require"], function (a, b) {
+      function c(a) {
+        this.dict = a || {};
+      }
+
+      return c.prototype.all = function () {
+        return this.dict;
+      }, c.prototype.get = function (a) {
+        return this.dict[a];
+      }, c.prototype.extend = function (b) {
+        this.dict = a.extend({}, b.all(), this.dict);
+      }, c._cache = {}, c.loadPath = function (a) {
+        if (!(a in c._cache)) {
+          var d = b(a);
+          c._cache[a] = d;
+        }
+
+        return new c(c._cache[a]);
+      }, c;
+    }), b.define("select2/diacritics", [], function () {
+      return {
+        "Ⓐ": "A",
+        "Ａ": "A",
+        "À": "A",
+        "Á": "A",
+        "Â": "A",
+        "Ầ": "A",
+        "Ấ": "A",
+        "Ẫ": "A",
+        "Ẩ": "A",
+        "Ã": "A",
+        "Ā": "A",
+        "Ă": "A",
+        "Ằ": "A",
+        "Ắ": "A",
+        "Ẵ": "A",
+        "Ẳ": "A",
+        "Ȧ": "A",
+        "Ǡ": "A",
+        "Ä": "A",
+        "Ǟ": "A",
+        "Ả": "A",
+        "Å": "A",
+        "Ǻ": "A",
+        "Ǎ": "A",
+        "Ȁ": "A",
+        "Ȃ": "A",
+        "Ạ": "A",
+        "Ậ": "A",
+        "Ặ": "A",
+        "Ḁ": "A",
+        "Ą": "A",
+        "Ⱥ": "A",
+        "Ɐ": "A",
+        "Ꜳ": "AA",
+        "Æ": "AE",
+        "Ǽ": "AE",
+        "Ǣ": "AE",
+        "Ꜵ": "AO",
+        "Ꜷ": "AU",
+        "Ꜹ": "AV",
+        "Ꜻ": "AV",
+        "Ꜽ": "AY",
+        "Ⓑ": "B",
+        "Ｂ": "B",
+        "Ḃ": "B",
+        "Ḅ": "B",
+        "Ḇ": "B",
+        "Ƀ": "B",
+        "Ƃ": "B",
+        "Ɓ": "B",
+        "Ⓒ": "C",
+        "Ｃ": "C",
+        "Ć": "C",
+        "Ĉ": "C",
+        "Ċ": "C",
+        "Č": "C",
+        "Ç": "C",
+        "Ḉ": "C",
+        "Ƈ": "C",
+        "Ȼ": "C",
+        "Ꜿ": "C",
+        "Ⓓ": "D",
+        "Ｄ": "D",
+        "Ḋ": "D",
+        "Ď": "D",
+        "Ḍ": "D",
+        "Ḑ": "D",
+        "Ḓ": "D",
+        "Ḏ": "D",
+        "Đ": "D",
+        "Ƌ": "D",
+        "Ɗ": "D",
+        "Ɖ": "D",
+        "Ꝺ": "D",
+        "Ǳ": "DZ",
+        "Ǆ": "DZ",
+        "ǲ": "Dz",
+        "ǅ": "Dz",
+        "Ⓔ": "E",
+        "Ｅ": "E",
+        "È": "E",
+        "É": "E",
+        "Ê": "E",
+        "Ề": "E",
+        "Ế": "E",
+        "Ễ": "E",
+        "Ể": "E",
+        "Ẽ": "E",
+        "Ē": "E",
+        "Ḕ": "E",
+        "Ḗ": "E",
+        "Ĕ": "E",
+        "Ė": "E",
+        "Ë": "E",
+        "Ẻ": "E",
+        "Ě": "E",
+        "Ȅ": "E",
+        "Ȇ": "E",
+        "Ẹ": "E",
+        "Ệ": "E",
+        "Ȩ": "E",
+        "Ḝ": "E",
+        "Ę": "E",
+        "Ḙ": "E",
+        "Ḛ": "E",
+        "Ɛ": "E",
+        "Ǝ": "E",
+        "Ⓕ": "F",
+        "Ｆ": "F",
+        "Ḟ": "F",
+        "Ƒ": "F",
+        "Ꝼ": "F",
+        "Ⓖ": "G",
+        "Ｇ": "G",
+        "Ǵ": "G",
+        "Ĝ": "G",
+        "Ḡ": "G",
+        "Ğ": "G",
+        "Ġ": "G",
+        "Ǧ": "G",
+        "Ģ": "G",
+        "Ǥ": "G",
+        "Ɠ": "G",
+        "Ꞡ": "G",
+        "Ᵹ": "G",
+        "Ꝿ": "G",
+        "Ⓗ": "H",
+        "Ｈ": "H",
+        "Ĥ": "H",
+        "Ḣ": "H",
+        "Ḧ": "H",
+        "Ȟ": "H",
+        "Ḥ": "H",
+        "Ḩ": "H",
+        "Ḫ": "H",
+        "Ħ": "H",
+        "Ⱨ": "H",
+        "Ⱶ": "H",
+        "Ɥ": "H",
+        "Ⓘ": "I",
+        "Ｉ": "I",
+        "Ì": "I",
+        "Í": "I",
+        "Î": "I",
+        "Ĩ": "I",
+        "Ī": "I",
+        "Ĭ": "I",
+        "İ": "I",
+        "Ï": "I",
+        "Ḯ": "I",
+        "Ỉ": "I",
+        "Ǐ": "I",
+        "Ȉ": "I",
+        "Ȋ": "I",
+        "Ị": "I",
+        "Į": "I",
+        "Ḭ": "I",
+        "Ɨ": "I",
+        "Ⓙ": "J",
+        "Ｊ": "J",
+        "Ĵ": "J",
+        "Ɉ": "J",
+        "Ⓚ": "K",
+        "Ｋ": "K",
+        "Ḱ": "K",
+        "Ǩ": "K",
+        "Ḳ": "K",
+        "Ķ": "K",
+        "Ḵ": "K",
+        "Ƙ": "K",
+        "Ⱪ": "K",
+        "Ꝁ": "K",
+        "Ꝃ": "K",
+        "Ꝅ": "K",
+        "Ꞣ": "K",
+        "Ⓛ": "L",
+        "Ｌ": "L",
+        "Ŀ": "L",
+        "Ĺ": "L",
+        "Ľ": "L",
+        "Ḷ": "L",
+        "Ḹ": "L",
+        "Ļ": "L",
+        "Ḽ": "L",
+        "Ḻ": "L",
+        "Ł": "L",
+        "Ƚ": "L",
+        "Ɫ": "L",
+        "Ⱡ": "L",
+        "Ꝉ": "L",
+        "Ꝇ": "L",
+        "Ꞁ": "L",
+        "Ǉ": "LJ",
+        "ǈ": "Lj",
+        "Ⓜ": "M",
+        "Ｍ": "M",
+        "Ḿ": "M",
+        "Ṁ": "M",
+        "Ṃ": "M",
+        "Ɱ": "M",
+        "Ɯ": "M",
+        "Ⓝ": "N",
+        "Ｎ": "N",
+        "Ǹ": "N",
+        "Ń": "N",
+        "Ñ": "N",
+        "Ṅ": "N",
+        "Ň": "N",
+        "Ṇ": "N",
+        "Ņ": "N",
+        "Ṋ": "N",
+        "Ṉ": "N",
+        "Ƞ": "N",
+        "Ɲ": "N",
+        "Ꞑ": "N",
+        "Ꞥ": "N",
+        "Ǌ": "NJ",
+        "ǋ": "Nj",
+        "Ⓞ": "O",
+        "Ｏ": "O",
+        "Ò": "O",
+        "Ó": "O",
+        "Ô": "O",
+        "Ồ": "O",
+        "Ố": "O",
+        "Ỗ": "O",
+        "Ổ": "O",
+        "Õ": "O",
+        "Ṍ": "O",
+        "Ȭ": "O",
+        "Ṏ": "O",
+        "Ō": "O",
+        "Ṑ": "O",
+        "Ṓ": "O",
+        "Ŏ": "O",
+        "Ȯ": "O",
+        "Ȱ": "O",
+        "Ö": "O",
+        "Ȫ": "O",
+        "Ỏ": "O",
+        "Ő": "O",
+        "Ǒ": "O",
+        "Ȍ": "O",
+        "Ȏ": "O",
+        "Ơ": "O",
+        "Ờ": "O",
+        "Ớ": "O",
+        "Ỡ": "O",
+        "Ở": "O",
+        "Ợ": "O",
+        "Ọ": "O",
+        "Ộ": "O",
+        "Ǫ": "O",
+        "Ǭ": "O",
+        "Ø": "O",
+        "Ǿ": "O",
+        "Ɔ": "O",
+        "Ɵ": "O",
+        "Ꝋ": "O",
+        "Ꝍ": "O",
+        "Ƣ": "OI",
+        "Ꝏ": "OO",
+        "Ȣ": "OU",
+        "Ⓟ": "P",
+        "Ｐ": "P",
+        "Ṕ": "P",
+        "Ṗ": "P",
+        "Ƥ": "P",
+        "Ᵽ": "P",
+        "Ꝑ": "P",
+        "Ꝓ": "P",
+        "Ꝕ": "P",
+        "Ⓠ": "Q",
+        "Ｑ": "Q",
+        "Ꝗ": "Q",
+        "Ꝙ": "Q",
+        "Ɋ": "Q",
+        "Ⓡ": "R",
+        "Ｒ": "R",
+        "Ŕ": "R",
+        "Ṙ": "R",
+        "Ř": "R",
+        "Ȑ": "R",
+        "Ȓ": "R",
+        "Ṛ": "R",
+        "Ṝ": "R",
+        "Ŗ": "R",
+        "Ṟ": "R",
+        "Ɍ": "R",
+        "Ɽ": "R",
+        "Ꝛ": "R",
+        "Ꞧ": "R",
+        "Ꞃ": "R",
+        "Ⓢ": "S",
+        "Ｓ": "S",
+        "ẞ": "S",
+        "Ś": "S",
+        "Ṥ": "S",
+        "Ŝ": "S",
+        "Ṡ": "S",
+        "Š": "S",
+        "Ṧ": "S",
+        "Ṣ": "S",
+        "Ṩ": "S",
+        "Ș": "S",
+        "Ş": "S",
+        "Ȿ": "S",
+        "Ꞩ": "S",
+        "Ꞅ": "S",
+        "Ⓣ": "T",
+        "Ｔ": "T",
+        "Ṫ": "T",
+        "Ť": "T",
+        "Ṭ": "T",
+        "Ț": "T",
+        "Ţ": "T",
+        "Ṱ": "T",
+        "Ṯ": "T",
+        "Ŧ": "T",
+        "Ƭ": "T",
+        "Ʈ": "T",
+        "Ⱦ": "T",
+        "Ꞇ": "T",
+        "Ꜩ": "TZ",
+        "Ⓤ": "U",
+        "Ｕ": "U",
+        "Ù": "U",
+        "Ú": "U",
+        "Û": "U",
+        "Ũ": "U",
+        "Ṹ": "U",
+        "Ū": "U",
+        "Ṻ": "U",
+        "Ŭ": "U",
+        "Ü": "U",
+        "Ǜ": "U",
+        "Ǘ": "U",
+        "Ǖ": "U",
+        "Ǚ": "U",
+        "Ủ": "U",
+        "Ů": "U",
+        "Ű": "U",
+        "Ǔ": "U",
+        "Ȕ": "U",
+        "Ȗ": "U",
+        "Ư": "U",
+        "Ừ": "U",
+        "Ứ": "U",
+        "Ữ": "U",
+        "Ử": "U",
+        "Ự": "U",
+        "Ụ": "U",
+        "Ṳ": "U",
+        "Ų": "U",
+        "Ṷ": "U",
+        "Ṵ": "U",
+        "Ʉ": "U",
+        "Ⓥ": "V",
+        "Ｖ": "V",
+        "Ṽ": "V",
+        "Ṿ": "V",
+        "Ʋ": "V",
+        "Ꝟ": "V",
+        "Ʌ": "V",
+        "Ꝡ": "VY",
+        "Ⓦ": "W",
+        "Ｗ": "W",
+        "Ẁ": "W",
+        "Ẃ": "W",
+        "Ŵ": "W",
+        "Ẇ": "W",
+        "Ẅ": "W",
+        "Ẉ": "W",
+        "Ⱳ": "W",
+        "Ⓧ": "X",
+        "Ｘ": "X",
+        "Ẋ": "X",
+        "Ẍ": "X",
+        "Ⓨ": "Y",
+        "Ｙ": "Y",
+        "Ỳ": "Y",
+        "Ý": "Y",
+        "Ŷ": "Y",
+        "Ỹ": "Y",
+        "Ȳ": "Y",
+        "Ẏ": "Y",
+        "Ÿ": "Y",
+        "Ỷ": "Y",
+        "Ỵ": "Y",
+        "Ƴ": "Y",
+        "Ɏ": "Y",
+        "Ỿ": "Y",
+        "Ⓩ": "Z",
+        "Ｚ": "Z",
+        "Ź": "Z",
+        "Ẑ": "Z",
+        "Ż": "Z",
+        "Ž": "Z",
+        "Ẓ": "Z",
+        "Ẕ": "Z",
+        "Ƶ": "Z",
+        "Ȥ": "Z",
+        "Ɀ": "Z",
+        "Ⱬ": "Z",
+        "Ꝣ": "Z",
+        "ⓐ": "a",
+        "ａ": "a",
+        "ẚ": "a",
+        "à": "a",
+        "á": "a",
+        "â": "a",
+        "ầ": "a",
+        "ấ": "a",
+        "ẫ": "a",
+        "ẩ": "a",
+        "ã": "a",
+        "ā": "a",
+        "ă": "a",
+        "ằ": "a",
+        "ắ": "a",
+        "ẵ": "a",
+        "ẳ": "a",
+        "ȧ": "a",
+        "ǡ": "a",
+        "ä": "a",
+        "ǟ": "a",
+        "ả": "a",
+        "å": "a",
+        "ǻ": "a",
+        "ǎ": "a",
+        "ȁ": "a",
+        "ȃ": "a",
+        "ạ": "a",
+        "ậ": "a",
+        "ặ": "a",
+        "ḁ": "a",
+        "ą": "a",
+        "ⱥ": "a",
+        "ɐ": "a",
+        "ꜳ": "aa",
+        "æ": "ae",
+        "ǽ": "ae",
+        "ǣ": "ae",
+        "ꜵ": "ao",
+        "ꜷ": "au",
+        "ꜹ": "av",
+        "ꜻ": "av",
+        "ꜽ": "ay",
+        "ⓑ": "b",
+        "ｂ": "b",
+        "ḃ": "b",
+        "ḅ": "b",
+        "ḇ": "b",
+        "ƀ": "b",
+        "ƃ": "b",
+        "ɓ": "b",
+        "ⓒ": "c",
+        "ｃ": "c",
+        "ć": "c",
+        "ĉ": "c",
+        "ċ": "c",
+        "č": "c",
+        "ç": "c",
+        "ḉ": "c",
+        "ƈ": "c",
+        "ȼ": "c",
+        "ꜿ": "c",
+        "ↄ": "c",
+        "ⓓ": "d",
+        "ｄ": "d",
+        "ḋ": "d",
+        "ď": "d",
+        "ḍ": "d",
+        "ḑ": "d",
+        "ḓ": "d",
+        "ḏ": "d",
+        "đ": "d",
+        "ƌ": "d",
+        "ɖ": "d",
+        "ɗ": "d",
+        "ꝺ": "d",
+        "ǳ": "dz",
+        "ǆ": "dz",
+        "ⓔ": "e",
+        "ｅ": "e",
+        "è": "e",
+        "é": "e",
+        "ê": "e",
+        "ề": "e",
+        "ế": "e",
+        "ễ": "e",
+        "ể": "e",
+        "ẽ": "e",
+        "ē": "e",
+        "ḕ": "e",
+        "ḗ": "e",
+        "ĕ": "e",
+        "ė": "e",
+        "ë": "e",
+        "ẻ": "e",
+        "ě": "e",
+        "ȅ": "e",
+        "ȇ": "e",
+        "ẹ": "e",
+        "ệ": "e",
+        "ȩ": "e",
+        "ḝ": "e",
+        "ę": "e",
+        "ḙ": "e",
+        "ḛ": "e",
+        "ɇ": "e",
+        "ɛ": "e",
+        "ǝ": "e",
+        "ⓕ": "f",
+        "ｆ": "f",
+        "ḟ": "f",
+        "ƒ": "f",
+        "ꝼ": "f",
+        "ⓖ": "g",
+        "ｇ": "g",
+        "ǵ": "g",
+        "ĝ": "g",
+        "ḡ": "g",
+        "ğ": "g",
+        "ġ": "g",
+        "ǧ": "g",
+        "ģ": "g",
+        "ǥ": "g",
+        "ɠ": "g",
+        "ꞡ": "g",
+        "ᵹ": "g",
+        "ꝿ": "g",
+        "ⓗ": "h",
+        "ｈ": "h",
+        "ĥ": "h",
+        "ḣ": "h",
+        "ḧ": "h",
+        "ȟ": "h",
+        "ḥ": "h",
+        "ḩ": "h",
+        "ḫ": "h",
+        "ẖ": "h",
+        "ħ": "h",
+        "ⱨ": "h",
+        "ⱶ": "h",
+        "ɥ": "h",
+        "ƕ": "hv",
+        "ⓘ": "i",
+        "ｉ": "i",
+        "ì": "i",
+        "í": "i",
+        "î": "i",
+        "ĩ": "i",
+        "ī": "i",
+        "ĭ": "i",
+        "ï": "i",
+        "ḯ": "i",
+        "ỉ": "i",
+        "ǐ": "i",
+        "ȉ": "i",
+        "ȋ": "i",
+        "ị": "i",
+        "į": "i",
+        "ḭ": "i",
+        "ɨ": "i",
+        "ı": "i",
+        "ⓙ": "j",
+        "ｊ": "j",
+        "ĵ": "j",
+        "ǰ": "j",
+        "ɉ": "j",
+        "ⓚ": "k",
+        "ｋ": "k",
+        "ḱ": "k",
+        "ǩ": "k",
+        "ḳ": "k",
+        "ķ": "k",
+        "ḵ": "k",
+        "ƙ": "k",
+        "ⱪ": "k",
+        "ꝁ": "k",
+        "ꝃ": "k",
+        "ꝅ": "k",
+        "ꞣ": "k",
+        "ⓛ": "l",
+        "ｌ": "l",
+        "ŀ": "l",
+        "ĺ": "l",
+        "ľ": "l",
+        "ḷ": "l",
+        "ḹ": "l",
+        "ļ": "l",
+        "ḽ": "l",
+        "ḻ": "l",
+        "ſ": "l",
+        "ł": "l",
+        "ƚ": "l",
+        "ɫ": "l",
+        "ⱡ": "l",
+        "ꝉ": "l",
+        "ꞁ": "l",
+        "ꝇ": "l",
+        "ǉ": "lj",
+        "ⓜ": "m",
+        "ｍ": "m",
+        "ḿ": "m",
+        "ṁ": "m",
+        "ṃ": "m",
+        "ɱ": "m",
+        "ɯ": "m",
+        "ⓝ": "n",
+        "ｎ": "n",
+        "ǹ": "n",
+        "ń": "n",
+        "ñ": "n",
+        "ṅ": "n",
+        "ň": "n",
+        "ṇ": "n",
+        "ņ": "n",
+        "ṋ": "n",
+        "ṉ": "n",
+        "ƞ": "n",
+        "ɲ": "n",
+        "ŉ": "n",
+        "ꞑ": "n",
+        "ꞥ": "n",
+        "ǌ": "nj",
+        "ⓞ": "o",
+        "ｏ": "o",
+        "ò": "o",
+        "ó": "o",
+        "ô": "o",
+        "ồ": "o",
+        "ố": "o",
+        "ỗ": "o",
+        "ổ": "o",
+        "õ": "o",
+        "ṍ": "o",
+        "ȭ": "o",
+        "ṏ": "o",
+        "ō": "o",
+        "ṑ": "o",
+        "ṓ": "o",
+        "ŏ": "o",
+        "ȯ": "o",
+        "ȱ": "o",
+        "ö": "o",
+        "ȫ": "o",
+        "ỏ": "o",
+        "ő": "o",
+        "ǒ": "o",
+        "ȍ": "o",
+        "ȏ": "o",
+        "ơ": "o",
+        "ờ": "o",
+        "ớ": "o",
+        "ỡ": "o",
+        "ở": "o",
+        "ợ": "o",
+        "ọ": "o",
+        "ộ": "o",
+        "ǫ": "o",
+        "ǭ": "o",
+        "ø": "o",
+        "ǿ": "o",
+        "ɔ": "o",
+        "ꝋ": "o",
+        "ꝍ": "o",
+        "ɵ": "o",
+        "ƣ": "oi",
+        "ȣ": "ou",
+        "ꝏ": "oo",
+        "ⓟ": "p",
+        "ｐ": "p",
+        "ṕ": "p",
+        "ṗ": "p",
+        "ƥ": "p",
+        "ᵽ": "p",
+        "ꝑ": "p",
+        "ꝓ": "p",
+        "ꝕ": "p",
+        "ⓠ": "q",
+        "ｑ": "q",
+        "ɋ": "q",
+        "ꝗ": "q",
+        "ꝙ": "q",
+        "ⓡ": "r",
+        "ｒ": "r",
+        "ŕ": "r",
+        "ṙ": "r",
+        "ř": "r",
+        "ȑ": "r",
+        "ȓ": "r",
+        "ṛ": "r",
+        "ṝ": "r",
+        "ŗ": "r",
+        "ṟ": "r",
+        "ɍ": "r",
+        "ɽ": "r",
+        "ꝛ": "r",
+        "ꞧ": "r",
+        "ꞃ": "r",
+        "ⓢ": "s",
+        "ｓ": "s",
+        "ß": "s",
+        "ś": "s",
+        "ṥ": "s",
+        "ŝ": "s",
+        "ṡ": "s",
+        "š": "s",
+        "ṧ": "s",
+        "ṣ": "s",
+        "ṩ": "s",
+        "ș": "s",
+        "ş": "s",
+        "ȿ": "s",
+        "ꞩ": "s",
+        "ꞅ": "s",
+        "ẛ": "s",
+        "ⓣ": "t",
+        "ｔ": "t",
+        "ṫ": "t",
+        "ẗ": "t",
+        "ť": "t",
+        "ṭ": "t",
+        "ț": "t",
+        "ţ": "t",
+        "ṱ": "t",
+        "ṯ": "t",
+        "ŧ": "t",
+        "ƭ": "t",
+        "ʈ": "t",
+        "ⱦ": "t",
+        "ꞇ": "t",
+        "ꜩ": "tz",
+        "ⓤ": "u",
+        "ｕ": "u",
+        "ù": "u",
+        "ú": "u",
+        "û": "u",
+        "ũ": "u",
+        "ṹ": "u",
+        "ū": "u",
+        "ṻ": "u",
+        "ŭ": "u",
+        "ü": "u",
+        "ǜ": "u",
+        "ǘ": "u",
+        "ǖ": "u",
+        "ǚ": "u",
+        "ủ": "u",
+        "ů": "u",
+        "ű": "u",
+        "ǔ": "u",
+        "ȕ": "u",
+        "ȗ": "u",
+        "ư": "u",
+        "ừ": "u",
+        "ứ": "u",
+        "ữ": "u",
+        "ử": "u",
+        "ự": "u",
+        "ụ": "u",
+        "ṳ": "u",
+        "ų": "u",
+        "ṷ": "u",
+        "ṵ": "u",
+        "ʉ": "u",
+        "ⓥ": "v",
+        "ｖ": "v",
+        "ṽ": "v",
+        "ṿ": "v",
+        "ʋ": "v",
+        "ꝟ": "v",
+        "ʌ": "v",
+        "ꝡ": "vy",
+        "ⓦ": "w",
+        "ｗ": "w",
+        "ẁ": "w",
+        "ẃ": "w",
+        "ŵ": "w",
+        "ẇ": "w",
+        "ẅ": "w",
+        "ẘ": "w",
+        "ẉ": "w",
+        "ⱳ": "w",
+        "ⓧ": "x",
+        "ｘ": "x",
+        "ẋ": "x",
+        "ẍ": "x",
+        "ⓨ": "y",
+        "ｙ": "y",
+        "ỳ": "y",
+        "ý": "y",
+        "ŷ": "y",
+        "ỹ": "y",
+        "ȳ": "y",
+        "ẏ": "y",
+        "ÿ": "y",
+        "ỷ": "y",
+        "ẙ": "y",
+        "ỵ": "y",
+        "ƴ": "y",
+        "ɏ": "y",
+        "ỿ": "y",
+        "ⓩ": "z",
+        "ｚ": "z",
+        "ź": "z",
+        "ẑ": "z",
+        "ż": "z",
+        "ž": "z",
+        "ẓ": "z",
+        "ẕ": "z",
+        "ƶ": "z",
+        "ȥ": "z",
+        "ɀ": "z",
+        "ⱬ": "z",
+        "ꝣ": "z",
+        "Ά": "Α",
+        "Έ": "Ε",
+        "Ή": "Η",
+        "Ί": "Ι",
+        "Ϊ": "Ι",
+        "Ό": "Ο",
+        "Ύ": "Υ",
+        "Ϋ": "Υ",
+        "Ώ": "Ω",
+        "ά": "α",
+        "έ": "ε",
+        "ή": "η",
+        "ί": "ι",
+        "ϊ": "ι",
+        "ΐ": "ι",
+        "ό": "ο",
+        "ύ": "υ",
+        "ϋ": "υ",
+        "ΰ": "υ",
+        "ω": "ω",
+        "ς": "σ"
+      };
+    }), b.define("select2/data/base", ["../utils"], function (a) {
+      function b(a, c) {
+        b.__super__.constructor.call(this);
+      }
+
+      return a.Extend(b, a.Observable), b.prototype.current = function (a) {
+        throw new Error("The `current` method must be defined in child classes.");
+      }, b.prototype.query = function (a, b) {
+        throw new Error("The `query` method must be defined in child classes.");
+      }, b.prototype.bind = function (a, b) {}, b.prototype.destroy = function () {}, b.prototype.generateResultId = function (b, c) {
+        var d = b.id + "-result-";
+        return d += a.generateChars(4), null != c.id ? d += "-" + c.id.toString() : d += "-" + a.generateChars(4), d;
+      }, b;
+    }), b.define("select2/data/select", ["./base", "../utils", "jquery"], function (a, b, c) {
+      function d(a, b) {
+        this.$element = a, this.options = b, d.__super__.constructor.call(this);
+      }
+
+      return b.Extend(d, a), d.prototype.current = function (a) {
+        var b = [],
+            d = this;
+        this.$element.find(":selected").each(function () {
+          var a = c(this),
+              e = d.item(a);
+          b.push(e);
+        }), a(b);
+      }, d.prototype.select = function (a) {
+        var b = this;
+        if (a.selected = !0, c(a.element).is("option")) return a.element.selected = !0, void this.$element.trigger("change");
+        if (this.$element.prop("multiple")) this.current(function (d) {
+          var e = [];
+          a = [a], a.push.apply(a, d);
+
+          for (var f = 0; f < a.length; f++) {
+            var g = a[f].id;
+            -1 === c.inArray(g, e) && e.push(g);
+          }
+
+          b.$element.val(e), b.$element.trigger("change");
+        });else {
+          var d = a.id;
+          this.$element.val(d), this.$element.trigger("change");
+        }
+      }, d.prototype.unselect = function (a) {
+        var b = this;
+
+        if (this.$element.prop("multiple")) {
+          if (a.selected = !1, c(a.element).is("option")) return a.element.selected = !1, void this.$element.trigger("change");
+          this.current(function (d) {
+            for (var e = [], f = 0; f < d.length; f++) {
+              var g = d[f].id;
+              g !== a.id && -1 === c.inArray(g, e) && e.push(g);
+            }
+
+            b.$element.val(e), b.$element.trigger("change");
+          });
+        }
+      }, d.prototype.bind = function (a, b) {
+        var c = this;
+        this.container = a, a.on("select", function (a) {
+          c.select(a.data);
+        }), a.on("unselect", function (a) {
+          c.unselect(a.data);
+        });
+      }, d.prototype.destroy = function () {
+        this.$element.find("*").each(function () {
+          b.RemoveData(this);
+        });
+      }, d.prototype.query = function (a, b) {
+        var d = [],
+            e = this;
+        this.$element.children().each(function () {
+          var b = c(this);
+
+          if (b.is("option") || b.is("optgroup")) {
+            var f = e.item(b),
+                g = e.matches(a, f);
+            null !== g && d.push(g);
+          }
+        }), b({
+          results: d
+        });
+      }, d.prototype.addOptions = function (a) {
+        b.appendMany(this.$element, a);
+      }, d.prototype.option = function (a) {
+        var d;
+        a.children ? (d = document.createElement("optgroup"), d.label = a.text) : (d = document.createElement("option"), void 0 !== d.textContent ? d.textContent = a.text : d.innerText = a.text), void 0 !== a.id && (d.value = a.id), a.disabled && (d.disabled = !0), a.selected && (d.selected = !0), a.title && (d.title = a.title);
+
+        var e = c(d),
+            f = this._normalizeItem(a);
+
+        return f.element = d, b.StoreData(d, "data", f), e;
+      }, d.prototype.item = function (a) {
+        var d = {};
+        if (null != (d = b.GetData(a[0], "data"))) return d;
+        if (a.is("option")) d = {
+          id: a.val(),
+          text: a.text(),
+          disabled: a.prop("disabled"),
+          selected: a.prop("selected"),
+          title: a.prop("title")
+        };else if (a.is("optgroup")) {
+          d = {
+            text: a.prop("label"),
+            children: [],
+            title: a.prop("title")
+          };
+
+          for (var e = a.children("option"), f = [], g = 0; g < e.length; g++) {
+            var h = c(e[g]),
+                i = this.item(h);
+            f.push(i);
+          }
+
+          d.children = f;
+        }
+        return d = this._normalizeItem(d), d.element = a[0], b.StoreData(a[0], "data", d), d;
+      }, d.prototype._normalizeItem = function (a) {
+        a !== Object(a) && (a = {
+          id: a,
+          text: a
+        }), a = c.extend({}, {
+          text: ""
+        }, a);
+        var b = {
+          selected: !1,
+          disabled: !1
+        };
+        return null != a.id && (a.id = a.id.toString()), null != a.text && (a.text = a.text.toString()), null == a._resultId && a.id && null != this.container && (a._resultId = this.generateResultId(this.container, a)), c.extend({}, b, a);
+      }, d.prototype.matches = function (a, b) {
+        return this.options.get("matcher")(a, b);
+      }, d;
+    }), b.define("select2/data/array", ["./select", "../utils", "jquery"], function (a, b, c) {
+      function d(a, b) {
+        var c = b.get("data") || [];
+        d.__super__.constructor.call(this, a, b), this.addOptions(this.convertToOptions(c));
+      }
+
+      return b.Extend(d, a), d.prototype.select = function (a) {
+        var b = this.$element.find("option").filter(function (b, c) {
+          return c.value == a.id.toString();
+        });
+        0 === b.length && (b = this.option(a), this.addOptions(b)), d.__super__.select.call(this, a);
+      }, d.prototype.convertToOptions = function (a) {
+        function d(a) {
+          return function () {
+            return c(this).val() == a.id;
+          };
+        }
+
+        for (var e = this, f = this.$element.find("option"), g = f.map(function () {
+          return e.item(c(this)).id;
+        }).get(), h = [], i = 0; i < a.length; i++) {
+          var j = this._normalizeItem(a[i]);
+
+          if (c.inArray(j.id, g) >= 0) {
+            var k = f.filter(d(j)),
+                l = this.item(k),
+                m = c.extend(!0, {}, j, l),
+                n = this.option(m);
+            k.replaceWith(n);
+          } else {
+            var o = this.option(j);
+
+            if (j.children) {
+              var p = this.convertToOptions(j.children);
+              b.appendMany(o, p);
+            }
+
+            h.push(o);
+          }
+        }
+
+        return h;
+      }, d;
+    }), b.define("select2/data/ajax", ["./array", "../utils", "jquery"], function (a, b, c) {
+      function d(a, b) {
+        this.ajaxOptions = this._applyDefaults(b.get("ajax")), null != this.ajaxOptions.processResults && (this.processResults = this.ajaxOptions.processResults), d.__super__.constructor.call(this, a, b);
+      }
+
+      return b.Extend(d, a), d.prototype._applyDefaults = function (a) {
+        var b = {
+          data: function data(a) {
+            return c.extend({}, a, {
+              q: a.term
+            });
+          },
+          transport: function transport(a, b, d) {
+            var e = c.ajax(a);
+            return e.then(b), e.fail(d), e;
+          }
+        };
+        return c.extend({}, b, a, !0);
+      }, d.prototype.processResults = function (a) {
+        return a;
+      }, d.prototype.query = function (a, b) {
+        function d() {
+          var d = f.transport(f, function (d) {
+            var f = e.processResults(d, a);
+            e.options.get("debug") && window.console && console.error && (f && f.results && c.isArray(f.results) || console.error("Select2: The AJAX results did not return an array in the `results` key of the response.")), b(f);
+          }, function () {
+            "status" in d && (0 === d.status || "0" === d.status) || e.trigger("results:message", {
+              message: "errorLoading"
+            });
+          });
+          e._request = d;
+        }
+
+        var e = this;
+        null != this._request && (c.isFunction(this._request.abort) && this._request.abort(), this._request = null);
+        var f = c.extend({
+          type: "GET"
+        }, this.ajaxOptions);
+        "function" == typeof f.url && (f.url = f.url.call(this.$element, a)), "function" == typeof f.data && (f.data = f.data.call(this.$element, a)), this.ajaxOptions.delay && null != a.term ? (this._queryTimeout && window.clearTimeout(this._queryTimeout), this._queryTimeout = window.setTimeout(d, this.ajaxOptions.delay)) : d();
+      }, d;
+    }), b.define("select2/data/tags", ["jquery"], function (a) {
+      function b(b, c, d) {
+        var e = d.get("tags"),
+            f = d.get("createTag");
+        void 0 !== f && (this.createTag = f);
+        var g = d.get("insertTag");
+        if (void 0 !== g && (this.insertTag = g), b.call(this, c, d), a.isArray(e)) for (var h = 0; h < e.length; h++) {
+          var i = e[h],
+              j = this._normalizeItem(i),
+              k = this.option(j);
+
+          this.$element.append(k);
+        }
+      }
+
+      return b.prototype.query = function (a, b, c) {
+        function d(a, f) {
+          for (var g = a.results, h = 0; h < g.length; h++) {
+            var i = g[h],
+                j = null != i.children && !d({
+              results: i.children
+            }, !0);
+            if ((i.text || "").toUpperCase() === (b.term || "").toUpperCase() || j) return !f && (a.data = g, void c(a));
+          }
+
+          if (f) return !0;
+          var k = e.createTag(b);
+
+          if (null != k) {
+            var l = e.option(k);
+            l.attr("data-select2-tag", !0), e.addOptions([l]), e.insertTag(g, k);
+          }
+
+          a.results = g, c(a);
+        }
+
+        var e = this;
+        if (this._removeOldTags(), null == b.term || null != b.page) return void a.call(this, b, c);
+        a.call(this, b, d);
+      }, b.prototype.createTag = function (b, c) {
+        var d = a.trim(c.term);
+        return "" === d ? null : {
+          id: d,
+          text: d
+        };
+      }, b.prototype.insertTag = function (a, b, c) {
+        b.unshift(c);
+      }, b.prototype._removeOldTags = function (b) {
+        this._lastTag;
+        this.$element.find("option[data-select2-tag]").each(function () {
+          this.selected || a(this).remove();
+        });
+      }, b;
+    }), b.define("select2/data/tokenizer", ["jquery"], function (a) {
+      function b(a, b, c) {
+        var d = c.get("tokenizer");
+        void 0 !== d && (this.tokenizer = d), a.call(this, b, c);
+      }
+
+      return b.prototype.bind = function (a, b, c) {
+        a.call(this, b, c), this.$search = b.dropdown.$search || b.selection.$search || c.find(".select2-search__field");
+      }, b.prototype.query = function (b, c, d) {
+        function e(b) {
+          var c = g._normalizeItem(b);
+
+          if (!g.$element.find("option").filter(function () {
+            return a(this).val() === c.id;
+          }).length) {
+            var d = g.option(c);
+            d.attr("data-select2-tag", !0), g._removeOldTags(), g.addOptions([d]);
+          }
+
+          f(c);
+        }
+
+        function f(a) {
+          g.trigger("select", {
+            data: a
+          });
+        }
+
+        var g = this;
+        c.term = c.term || "";
+        var h = this.tokenizer(c, this.options, e);
+        h.term !== c.term && (this.$search.length && (this.$search.val(h.term), this.$search.focus()), c.term = h.term), b.call(this, c, d);
+      }, b.prototype.tokenizer = function (b, c, d, e) {
+        for (var f = d.get("tokenSeparators") || [], g = c.term, h = 0, i = this.createTag || function (a) {
+          return {
+            id: a.term,
+            text: a.term
+          };
+        }; h < g.length;) {
+          var j = g[h];
+
+          if (-1 !== a.inArray(j, f)) {
+            var k = g.substr(0, h),
+                l = a.extend({}, c, {
+              term: k
+            }),
+                m = i(l);
+            null != m ? (e(m), g = g.substr(h + 1) || "", h = 0) : h++;
+          } else h++;
+        }
+
+        return {
+          term: g
+        };
+      }, b;
+    }), b.define("select2/data/minimumInputLength", [], function () {
+      function a(a, b, c) {
+        this.minimumInputLength = c.get("minimumInputLength"), a.call(this, b, c);
+      }
+
+      return a.prototype.query = function (a, b, c) {
+        if (b.term = b.term || "", b.term.length < this.minimumInputLength) return void this.trigger("results:message", {
+          message: "inputTooShort",
+          args: {
+            minimum: this.minimumInputLength,
+            input: b.term,
+            params: b
+          }
+        });
+        a.call(this, b, c);
+      }, a;
+    }), b.define("select2/data/maximumInputLength", [], function () {
+      function a(a, b, c) {
+        this.maximumInputLength = c.get("maximumInputLength"), a.call(this, b, c);
+      }
+
+      return a.prototype.query = function (a, b, c) {
+        if (b.term = b.term || "", this.maximumInputLength > 0 && b.term.length > this.maximumInputLength) return void this.trigger("results:message", {
+          message: "inputTooLong",
+          args: {
+            maximum: this.maximumInputLength,
+            input: b.term,
+            params: b
+          }
+        });
+        a.call(this, b, c);
+      }, a;
+    }), b.define("select2/data/maximumSelectionLength", [], function () {
+      function a(a, b, c) {
+        this.maximumSelectionLength = c.get("maximumSelectionLength"), a.call(this, b, c);
+      }
+
+      return a.prototype.query = function (a, b, c) {
+        var d = this;
+        this.current(function (e) {
+          var f = null != e ? e.length : 0;
+          if (d.maximumSelectionLength > 0 && f >= d.maximumSelectionLength) return void d.trigger("results:message", {
+            message: "maximumSelected",
+            args: {
+              maximum: d.maximumSelectionLength
+            }
+          });
+          a.call(d, b, c);
+        });
+      }, a;
+    }), b.define("select2/dropdown", ["jquery", "./utils"], function (a, b) {
+      function c(a, b) {
+        this.$element = a, this.options = b, c.__super__.constructor.call(this);
+      }
+
+      return b.Extend(c, b.Observable), c.prototype.render = function () {
+        var b = a('<span class="select2-dropdown"><span class="select2-results"></span></span>');
+        return b.attr("dir", this.options.get("dir")), this.$dropdown = b, b;
+      }, c.prototype.bind = function () {}, c.prototype.position = function (a, b) {}, c.prototype.destroy = function () {
+        this.$dropdown.remove();
+      }, c;
+    }), b.define("select2/dropdown/search", ["jquery", "../utils"], function (a, b) {
+      function c() {}
+
+      return c.prototype.render = function (b) {
+        var c = b.call(this),
+            d = a('<span class="select2-search select2-search--dropdown"><input class="select2-search__field" type="search" tabindex="-1" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="textbox" /></span>');
+        return this.$searchContainer = d, this.$search = d.find("input"), c.prepend(d), c;
+      }, c.prototype.bind = function (b, c, d) {
+        var e = this;
+        b.call(this, c, d), this.$search.on("keydown", function (a) {
+          e.trigger("keypress", a), e._keyUpPrevented = a.isDefaultPrevented();
+        }), this.$search.on("input", function (b) {
+          a(this).off("keyup");
+        }), this.$search.on("keyup input", function (a) {
+          e.handleSearch(a);
+        }), c.on("open", function () {
+          e.$search.attr("tabindex", 0), e.$search.focus(), window.setTimeout(function () {
+            e.$search.focus();
+          }, 0);
+        }), c.on("close", function () {
+          e.$search.attr("tabindex", -1), e.$search.val(""), e.$search.blur();
+        }), c.on("focus", function () {
+          c.isOpen() || e.$search.focus();
+        }), c.on("results:all", function (a) {
+          if (null == a.query.term || "" === a.query.term) {
+            e.showSearch(a) ? e.$searchContainer.removeClass("select2-search--hide") : e.$searchContainer.addClass("select2-search--hide");
+          }
+        });
+      }, c.prototype.handleSearch = function (a) {
+        if (!this._keyUpPrevented) {
+          var b = this.$search.val();
+          this.trigger("query", {
+            term: b
+          });
+        }
+
+        this._keyUpPrevented = !1;
+      }, c.prototype.showSearch = function (a, b) {
+        return !0;
+      }, c;
+    }), b.define("select2/dropdown/hidePlaceholder", [], function () {
+      function a(a, b, c, d) {
+        this.placeholder = this.normalizePlaceholder(c.get("placeholder")), a.call(this, b, c, d);
+      }
+
+      return a.prototype.append = function (a, b) {
+        b.results = this.removePlaceholder(b.results), a.call(this, b);
+      }, a.prototype.normalizePlaceholder = function (a, b) {
+        return "string" == typeof b && (b = {
+          id: "",
+          text: b
+        }), b;
+      }, a.prototype.removePlaceholder = function (a, b) {
+        for (var c = b.slice(0), d = b.length - 1; d >= 0; d--) {
+          var e = b[d];
+          this.placeholder.id === e.id && c.splice(d, 1);
+        }
+
+        return c;
+      }, a;
+    }), b.define("select2/dropdown/infiniteScroll", ["jquery"], function (a) {
+      function b(a, b, c, d) {
+        this.lastParams = {}, a.call(this, b, c, d), this.$loadingMore = this.createLoadingMore(), this.loading = !1;
+      }
+
+      return b.prototype.append = function (a, b) {
+        this.$loadingMore.remove(), this.loading = !1, a.call(this, b), this.showLoadingMore(b) && this.$results.append(this.$loadingMore);
+      }, b.prototype.bind = function (b, c, d) {
+        var e = this;
+        b.call(this, c, d), c.on("query", function (a) {
+          e.lastParams = a, e.loading = !0;
+        }), c.on("query:append", function (a) {
+          e.lastParams = a, e.loading = !0;
+        }), this.$results.on("scroll", function () {
+          var b = a.contains(document.documentElement, e.$loadingMore[0]);
+
+          if (!e.loading && b) {
+            e.$results.offset().top + e.$results.outerHeight(!1) + 50 >= e.$loadingMore.offset().top + e.$loadingMore.outerHeight(!1) && e.loadMore();
+          }
+        });
+      }, b.prototype.loadMore = function () {
+        this.loading = !0;
+        var b = a.extend({}, {
+          page: 1
+        }, this.lastParams);
+        b.page++, this.trigger("query:append", b);
+      }, b.prototype.showLoadingMore = function (a, b) {
+        return b.pagination && b.pagination.more;
+      }, b.prototype.createLoadingMore = function () {
+        var b = a('<li class="select2-results__option select2-results__option--load-more"role="treeitem" aria-disabled="true"></li>'),
+            c = this.options.get("translations").get("loadingMore");
+        return b.html(c(this.lastParams)), b;
+      }, b;
+    }), b.define("select2/dropdown/attachBody", ["jquery", "../utils"], function (a, b) {
+      function c(b, c, d) {
+        this.$dropdownParent = d.get("dropdownParent") || a(document.body), b.call(this, c, d);
+      }
+
+      return c.prototype.bind = function (a, b, c) {
+        var d = this,
+            e = !1;
+        a.call(this, b, c), b.on("open", function () {
+          d._showDropdown(), d._attachPositioningHandler(b), e || (e = !0, b.on("results:all", function () {
+            d._positionDropdown(), d._resizeDropdown();
+          }), b.on("results:append", function () {
+            d._positionDropdown(), d._resizeDropdown();
+          }));
+        }), b.on("close", function () {
+          d._hideDropdown(), d._detachPositioningHandler(b);
+        }), this.$dropdownContainer.on("mousedown", function (a) {
+          a.stopPropagation();
+        });
+      }, c.prototype.destroy = function (a) {
+        a.call(this), this.$dropdownContainer.remove();
+      }, c.prototype.position = function (a, b, c) {
+        b.attr("class", c.attr("class")), b.removeClass("select2"), b.addClass("select2-container--open"), b.css({
+          position: "absolute",
+          top: -999999
+        }), this.$container = c;
+      }, c.prototype.render = function (b) {
+        var c = a("<span></span>"),
+            d = b.call(this);
+        return c.append(d), this.$dropdownContainer = c, c;
+      }, c.prototype._hideDropdown = function (a) {
+        this.$dropdownContainer.detach();
+      }, c.prototype._attachPositioningHandler = function (c, d) {
+        var e = this,
+            f = "scroll.select2." + d.id,
+            g = "resize.select2." + d.id,
+            h = "orientationchange.select2." + d.id,
+            i = this.$container.parents().filter(b.hasScroll);
+        i.each(function () {
+          b.StoreData(this, "select2-scroll-position", {
+            x: a(this).scrollLeft(),
+            y: a(this).scrollTop()
+          });
+        }), i.on(f, function (c) {
+          var d = b.GetData(this, "select2-scroll-position");
+          a(this).scrollTop(d.y);
+        }), a(window).on(f + " " + g + " " + h, function (a) {
+          e._positionDropdown(), e._resizeDropdown();
+        });
+      }, c.prototype._detachPositioningHandler = function (c, d) {
+        var e = "scroll.select2." + d.id,
+            f = "resize.select2." + d.id,
+            g = "orientationchange.select2." + d.id;
+        this.$container.parents().filter(b.hasScroll).off(e), a(window).off(e + " " + f + " " + g);
+      }, c.prototype._positionDropdown = function () {
+        var b = a(window),
+            c = this.$dropdown.hasClass("select2-dropdown--above"),
+            d = this.$dropdown.hasClass("select2-dropdown--below"),
+            e = null,
+            f = this.$container.offset();
+        f.bottom = f.top + this.$container.outerHeight(!1);
+        var g = {
+          height: this.$container.outerHeight(!1)
+        };
+        g.top = f.top, g.bottom = f.top + g.height;
+        var h = {
+          height: this.$dropdown.outerHeight(!1)
+        },
+            i = {
+          top: b.scrollTop(),
+          bottom: b.scrollTop() + b.height()
+        },
+            j = i.top < f.top - h.height,
+            k = i.bottom > f.bottom + h.height,
+            l = {
+          left: f.left,
+          top: g.bottom
+        },
+            m = this.$dropdownParent;
+        "static" === m.css("position") && (m = m.offsetParent());
+        var n = m.offset();
+        l.top -= n.top, l.left -= n.left, c || d || (e = "below"), k || !j || c ? !j && k && c && (e = "below") : e = "above", ("above" == e || c && "below" !== e) && (l.top = g.top - n.top - h.height), null != e && (this.$dropdown.removeClass("select2-dropdown--below select2-dropdown--above").addClass("select2-dropdown--" + e), this.$container.removeClass("select2-container--below select2-container--above").addClass("select2-container--" + e)), this.$dropdownContainer.css(l);
+      }, c.prototype._resizeDropdown = function () {
+        var a = {
+          width: this.$container.outerWidth(!1) + "px"
+        };
+        this.options.get("dropdownAutoWidth") && (a.minWidth = a.width, a.position = "relative", a.width = "auto"), this.$dropdown.css(a);
+      }, c.prototype._showDropdown = function (a) {
+        this.$dropdownContainer.appendTo(this.$dropdownParent), this._positionDropdown(), this._resizeDropdown();
+      }, c;
+    }), b.define("select2/dropdown/minimumResultsForSearch", [], function () {
+      function a(b) {
+        for (var c = 0, d = 0; d < b.length; d++) {
+          var e = b[d];
+          e.children ? c += a(e.children) : c++;
+        }
+
+        return c;
+      }
+
+      function b(a, b, c, d) {
+        this.minimumResultsForSearch = c.get("minimumResultsForSearch"), this.minimumResultsForSearch < 0 && (this.minimumResultsForSearch = 1 / 0), a.call(this, b, c, d);
+      }
+
+      return b.prototype.showSearch = function (b, c) {
+        return !(a(c.data.results) < this.minimumResultsForSearch) && b.call(this, c);
+      }, b;
+    }), b.define("select2/dropdown/selectOnClose", ["../utils"], function (a) {
+      function b() {}
+
+      return b.prototype.bind = function (a, b, c) {
+        var d = this;
+        a.call(this, b, c), b.on("close", function (a) {
+          d._handleSelectOnClose(a);
+        });
+      }, b.prototype._handleSelectOnClose = function (b, c) {
+        if (c && null != c.originalSelect2Event) {
+          var d = c.originalSelect2Event;
+          if ("select" === d._type || "unselect" === d._type) return;
+        }
+
+        var e = this.getHighlightedResults();
+
+        if (!(e.length < 1)) {
+          var f = a.GetData(e[0], "data");
+          null != f.element && f.element.selected || null == f.element && f.selected || this.trigger("select", {
+            data: f
+          });
+        }
+      }, b;
+    }), b.define("select2/dropdown/closeOnSelect", [], function () {
+      function a() {}
+
+      return a.prototype.bind = function (a, b, c) {
+        var d = this;
+        a.call(this, b, c), b.on("select", function (a) {
+          d._selectTriggered(a);
+        }), b.on("unselect", function (a) {
+          d._selectTriggered(a);
+        });
+      }, a.prototype._selectTriggered = function (a, b) {
+        var c = b.originalEvent;
+        c && c.ctrlKey || this.trigger("close", {
+          originalEvent: c,
+          originalSelect2Event: b
+        });
+      }, a;
+    }), b.define("select2/i18n/en", [], function () {
+      return {
+        errorLoading: function errorLoading() {
+          return "The results could not be loaded.";
+        },
+        inputTooLong: function inputTooLong(a) {
+          var b = a.input.length - a.maximum,
+              c = "Please delete " + b + " character";
+          return 1 != b && (c += "s"), c;
+        },
+        inputTooShort: function inputTooShort(a) {
+          return "Please enter " + (a.minimum - a.input.length) + " or more characters";
+        },
+        loadingMore: function loadingMore() {
+          return "Loading more results…";
+        },
+        maximumSelected: function maximumSelected(a) {
+          var b = "You can only select " + a.maximum + " item";
+          return 1 != a.maximum && (b += "s"), b;
+        },
+        noResults: function noResults() {
+          return "No results found";
+        },
+        searching: function searching() {
+          return "Searching…";
+        }
+      };
+    }), b.define("select2/defaults", ["jquery", "require", "./results", "./selection/single", "./selection/multiple", "./selection/placeholder", "./selection/allowClear", "./selection/search", "./selection/eventRelay", "./utils", "./translation", "./diacritics", "./data/select", "./data/array", "./data/ajax", "./data/tags", "./data/tokenizer", "./data/minimumInputLength", "./data/maximumInputLength", "./data/maximumSelectionLength", "./dropdown", "./dropdown/search", "./dropdown/hidePlaceholder", "./dropdown/infiniteScroll", "./dropdown/attachBody", "./dropdown/minimumResultsForSearch", "./dropdown/selectOnClose", "./dropdown/closeOnSelect", "./i18n/en"], function (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, A, B, C) {
+      function D() {
+        this.reset();
+      }
+
+      return D.prototype.apply = function (l) {
+        if (l = a.extend(!0, {}, this.defaults, l), null == l.dataAdapter) {
+          if (null != l.ajax ? l.dataAdapter = o : null != l.data ? l.dataAdapter = n : l.dataAdapter = m, l.minimumInputLength > 0 && (l.dataAdapter = j.Decorate(l.dataAdapter, r)), l.maximumInputLength > 0 && (l.dataAdapter = j.Decorate(l.dataAdapter, s)), l.maximumSelectionLength > 0 && (l.dataAdapter = j.Decorate(l.dataAdapter, t)), l.tags && (l.dataAdapter = j.Decorate(l.dataAdapter, p)), null == l.tokenSeparators && null == l.tokenizer || (l.dataAdapter = j.Decorate(l.dataAdapter, q)), null != l.query) {
+            var C = b(l.amdBase + "compat/query");
+            l.dataAdapter = j.Decorate(l.dataAdapter, C);
+          }
+
+          if (null != l.initSelection) {
+            var D = b(l.amdBase + "compat/initSelection");
+            l.dataAdapter = j.Decorate(l.dataAdapter, D);
+          }
+        }
+
+        if (null == l.resultsAdapter && (l.resultsAdapter = c, null != l.ajax && (l.resultsAdapter = j.Decorate(l.resultsAdapter, x)), null != l.placeholder && (l.resultsAdapter = j.Decorate(l.resultsAdapter, w)), l.selectOnClose && (l.resultsAdapter = j.Decorate(l.resultsAdapter, A))), null == l.dropdownAdapter) {
+          if (l.multiple) l.dropdownAdapter = u;else {
+            var E = j.Decorate(u, v);
+            l.dropdownAdapter = E;
+          }
+
+          if (0 !== l.minimumResultsForSearch && (l.dropdownAdapter = j.Decorate(l.dropdownAdapter, z)), l.closeOnSelect && (l.dropdownAdapter = j.Decorate(l.dropdownAdapter, B)), null != l.dropdownCssClass || null != l.dropdownCss || null != l.adaptDropdownCssClass) {
+            var F = b(l.amdBase + "compat/dropdownCss");
+            l.dropdownAdapter = j.Decorate(l.dropdownAdapter, F);
+          }
+
+          l.dropdownAdapter = j.Decorate(l.dropdownAdapter, y);
+        }
+
+        if (null == l.selectionAdapter) {
+          if (l.multiple ? l.selectionAdapter = e : l.selectionAdapter = d, null != l.placeholder && (l.selectionAdapter = j.Decorate(l.selectionAdapter, f)), l.allowClear && (l.selectionAdapter = j.Decorate(l.selectionAdapter, g)), l.multiple && (l.selectionAdapter = j.Decorate(l.selectionAdapter, h)), null != l.containerCssClass || null != l.containerCss || null != l.adaptContainerCssClass) {
+            var G = b(l.amdBase + "compat/containerCss");
+            l.selectionAdapter = j.Decorate(l.selectionAdapter, G);
+          }
+
+          l.selectionAdapter = j.Decorate(l.selectionAdapter, i);
+        }
+
+        if ("string" == typeof l.language) if (l.language.indexOf("-") > 0) {
+          var H = l.language.split("-"),
+              I = H[0];
+          l.language = [l.language, I];
+        } else l.language = [l.language];
+
+        if (a.isArray(l.language)) {
+          var J = new k();
+          l.language.push("en");
+
+          for (var K = l.language, L = 0; L < K.length; L++) {
+            var M = K[L],
+                N = {};
+
+            try {
+              N = k.loadPath(M);
+            } catch (a) {
+              try {
+                M = this.defaults.amdLanguageBase + M, N = k.loadPath(M);
+              } catch (a) {
+                l.debug && window.console && console.warn && console.warn('Select2: The language file for "' + M + '" could not be automatically loaded. A fallback will be used instead.');
+                continue;
+              }
+            }
+
+            J.extend(N);
+          }
+
+          l.translations = J;
+        } else {
+          var O = k.loadPath(this.defaults.amdLanguageBase + "en"),
+              P = new k(l.language);
+          P.extend(O), l.translations = P;
+        }
+
+        return l;
+      }, D.prototype.reset = function () {
+        function b(a) {
+          function b(a) {
+            return l[a] || a;
+          }
+
+          return a.replace(/[^\u0000-\u007E]/g, b);
+        }
+
+        function c(d, e) {
+          if ("" === a.trim(d.term)) return e;
+
+          if (e.children && e.children.length > 0) {
+            for (var f = a.extend(!0, {}, e), g = e.children.length - 1; g >= 0; g--) {
+              null == c(d, e.children[g]) && f.children.splice(g, 1);
+            }
+
+            return f.children.length > 0 ? f : c(d, f);
+          }
+
+          var h = b(e.text).toUpperCase(),
+              i = b(d.term).toUpperCase();
+          return h.indexOf(i) > -1 ? e : null;
+        }
+
+        this.defaults = {
+          amdBase: "./",
+          amdLanguageBase: "./i18n/",
+          closeOnSelect: !0,
+          debug: !1,
+          dropdownAutoWidth: !1,
+          escapeMarkup: j.escapeMarkup,
+          language: C,
+          matcher: c,
+          minimumInputLength: 0,
+          maximumInputLength: 0,
+          maximumSelectionLength: 0,
+          minimumResultsForSearch: 0,
+          selectOnClose: !1,
+          sorter: function sorter(a) {
+            return a;
+          },
+          templateResult: function templateResult(a) {
+            return a.text;
+          },
+          templateSelection: function templateSelection(a) {
+            return a.text;
+          },
+          theme: "default",
+          width: "resolve"
+        };
+      }, D.prototype.set = function (b, c) {
+        var d = a.camelCase(b),
+            e = {};
+        e[d] = c;
+
+        var f = j._convertData(e);
+
+        a.extend(!0, this.defaults, f);
+      }, new D();
+    }), b.define("select2/options", ["require", "jquery", "./defaults", "./utils"], function (a, b, c, d) {
+      function e(b, e) {
+        if (this.options = b, null != e && this.fromElement(e), this.options = c.apply(this.options), e && e.is("input")) {
+          var f = a(this.get("amdBase") + "compat/inputData");
+          this.options.dataAdapter = d.Decorate(this.options.dataAdapter, f);
+        }
+      }
+
+      return e.prototype.fromElement = function (a) {
+        var c = ["select2"];
+        null == this.options.multiple && (this.options.multiple = a.prop("multiple")), null == this.options.disabled && (this.options.disabled = a.prop("disabled")), null == this.options.language && (a.prop("lang") ? this.options.language = a.prop("lang").toLowerCase() : a.closest("[lang]").prop("lang") && (this.options.language = a.closest("[lang]").prop("lang"))), null == this.options.dir && (a.prop("dir") ? this.options.dir = a.prop("dir") : a.closest("[dir]").prop("dir") ? this.options.dir = a.closest("[dir]").prop("dir") : this.options.dir = "ltr"), a.prop("disabled", this.options.disabled), a.prop("multiple", this.options.multiple), d.GetData(a[0], "select2Tags") && (this.options.debug && window.console && console.warn && console.warn('Select2: The `data-select2-tags` attribute has been changed to use the `data-data` and `data-tags="true"` attributes and will be removed in future versions of Select2.'), d.StoreData(a[0], "data", d.GetData(a[0], "select2Tags")), d.StoreData(a[0], "tags", !0)), d.GetData(a[0], "ajaxUrl") && (this.options.debug && window.console && console.warn && console.warn("Select2: The `data-ajax-url` attribute has been changed to `data-ajax--url` and support for the old attribute will be removed in future versions of Select2."), a.attr("ajax--url", d.GetData(a[0], "ajaxUrl")), d.StoreData(a[0], "ajax-Url", d.GetData(a[0], "ajaxUrl")));
+        var e = {};
+        e = b.fn.jquery && "1." == b.fn.jquery.substr(0, 2) && a[0].dataset ? b.extend(!0, {}, a[0].dataset, d.GetData(a[0])) : d.GetData(a[0]);
+        var f = b.extend(!0, {}, e);
+        f = d._convertData(f);
+
+        for (var g in f) {
+          b.inArray(g, c) > -1 || (b.isPlainObject(this.options[g]) ? b.extend(this.options[g], f[g]) : this.options[g] = f[g]);
+        }
+
+        return this;
+      }, e.prototype.get = function (a) {
+        return this.options[a];
+      }, e.prototype.set = function (a, b) {
+        this.options[a] = b;
+      }, e;
+    }), b.define("select2/core", ["jquery", "./options", "./utils", "./keys"], function (a, b, c, d) {
+      var e = function e(a, d) {
+        null != c.GetData(a[0], "select2") && c.GetData(a[0], "select2").destroy(), this.$element = a, this.id = this._generateId(a), d = d || {}, this.options = new b(d, a), e.__super__.constructor.call(this);
+        var f = a.attr("tabindex") || 0;
+        c.StoreData(a[0], "old-tabindex", f), a.attr("tabindex", "-1");
+        var g = this.options.get("dataAdapter");
+        this.dataAdapter = new g(a, this.options);
+        var h = this.render();
+
+        this._placeContainer(h);
+
+        var i = this.options.get("selectionAdapter");
+        this.selection = new i(a, this.options), this.$selection = this.selection.render(), this.selection.position(this.$selection, h);
+        var j = this.options.get("dropdownAdapter");
+        this.dropdown = new j(a, this.options), this.$dropdown = this.dropdown.render(), this.dropdown.position(this.$dropdown, h);
+        var k = this.options.get("resultsAdapter");
+        this.results = new k(a, this.options, this.dataAdapter), this.$results = this.results.render(), this.results.position(this.$results, this.$dropdown);
+        var l = this;
+        this._bindAdapters(), this._registerDomEvents(), this._registerDataEvents(), this._registerSelectionEvents(), this._registerDropdownEvents(), this._registerResultsEvents(), this._registerEvents(), this.dataAdapter.current(function (a) {
+          l.trigger("selection:update", {
+            data: a
+          });
+        }), a.addClass("select2-hidden-accessible"), a.attr("aria-hidden", "true"), this._syncAttributes(), c.StoreData(a[0], "select2", this), a.data("select2", this);
+      };
+
+      return c.Extend(e, c.Observable), e.prototype._generateId = function (a) {
+        var b = "";
+        return b = null != a.attr("id") ? a.attr("id") : null != a.attr("name") ? a.attr("name") + "-" + c.generateChars(2) : c.generateChars(4), b = b.replace(/(:|\.|\[|\]|,)/g, ""), b = "select2-" + b;
+      }, e.prototype._placeContainer = function (a) {
+        a.insertAfter(this.$element);
+
+        var b = this._resolveWidth(this.$element, this.options.get("width"));
+
+        null != b && a.css("width", b);
+      }, e.prototype._resolveWidth = function (a, b) {
+        var c = /^width:(([-+]?([0-9]*\.)?[0-9]+)(px|em|ex|%|in|cm|mm|pt|pc))/i;
+
+        if ("resolve" == b) {
+          var d = this._resolveWidth(a, "style");
+
+          return null != d ? d : this._resolveWidth(a, "element");
+        }
+
+        if ("element" == b) {
+          var e = a.outerWidth(!1);
+          return e <= 0 ? "auto" : e + "px";
+        }
+
+        if ("style" == b) {
+          var f = a.attr("style");
+          if ("string" != typeof f) return null;
+
+          for (var g = f.split(";"), h = 0, i = g.length; h < i; h += 1) {
+            var j = g[h].replace(/\s/g, ""),
+                k = j.match(c);
+            if (null !== k && k.length >= 1) return k[1];
+          }
+
+          return null;
+        }
+
+        return b;
+      }, e.prototype._bindAdapters = function () {
+        this.dataAdapter.bind(this, this.$container), this.selection.bind(this, this.$container), this.dropdown.bind(this, this.$container), this.results.bind(this, this.$container);
+      }, e.prototype._registerDomEvents = function () {
+        var b = this;
+        this.$element.on("change.select2", function () {
+          b.dataAdapter.current(function (a) {
+            b.trigger("selection:update", {
+              data: a
+            });
+          });
+        }), this.$element.on("focus.select2", function (a) {
+          b.trigger("focus", a);
+        }), this._syncA = c.bind(this._syncAttributes, this), this._syncS = c.bind(this._syncSubtree, this), this.$element[0].attachEvent && this.$element[0].attachEvent("onpropertychange", this._syncA);
+        var d = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+        null != d ? (this._observer = new d(function (c) {
+          a.each(c, b._syncA), a.each(c, b._syncS);
+        }), this._observer.observe(this.$element[0], {
+          attributes: !0,
+          childList: !0,
+          subtree: !1
+        })) : this.$element[0].addEventListener && (this.$element[0].addEventListener("DOMAttrModified", b._syncA, !1), this.$element[0].addEventListener("DOMNodeInserted", b._syncS, !1), this.$element[0].addEventListener("DOMNodeRemoved", b._syncS, !1));
+      }, e.prototype._registerDataEvents = function () {
+        var a = this;
+        this.dataAdapter.on("*", function (b, c) {
+          a.trigger(b, c);
+        });
+      }, e.prototype._registerSelectionEvents = function () {
+        var b = this,
+            c = ["toggle", "focus"];
+        this.selection.on("toggle", function () {
+          b.toggleDropdown();
+        }), this.selection.on("focus", function (a) {
+          b.focus(a);
+        }), this.selection.on("*", function (d, e) {
+          -1 === a.inArray(d, c) && b.trigger(d, e);
+        });
+      }, e.prototype._registerDropdownEvents = function () {
+        var a = this;
+        this.dropdown.on("*", function (b, c) {
+          a.trigger(b, c);
+        });
+      }, e.prototype._registerResultsEvents = function () {
+        var a = this;
+        this.results.on("*", function (b, c) {
+          a.trigger(b, c);
+        });
+      }, e.prototype._registerEvents = function () {
+        var a = this;
+        this.on("open", function () {
+          a.$container.addClass("select2-container--open");
+        }), this.on("close", function () {
+          a.$container.removeClass("select2-container--open");
+        }), this.on("enable", function () {
+          a.$container.removeClass("select2-container--disabled");
+        }), this.on("disable", function () {
+          a.$container.addClass("select2-container--disabled");
+        }), this.on("blur", function () {
+          a.$container.removeClass("select2-container--focus");
+        }), this.on("query", function (b) {
+          a.isOpen() || a.trigger("open", {}), this.dataAdapter.query(b, function (c) {
+            a.trigger("results:all", {
+              data: c,
+              query: b
+            });
+          });
+        }), this.on("query:append", function (b) {
+          this.dataAdapter.query(b, function (c) {
+            a.trigger("results:append", {
+              data: c,
+              query: b
+            });
+          });
+        }), this.on("keypress", function (b) {
+          var c = b.which;
+          a.isOpen() ? c === d.ESC || c === d.TAB || c === d.UP && b.altKey ? (a.close(), b.preventDefault()) : c === d.ENTER ? (a.trigger("results:select", {}), b.preventDefault()) : c === d.SPACE && b.ctrlKey ? (a.trigger("results:toggle", {}), b.preventDefault()) : c === d.UP ? (a.trigger("results:previous", {}), b.preventDefault()) : c === d.DOWN && (a.trigger("results:next", {}), b.preventDefault()) : (c === d.ENTER || c === d.SPACE || c === d.DOWN && b.altKey) && (a.open(), b.preventDefault());
+        });
+      }, e.prototype._syncAttributes = function () {
+        this.options.set("disabled", this.$element.prop("disabled")), this.options.get("disabled") ? (this.isOpen() && this.close(), this.trigger("disable", {})) : this.trigger("enable", {});
+      }, e.prototype._syncSubtree = function (a, b) {
+        var c = !1,
+            d = this;
+
+        if (!a || !a.target || "OPTION" === a.target.nodeName || "OPTGROUP" === a.target.nodeName) {
+          if (b) {
+            if (b.addedNodes && b.addedNodes.length > 0) for (var e = 0; e < b.addedNodes.length; e++) {
+              var f = b.addedNodes[e];
+              f.selected && (c = !0);
+            } else b.removedNodes && b.removedNodes.length > 0 && (c = !0);
+          } else c = !0;
+          c && this.dataAdapter.current(function (a) {
+            d.trigger("selection:update", {
+              data: a
+            });
+          });
+        }
+      }, e.prototype.trigger = function (a, b) {
+        var c = e.__super__.trigger,
+            d = {
+          open: "opening",
+          close: "closing",
+          select: "selecting",
+          unselect: "unselecting",
+          clear: "clearing"
+        };
+
+        if (void 0 === b && (b = {}), a in d) {
+          var f = d[a],
+              g = {
+            prevented: !1,
+            name: a,
+            args: b
+          };
+          if (c.call(this, f, g), g.prevented) return void (b.prevented = !0);
+        }
+
+        c.call(this, a, b);
+      }, e.prototype.toggleDropdown = function () {
+        this.options.get("disabled") || (this.isOpen() ? this.close() : this.open());
+      }, e.prototype.open = function () {
+        this.isOpen() || this.trigger("query", {});
+      }, e.prototype.close = function () {
+        this.isOpen() && this.trigger("close", {});
+      }, e.prototype.isOpen = function () {
+        return this.$container.hasClass("select2-container--open");
+      }, e.prototype.hasFocus = function () {
+        return this.$container.hasClass("select2-container--focus");
+      }, e.prototype.focus = function (a) {
+        this.hasFocus() || (this.$container.addClass("select2-container--focus"), this.trigger("focus", {}));
+      }, e.prototype.enable = function (a) {
+        this.options.get("debug") && window.console && console.warn && console.warn('Select2: The `select2("enable")` method has been deprecated and will be removed in later Select2 versions. Use $element.prop("disabled") instead.'), null != a && 0 !== a.length || (a = [!0]);
+        var b = !a[0];
+        this.$element.prop("disabled", b);
+      }, e.prototype.data = function () {
+        this.options.get("debug") && arguments.length > 0 && window.console && console.warn && console.warn('Select2: Data can no longer be set using `select2("data")`. You should consider setting the value instead using `$element.val()`.');
+        var a = [];
+        return this.dataAdapter.current(function (b) {
+          a = b;
+        }), a;
+      }, e.prototype.val = function (b) {
+        if (this.options.get("debug") && window.console && console.warn && console.warn('Select2: The `select2("val")` method has been deprecated and will be removed in later Select2 versions. Use $element.val() instead.'), null == b || 0 === b.length) return this.$element.val();
+        var c = b[0];
+        a.isArray(c) && (c = a.map(c, function (a) {
+          return a.toString();
+        })), this.$element.val(c).trigger("change");
+      }, e.prototype.destroy = function () {
+        this.$container.remove(), this.$element[0].detachEvent && this.$element[0].detachEvent("onpropertychange", this._syncA), null != this._observer ? (this._observer.disconnect(), this._observer = null) : this.$element[0].removeEventListener && (this.$element[0].removeEventListener("DOMAttrModified", this._syncA, !1), this.$element[0].removeEventListener("DOMNodeInserted", this._syncS, !1), this.$element[0].removeEventListener("DOMNodeRemoved", this._syncS, !1)), this._syncA = null, this._syncS = null, this.$element.off(".select2"), this.$element.attr("tabindex", c.GetData(this.$element[0], "old-tabindex")), this.$element.removeClass("select2-hidden-accessible"), this.$element.attr("aria-hidden", "false"), c.RemoveData(this.$element[0]), this.$element.removeData("select2"), this.dataAdapter.destroy(), this.selection.destroy(), this.dropdown.destroy(), this.results.destroy(), this.dataAdapter = null, this.selection = null, this.dropdown = null, this.results = null;
+      }, e.prototype.render = function () {
+        var b = a('<span class="select2 select2-container"><span class="selection"></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>');
+        return b.attr("dir", this.options.get("dir")), this.$container = b, this.$container.addClass("select2-container--" + this.options.get("theme")), c.StoreData(b[0], "element", this.$element), b;
+      }, e;
+    }), b.define("jquery-mousewheel", ["jquery"], function (a) {
+      return a;
+    }), b.define("jquery.select2", ["jquery", "jquery-mousewheel", "./select2/core", "./select2/defaults", "./select2/utils"], function (a, b, c, d, e) {
+      if (null == a.fn.select2) {
+        var f = ["open", "close", "destroy"];
+
+        a.fn.select2 = function (b) {
+          if ("object" == _typeof(b = b || {})) return this.each(function () {
+            var d = a.extend(!0, {}, b);
+            new c(a(this), d);
+          }), this;
+
+          if ("string" == typeof b) {
+            var d,
+                g = Array.prototype.slice.call(arguments, 1);
+            return this.each(function () {
+              var a = e.GetData(this, "select2");
+              null == a && window.console && console.error && console.error("The select2('" + b + "') method was called on an element that is not using Select2."), d = a[b].apply(a, g);
+            }), a.inArray(b, f) > -1 ? this : d;
+          }
+
+          throw new Error("Invalid arguments for Select2: " + b);
+        };
+      }
+
+      return null == a.fn.select2.defaults && (a.fn.select2.defaults = d), c;
+    }), {
+      define: b.define,
+      require: b.require
+    };
+  }(),
+      c = b.require("jquery.select2");
+
+  return a.fn.select2.amd = b, c;
+});
 
 /***/ }),
 
 /***/ 344:
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: SyntaxError: /Users/glebsimdyankin/Documents/work/redsoft/src/scripts/libs/jquery.magnific-popup.min.js: Unexpected token, expected \",\" (4:1598)\n\n\u001b[0m \u001b[90m 2 | \u001b[39m\u001b[90m* http://dimsemenov.com/plugins/magnific-popup/\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 3 | \u001b[39m\u001b[90m* Copyright (c) 2016 Dmitry Semenov; */\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 4 | \u001b[39m\u001b[33m!\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[32m\"function\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m define\u001b[33m&&\u001b[39mdefine\u001b[33m.\u001b[39mamd\u001b[33m?\u001b[39mdefine([\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39ma)\u001b[33m:\u001b[39ma(\u001b[32m\"object\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m exports\u001b[33m?\u001b[39mrequire(\u001b[32m\"jquery\"\u001b[39m)\u001b[33m:\u001b[39mwindow\u001b[33m.\u001b[39mjQuery\u001b[33m||\u001b[39mwindow\u001b[33m.\u001b[39m\u001b[33mZepto\u001b[39m)}(\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mg\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m\u001b[32m\"Close\"\u001b[39m\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39m\u001b[32m\"BeforeClose\"\u001b[39m\u001b[33m,\u001b[39mj\u001b[33m=\u001b[39m\u001b[32m\"AfterClose\"\u001b[39m\u001b[33m,\u001b[39mk\u001b[33m=\u001b[39m\u001b[32m\"BeforeAppend\"\u001b[39m\u001b[33m,\u001b[39ml\u001b[33m=\u001b[39m\u001b[32m\"MarkupParse\"\u001b[39m\u001b[33m,\u001b[39mm\u001b[33m=\u001b[39m\u001b[32m\"Open\"\u001b[39m\u001b[33m,\u001b[39mn\u001b[33m=\u001b[39m\u001b[32m\"Change\"\u001b[39m\u001b[33m,\u001b[39mo\u001b[33m=\u001b[39m\u001b[32m\"mfp\"\u001b[39m\u001b[33m,\u001b[39mp\u001b[33m=\u001b[39m\u001b[32m\".\"\u001b[39m\u001b[33m+\u001b[39mo\u001b[33m,\u001b[39mq\u001b[33m=\u001b[39m\u001b[32m\"mfp-ready\"\u001b[39m\u001b[33m,\u001b[39mr\u001b[33m=\u001b[39m\u001b[32m\"mfp-removing\"\u001b[39m\u001b[33m,\u001b[39ms\u001b[33m=\u001b[39m\u001b[32m\"mfp-prevent-close\"\u001b[39m\u001b[33m,\u001b[39mt\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){}\u001b[33m,\u001b[39mu\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[33m!\u001b[39mwindow\u001b[33m.\u001b[39mjQuery\u001b[33m,\u001b[39mv\u001b[33m=\u001b[39ma(window)\u001b[33m,\u001b[39mw\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mc){b\u001b[33m.\u001b[39mev\u001b[33m.\u001b[39mon(o\u001b[33m+\u001b[39ma\u001b[33m+\u001b[39mp\u001b[33m,\u001b[39mc)}\u001b[33m,\u001b[39mx\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mcreateElement(\u001b[32m\"div\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m f\u001b[33m.\u001b[39mclassName\u001b[33m=\u001b[39m\u001b[32m\"mfp-\"\u001b[39m\u001b[33m+\u001b[39mb\u001b[33m,\u001b[39md\u001b[33m&&\u001b[39m(f\u001b[33m.\u001b[39minnerHTML\u001b[33m=\u001b[39md)\u001b[33m,\u001b[39me\u001b[33m?\u001b[39mc\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mappendChild(f)\u001b[33m:\u001b[39m(f\u001b[33m=\u001b[39ma(f)\u001b[33m,\u001b[39mc\u001b[33m&&\u001b[39mf\u001b[33m.\u001b[39mappendTo(c))\u001b[33m,\u001b[39mf}\u001b[33m,\u001b[39my\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(c\u001b[33m,\u001b[39md){b\u001b[33m.\u001b[39mev\u001b[33m.\u001b[39mtriggerHandler(o\u001b[33m+\u001b[39mc\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcallbacks\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m)\u001b[33m.\u001b[39mtoLowerCase()\u001b[33m+\u001b[39mc\u001b[33m.\u001b[39mslice(\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcallbacks[c]\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcallbacks[c]\u001b[33m.\u001b[39mapply(b\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39misArray(d)\u001b[33m?\u001b[39md\u001b[33m:\u001b[39m[d]))}\u001b[33m,\u001b[39mz\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mreturn\u001b[39m c\u001b[33m===\u001b[39mg\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate\u001b[33m.\u001b[39mcloseBtn\u001b[33m||\u001b[39m(b\u001b[33m.\u001b[39mcurrTemplate\u001b[33m.\u001b[39mcloseBtn\u001b[33m=\u001b[39ma(b\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcloseMarkup\u001b[33m.\u001b[39mreplace(\u001b[32m\"%title%\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mtClose))\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mc)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate\u001b[33m.\u001b[39mcloseBtn}\u001b[33m,\u001b[39m\u001b[33mA\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){a\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39minstance\u001b[33m||\u001b[39m(b\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m t\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39minit()\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39minstance\u001b[33m=\u001b[39mb)}\u001b[33m,\u001b[39m\u001b[33mB\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mcreateElement(\u001b[32m\"p\"\u001b[39m)\u001b[33m.\u001b[39mstyle\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39m[\u001b[32m\"ms\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"O\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Moz\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"Webkit\"\u001b[39m]\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39mtransition)\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39m)\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39mpop()\u001b[33m+\u001b[39m\u001b[32m\"Transition\"\u001b[39m\u001b[36min\u001b[39m a)\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m}\u001b[33m;\u001b[39mt\u001b[33m.\u001b[39mprototype\u001b[33m=\u001b[39m{constructor\u001b[33m:\u001b[39mt\u001b[33m,\u001b[39minit\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mnavigator\u001b[33m.\u001b[39mappVersion\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39misLowIE\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39misIE8\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mall\u001b[33m&&\u001b[39m\u001b[33m!\u001b[39mdocument\u001b[33m.\u001b[39maddEventListener\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39misAndroid\u001b[33m=\u001b[39m\u001b[35m/android/gi\u001b[39m\u001b[33m.\u001b[39mtest(c)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39misIOS\u001b[33m=\u001b[39m\u001b[35m/iphone|ipad|ipod/gi\u001b[39m\u001b[33m.\u001b[39mtest(c)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39msupportsTransition\u001b[33m=\u001b[39m\u001b[33mB\u001b[39m()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprobablyMobile\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39misAndroid\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39misIOS\u001b[33m||\u001b[39m\u001b[35m/(Opera Mini)|Kindle|webOS|BlackBerry|(Opera Mobi)|(Windows Phone)|IEMobile/i\u001b[39m\u001b[33m.\u001b[39mtest(navigator\u001b[33m.\u001b[39muserAgent)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39ma(document)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mpopupsCache\u001b[33m=\u001b[39m{}}\u001b[33m,\u001b[39mopen\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mvar\u001b[39m e\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(c\u001b[33m.\u001b[39misObj\u001b[33m===\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m){b\u001b[33m.\u001b[39mitems\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mitems\u001b[33m.\u001b[39mtoArray()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mindex\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m g\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mitems\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(e\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39me\u001b[33m<\u001b[39m\u001b[33mh\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39me\u001b[33m++\u001b[39m)\u001b[36mif\u001b[39m(g\u001b[33m=\u001b[39mh[e]\u001b[33m,\u001b[39mg\u001b[33m.\u001b[39mparsed\u001b[33m&&\u001b[39m(g\u001b[33m=\u001b[39mg\u001b[33m.\u001b[39mel[\u001b[35m0\u001b[39m])\u001b[33m,\u001b[39mg\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39mel[\u001b[35m0\u001b[39m]){b\u001b[33m.\u001b[39mindex\u001b[33m=\u001b[39me\u001b[33m;\u001b[39m\u001b[36mbreak\u001b[39m}}\u001b[36melse\u001b[39m b\u001b[33m.\u001b[39mitems\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39misArray(c\u001b[33m.\u001b[39mitems)\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39mitems\u001b[33m:\u001b[39m[c\u001b[33m.\u001b[39mitems]\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mindex\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mindex\u001b[33m||\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39misOpen)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m b\u001b[33m.\u001b[39mupdateItemHTML()\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mtypes\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mmainEl\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mmainEl\u001b[33m.\u001b[39mlength\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mev\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mmainEl\u001b[33m.\u001b[39meq(\u001b[35m0\u001b[39m)\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mev\u001b[33m=\u001b[39md\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mkey\u001b[33m?\u001b[39m(b\u001b[33m.\u001b[39mpopupsCache[c\u001b[33m.\u001b[39mkey]\u001b[33m||\u001b[39m(b\u001b[33m.\u001b[39mpopupsCache[c\u001b[33m.\u001b[39mkey]\u001b[33m=\u001b[39m{})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mpopupsCache[c\u001b[33m.\u001b[39mkey])\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39mdefaults\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mfixedContentPos\u001b[33m=\u001b[39m\u001b[32m\"auto\"\u001b[39m\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mfixedContentPos\u001b[33m?\u001b[39m\u001b[33m!\u001b[39mb\u001b[33m.\u001b[39mprobablyMobile\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mfixedContentPos\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mmodal\u001b[33m&&\u001b[39m(b\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcloseOnContentClick\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcloseOnBgClick\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mshowCloseBtn\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39menableEscapeKey\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mbgOverlay\u001b[33m||\u001b[39m(b\u001b[33m.\u001b[39mbgOverlay\u001b[33m=\u001b[39mx(\u001b[32m\"bg\"\u001b[39m)\u001b[33m.\u001b[39mon(\u001b[32m\"click\"\u001b[39m\u001b[33m+\u001b[39mp\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39mclose()})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m=\u001b[39mx(\u001b[32m\"wrap\"\u001b[39m)\u001b[33m.\u001b[39mattr(\u001b[32m\"tabindex\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mon(\u001b[32m\"click\"\u001b[39m\u001b[33m+\u001b[39mp\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){b\u001b[33m.\u001b[39m_checkIfClose(a\u001b[33m.\u001b[39mtarget)\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mclose()})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontainer\u001b[33m=\u001b[39mx(\u001b[32m\"container\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mwrap))\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontentContainer\u001b[33m=\u001b[39mx(\u001b[32m\"content\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mpreloader\u001b[33m&&\u001b[39m(b\u001b[33m.\u001b[39mpreloader\u001b[33m=\u001b[39mx(\u001b[32m\"preloader\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontainer\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mtLoading))\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m i\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39mmodules\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(e\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39me\u001b[33m<\u001b[39m\u001b[33mi\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39me\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m j\u001b[33m=\u001b[39mi[e]\u001b[33m;\u001b[39mj\u001b[33m=\u001b[39mj\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m)\u001b[33m.\u001b[39mtoUpperCase()\u001b[33m+\u001b[39mj\u001b[33m.\u001b[39mslice(\u001b[35m1\u001b[39m)\u001b[33m,\u001b[39mb[\u001b[32m\"init\"\u001b[39m\u001b[33m+\u001b[39mj]\u001b[33m.\u001b[39mcall(b)}y(\u001b[32m\"BeforeOpen\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mshowCloseBtn\u001b[33m&&\u001b[39m(b\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcloseBtnInside\u001b[33m?\u001b[39m(w(l\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){c\u001b[33m.\u001b[39mclose_replaceWith\u001b[33m=\u001b[39mz(d\u001b[33m.\u001b[39mtype)})\u001b[33m,\u001b[39mf\u001b[33m+=\u001b[39m\u001b[32m\" mfp-close-btn-in\"\u001b[39m)\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39mappend(z()))\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39malignTop\u001b[33m&&\u001b[39m(f\u001b[33m+=\u001b[39m\u001b[32m\" mfp-align-top\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mfixedContentPos\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39mcss({overflow\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39moverflowY\u001b[33m,\u001b[39moverflowX\u001b[33m:\u001b[39m\u001b[32m\"hidden\"\u001b[39m\u001b[33m,\u001b[39moverflowY\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39moverflowY})\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39mcss({top\u001b[33m:\u001b[39mv\u001b[33m.\u001b[39mscrollTop()\u001b[33m,\u001b[39mposition\u001b[33m:\u001b[39m\u001b[32m\"absolute\"\u001b[39m})\u001b[33m,\u001b[39m(b\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mfixedBgPos\u001b[33m===\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m||\u001b[39m\u001b[32m\"auto\"\u001b[39m\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mfixedBgPos\u001b[33m&&\u001b[39m\u001b[33m!\u001b[39mb\u001b[33m.\u001b[39mfixedContentPos)\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mbgOverlay\u001b[33m.\u001b[39mcss({height\u001b[33m:\u001b[39md\u001b[33m.\u001b[39mheight()\u001b[33m,\u001b[39mposition\u001b[33m:\u001b[39m\u001b[32m\"absolute\"\u001b[39m})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39menableEscapeKey\u001b[33m&&\u001b[39md\u001b[33m.\u001b[39mon(\u001b[32m\"keyup\"\u001b[39m\u001b[33m+\u001b[39mp\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[35m27\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mkeyCode\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mclose()})\u001b[33m,\u001b[39mv\u001b[33m.\u001b[39mon(\u001b[32m\"resize\"\u001b[39m\u001b[33m+\u001b[39mp\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39mupdateSize()})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcloseOnContentClick\u001b[33m||\u001b[39m(f\u001b[33m+=\u001b[39m\u001b[32m\" mfp-auto-cursor\"\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39maddClass(f)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m k\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mwH\u001b[33m=\u001b[39mv\u001b[33m.\u001b[39mheight()\u001b[33m,\u001b[39mn\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39mfixedContentPos\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39m_hasScrollBar(k)){\u001b[36mvar\u001b[39m o\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39m_getScrollbarSize()\u001b[33m;\u001b[39mo\u001b[33m&&\u001b[39m(n\u001b[33m.\u001b[39mmarginRight\u001b[33m=\u001b[39mo)}b\u001b[33m.\u001b[39mfixedContentPos\u001b[33m&&\u001b[39m(b\u001b[33m.\u001b[39misIE7\u001b[33m?\u001b[39ma(\u001b[32m\"body, html\"\u001b[39m)\u001b[33m.\u001b[39mcss(\u001b[32m\"overflow\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"hidden\"\u001b[39m)\u001b[33m:\u001b[39mn\u001b[33m.\u001b[39moverflow\u001b[33m=\u001b[39m\u001b[32m\"hidden\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m r\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mmainClass\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39misIE7\u001b[33m&&\u001b[39m(r\u001b[33m+=\u001b[39m\u001b[32m\" mfp-ie7\"\u001b[39m)\u001b[33m,\u001b[39mr\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39m_addClassToMFP(r)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mupdateItemHTML()\u001b[33m,\u001b[39my(\u001b[32m\"BuildControls\"\u001b[39m)\u001b[33m,\u001b[39ma(\u001b[32m\"html\"\u001b[39m)\u001b[33m.\u001b[39mcss(n)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mbgOverlay\u001b[33m.\u001b[39madd(b\u001b[33m.\u001b[39mwrap)\u001b[33m.\u001b[39mprependTo(b\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mprependTo\u001b[33m||\u001b[39ma(document\u001b[33m.\u001b[39mbody))\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_lastFocusedEl\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mactiveElement\u001b[33m,\u001b[39msetTimeout(\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39mcontent\u001b[33m?\u001b[39m(b\u001b[33m.\u001b[39m_addClassToMFP(q)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_setFocus())\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mbgOverlay\u001b[33m.\u001b[39maddClass(q)\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mon(\u001b[32m\"focusin\"\u001b[39m\u001b[33m+\u001b[39mp\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_onFocusIn)}\u001b[33m,\u001b[39m\u001b[35m16\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39misOpen\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mupdateSize(k)\u001b[33m,\u001b[39my(m)\u001b[33m,\u001b[39mc}\u001b[33m,\u001b[39mclose\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39misOpen\u001b[33m&&\u001b[39m(y(i)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39misOpen\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mremovalDelay\u001b[33m&&\u001b[39m\u001b[33m!\u001b[39mb\u001b[33m.\u001b[39misLowIE\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39msupportsTransition\u001b[33m?\u001b[39m(b\u001b[33m.\u001b[39m_addClassToMFP(r)\u001b[33m,\u001b[39msetTimeout(\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39m_close()}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mremovalDelay))\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39m_close())}\u001b[33m,\u001b[39m_close\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){y(h)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mr\u001b[33m+\u001b[39m\u001b[32m\" \"\u001b[39m\u001b[33m+\u001b[39mq\u001b[33m+\u001b[39m\u001b[32m\" \"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39mbgOverlay\u001b[33m.\u001b[39mdetach()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39mdetach()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontainer\u001b[33m.\u001b[39mempty()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mmainClass\u001b[33m&&\u001b[39m(c\u001b[33m+=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mmainClass\u001b[33m+\u001b[39m\u001b[32m\" \"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_removeClassFromMFP(c)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mfixedContentPos){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m{marginRight\u001b[33m:\u001b[39m\u001b[32m\"\"\u001b[39m}\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39misIE7\u001b[33m?\u001b[39ma(\u001b[32m\"body, html\"\u001b[39m)\u001b[33m.\u001b[39mcss(\u001b[32m\"overflow\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m:\u001b[39me\u001b[33m.\u001b[39moverflow\u001b[33m=\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39ma(\u001b[32m\"html\"\u001b[39m)\u001b[33m.\u001b[39mcss(e)}d\u001b[33m.\u001b[39moff(\u001b[32m\"keyup\"\u001b[39m\u001b[33m+\u001b[39mp\u001b[33m+\u001b[39m\u001b[32m\" focusin\"\u001b[39m\u001b[33m+\u001b[39mp)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mev\u001b[33m.\u001b[39moff(p)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39mattr(\u001b[32m\"class\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"mfp-wrap\"\u001b[39m)\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"style\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mbgOverlay\u001b[33m.\u001b[39mattr(\u001b[32m\"class\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"mfp-bg\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontainer\u001b[33m.\u001b[39mattr(\u001b[32m\"class\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"mfp-container\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[33m!\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mshowCloseBtn\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcloseBtnInside\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate[b\u001b[33m.\u001b[39mcurrItem\u001b[33m.\u001b[39mtype]\u001b[33m!==\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate\u001b[33m.\u001b[39mcloseBtn\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate\u001b[33m.\u001b[39mcloseBtn\u001b[33m.\u001b[39mdetach()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mautoFocusLast\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39m_lastFocusedEl\u001b[33m&&\u001b[39ma(b\u001b[33m.\u001b[39m_lastFocusedEl)\u001b[33m.\u001b[39mfocus()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcurrItem\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontent\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mprevHeight\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39my(j)}\u001b[33m,\u001b[39mupdateSize\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39misIOS){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mdocumentElement\u001b[33m.\u001b[39mclientWidth\u001b[33m/\u001b[39mwindow\u001b[33m.\u001b[39minnerWidth\u001b[33m,\u001b[39md\u001b[33m=\u001b[39mwindow\u001b[33m.\u001b[39minnerHeight\u001b[33m*\u001b[39mc\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39mcss(\u001b[32m\"height\"\u001b[39m\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mwH\u001b[33m=\u001b[39md}\u001b[36melse\u001b[39m b\u001b[33m.\u001b[39mwH\u001b[33m=\u001b[39ma\u001b[33m||\u001b[39mv\u001b[33m.\u001b[39mheight()\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mfixedContentPos\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39mcss(\u001b[32m\"height\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mwH)\u001b[33m,\u001b[39my(\u001b[32m\"Resize\"\u001b[39m)}\u001b[33m,\u001b[39mupdateItemHTML\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mitems[b\u001b[33m.\u001b[39mindex]\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mcontentContainer\u001b[33m.\u001b[39mdetach()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontent\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mcontent\u001b[33m.\u001b[39mdetach()\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mparsed\u001b[33m||\u001b[39m(c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mparseEl(b\u001b[33m.\u001b[39mindex))\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mtype\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(y(\u001b[32m\"BeforeChange\"\u001b[39m\u001b[33m,\u001b[39m[b\u001b[33m.\u001b[39mcurrItem\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mcurrItem\u001b[33m.\u001b[39mtype\u001b[33m:\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39md])\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcurrItem\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39m\u001b[33m!\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate[d]){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst[d]\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mst[d]\u001b[33m.\u001b[39mmarkup\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m;\u001b[39my(\u001b[32m\"FirstMarkupParse\"\u001b[39m\u001b[33m,\u001b[39mf)\u001b[33m,\u001b[39mf\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate[d]\u001b[33m=\u001b[39ma(f)\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate[d]\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}e\u001b[33m&&\u001b[39me\u001b[33m!==\u001b[39mc\u001b[33m.\u001b[39mtype\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mcontainer\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"mfp-\"\u001b[39m\u001b[33m+\u001b[39me\u001b[33m+\u001b[39m\u001b[32m\"-holder\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39mb[\u001b[32m\"get\"\u001b[39m\u001b[33m+\u001b[39md\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m)\u001b[33m.\u001b[39mtoUpperCase()\u001b[33m+\u001b[39md\u001b[33m.\u001b[39mslice(\u001b[35m1\u001b[39m)](c\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate[d])\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mappendContent(g\u001b[33m,\u001b[39md)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mpreloaded\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39my(n\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mtype\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontainer\u001b[33m.\u001b[39mprepend(b\u001b[33m.\u001b[39mcontentContainer)\u001b[33m,\u001b[39my(\u001b[32m\"AfterChange\"\u001b[39m)}\u001b[33m,\u001b[39mappendContent\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mc){b\u001b[33m.\u001b[39mcontent\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39ma\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mshowCloseBtn\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcloseBtnInside\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mcurrTemplate[c]\u001b[33m===\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mcontent\u001b[33m.\u001b[39mfind(\u001b[32m\".mfp-close\"\u001b[39m)\u001b[33m.\u001b[39mlength\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39mcontent\u001b[33m.\u001b[39mappend(z())\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mcontent\u001b[33m=\u001b[39ma\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mcontent\u001b[33m=\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39my(k)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontainer\u001b[33m.\u001b[39maddClass(\u001b[32m\"mfp-\"\u001b[39m\u001b[33m+\u001b[39mc\u001b[33m+\u001b[39m\u001b[32m\"-holder\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontentContainer\u001b[33m.\u001b[39mappend(b\u001b[33m.\u001b[39mcontent)}\u001b[33m,\u001b[39mparseEl\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mvar\u001b[39m d\u001b[33m,\u001b[39me\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mitems[c]\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(e\u001b[33m.\u001b[39mtagName\u001b[33m?\u001b[39me\u001b[33m=\u001b[39m{el\u001b[33m:\u001b[39ma(e)}\u001b[33m:\u001b[39m(d\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mtype\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m{data\u001b[33m:\u001b[39me\u001b[33m,\u001b[39msrc\u001b[33m:\u001b[39me\u001b[33m.\u001b[39msrc})\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mel){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mtypes\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mg\u001b[33m<\u001b[39m\u001b[33mf\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39mg\u001b[33m++\u001b[39m)\u001b[36mif\u001b[39m(e\u001b[33m.\u001b[39mel\u001b[33m.\u001b[39mhasClass(\u001b[32m\"mfp-\"\u001b[39m\u001b[33m+\u001b[39mf[g])){d\u001b[33m=\u001b[39mf[g]\u001b[33m;\u001b[39m\u001b[36mbreak\u001b[39m}e\u001b[33m.\u001b[39msrc\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mel\u001b[33m.\u001b[39mattr(\u001b[32m\"data-mfp-src\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39msrc\u001b[33m||\u001b[39m(e\u001b[33m.\u001b[39msrc\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mel\u001b[33m.\u001b[39mattr(\u001b[32m\"href\"\u001b[39m))}\u001b[36mreturn\u001b[39m e\u001b[33m.\u001b[39mtype\u001b[33m=\u001b[39md\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mtype\u001b[33m||\u001b[39m\u001b[32m\"inline\"\u001b[39m\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mindex\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mparsed\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mitems[c]\u001b[33m=\u001b[39me\u001b[33m,\u001b[39my(\u001b[32m\"ElementParse\"\u001b[39m\u001b[33m,\u001b[39me)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mitems[c]}\u001b[33m,\u001b[39maddGroup\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(d){d\u001b[33m.\u001b[39mmfpEl\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_openClick(d\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39mc)}\u001b[33m;\u001b[39mc\u001b[33m||\u001b[39m(c\u001b[33m=\u001b[39m{})\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[32m\"click.magnificPopup\"\u001b[39m\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39mmainEl\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mitems\u001b[33m?\u001b[39m(c\u001b[33m.\u001b[39misObj\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39moff(e)\u001b[33m.\u001b[39mon(e\u001b[33m,\u001b[39md))\u001b[33m:\u001b[39m(c\u001b[33m.\u001b[39misObj\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mdelegate\u001b[33m?\u001b[39ma\u001b[33m.\u001b[39moff(e)\u001b[33m.\u001b[39mon(e\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mdelegate\u001b[33m,\u001b[39md)\u001b[33m:\u001b[39m(c\u001b[33m.\u001b[39mitems\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39moff(e)\u001b[33m.\u001b[39mon(e\u001b[33m,\u001b[39md)))}\u001b[33m,\u001b[39m_openClick\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(c\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39me\u001b[33m.\u001b[39mmidClick\u001b[33m?\u001b[39me\u001b[33m.\u001b[39mmidClick\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39mdefaults\u001b[33m.\u001b[39mmidClick\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(f\u001b[33m||\u001b[39m\u001b[33m!\u001b[39m(\u001b[35m2\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39mwhich\u001b[33m||\u001b[39mc\u001b[33m.\u001b[39mctrlKey\u001b[33m||\u001b[39mc\u001b[33m.\u001b[39mmetaKey\u001b[33m||\u001b[39mc\u001b[33m.\u001b[39maltKey\u001b[33m||\u001b[39mc\u001b[33m.\u001b[39mshiftKey)){\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39me\u001b[33m.\u001b[39mdisableOn\u001b[33m?\u001b[39me\u001b[33m.\u001b[39mdisableOn\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39mdefaults\u001b[33m.\u001b[39mdisableOn\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(g)\u001b[36mif\u001b[39m(a\u001b[33m.\u001b[39misFunction(g)){\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39mg\u001b[33m.\u001b[39mcall(b))\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[36melse\u001b[39m \u001b[36mif\u001b[39m(v\u001b[33m.\u001b[39mwidth()\u001b[33m<\u001b[39m\u001b[33mg\u001b[39m)\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mc\u001b[33m.\u001b[39mtype\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39mpreventDefault()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39misOpen\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mstopPropagation())\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mel\u001b[33m=\u001b[39ma(c\u001b[33m.\u001b[39mmfpEl)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mdelegate\u001b[33m&&\u001b[39m(e\u001b[33m.\u001b[39mitems\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mfind(e\u001b[33m.\u001b[39mdelegate))\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mopen(e)}}\u001b[33m,\u001b[39mupdateStatus\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39md){\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39mpreloader){c\u001b[33m!==\u001b[39ma\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mcontainer\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"mfp-s-\"\u001b[39m\u001b[33m+\u001b[39mc)\u001b[33m,\u001b[39md\u001b[33m||\u001b[39m\u001b[32m\"loading\"\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m||\u001b[39m(d\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mtLoading)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m{status\u001b[33m:\u001b[39ma\u001b[33m,\u001b[39mtext\u001b[33m:\u001b[39md}\u001b[33m;\u001b[39my(\u001b[32m\"UpdateStatus\"\u001b[39m\u001b[33m,\u001b[39me)\u001b[33m,\u001b[39ma\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mstatus\u001b[33m,\u001b[39md\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mtext\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mpreloader\u001b[33m.\u001b[39mhtml(d)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mpreloader\u001b[33m.\u001b[39mfind(\u001b[32m\"a\"\u001b[39m)\u001b[33m.\u001b[39mon(\u001b[32m\"click\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){a\u001b[33m.\u001b[39mstopImmediatePropagation()})\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mcontainer\u001b[33m.\u001b[39maddClass(\u001b[32m\"mfp-s-\"\u001b[39m\u001b[33m+\u001b[39ma)\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39ma}}\u001b[33m,\u001b[39m_checkIfClose\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39ma(c)\u001b[33m.\u001b[39mhasClass(s)){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcloseOnContentClick\u001b[33m,\u001b[39me\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mcloseOnBgClick\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(d\u001b[33m&&\u001b[39me)\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39mb\u001b[33m.\u001b[39mcontent\u001b[33m||\u001b[39ma(c)\u001b[33m.\u001b[39mhasClass(\u001b[32m\"mfp-close\"\u001b[39m)\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39mpreloader\u001b[33m&&\u001b[39mc\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mpreloader[\u001b[35m0\u001b[39m])\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(c\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mcontent[\u001b[35m0\u001b[39m]\u001b[33m||\u001b[39ma\u001b[33m.\u001b[39mcontains(b\u001b[33m.\u001b[39mcontent[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39mc)){\u001b[36mif\u001b[39m(d)\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[36melse\u001b[39m \u001b[36mif\u001b[39m(e\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mcontains(document\u001b[33m,\u001b[39mc))\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m}}\u001b[33m,\u001b[39m_addClassToMFP\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){b\u001b[33m.\u001b[39mbgOverlay\u001b[33m.\u001b[39maddClass(a)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39maddClass(a)}\u001b[33m,\u001b[39m_removeClassFromMFP\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mbgOverlay\u001b[33m.\u001b[39mremoveClass(a)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39mremoveClass(a)}\u001b[33m,\u001b[39m_hasScrollBar\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m(b\u001b[33m.\u001b[39misIE7\u001b[33m?\u001b[39md\u001b[33m.\u001b[39mheight()\u001b[33m:\u001b[39mdocument\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mscrollHeight)\u001b[33m>\u001b[39m(a\u001b[33m||\u001b[39mv\u001b[33m.\u001b[39mheight())}\u001b[33m,\u001b[39m_setFocus\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){(b\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mfocus\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mcontent\u001b[33m.\u001b[39mfind(b\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mfocus)\u001b[33m.\u001b[39meq(\u001b[35m0\u001b[39m)\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mwrap)\u001b[33m.\u001b[39mfocus()}\u001b[33m,\u001b[39m_onFocusIn\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mtarget\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mwrap[\u001b[35m0\u001b[39m]\u001b[33m||\u001b[39ma\u001b[33m.\u001b[39mcontains(b\u001b[33m.\u001b[39mwrap[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mtarget)\u001b[33m?\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m:\u001b[39m(b\u001b[33m.\u001b[39m_setFocus()\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)}\u001b[33m,\u001b[39m_parseMarkup\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m;\u001b[39md\u001b[33m.\u001b[39mdata\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend(d\u001b[33m.\u001b[39mdata\u001b[33m,\u001b[39mc))\u001b[33m,\u001b[39my(l\u001b[33m,\u001b[39m[b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md])\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39meach(c\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(c\u001b[33m,\u001b[39md){\u001b[36mif\u001b[39m(\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m===\u001b[39md\u001b[33m||\u001b[39md\u001b[33m===\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(e\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39msplit(\u001b[32m\"_\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m1\u001b[39m){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mfind(p\u001b[33m+\u001b[39m\u001b[32m\"-\"\u001b[39m\u001b[33m+\u001b[39me[\u001b[35m0\u001b[39m])\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(f\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m){\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39me[\u001b[35m1\u001b[39m]\u001b[33m;\u001b[39m\u001b[32m\"replaceWith\"\u001b[39m\u001b[33m===\u001b[39mg\u001b[33m?\u001b[39mf[\u001b[35m0\u001b[39m]\u001b[33m!==\u001b[39md[\u001b[35m0\u001b[39m]\u001b[33m&&\u001b[39mf\u001b[33m.\u001b[39mreplaceWith(d)\u001b[33m:\u001b[39m\u001b[32m\"img\"\u001b[39m\u001b[33m===\u001b[39mg\u001b[33m?\u001b[39mf\u001b[33m.\u001b[39mis(\u001b[32m\"img\"\u001b[39m)\u001b[33m?\u001b[39mf\u001b[33m.\u001b[39mattr(\u001b[32m\"src\"\u001b[39m\u001b[33m,\u001b[39md)\u001b[33m:\u001b[39mf\u001b[33m.\u001b[39mreplaceWith(a(\u001b[32m\"<img>\"\u001b[39m)\u001b[33m.\u001b[39mattr(\u001b[32m\"src\"\u001b[39m\u001b[33m,\u001b[39md)\u001b[33m.\u001b[39mattr(\u001b[32m\"class\"\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39mattr(\u001b[32m\"class\"\u001b[39m)))\u001b[33m:\u001b[39mf\u001b[33m.\u001b[39mattr(e[\u001b[35m1\u001b[39m]\u001b[33m,\u001b[39md)}}\u001b[36melse\u001b[39m b\u001b[33m.\u001b[39mfind(p\u001b[33m+\u001b[39m\u001b[32m\"-\"\u001b[39m\u001b[33m+\u001b[39mc)\u001b[33m.\u001b[39mhtml(d)})}\u001b[33m,\u001b[39m_getScrollbarSize\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mif\u001b[39m(\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mscrollbarSize){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mcreateElement(\u001b[32m\"div\"\u001b[39m)\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mstyle\u001b[33m.\u001b[39mcssText\u001b[33m=\u001b[39m\u001b[32m\"width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;\"\u001b[39m\u001b[33m,\u001b[39mdocument\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mappendChild(a)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mscrollbarSize\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39moffsetWidth\u001b[33m-\u001b[39ma\u001b[33m.\u001b[39mclientWidth\u001b[33m,\u001b[39mdocument\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mremoveChild(a)}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mscrollbarSize}}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m=\u001b[39m{instance\u001b[33m:\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39mproto\u001b[33m:\u001b[39mt\u001b[33m.\u001b[39mprototype\u001b[33m,\u001b[39mmodules\u001b[33m:\u001b[39m[]\u001b[33m,\u001b[39mopen\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m \u001b[33mA\u001b[39m()\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39mb\u001b[33m?\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39mb)\u001b[33m:\u001b[39m{}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39misObj\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mindex\u001b[33m=\u001b[39mc\u001b[33m||\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minstance\u001b[33m.\u001b[39mopen(b)}\u001b[33m,\u001b[39mclose\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39minstance\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39minstance\u001b[33m.\u001b[39mclose()}\u001b[33m,\u001b[39mregisterModule\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){c\u001b[33m.\u001b[39moptions\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39mdefaults[b]\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39moptions)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mproto\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mproto)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mmodules\u001b[33m.\u001b[39mpush(b)}\u001b[33m,\u001b[39mdefaults\u001b[33m:\u001b[39m{disableOn\u001b[33m:\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mkey\u001b[33m:\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39mmidClick\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mmainClass\u001b[33m:\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39mpreloader\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mfocus\u001b[33m:\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39mcloseOnContentClick\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mcloseOnBgClick\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mcloseBtnInside\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mshowCloseBtn\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39menableEscapeKey\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mmodal\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39malignTop\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mremovalDelay\u001b[33m:\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mprependTo\u001b[33m:\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39mfixedContentPos\u001b[33m:\u001b[39m\u001b[32m\"auto\"\u001b[39m\u001b[33m,\u001b[39mfixedBgPos\u001b[33m:\u001b[39m\u001b[32m\"auto\"\u001b[39m\u001b[33m,\u001b[39moverflowY\u001b[33m:\u001b[39m\u001b[32m\"auto\"\u001b[39m\u001b[33m,\u001b[39mcloseMarkup\u001b[33m:\u001b[39m\u001b[32m'<button title=\"%title%\" type=\"button\" class=\"mfp-close\">&#215;</button>'\u001b[39m\u001b[33m,\u001b[39mtClose\u001b[33m:\u001b[39m\u001b[32m\"Close (Esc)\"\u001b[39m\u001b[33m,\u001b[39mtLoading\u001b[33m:\u001b[39m\u001b[32m\"Loading...\"\u001b[39m\u001b[33m,\u001b[39mautoFocusLast\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mmagnificPopup\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[33mA\u001b[39m()\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m c)\u001b[36mif\u001b[39m(\u001b[32m\"open\"\u001b[39m\u001b[33m===\u001b[39mc){\u001b[36mvar\u001b[39m e\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39mu\u001b[33m?\u001b[39md\u001b[33m.\u001b[39mdata(\u001b[32m\"magnificPopup\"\u001b[39m)\u001b[33m:\u001b[39md[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mmagnificPopup\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mparseInt(arguments[\u001b[35m1\u001b[39m]\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m)\u001b[33m||\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39mitems\u001b[33m?\u001b[39me\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mitems[g]\u001b[33m:\u001b[39m(e\u001b[33m=\u001b[39md\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39mdelegate\u001b[33m&&\u001b[39m(e\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mfind(f\u001b[33m.\u001b[39mdelegate))\u001b[33m,\u001b[39me\u001b[33m=\u001b[39me\u001b[33m.\u001b[39meq(g))\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_openClick({mfpEl\u001b[33m:\u001b[39me}\u001b[33m,\u001b[39md\u001b[33m,\u001b[39mf)}\u001b[36melse\u001b[39m b\u001b[33m.\u001b[39misOpen\u001b[33m&&\u001b[39mb[c]\u001b[33m.\u001b[39mapply(b\u001b[33m,\u001b[39m\u001b[33mArray\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mslice\u001b[33m.\u001b[39mcall(arguments\u001b[33m,\u001b[39m\u001b[35m1\u001b[39m))\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m c\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39mu\u001b[33m?\u001b[39md\u001b[33m.\u001b[39mdata(\u001b[32m\"magnificPopup\"\u001b[39m\u001b[33m,\u001b[39mc)\u001b[33m:\u001b[39md[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mmagnificPopup\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39maddGroup(d\u001b[33m,\u001b[39mc)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m d}\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m \u001b[33mC\u001b[39m\u001b[33m,\u001b[39m\u001b[33mD\u001b[39m\u001b[33m,\u001b[39m\u001b[33mE\u001b[39m\u001b[33m,\u001b[39m\u001b[33mF\u001b[39m\u001b[33m=\u001b[39m\u001b[32m\"inline\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33mG\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[33mE\u001b[39m\u001b[33m&&\u001b[39m(\u001b[33mD\u001b[39m\u001b[33m.\u001b[39mafter(\u001b[33mE\u001b[39m\u001b[33m.\u001b[39maddClass(\u001b[33mC\u001b[39m))\u001b[33m.\u001b[39mdetach()\u001b[33m,\u001b[39m\u001b[33mE\u001b[39m\u001b[33m=\u001b[39m\u001b[36mnull\u001b[39m)}\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39mregisterModule(\u001b[33mF\u001b[39m\u001b[33m,\u001b[39m{options\u001b[33m:\u001b[39m{hiddenClass\u001b[33m:\u001b[39m\u001b[32m\"hide\"\u001b[39m\u001b[33m,\u001b[39mmarkup\u001b[33m:\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m,\u001b[39mtNotFound\u001b[33m:\u001b[39m\u001b[32m\"Content not found\"\u001b[39m}\u001b[33m,\u001b[39mproto\u001b[33m:\u001b[39m{initInline\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39mtypes\u001b[33m.\u001b[39mpush(\u001b[33mF\u001b[39m)\u001b[33m,\u001b[39mw(h\u001b[33m+\u001b[39m\u001b[32m\".\"\u001b[39m\u001b[33m+\u001b[39m\u001b[33mF\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[33mG\u001b[39m()})}\u001b[33m,\u001b[39mgetInline\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(c\u001b[33m,\u001b[39md){\u001b[36mif\u001b[39m(\u001b[33mG\u001b[39m()\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39msrc){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39minline\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39ma(c\u001b[33m.\u001b[39msrc)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(f\u001b[33m.\u001b[39mlength){\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39mf[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mparentNode\u001b[33m;\u001b[39mg\u001b[33m&&\u001b[39mg\u001b[33m.\u001b[39mtagName\u001b[33m&&\u001b[39m(\u001b[33mD\u001b[39m\u001b[33m||\u001b[39m(\u001b[33mC\u001b[39m\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mhiddenClass\u001b[33m,\u001b[39m\u001b[33mD\u001b[39m\u001b[33m=\u001b[39mx(\u001b[33mC\u001b[39m)\u001b[33m,\u001b[39m\u001b[33mC\u001b[39m\u001b[33m=\u001b[39m\u001b[32m\"mfp-\"\u001b[39m\u001b[33m+\u001b[39m\u001b[33mC\u001b[39m)\u001b[33m,\u001b[39m\u001b[33mE\u001b[39m\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mafter(\u001b[33mD\u001b[39m)\u001b[33m.\u001b[39mdetach()\u001b[33m.\u001b[39mremoveClass(\u001b[33mC\u001b[39m))\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"ready\"\u001b[39m)}\u001b[36melse\u001b[39m b\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"error\"\u001b[39m\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mtNotFound)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39ma(\u001b[32m\"<div>\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39minlineElement\u001b[33m=\u001b[39mf\u001b[33m,\u001b[39mf}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"ready\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_parseMarkup(d\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39md}}})\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m \u001b[33mH\u001b[39m\u001b[33m,\u001b[39m\u001b[33mI\u001b[39m\u001b[33m=\u001b[39m\u001b[32m\"ajax\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33mJ\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[33mH\u001b[39m\u001b[33m&&\u001b[39ma(document\u001b[33m.\u001b[39mbody)\u001b[33m.\u001b[39mremoveClass(\u001b[33mH\u001b[39m)}\u001b[33m,\u001b[39m\u001b[33mK\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[33mJ\u001b[39m()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mreq\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mreq\u001b[33m.\u001b[39mabort()}\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39mregisterModule(\u001b[33mI\u001b[39m\u001b[33m,\u001b[39m{options\u001b[33m:\u001b[39m{settings\u001b[33m:\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39mcursor\u001b[33m:\u001b[39m\u001b[32m\"mfp-ajax-cur\"\u001b[39m\u001b[33m,\u001b[39mtError\u001b[33m:\u001b[39m\u001b[32m'<a href=\"%url%\">The content</a> could not be loaded.'\u001b[39m}\u001b[33m,\u001b[39mproto\u001b[33m:\u001b[39m{initAjax\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39mtypes\u001b[33m.\u001b[39mpush(\u001b[33mI\u001b[39m)\u001b[33m,\u001b[39m\u001b[33mH\u001b[39m\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39majax\u001b[33m.\u001b[39mcursor\u001b[33m,\u001b[39mw(h\u001b[33m+\u001b[39m\u001b[32m\".\"\u001b[39m\u001b[33m+\u001b[39m\u001b[33mI\u001b[39m\u001b[33m,\u001b[39m\u001b[33mK\u001b[39m)\u001b[33m,\u001b[39mw(\u001b[32m\"BeforeChange.\"\u001b[39m\u001b[33m+\u001b[39m\u001b[33mI\u001b[39m\u001b[33m,\u001b[39m\u001b[33mK\u001b[39m)}\u001b[33m,\u001b[39mgetAjax\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[33mH\u001b[39m\u001b[33m&&\u001b[39ma(document\u001b[33m.\u001b[39mbody)\u001b[33m.\u001b[39maddClass(\u001b[33mH\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"loading\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend({url\u001b[33m:\u001b[39mc\u001b[33m.\u001b[39msrc\u001b[33m,\u001b[39msuccess\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(d\u001b[33m,\u001b[39me\u001b[33m,\u001b[39mf){\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39m{data\u001b[33m:\u001b[39md\u001b[33m,\u001b[39mxhr\u001b[33m:\u001b[39mf}\u001b[33m;\u001b[39my(\u001b[32m\"ParseAjax\"\u001b[39m\u001b[33m,\u001b[39mg)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mappendContent(a(g\u001b[33m.\u001b[39mdata)\u001b[33m,\u001b[39m\u001b[33mI\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mfinished\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[33mJ\u001b[39m()\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39m_setFocus()\u001b[33m,\u001b[39msetTimeout(\u001b[36mfunction\u001b[39m(){b\u001b[33m.\u001b[39mwrap\u001b[33m.\u001b[39maddClass(q)}\u001b[33m,\u001b[39m\u001b[35m16\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"ready\"\u001b[39m)\u001b[33m,\u001b[39my(\u001b[32m\"AjaxContentAdded\"\u001b[39m)}\u001b[33m,\u001b[39merror\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[33mJ\u001b[39m()\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mfinished\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mloadError\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"error\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39majax\u001b[33m.\u001b[39mtError\u001b[33m.\u001b[39mreplace(\u001b[32m\"%url%\"\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39msrc))}}\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39majax\u001b[33m.\u001b[39msettings)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mreq\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39majax(d)\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m}}})\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m \u001b[33mL\u001b[39m\u001b[33m,\u001b[39m\u001b[33mM\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(c){\u001b[36mif\u001b[39m(c\u001b[33m.\u001b[39mdata\u001b[33m&&\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39mc\u001b[33m.\u001b[39mdata\u001b[33m.\u001b[39mtitle)\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mdata\u001b[33m.\u001b[39mtitle\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mimage\u001b[33m.\u001b[39mtitleSrc\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(d){\u001b[36mif\u001b[39m(a\u001b[33m.\u001b[39misFunction(d))\u001b[36mreturn\u001b[39m d\u001b[33m.\u001b[39mcall(b\u001b[33m,\u001b[39mc)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(c\u001b[33m.\u001b[39mel)\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39mel\u001b[33m.\u001b[39mattr(d)\u001b[33m||\u001b[39m\u001b[32m\"\"\u001b[39m}\u001b[36mreturn\u001b[39m\u001b[32m\"\"\u001b[39m}\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39mregisterModule(\u001b[32m\"image\"\u001b[39m\u001b[33m,\u001b[39m{options\u001b[33m:\u001b[39m{markup\u001b[33m:\u001b[39m\u001b[32m'<div class=\"mfp-figure\"><div class=\"mfp-close\"></div><figure><div class=\"mfp-img\"></div><figcaption><div class=\"mfp-bottom-bar\"><div class=\"mfp-title\"></div><div class=\"mfp-counter\"></div></div></figcaption></figure></div>'\u001b[39m\u001b[33m,\u001b[39mcursor\u001b[33m:\u001b[39m\u001b[32m\"mfp-zoom-out-cur\"\u001b[39m\u001b[33m,\u001b[39mtitleSrc\u001b[33m:\u001b[39m\u001b[32m\"title\"\u001b[39m\u001b[33m,\u001b[39mverticalFit\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mtError\u001b[33m:\u001b[39m\u001b[32m'<a href=\"%url%\">The image</a> could not be loaded.'\u001b[39m}\u001b[33m,\u001b[39mproto\u001b[33m:\u001b[39m{initImage\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mimage\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[32m\".image\"\u001b[39m\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39mtypes\u001b[33m.\u001b[39mpush(\u001b[32m\"image\"\u001b[39m)\u001b[33m,\u001b[39mw(m\u001b[33m+\u001b[39md\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[32m\"image\"\u001b[39m\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mcurrItem\u001b[33m.\u001b[39mtype\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mcursor\u001b[33m&&\u001b[39ma(document\u001b[33m.\u001b[39mbody)\u001b[33m.\u001b[39maddClass(c\u001b[33m.\u001b[39mcursor)})\u001b[33m,\u001b[39mw(h\u001b[33m+\u001b[39md\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){c\u001b[33m.\u001b[39mcursor\u001b[33m&&\u001b[39ma(document\u001b[33m.\u001b[39mbody)\u001b[33m.\u001b[39mremoveClass(c\u001b[33m.\u001b[39mcursor)\u001b[33m,\u001b[39mv\u001b[33m.\u001b[39moff(\u001b[32m\"resize\"\u001b[39m\u001b[33m+\u001b[39mp)})\u001b[33m,\u001b[39mw(\u001b[32m\"Resize\"\u001b[39m\u001b[33m+\u001b[39md\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mresizeImage)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39misLowIE\u001b[33m&&\u001b[39mw(\u001b[32m\"AfterChange\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mresizeImage)}\u001b[33m,\u001b[39mresizeImage\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mcurrItem\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(a\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mimg\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mimage\u001b[33m.\u001b[39mverticalFit){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mb\u001b[33m.\u001b[39misLowIE\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39mparseInt(a\u001b[33m.\u001b[39mimg\u001b[33m.\u001b[39mcss(\u001b[32m\"padding-top\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m)\u001b[33m+\u001b[39mparseInt(a\u001b[33m.\u001b[39mimg\u001b[33m.\u001b[39mcss(\u001b[32m\"padding-bottom\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[35m10\u001b[39m))\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mimg\u001b[33m.\u001b[39mcss(\u001b[32m\"max-height\"\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mwH\u001b[33m-\u001b[39mc)}}\u001b[33m,\u001b[39m_onImageHasSize\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){a\u001b[33m.\u001b[39mimg\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39mhasSize\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[33mL\u001b[39m\u001b[33m&&\u001b[39mclearInterval(\u001b[33mL\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39misCheckingImgSize\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39my(\u001b[32m\"ImageHasSize\"\u001b[39m\u001b[33m,\u001b[39ma)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mimgHidden\u001b[33m&&\u001b[39m(b\u001b[33m.\u001b[39mcontent\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mcontent\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"mfp-loading\"\u001b[39m)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mimgHidden\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m))}\u001b[33m,\u001b[39mfindImageSize\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39md\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mimg[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(f){\u001b[33mL\u001b[39m\u001b[33m&&\u001b[39mclearInterval(\u001b[33mL\u001b[39m)\u001b[33m,\u001b[39m\u001b[33mL\u001b[39m\u001b[33m=\u001b[39msetInterval(\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m d\u001b[33m.\u001b[39mnaturalWidth\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m?\u001b[39m\u001b[36mvoid\u001b[39m b\u001b[33m.\u001b[39m_onImageHasSize(a)\u001b[33m:\u001b[39m(c\u001b[33m>\u001b[39m\u001b[35m200\u001b[39m\u001b[33m&&\u001b[39mclearInterval(\u001b[33mL\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m++\u001b[39m\u001b[33m,\u001b[39m\u001b[36mvoid\u001b[39m(\u001b[35m3\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m?\u001b[39me(\u001b[35m10\u001b[39m)\u001b[33m:\u001b[39m\u001b[35m40\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m?\u001b[39me(\u001b[35m50\u001b[39m)\u001b[33m:\u001b[39m\u001b[35m100\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m&&\u001b[39me(\u001b[35m500\u001b[39m)))}\u001b[33m,\u001b[39mf)}\u001b[33m;\u001b[39me(\u001b[35m1\u001b[39m)}\u001b[33m,\u001b[39mgetImage\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(c\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){c\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39mimg[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mcomplete\u001b[33m?\u001b[39m(c\u001b[33m.\u001b[39mimg\u001b[33m.\u001b[39moff(\u001b[32m\".mfploader\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mcurrItem\u001b[33m&&\u001b[39m(b\u001b[33m.\u001b[39m_onImageHasSize(c)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"ready\"\u001b[39m))\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mhasSize\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mloaded\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39my(\u001b[32m\"ImageLoadComplete\"\u001b[39m))\u001b[33m:\u001b[39m(e\u001b[33m++\u001b[39m\u001b[33m,\u001b[39m\u001b[35m200\u001b[39m\u001b[33m>\u001b[39me\u001b[33m?\u001b[39msetTimeout(f\u001b[33m,\u001b[39m\u001b[35m100\u001b[39m)\u001b[33m:\u001b[39mg()))}\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){c\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39mimg\u001b[33m.\u001b[39moff(\u001b[32m\".mfploader\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mcurrItem\u001b[33m&&\u001b[39m(b\u001b[33m.\u001b[39m_onImageHasSize(c)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"error\"\u001b[39m\u001b[33m,\u001b[39mh\u001b[33m.\u001b[39mtError\u001b[33m.\u001b[39mreplace(\u001b[32m\"%url%\"\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39msrc)))\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mhasSize\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mloaded\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mloadError\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)}\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mimage\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mfind(\u001b[32m\".mfp-img\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(i\u001b[33m.\u001b[39mlength){\u001b[36mvar\u001b[39m j\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mcreateElement(\u001b[32m\"img\"\u001b[39m)\u001b[33m;\u001b[39mj\u001b[33m.\u001b[39mclassName\u001b[33m=\u001b[39m\u001b[32m\"mfp-img\"\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mel\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mel\u001b[33m.\u001b[39mfind(\u001b[32m\"img\"\u001b[39m)\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39m(j\u001b[33m.\u001b[39malt\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mel\u001b[33m.\u001b[39mfind(\u001b[32m\"img\"\u001b[39m)\u001b[33m.\u001b[39mattr(\u001b[32m\"alt\"\u001b[39m))\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mimg\u001b[33m=\u001b[39ma(j)\u001b[33m.\u001b[39mon(\u001b[32m\"load.mfploader\"\u001b[39m\u001b[33m,\u001b[39mf)\u001b[33m.\u001b[39mon(\u001b[32m\"error.mfploader\"\u001b[39m\u001b[33m,\u001b[39mg)\u001b[33m,\u001b[39mj\u001b[33m.\u001b[39msrc\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39msrc\u001b[33m,\u001b[39mi\u001b[33m.\u001b[39mis(\u001b[32m\"img\"\u001b[39m)\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39mimg\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mimg\u001b[33m.\u001b[39mclone())\u001b[33m,\u001b[39mj\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mimg[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39mj\u001b[33m.\u001b[39mnaturalWidth\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39mhasSize\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m:\u001b[39mj\u001b[33m.\u001b[39mwidth\u001b[33m||\u001b[39m(c\u001b[33m.\u001b[39mhasSize\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39m_parseMarkup(d\u001b[33m,\u001b[39m{title\u001b[33m:\u001b[39m\u001b[33mM\u001b[39m(c)\u001b[33m,\u001b[39mimg_replaceWith\u001b[33m:\u001b[39mc\u001b[33m.\u001b[39mimg}\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mresizeImage()\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mhasSize\u001b[33m?\u001b[39m(\u001b[33mL\u001b[39m\u001b[33m&&\u001b[39mclearInterval(\u001b[33mL\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mloadError\u001b[33m?\u001b[39m(d\u001b[33m.\u001b[39maddClass(\u001b[32m\"mfp-loading\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"error\"\u001b[39m\u001b[33m,\u001b[39mh\u001b[33m.\u001b[39mtError\u001b[33m.\u001b[39mreplace(\u001b[32m\"%url%\"\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39msrc)))\u001b[33m:\u001b[39m(d\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"mfp-loading\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"ready\"\u001b[39m))\u001b[33m,\u001b[39md)\u001b[33m:\u001b[39m(b\u001b[33m.\u001b[39mupdateStatus(\u001b[32m\"loading\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mloading\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mhasSize\u001b[33m||\u001b[39m(c\u001b[33m.\u001b[39mimgHidden\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39md\u001b[33m.\u001b[39maddClass(\u001b[32m\"mfp-loading\"\u001b[39m)\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mfindImageSize(c))\u001b[33m,\u001b[39md)}}})\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m \u001b[33mN\u001b[39m\u001b[33m,\u001b[39m\u001b[33mO\u001b[39m\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m===\u001b[39m\u001b[33mN\u001b[39m\u001b[33m&&\u001b[39m(\u001b[33mN\u001b[39m\u001b[33m=\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39mdocument\u001b[33m.\u001b[39mcreateElement(\u001b[32m\"p\"\u001b[39m)\u001b[33m.\u001b[39mstyle\u001b[33m.\u001b[39m\u001b[33mMozTransform\u001b[39m)\u001b[33m,\u001b[39m\u001b[33mN\u001b[39m}\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mmagnificPopup\u001b[33m.\u001b[39mregisterModule(\u001b[32m\"zoom\"\u001b[39m\u001b[33m,\u001b[39m{options\u001b[33m:\u001b[39m{enabled\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39measing\u001b[33m:\u001b[39m\u001b[32m\"ease-in-out\"\u001b[39m\u001b[33m,\u001b[39mduration\u001b[33m:\u001b[39m\u001b[35m300\u001b[39m\u001b[33m,\u001b[39mopener\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mis(\u001b[32m\"img\"\u001b[39m)\u001b[33m?\u001b[39ma\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mfind(\u001b[32m\"img\"\u001b[39m)}}\u001b[33m,\u001b[39mproto\u001b[33m:\u001b[39m{initZoom\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mst\u001b[33m.\u001b[39mzoom\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[32m\".zoom\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(c\u001b[33m.\u001b[39menabled\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39msupportsTransition){\u001b[36mvar\u001b[39m e\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mduration\u001b[33m,\u001b[39mj\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mclone()\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"style\"\u001b[39m)\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"class\"\u001b[39m)\u001b[33m.\u001b[39maddClass(\u001b[32m\"mfp-animated-image\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[32m\"all \"\u001b[39m\u001b[33m+\u001b[39mc\u001b[33m.\u001b[39mduration\u001b[35m/1e3+\"s \"+c.easing,e={position:\"fixed\",zIndex:9999,left:0,top:0,\"-webkit-backface-visibility\":\"hidden\"},f=\"transition\";return e[\"-webkit-\"+f]=e[\"-moz-\"+f]=e[\"-o-\"+f]=e[f]=d,b.css(e),b},k=function(){b.content.css(\"visibility\",\"visible\")};w(\"BuildControls\"+d,function(){if(b._allowZoom()){if(clearTimeout(e),b.content.css(\"visibility\",\"hidden\"),a=b._getItemToZoom(),!a)return void k();f=j(a),f.css(b._getOffset()),b.wrap.append(f),e=setTimeout(function(){f.css(b._getOffset(!0)),e=setTimeout(function(){k(),setTimeout(function(){f.remove(),a=f=null,y(\"ZoomAnimationEnded\")},16)},g)},16)}}),w(i+d,function(){if(b._allowZoom()){if(clearTimeout(e),b.st.removalDelay=g,!a){if(a=b._getItemToZoom(),!a)return;f=j(a)}f.css(b._getOffset(!0)),b.wrap.append(f),b.content.css(\"visibility\",\"hidden\"),setTimeout(function(){f.css(b._getOffset())},16)}}),w(h+d,function(){b._allowZoom()&&(k(),f&&f.remove(),a=null)})}},_allowZoom:function(){return\"image\"===b.currItem.type},_getItemToZoom:function(){return b.currItem.hasSize?b.currItem.img:!1},_getOffset:function(c){var d;d=c?b.currItem.img:b.st.zoom.opener(b.currItem.el||b.currItem);var e=d.offset(),f=parseInt(d.css(\"padding-top\"),10),g=parseInt(d.css(\"padding-bottom\"),10);e.top-=a(window).scrollTop()-f;var h={width:d.width(),height:(u?d.innerHeight():d[0].offsetHeight)-g-f};return O()?h[\"-moz-transform\"]=h.transform=\"translate(\"+e.left+\"px,\"+e.top+\"px)\":(h.left=e.left,h.top=e.top),h}}});var P=\"iframe\",Q=\"/\u001b[39m\u001b[33m/\u001b[39mabout\u001b[33m:\u001b[39mblank\u001b[32m\",R=function(a){if(b.currTemplate[P]){var c=b.currTemplate[P].find(\"\u001b[39miframe\u001b[32m\");c.length&&(a||(c[0].src=Q),b.isIE8&&c.css(\"\u001b[39mdisplay\u001b[32m\",a?\"\u001b[39mblock\u001b[32m\":\"\u001b[39mnone\u001b[32m\"))}};a.magnificPopup.registerModule(P,{options:{markup:'<div class=\"\u001b[39mmfp\u001b[33m-\u001b[39miframe\u001b[33m-\u001b[39mscaler\u001b[32m\"><div class=\"\u001b[39mmfp\u001b[33m-\u001b[39mclose\u001b[32m\"></div><iframe class=\"\u001b[39mmfp\u001b[33m-\u001b[39miframe\u001b[32m\" src=\"\u001b[39m\u001b[90m//about:blank\" frameborder=\"0\" allowfullscreen></iframe></div>',srcAction:\"iframe_src\",patterns:{youtube:{index:\"youtube.com\",id:\"v=\",src:\"//www.youtube.com/embed/%id%?autoplay=1\"},vimeo:{index:\"vimeo.com/\",id:\"/\",src:\"//player.vimeo.com/video/%id%?autoplay=1\"},gmaps:{index:\"//maps.google.\",src:\"%id%&output=embed\"}}},proto:{initIframe:function(){b.types.push(P),w(\"BeforeChange\",function(a,b,c){b!==c&&(b===P?R():c===P&&R(!0))}),w(h+\".\"+P,function(){R()})},getIframe:function(c,d){var e=c.src,f=b.st.iframe;a.each(f.patterns,function(){return e.indexOf(this.index)>-1?(this.id&&(e=\"string\"==typeof this.id?e.substr(e.lastIndexOf(this.id)+this.id.length,e.length):this.id.call(this,e)),e=this.src.replace(\"%id%\",e),!1):void 0});var g={};return f.srcAction&&(g[f.srcAction]=e),b._parseMarkup(d,g,c),b.updateStatus(\"ready\"),d}}});var S=function(a){var c=b.items.length;return a>c-1?a-c:0>a?c+a:a},T=function(a,b,c){return a.replace(/%curr%/gi,b+1).replace(/%total%/gi,c)};a.magnificPopup.registerModule(\"gallery\",{options:{enabled:!1,arrowMarkup:'<button title=\"%title%\" type=\"button\" class=\"mfp-arrow mfp-arrow-%dir%\"></button>',preload:[0,2],navigateByImgClick:!0,arrows:!0,tPrev:\"Previous (Left arrow key)\",tNext:\"Next (Right arrow key)\",tCounter:\"%curr% of %total%\"},proto:{initGallery:function(){var c=b.st.gallery,e=\".mfp-gallery\";return b.direction=!0,c&&c.enabled?(f+=\" mfp-gallery\",w(m+e,function(){c.navigateByImgClick&&b.wrap.on(\"click\"+e,\".mfp-img\",function(){return b.items.length>1?(b.next(),!1):void 0}),d.on(\"keydown\"+e,function(a){37===a.keyCode?b.prev():39===a.keyCode&&b.next()})}),w(\"UpdateStatus\"+e,function(a,c){c.text&&(c.text=T(c.text,b.currItem.index,b.items.length))}),w(l+e,function(a,d,e,f){var g=b.items.length;e.counter=g>1?T(c.tCounter,f.index,g):\"\"}),w(\"BuildControls\"+e,function(){if(b.items.length>1&&c.arrows&&!b.arrowLeft){var d=c.arrowMarkup,e=b.arrowLeft=a(d.replace(/%title%/gi,c.tPrev).replace(/%dir%/gi,\"left\")).addClass(s),f=b.arrowRight=a(d.replace(/%title%/gi,c.tNext).replace(/%dir%/gi,\"right\")).addClass(s);e.click(function(){b.prev()}),f.click(function(){b.next()}),b.container.append(e.add(f))}}),w(n+e,function(){b._preloadTimeout&&clearTimeout(b._preloadTimeout),b._preloadTimeout=setTimeout(function(){b.preloadNearbyImages(),b._preloadTimeout=null},16)}),void w(h+e,function(){d.off(e),b.wrap.off(\"click\"+e),b.arrowRight=b.arrowLeft=null})):!1},next:function(){b.direction=!0,b.index=S(b.index+1),b.updateItemHTML()},prev:function(){b.direction=!1,b.index=S(b.index-1),b.updateItemHTML()},goTo:function(a){b.direction=a>=b.index,b.index=a,b.updateItemHTML()},preloadNearbyImages:function(){var a,c=b.st.gallery.preload,d=Math.min(c[0],b.items.length),e=Math.min(c[1],b.items.length);for(a=1;a<=(b.direction?e:d);a++)b._preloadItem(b.index+a);for(a=1;a<=(b.direction?d:e);a++)b._preloadItem(b.index-a)},_preloadItem:function(c){if(c=S(c),!b.items[c].preloaded){var d=b.items[c];d.parsed||(d=b.parseEl(c)),y(\"LazyLoad\",d),\"image\"===d.type&&(d.img=a('<img class=\"mfp-img\" />').on(\"load.mfploader\",function(){d.hasSize=!0}).on(\"error.mfploader\",function(){d.hasSize=!0,d.loadError=!0,y(\"LazyLoadError\",d)}).attr(\"src\",d.src)),d.preloaded=!0}}}});var U=\"retina\";a.magnificPopup.registerModule(U,{options:{replaceSrc:function(a){return a.src.replace(/\\.\\w+$/,function(a){return\"@2x\"+a})},ratio:1},proto:{initRetina:function(){if(window.devicePixelRatio>1){var a=b.st.retina,c=a.ratio;c=isNaN(c)?c():c,c>1&&(w(\"ImageHasSize.\"+U,function(a,b){b.img.css({\"max-width\":b.img[0].naturalWidth/c,width:\"100%\"})}),w(\"ElementParse.\"+U,function(b,d){d.src=a.replaceSrc(d,c)}))}}}}),A()});\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   | \u001b[39m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    at raise (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:6325:17)\n    at unexpected (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:7642:16)\n    at expect (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:7628:28)\n    at parseObj (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9150:14)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8784:28)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:3601:20)\n    at parseExprSubscripts (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8412:23)\n    at parseMaybeUnary (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8392:21)\n    at parseExprOps (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8267:23)\n    at parseMaybeConditional (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8240:23)\n    at parseMaybeAssign (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8187:21)\n    at parseExpression (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8135:23)\n    at parseStatementContent (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9958:23)\n    at parseStatement (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9829:17)\n    at parseIfStatement (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:10183:28)\n    at parseStatementContent (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9874:21)");
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+/*! Magnific Popup - v1.1.0 - 2016-02-20
+* http://dimsemenov.com/plugins/magnific-popup/
+* Copyright (c) 2016 Dmitry Semenov; */
+!function (a) {
+   true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(23)], __WEBPACK_AMD_DEFINE_FACTORY__ = (a),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : a("object" == (typeof exports === "undefined" ? "undefined" : _typeof(exports)) ? require("jquery") : window.jQuery || window.Zepto);
+}(function (a) {
+  var b,
+      c,
+      d,
+      e,
+      f,
+      g,
+      h = "Close",
+      i = "BeforeClose",
+      j = "AfterClose",
+      k = "BeforeAppend",
+      l = "MarkupParse",
+      m = "Open",
+      n = "Change",
+      o = "mfp",
+      p = "." + o,
+      q = "mfp-ready",
+      r = "mfp-removing",
+      s = "mfp-prevent-close",
+      t = function t() {},
+      u = !!window.jQuery,
+      v = a(window),
+      w = function w(a, c) {
+    b.ev.on(o + a + p, c);
+  },
+      x = function x(b, c, d, e) {
+    var f = document.createElement("div");
+    return f.className = "mfp-" + b, d && (f.innerHTML = d), e ? c && c.appendChild(f) : (f = a(f), c && f.appendTo(c)), f;
+  },
+      y = function y(c, d) {
+    b.ev.triggerHandler(o + c, d), b.st.callbacks && (c = c.charAt(0).toLowerCase() + c.slice(1), b.st.callbacks[c] && b.st.callbacks[c].apply(b, a.isArray(d) ? d : [d]));
+  },
+      z = function z(c) {
+    return c === g && b.currTemplate.closeBtn || (b.currTemplate.closeBtn = a(b.st.closeMarkup.replace("%title%", b.st.tClose)), g = c), b.currTemplate.closeBtn;
+  },
+      A = function A() {
+    a.magnificPopup.instance || (b = new t(), b.init(), a.magnificPopup.instance = b);
+  },
+      B = function B() {
+    var a = document.createElement("p").style,
+        b = ["ms", "O", "Moz", "Webkit"];
+    if (void 0 !== a.transition) return !0;
+
+    for (; b.length;) {
+      if (b.pop() + "Transition" in a) return !0;
+    }
+
+    return !1;
+  };
+
+  t.prototype = {
+    constructor: t,
+    init: function init() {
+      var c = navigator.appVersion;
+      b.isLowIE = b.isIE8 = document.all && !document.addEventListener, b.isAndroid = /android/gi.test(c), b.isIOS = /iphone|ipad|ipod/gi.test(c), b.supportsTransition = B(), b.probablyMobile = b.isAndroid || b.isIOS || /(Opera Mini)|Kindle|webOS|BlackBerry|(Opera Mobi)|(Windows Phone)|IEMobile/i.test(navigator.userAgent), d = a(document), b.popupsCache = {};
+    },
+    open: function open(c) {
+      var e;
+
+      if (c.isObj === !1) {
+        b.items = c.items.toArray(), b.index = 0;
+        var g,
+            h = c.items;
+
+        for (e = 0; e < h.length; e++) {
+          if (g = h[e], g.parsed && (g = g.el[0]), g === c.el[0]) {
+            b.index = e;
+            break;
+          }
+        }
+      } else b.items = a.isArray(c.items) ? c.items : [c.items], b.index = c.index || 0;
+
+      if (b.isOpen) return void b.updateItemHTML();
+      b.types = [], f = "", c.mainEl && c.mainEl.length ? b.ev = c.mainEl.eq(0) : b.ev = d, c.key ? (b.popupsCache[c.key] || (b.popupsCache[c.key] = {}), b.currTemplate = b.popupsCache[c.key]) : b.currTemplate = {}, b.st = a.extend(!0, {}, a.magnificPopup.defaults, c), b.fixedContentPos = "auto" === b.st.fixedContentPos ? !b.probablyMobile : b.st.fixedContentPos, b.st.modal && (b.st.closeOnContentClick = !1, b.st.closeOnBgClick = !1, b.st.showCloseBtn = !1, b.st.enableEscapeKey = !1), b.bgOverlay || (b.bgOverlay = x("bg").on("click" + p, function () {
+        b.close();
+      }), b.wrap = x("wrap").attr("tabindex", -1).on("click" + p, function (a) {
+        b._checkIfClose(a.target) && b.close();
+      }), b.container = x("container", b.wrap)), b.contentContainer = x("content"), b.st.preloader && (b.preloader = x("preloader", b.container, b.st.tLoading));
+      var i = a.magnificPopup.modules;
+
+      for (e = 0; e < i.length; e++) {
+        var j = i[e];
+        j = j.charAt(0).toUpperCase() + j.slice(1), b["init" + j].call(b);
+      }
+
+      y("BeforeOpen"), b.st.showCloseBtn && (b.st.closeBtnInside ? (w(l, function (a, b, c, d) {
+        c.close_replaceWith = z(d.type);
+      }), f += " mfp-close-btn-in") : b.wrap.append(z())), b.st.alignTop && (f += " mfp-align-top"), b.fixedContentPos ? b.wrap.css({
+        overflow: b.st.overflowY,
+        overflowX: "hidden",
+        overflowY: b.st.overflowY
+      }) : b.wrap.css({
+        top: v.scrollTop(),
+        position: "absolute"
+      }), (b.st.fixedBgPos === !1 || "auto" === b.st.fixedBgPos && !b.fixedContentPos) && b.bgOverlay.css({
+        height: d.height(),
+        position: "absolute"
+      }), b.st.enableEscapeKey && d.on("keyup" + p, function (a) {
+        27 === a.keyCode && b.close();
+      }), v.on("resize" + p, function () {
+        b.updateSize();
+      }), b.st.closeOnContentClick || (f += " mfp-auto-cursor"), f && b.wrap.addClass(f);
+      var k = b.wH = v.height(),
+          n = {};
+
+      if (b.fixedContentPos && b._hasScrollBar(k)) {
+        var o = b._getScrollbarSize();
+
+        o && (n.marginRight = o);
+      }
+
+      b.fixedContentPos && (b.isIE7 ? a("body, html").css("overflow", "hidden") : n.overflow = "hidden");
+      var r = b.st.mainClass;
+      return b.isIE7 && (r += " mfp-ie7"), r && b._addClassToMFP(r), b.updateItemHTML(), y("BuildControls"), a("html").css(n), b.bgOverlay.add(b.wrap).prependTo(b.st.prependTo || a(document.body)), b._lastFocusedEl = document.activeElement, setTimeout(function () {
+        b.content ? (b._addClassToMFP(q), b._setFocus()) : b.bgOverlay.addClass(q), d.on("focusin" + p, b._onFocusIn);
+      }, 16), b.isOpen = !0, b.updateSize(k), y(m), c;
+    },
+    close: function close() {
+      b.isOpen && (y(i), b.isOpen = !1, b.st.removalDelay && !b.isLowIE && b.supportsTransition ? (b._addClassToMFP(r), setTimeout(function () {
+        b._close();
+      }, b.st.removalDelay)) : b._close());
+    },
+    _close: function _close() {
+      y(h);
+      var c = r + " " + q + " ";
+
+      if (b.bgOverlay.detach(), b.wrap.detach(), b.container.empty(), b.st.mainClass && (c += b.st.mainClass + " "), b._removeClassFromMFP(c), b.fixedContentPos) {
+        var e = {
+          marginRight: ""
+        };
+        b.isIE7 ? a("body, html").css("overflow", "") : e.overflow = "", a("html").css(e);
+      }
+
+      d.off("keyup" + p + " focusin" + p), b.ev.off(p), b.wrap.attr("class", "mfp-wrap").removeAttr("style"), b.bgOverlay.attr("class", "mfp-bg"), b.container.attr("class", "mfp-container"), !b.st.showCloseBtn || b.st.closeBtnInside && b.currTemplate[b.currItem.type] !== !0 || b.currTemplate.closeBtn && b.currTemplate.closeBtn.detach(), b.st.autoFocusLast && b._lastFocusedEl && a(b._lastFocusedEl).focus(), b.currItem = null, b.content = null, b.currTemplate = null, b.prevHeight = 0, y(j);
+    },
+    updateSize: function updateSize(a) {
+      if (b.isIOS) {
+        var c = document.documentElement.clientWidth / window.innerWidth,
+            d = window.innerHeight * c;
+        b.wrap.css("height", d), b.wH = d;
+      } else b.wH = a || v.height();
+
+      b.fixedContentPos || b.wrap.css("height", b.wH), y("Resize");
+    },
+    updateItemHTML: function updateItemHTML() {
+      var c = b.items[b.index];
+      b.contentContainer.detach(), b.content && b.content.detach(), c.parsed || (c = b.parseEl(b.index));
+      var d = c.type;
+
+      if (y("BeforeChange", [b.currItem ? b.currItem.type : "", d]), b.currItem = c, !b.currTemplate[d]) {
+        var f = b.st[d] ? b.st[d].markup : !1;
+        y("FirstMarkupParse", f), f ? b.currTemplate[d] = a(f) : b.currTemplate[d] = !0;
+      }
+
+      e && e !== c.type && b.container.removeClass("mfp-" + e + "-holder");
+      var g = b["get" + d.charAt(0).toUpperCase() + d.slice(1)](c, b.currTemplate[d]);
+      b.appendContent(g, d), c.preloaded = !0, y(n, c), e = c.type, b.container.prepend(b.contentContainer), y("AfterChange");
+    },
+    appendContent: function appendContent(a, c) {
+      b.content = a, a ? b.st.showCloseBtn && b.st.closeBtnInside && b.currTemplate[c] === !0 ? b.content.find(".mfp-close").length || b.content.append(z()) : b.content = a : b.content = "", y(k), b.container.addClass("mfp-" + c + "-holder"), b.contentContainer.append(b.content);
+    },
+    parseEl: function parseEl(c) {
+      var d,
+          e = b.items[c];
+
+      if (e.tagName ? e = {
+        el: a(e)
+      } : (d = e.type, e = {
+        data: e,
+        src: e.src
+      }), e.el) {
+        for (var f = b.types, g = 0; g < f.length; g++) {
+          if (e.el.hasClass("mfp-" + f[g])) {
+            d = f[g];
+            break;
+          }
+        }
+
+        e.src = e.el.attr("data-mfp-src"), e.src || (e.src = e.el.attr("href"));
+      }
+
+      return e.type = d || b.st.type || "inline", e.index = c, e.parsed = !0, b.items[c] = e, y("ElementParse", e), b.items[c];
+    },
+    addGroup: function addGroup(a, c) {
+      var d = function d(_d) {
+        _d.mfpEl = this, b._openClick(_d, a, c);
+      };
+
+      c || (c = {});
+      var e = "click.magnificPopup";
+      c.mainEl = a, c.items ? (c.isObj = !0, a.off(e).on(e, d)) : (c.isObj = !1, c.delegate ? a.off(e).on(e, c.delegate, d) : (c.items = a, a.off(e).on(e, d)));
+    },
+    _openClick: function _openClick(c, d, e) {
+      var f = void 0 !== e.midClick ? e.midClick : a.magnificPopup.defaults.midClick;
+
+      if (f || !(2 === c.which || c.ctrlKey || c.metaKey || c.altKey || c.shiftKey)) {
+        var g = void 0 !== e.disableOn ? e.disableOn : a.magnificPopup.defaults.disableOn;
+        if (g) if (a.isFunction(g)) {
+          if (!g.call(b)) return !0;
+        } else if (v.width() < g) return !0;
+        c.type && (c.preventDefault(), b.isOpen && c.stopPropagation()), e.el = a(c.mfpEl), e.delegate && (e.items = d.find(e.delegate)), b.open(e);
+      }
+    },
+    updateStatus: function updateStatus(a, d) {
+      if (b.preloader) {
+        c !== a && b.container.removeClass("mfp-s-" + c), d || "loading" !== a || (d = b.st.tLoading);
+        var e = {
+          status: a,
+          text: d
+        };
+        y("UpdateStatus", e), a = e.status, d = e.text, b.preloader.html(d), b.preloader.find("a").on("click", function (a) {
+          a.stopImmediatePropagation();
+        }), b.container.addClass("mfp-s-" + a), c = a;
+      }
+    },
+    _checkIfClose: function _checkIfClose(c) {
+      if (!a(c).hasClass(s)) {
+        var d = b.st.closeOnContentClick,
+            e = b.st.closeOnBgClick;
+        if (d && e) return !0;
+        if (!b.content || a(c).hasClass("mfp-close") || b.preloader && c === b.preloader[0]) return !0;
+
+        if (c === b.content[0] || a.contains(b.content[0], c)) {
+          if (d) return !0;
+        } else if (e && a.contains(document, c)) return !0;
+
+        return !1;
+      }
+    },
+    _addClassToMFP: function _addClassToMFP(a) {
+      b.bgOverlay.addClass(a), b.wrap.addClass(a);
+    },
+    _removeClassFromMFP: function _removeClassFromMFP(a) {
+      this.bgOverlay.removeClass(a), b.wrap.removeClass(a);
+    },
+    _hasScrollBar: function _hasScrollBar(a) {
+      return (b.isIE7 ? d.height() : document.body.scrollHeight) > (a || v.height());
+    },
+    _setFocus: function _setFocus() {
+      (b.st.focus ? b.content.find(b.st.focus).eq(0) : b.wrap).focus();
+    },
+    _onFocusIn: function _onFocusIn(c) {
+      return c.target === b.wrap[0] || a.contains(b.wrap[0], c.target) ? void 0 : (b._setFocus(), !1);
+    },
+    _parseMarkup: function _parseMarkup(b, c, d) {
+      var e;
+      d.data && (c = a.extend(d.data, c)), y(l, [b, c, d]), a.each(c, function (c, d) {
+        if (void 0 === d || d === !1) return !0;
+
+        if (e = c.split("_"), e.length > 1) {
+          var f = b.find(p + "-" + e[0]);
+
+          if (f.length > 0) {
+            var g = e[1];
+            "replaceWith" === g ? f[0] !== d[0] && f.replaceWith(d) : "img" === g ? f.is("img") ? f.attr("src", d) : f.replaceWith(a("<img>").attr("src", d).attr("class", f.attr("class"))) : f.attr(e[1], d);
+          }
+        } else b.find(p + "-" + c).html(d);
+      });
+    },
+    _getScrollbarSize: function _getScrollbarSize() {
+      if (void 0 === b.scrollbarSize) {
+        var a = document.createElement("div");
+        a.style.cssText = "width: 99px; height: 99px; overflow: scroll; position: absolute; top: -9999px;", document.body.appendChild(a), b.scrollbarSize = a.offsetWidth - a.clientWidth, document.body.removeChild(a);
+      }
+
+      return b.scrollbarSize;
+    }
+  }, a.magnificPopup = {
+    instance: null,
+    proto: t.prototype,
+    modules: [],
+    open: function open(b, c) {
+      return A(), b = b ? a.extend(!0, {}, b) : {}, b.isObj = !0, b.index = c || 0, this.instance.open(b);
+    },
+    close: function close() {
+      return a.magnificPopup.instance && a.magnificPopup.instance.close();
+    },
+    registerModule: function registerModule(b, c) {
+      c.options && (a.magnificPopup.defaults[b] = c.options), a.extend(this.proto, c.proto), this.modules.push(b);
+    },
+    defaults: {
+      disableOn: 0,
+      key: null,
+      midClick: !1,
+      mainClass: "",
+      preloader: !0,
+      focus: "",
+      closeOnContentClick: !1,
+      closeOnBgClick: !0,
+      closeBtnInside: !0,
+      showCloseBtn: !0,
+      enableEscapeKey: !0,
+      modal: !1,
+      alignTop: !1,
+      removalDelay: 0,
+      prependTo: null,
+      fixedContentPos: "auto",
+      fixedBgPos: "auto",
+      overflowY: "auto",
+      closeMarkup: '<button title="%title%" type="button" class="mfp-close">&#215;</button>',
+      tClose: "Close (Esc)",
+      tLoading: "Loading...",
+      autoFocusLast: !0
+    }
+  }, a.fn.magnificPopup = function (c) {
+    A();
+    var d = a(this);
+    if ("string" == typeof c) {
+      if ("open" === c) {
+        var e,
+            f = u ? d.data("magnificPopup") : d[0].magnificPopup,
+            g = parseInt(arguments[1], 10) || 0;
+        f.items ? e = f.items[g] : (e = d, f.delegate && (e = e.find(f.delegate)), e = e.eq(g)), b._openClick({
+          mfpEl: e
+        }, d, f);
+      } else b.isOpen && b[c].apply(b, Array.prototype.slice.call(arguments, 1));
+    } else c = a.extend(!0, {}, c), u ? d.data("magnificPopup", c) : d[0].magnificPopup = c, b.addGroup(d, c);
+    return d;
+  };
+
+  var C,
+      D,
+      E,
+      F = "inline",
+      G = function G() {
+    E && (D.after(E.addClass(C)).detach(), E = null);
+  };
+
+  a.magnificPopup.registerModule(F, {
+    options: {
+      hiddenClass: "hide",
+      markup: "",
+      tNotFound: "Content not found"
+    },
+    proto: {
+      initInline: function initInline() {
+        b.types.push(F), w(h + "." + F, function () {
+          G();
+        });
+      },
+      getInline: function getInline(c, d) {
+        if (G(), c.src) {
+          var e = b.st.inline,
+              f = a(c.src);
+
+          if (f.length) {
+            var g = f[0].parentNode;
+            g && g.tagName && (D || (C = e.hiddenClass, D = x(C), C = "mfp-" + C), E = f.after(D).detach().removeClass(C)), b.updateStatus("ready");
+          } else b.updateStatus("error", e.tNotFound), f = a("<div>");
+
+          return c.inlineElement = f, f;
+        }
+
+        return b.updateStatus("ready"), b._parseMarkup(d, {}, c), d;
+      }
+    }
+  });
+
+  var H,
+      I = "ajax",
+      J = function J() {
+    H && a(document.body).removeClass(H);
+  },
+      K = function K() {
+    J(), b.req && b.req.abort();
+  };
+
+  a.magnificPopup.registerModule(I, {
+    options: {
+      settings: null,
+      cursor: "mfp-ajax-cur",
+      tError: '<a href="%url%">The content</a> could not be loaded.'
+    },
+    proto: {
+      initAjax: function initAjax() {
+        b.types.push(I), H = b.st.ajax.cursor, w(h + "." + I, K), w("BeforeChange." + I, K);
+      },
+      getAjax: function getAjax(c) {
+        H && a(document.body).addClass(H), b.updateStatus("loading");
+        var d = a.extend({
+          url: c.src,
+          success: function success(d, e, f) {
+            var g = {
+              data: d,
+              xhr: f
+            };
+            y("ParseAjax", g), b.appendContent(a(g.data), I), c.finished = !0, J(), b._setFocus(), setTimeout(function () {
+              b.wrap.addClass(q);
+            }, 16), b.updateStatus("ready"), y("AjaxContentAdded");
+          },
+          error: function error() {
+            J(), c.finished = c.loadError = !0, b.updateStatus("error", b.st.ajax.tError.replace("%url%", c.src));
+          }
+        }, b.st.ajax.settings);
+        return b.req = a.ajax(d), "";
+      }
+    }
+  });
+
+  var L,
+      M = function M(c) {
+    if (c.data && void 0 !== c.data.title) return c.data.title;
+    var d = b.st.image.titleSrc;
+
+    if (d) {
+      if (a.isFunction(d)) return d.call(b, c);
+      if (c.el) return c.el.attr(d) || "";
+    }
+
+    return "";
+  };
+
+  a.magnificPopup.registerModule("image", {
+    options: {
+      markup: '<div class="mfp-figure"><div class="mfp-close"></div><figure><div class="mfp-img"></div><figcaption><div class="mfp-bottom-bar"><div class="mfp-title"></div><div class="mfp-counter"></div></div></figcaption></figure></div>',
+      cursor: "mfp-zoom-out-cur",
+      titleSrc: "title",
+      verticalFit: !0,
+      tError: '<a href="%url%">The image</a> could not be loaded.'
+    },
+    proto: {
+      initImage: function initImage() {
+        var c = b.st.image,
+            d = ".image";
+        b.types.push("image"), w(m + d, function () {
+          "image" === b.currItem.type && c.cursor && a(document.body).addClass(c.cursor);
+        }), w(h + d, function () {
+          c.cursor && a(document.body).removeClass(c.cursor), v.off("resize" + p);
+        }), w("Resize" + d, b.resizeImage), b.isLowIE && w("AfterChange", b.resizeImage);
+      },
+      resizeImage: function resizeImage() {
+        var a = b.currItem;
+
+        if (a && a.img && b.st.image.verticalFit) {
+          var c = 0;
+          b.isLowIE && (c = parseInt(a.img.css("padding-top"), 10) + parseInt(a.img.css("padding-bottom"), 10)), a.img.css("max-height", b.wH - c);
+        }
+      },
+      _onImageHasSize: function _onImageHasSize(a) {
+        a.img && (a.hasSize = !0, L && clearInterval(L), a.isCheckingImgSize = !1, y("ImageHasSize", a), a.imgHidden && (b.content && b.content.removeClass("mfp-loading"), a.imgHidden = !1));
+      },
+      findImageSize: function findImageSize(a) {
+        var c = 0,
+            d = a.img[0],
+            e = function e(f) {
+          L && clearInterval(L), L = setInterval(function () {
+            return d.naturalWidth > 0 ? void b._onImageHasSize(a) : (c > 200 && clearInterval(L), c++, void (3 === c ? e(10) : 40 === c ? e(50) : 100 === c && e(500)));
+          }, f);
+        };
+
+        e(1);
+      },
+      getImage: function getImage(c, d) {
+        var e = 0,
+            f = function f() {
+          c && (c.img[0].complete ? (c.img.off(".mfploader"), c === b.currItem && (b._onImageHasSize(c), b.updateStatus("ready")), c.hasSize = !0, c.loaded = !0, y("ImageLoadComplete")) : (e++, 200 > e ? setTimeout(f, 100) : g()));
+        },
+            g = function g() {
+          c && (c.img.off(".mfploader"), c === b.currItem && (b._onImageHasSize(c), b.updateStatus("error", h.tError.replace("%url%", c.src))), c.hasSize = !0, c.loaded = !0, c.loadError = !0);
+        },
+            h = b.st.image,
+            i = d.find(".mfp-img");
+
+        if (i.length) {
+          var j = document.createElement("img");
+          j.className = "mfp-img", c.el && c.el.find("img").length && (j.alt = c.el.find("img").attr("alt")), c.img = a(j).on("load.mfploader", f).on("error.mfploader", g), j.src = c.src, i.is("img") && (c.img = c.img.clone()), j = c.img[0], j.naturalWidth > 0 ? c.hasSize = !0 : j.width || (c.hasSize = !1);
+        }
+
+        return b._parseMarkup(d, {
+          title: M(c),
+          img_replaceWith: c.img
+        }, c), b.resizeImage(), c.hasSize ? (L && clearInterval(L), c.loadError ? (d.addClass("mfp-loading"), b.updateStatus("error", h.tError.replace("%url%", c.src))) : (d.removeClass("mfp-loading"), b.updateStatus("ready")), d) : (b.updateStatus("loading"), c.loading = !0, c.hasSize || (c.imgHidden = !0, d.addClass("mfp-loading"), b.findImageSize(c)), d);
+      }
+    }
+  });
+
+  var N,
+      O = function O() {
+    return void 0 === N && (N = void 0 !== document.createElement("p").style.MozTransform), N;
+  };
+
+  a.magnificPopup.registerModule("zoom", {
+    options: {
+      enabled: !1,
+      easing: "ease-in-out",
+      duration: 300,
+      opener: function opener(a) {
+        return a.is("img") ? a : a.find("img");
+      }
+    },
+    proto: {
+      initZoom: function initZoom() {
+        var a,
+            c = b.st.zoom,
+            d = ".zoom";
+
+        if (c.enabled && b.supportsTransition) {
+          var e,
+              f,
+              g = c.duration,
+              j = function j(a) {
+            var b = a.clone().removeAttr("style").removeAttr("class").addClass("mfp-animated-image"),
+                d = "all " + c.duration / 1e3 + "s " + c.easing,
+                e = {
+              position: "fixed",
+              zIndex: 9999,
+              left: 0,
+              top: 0,
+              "-webkit-backface-visibility": "hidden"
+            },
+                f = "transition";
+            return e["-webkit-" + f] = e["-moz-" + f] = e["-o-" + f] = e[f] = d, b.css(e), b;
+          },
+              k = function k() {
+            b.content.css("visibility", "visible");
+          };
+
+          w("BuildControls" + d, function () {
+            if (b._allowZoom()) {
+              if (clearTimeout(e), b.content.css("visibility", "hidden"), a = b._getItemToZoom(), !a) return void k();
+              f = j(a), f.css(b._getOffset()), b.wrap.append(f), e = setTimeout(function () {
+                f.css(b._getOffset(!0)), e = setTimeout(function () {
+                  k(), setTimeout(function () {
+                    f.remove(), a = f = null, y("ZoomAnimationEnded");
+                  }, 16);
+                }, g);
+              }, 16);
+            }
+          }), w(i + d, function () {
+            if (b._allowZoom()) {
+              if (clearTimeout(e), b.st.removalDelay = g, !a) {
+                if (a = b._getItemToZoom(), !a) return;
+                f = j(a);
+              }
+
+              f.css(b._getOffset(!0)), b.wrap.append(f), b.content.css("visibility", "hidden"), setTimeout(function () {
+                f.css(b._getOffset());
+              }, 16);
+            }
+          }), w(h + d, function () {
+            b._allowZoom() && (k(), f && f.remove(), a = null);
+          });
+        }
+      },
+      _allowZoom: function _allowZoom() {
+        return "image" === b.currItem.type;
+      },
+      _getItemToZoom: function _getItemToZoom() {
+        return b.currItem.hasSize ? b.currItem.img : !1;
+      },
+      _getOffset: function _getOffset(c) {
+        var d;
+        d = c ? b.currItem.img : b.st.zoom.opener(b.currItem.el || b.currItem);
+        var e = d.offset(),
+            f = parseInt(d.css("padding-top"), 10),
+            g = parseInt(d.css("padding-bottom"), 10);
+        e.top -= a(window).scrollTop() - f;
+        var h = {
+          width: d.width(),
+          height: (u ? d.innerHeight() : d[0].offsetHeight) - g - f
+        };
+        return O() ? h["-moz-transform"] = h.transform = "translate(" + e.left + "px," + e.top + "px)" : (h.left = e.left, h.top = e.top), h;
+      }
+    }
+  });
+
+  var P = "iframe",
+      Q = "//about:blank",
+      R = function R(a) {
+    if (b.currTemplate[P]) {
+      var c = b.currTemplate[P].find("iframe");
+      c.length && (a || (c[0].src = Q), b.isIE8 && c.css("display", a ? "block" : "none"));
+    }
+  };
+
+  a.magnificPopup.registerModule(P, {
+    options: {
+      markup: '<div class="mfp-iframe-scaler"><div class="mfp-close"></div><iframe class="mfp-iframe" src="//about:blank" frameborder="0" allowfullscreen></iframe></div>',
+      srcAction: "iframe_src",
+      patterns: {
+        youtube: {
+          index: "youtube.com",
+          id: "v=",
+          src: "//www.youtube.com/embed/%id%?autoplay=1"
+        },
+        vimeo: {
+          index: "vimeo.com/",
+          id: "/",
+          src: "//player.vimeo.com/video/%id%?autoplay=1"
+        },
+        gmaps: {
+          index: "//maps.google.",
+          src: "%id%&output=embed"
+        }
+      }
+    },
+    proto: {
+      initIframe: function initIframe() {
+        b.types.push(P), w("BeforeChange", function (a, b, c) {
+          b !== c && (b === P ? R() : c === P && R(!0));
+        }), w(h + "." + P, function () {
+          R();
+        });
+      },
+      getIframe: function getIframe(c, d) {
+        var e = c.src,
+            f = b.st.iframe;
+        a.each(f.patterns, function () {
+          return e.indexOf(this.index) > -1 ? (this.id && (e = "string" == typeof this.id ? e.substr(e.lastIndexOf(this.id) + this.id.length, e.length) : this.id.call(this, e)), e = this.src.replace("%id%", e), !1) : void 0;
+        });
+        var g = {};
+        return f.srcAction && (g[f.srcAction] = e), b._parseMarkup(d, g, c), b.updateStatus("ready"), d;
+      }
+    }
+  });
+
+  var S = function S(a) {
+    var c = b.items.length;
+    return a > c - 1 ? a - c : 0 > a ? c + a : a;
+  },
+      T = function T(a, b, c) {
+    return a.replace(/%curr%/gi, b + 1).replace(/%total%/gi, c);
+  };
+
+  a.magnificPopup.registerModule("gallery", {
+    options: {
+      enabled: !1,
+      arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>',
+      preload: [0, 2],
+      navigateByImgClick: !0,
+      arrows: !0,
+      tPrev: "Previous (Left arrow key)",
+      tNext: "Next (Right arrow key)",
+      tCounter: "%curr% of %total%"
+    },
+    proto: {
+      initGallery: function initGallery() {
+        var c = b.st.gallery,
+            e = ".mfp-gallery";
+        return b.direction = !0, c && c.enabled ? (f += " mfp-gallery", w(m + e, function () {
+          c.navigateByImgClick && b.wrap.on("click" + e, ".mfp-img", function () {
+            return b.items.length > 1 ? (b.next(), !1) : void 0;
+          }), d.on("keydown" + e, function (a) {
+            37 === a.keyCode ? b.prev() : 39 === a.keyCode && b.next();
+          });
+        }), w("UpdateStatus" + e, function (a, c) {
+          c.text && (c.text = T(c.text, b.currItem.index, b.items.length));
+        }), w(l + e, function (a, d, e, f) {
+          var g = b.items.length;
+          e.counter = g > 1 ? T(c.tCounter, f.index, g) : "";
+        }), w("BuildControls" + e, function () {
+          if (b.items.length > 1 && c.arrows && !b.arrowLeft) {
+            var d = c.arrowMarkup,
+                e = b.arrowLeft = a(d.replace(/%title%/gi, c.tPrev).replace(/%dir%/gi, "left")).addClass(s),
+                f = b.arrowRight = a(d.replace(/%title%/gi, c.tNext).replace(/%dir%/gi, "right")).addClass(s);
+            e.click(function () {
+              b.prev();
+            }), f.click(function () {
+              b.next();
+            }), b.container.append(e.add(f));
+          }
+        }), w(n + e, function () {
+          b._preloadTimeout && clearTimeout(b._preloadTimeout), b._preloadTimeout = setTimeout(function () {
+            b.preloadNearbyImages(), b._preloadTimeout = null;
+          }, 16);
+        }), void w(h + e, function () {
+          d.off(e), b.wrap.off("click" + e), b.arrowRight = b.arrowLeft = null;
+        })) : !1;
+      },
+      next: function next() {
+        b.direction = !0, b.index = S(b.index + 1), b.updateItemHTML();
+      },
+      prev: function prev() {
+        b.direction = !1, b.index = S(b.index - 1), b.updateItemHTML();
+      },
+      goTo: function goTo(a) {
+        b.direction = a >= b.index, b.index = a, b.updateItemHTML();
+      },
+      preloadNearbyImages: function preloadNearbyImages() {
+        var a,
+            c = b.st.gallery.preload,
+            d = Math.min(c[0], b.items.length),
+            e = Math.min(c[1], b.items.length);
+
+        for (a = 1; a <= (b.direction ? e : d); a++) {
+          b._preloadItem(b.index + a);
+        }
+
+        for (a = 1; a <= (b.direction ? d : e); a++) {
+          b._preloadItem(b.index - a);
+        }
+      },
+      _preloadItem: function _preloadItem(c) {
+        if (c = S(c), !b.items[c].preloaded) {
+          var d = b.items[c];
+          d.parsed || (d = b.parseEl(c)), y("LazyLoad", d), "image" === d.type && (d.img = a('<img class="mfp-img" />').on("load.mfploader", function () {
+            d.hasSize = !0;
+          }).on("error.mfploader", function () {
+            d.hasSize = !0, d.loadError = !0, y("LazyLoadError", d);
+          }).attr("src", d.src)), d.preloaded = !0;
+        }
+      }
+    }
+  });
+  var U = "retina";
+  a.magnificPopup.registerModule(U, {
+    options: {
+      replaceSrc: function replaceSrc(a) {
+        return a.src.replace(/\.\w+$/, function (a) {
+          return "@2x" + a;
+        });
+      },
+      ratio: 1
+    },
+    proto: {
+      initRetina: function initRetina() {
+        if (window.devicePixelRatio > 1) {
+          var a = b.st.retina,
+              c = a.ratio;
+          c = isNaN(c) ? c() : c, c > 1 && (w("ImageHasSize." + U, function (a, b) {
+            b.img.css({
+              "max-width": b.img[0].naturalWidth / c,
+              width: "100%"
+            });
+          }), w("ElementParse." + U, function (b, d) {
+            d.src = a.replaceSrc(d, c);
+          }));
+        }
+      }
+    }
+  }), A();
+});
 
 /***/ }),
 
 /***/ 345:
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: SyntaxError: /Users/glebsimdyankin/Documents/work/redsoft/src/scripts/libs/jquery.mask.min.js: Unexpected keyword 'var' (3:118)\n\n\u001b[0m \u001b[90m 1 | \u001b[39m\u001b[90m// jQuery Mask Plugin v1.14.10\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 2 | \u001b[39m\u001b[90m// github.com/igorescobar/jQuery-Mask-Plugin\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 3 | \u001b[39m\u001b[36mvar\u001b[39m $jscomp\u001b[33m=\u001b[39m{scope\u001b[33m:\u001b[39m{}\u001b[33m,\u001b[39mfindInternal\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mc){a \u001b[36minstanceof\u001b[39m \u001b[33mString\u001b[39m\u001b[33m&&\u001b[39m(a\u001b[33m=\u001b[39m\u001b[33mString\u001b[39m(a))\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m l\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39mg\u001b[33m<\u001b[39m\u001b[33ml\u001b[39m\u001b[33m;\u001b[39mg\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39ma[g]\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(f\u001b[33m.\u001b[39mcall(c\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mg\u001b[33m,\u001b[39ma))\u001b[36mreturn\u001b[39m{i\u001b[33m:\u001b[39mg\u001b[33m,\u001b[39mv\u001b[33m:\u001b[39mb}}\u001b[36mreturn\u001b[39m{i\u001b[33m:\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mv\u001b[33m:\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m}}}\u001b[33m;\u001b[39m$jscomp\u001b[33m.\u001b[39mdefineProperty\u001b[33m=\u001b[39m\u001b[32m\"function\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m \u001b[33mObject\u001b[39m\u001b[33m.\u001b[39mdefineProperties\u001b[33m?\u001b[39m\u001b[33mObject\u001b[39m\u001b[33m.\u001b[39mdefineProperty\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mc){\u001b[36mif\u001b[39m(c\u001b[33m.\u001b[39mget\u001b[33m||\u001b[39mc\u001b[33m.\u001b[39mset)\u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mTypeError\u001b[39m(\u001b[32m\"ES3 does not support getters and setters.\"\u001b[39m)\u001b[33m;\u001b[39ma\u001b[33m!=\u001b[39m\u001b[33mArray\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m&&\u001b[39ma\u001b[33m!=\u001b[39m\u001b[33mObject\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m&&\u001b[39m(a[f]\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mvalue)}\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   | \u001b[39m                                                                                                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 4 | \u001b[39m$jscomp\u001b[33m.\u001b[39mgetGlobal\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m\u001b[32m\"undefined\"\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mtypeof\u001b[39m window\u001b[33m&&\u001b[39mwindow\u001b[33m===\u001b[39ma\u001b[33m?\u001b[39ma\u001b[33m:\u001b[39m\u001b[32m\"undefined\"\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mtypeof\u001b[39m global\u001b[33m&&\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mglobal\u001b[33m?\u001b[39mglobal\u001b[33m:\u001b[39ma}\u001b[33m;\u001b[39m$jscomp\u001b[33m.\u001b[39mglobal\u001b[33m=\u001b[39m$jscomp\u001b[33m.\u001b[39mgetGlobal(\u001b[36mthis\u001b[39m)\u001b[33m;\u001b[39m$jscomp\u001b[33m.\u001b[39mpolyfill\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39ml){\u001b[36mif\u001b[39m(f){c\u001b[33m=\u001b[39m$jscomp\u001b[33m.\u001b[39mglobal\u001b[33m;\u001b[39ma\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39msplit(\u001b[32m\".\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(l\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39ml\u001b[33m<\u001b[39m\u001b[33ma\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m;\u001b[39ml\u001b[33m++\u001b[39m){\u001b[36mvar\u001b[39m g\u001b[33m=\u001b[39ma[l]\u001b[33m;\u001b[39mg \u001b[36min\u001b[39m c\u001b[33m||\u001b[39m(c[g]\u001b[33m=\u001b[39m{})\u001b[33m;\u001b[39mc\u001b[33m=\u001b[39mc[g]}a\u001b[33m=\u001b[39ma[a\u001b[33m.\u001b[39mlength\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m]\u001b[33m;\u001b[39ml\u001b[33m=\u001b[39mc[a]\u001b[33m;\u001b[39mf\u001b[33m=\u001b[39mf(l)\u001b[33m;\u001b[39mf\u001b[33m!=\u001b[39ml\u001b[33m&&\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mf\u001b[33m&&\u001b[39m$jscomp\u001b[33m.\u001b[39mdefineProperty(c\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39m{configurable\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mwritable\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mvalue\u001b[33m:\u001b[39mf})}}\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 5 | \u001b[39m$jscomp\u001b[33m.\u001b[39mpolyfill(\u001b[32m\"Array.prototype.find\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a\u001b[33m?\u001b[39ma\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m $jscomp\u001b[33m.\u001b[39mfindInternal(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39mc)\u001b[33m.\u001b[39mv}}\u001b[33m,\u001b[39m\u001b[32m\"es6-impl\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"es3\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 | \u001b[39m(\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mc){\u001b[32m\"function\"\u001b[39m\u001b[33m===\u001b[39m\u001b[36mtypeof\u001b[39m define\u001b[33m&&\u001b[39mdefine\u001b[33m.\u001b[39mamd\u001b[33m?\u001b[39mdefine([\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39ma)\u001b[33m:\u001b[39m\u001b[32m\"object\"\u001b[39m\u001b[33m===\u001b[39m\u001b[36mtypeof\u001b[39m exports\u001b[33m?\u001b[39mmodule\u001b[33m.\u001b[39mexports\u001b[33m=\u001b[39ma(require(\u001b[32m\"jquery\"\u001b[39m))\u001b[33m:\u001b[39ma(f\u001b[33m||\u001b[39mc)})(\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mh\u001b[33m,\u001b[39me){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m{invalid\u001b[33m:\u001b[39m[]\u001b[33m,\u001b[39mgetCaret\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mtry\u001b[39m{\u001b[36mvar\u001b[39m a\u001b[33m,\u001b[39mn\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mget(\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39mdocument\u001b[33m.\u001b[39mselection\u001b[33m,\u001b[39mk\u001b[33m=\u001b[39mh\u001b[33m.\u001b[39mselectionStart\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(e\u001b[33m&&\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m===\u001b[39mnavigator\u001b[33m.\u001b[39mappVersion\u001b[33m.\u001b[39mindexOf(\u001b[32m\"MSIE 10\"\u001b[39m))a\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mcreateRange()\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mmoveStart(\u001b[32m\"character\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33m-\u001b[39md\u001b[33m.\u001b[39mval()\u001b[33m.\u001b[39mlength)\u001b[33m,\u001b[39mn\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mtext\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m \u001b[36mif\u001b[39m(k\u001b[33m||\u001b[39m\u001b[32m\"0\"\u001b[39m\u001b[33m===\u001b[39mk)n\u001b[33m=\u001b[39mk\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m n}\u001b[36mcatch\u001b[39m(\u001b[33mA\u001b[39m){}}\u001b[33m,\u001b[39msetCaret\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mtry\u001b[39m{\u001b[36mif\u001b[39m(b\u001b[33m.\u001b[39mis(\u001b[32m\":focus\"\u001b[39m)){\u001b[36mvar\u001b[39m p\u001b[33m,\u001b[39m\u001b[0m\n    at raise (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:6325:17)\n    at checkReservedWord (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9546:12)\n    at parseObjectProperty (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9286:12)\n    at parseObjPropValue (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9306:101)\n    at parseObjectMember (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9230:10)\n    at parseObj (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9154:25)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8784:28)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:3601:20)\n    at parseExprSubscripts (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8412:23)\n    at parseMaybeUnary (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8392:21)\n    at parseExprOps (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8267:23)\n    at parseMaybeConditional (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8240:23)\n    at parseMaybeAssign (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8187:21)\n    at parseExpression (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8135:23)\n    at parseStatementContent (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9958:23)\n    at parseStatement (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9829:17)");
+/* WEBPACK VAR INJECTION */(function(global) {var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+// jQuery Mask Plugin v1.14.10
+// github.com/igorescobar/jQuery-Mask-Plugin
+var $jscomp = {
+  scope: {},
+  findInternal: function findInternal(a, f, c) {
+    a instanceof String && (a = String(a));
+
+    for (var l = a.length, g = 0; g < l; g++) {
+      var b = a[g];
+      if (f.call(c, b, g, a)) return {
+        i: g,
+        v: b
+      };
+    }
+
+    return {
+      i: -1,
+      v: void 0
+    };
+  }
+};
+$jscomp.defineProperty = "function" == typeof Object.defineProperties ? Object.defineProperty : function (a, f, c) {
+  if (c.get || c.set) throw new TypeError("ES3 does not support getters and setters.");
+  a != Array.prototype && a != Object.prototype && (a[f] = c.value);
+};
+
+$jscomp.getGlobal = function (a) {
+  return "undefined" != typeof window && window === a ? a : "undefined" != typeof global && null != global ? global : a;
+};
+
+$jscomp.global = $jscomp.getGlobal(this);
+
+$jscomp.polyfill = function (a, f, c, l) {
+  if (f) {
+    c = $jscomp.global;
+    a = a.split(".");
+
+    for (l = 0; l < a.length - 1; l++) {
+      var g = a[l];
+      g in c || (c[g] = {});
+      c = c[g];
+    }
+
+    a = a[a.length - 1];
+    l = c[a];
+    f = f(l);
+    f != l && null != f && $jscomp.defineProperty(c, a, {
+      configurable: !0,
+      writable: !0,
+      value: f
+    });
+  }
+};
+
+$jscomp.polyfill("Array.prototype.find", function (a) {
+  return a ? a : function (a, c) {
+    return $jscomp.findInternal(this, a, c).v;
+  };
+}, "es6-impl", "es3");
+
+(function (a, f, c) {
+   true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(23)], __WEBPACK_AMD_DEFINE_FACTORY__ = (a),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : "object" === (typeof exports === "undefined" ? "undefined" : _typeof(exports)) ? module.exports = a(require("jquery")) : a(f || c);
+})(function (a) {
+  var f = function f(b, h, e) {
+    var d = {
+      invalid: [],
+      getCaret: function getCaret() {
+        try {
+          var a,
+              n = 0,
+              h = b.get(0),
+              e = document.selection,
+              k = h.selectionStart;
+          if (e && -1 === navigator.appVersion.indexOf("MSIE 10")) a = e.createRange(), a.moveStart("character", -d.val().length), n = a.text.length;else if (k || "0" === k) n = k;
+          return n;
+        } catch (A) {}
+      },
+      setCaret: function setCaret(a) {
+        try {
+          if (b.is(":focus")) {
+            var p,
+                d = b.get(0);
+            d.setSelectionRange ? d.setSelectionRange(a, a) : (p = d.createTextRange(), p.collapse(!0), p.moveEnd("character", a), p.moveStart("character", a), p.select());
+          }
+        } catch (z) {}
+      },
+      events: function events() {
+        b.on("keydown.mask", function (a) {
+          b.data("mask-keycode", a.keyCode || a.which);
+          b.data("mask-previus-value", b.val());
+        }).on(a.jMaskGlobals.useInput ? "input.mask" : "keyup.mask", d.behaviour).on("paste.mask drop.mask", function () {
+          setTimeout(function () {
+            b.keydown().keyup();
+          }, 100);
+        }).on("change.mask", function () {
+          b.data("changed", !0);
+        }).on("blur.mask", function () {
+          c === d.val() || b.data("changed") || b.trigger("change");
+          b.data("changed", !1);
+        }).on("blur.mask", function () {
+          c = d.val();
+        }).on("focus.mask", function (b) {
+          !0 === e.selectOnFocus && a(b.target).select();
+        }).on("focusout.mask", function () {
+          e.clearIfNotMatch && !g.test(d.val()) && d.val("");
+        });
+      },
+      getRegexMask: function getRegexMask() {
+        for (var a = [], b, d, e, k, c = 0; c < h.length; c++) {
+          (b = m.translation[h.charAt(c)]) ? (d = b.pattern.toString().replace(/.{1}$|^.{1}/g, ""), e = b.optional, (b = b.recursive) ? (a.push(h.charAt(c)), k = {
+            digit: h.charAt(c),
+            pattern: d
+          }) : a.push(e || b ? d + "?" : d)) : a.push(h.charAt(c).replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&"));
+        }
+
+        a = a.join("");
+        k && (a = a.replace(new RegExp("(" + k.digit + "(.*" + k.digit + ")?)"), "($1)?").replace(new RegExp(k.digit, "g"), k.pattern));
+        return new RegExp(a);
+      },
+      destroyEvents: function destroyEvents() {
+        b.off("input keydown keyup paste drop blur focusout ".split(" ").join(".mask "));
+      },
+      val: function val(a) {
+        var d = b.is("input") ? "val" : "text";
+
+        if (0 < arguments.length) {
+          if (b[d]() !== a) b[d](a);
+          d = b;
+        } else d = b[d]();
+
+        return d;
+      },
+      calculateCaretPosition: function calculateCaretPosition(a, d) {
+        var h = d.length,
+            e = b.data("mask-previus-value") || "",
+            k = e.length;
+        8 === b.data("mask-keycode") && e !== d ? a -= d.slice(0, a).length - e.slice(0, a).length : e !== d && (a = a >= k ? h : a + (d.slice(0, a).length - e.slice(0, a).length));
+        return a;
+      },
+      behaviour: function behaviour(e) {
+        e = e || window.event;
+        d.invalid = [];
+        var h = b.data("mask-keycode");
+
+        if (-1 === a.inArray(h, m.byPassKeys)) {
+          var h = d.getMasked(),
+              c = d.getCaret();
+          setTimeout(function (a, b) {
+            d.setCaret(d.calculateCaretPosition(a, b));
+          }, 10, c, h);
+          d.val(h);
+          d.setCaret(c);
+          return d.callbacks(e);
+        }
+      },
+      getMasked: function getMasked(a, b) {
+        var c = [],
+            p = void 0 === b ? d.val() : b + "",
+            k = 0,
+            g = h.length,
+            f = 0,
+            l = p.length,
+            n = 1,
+            v = "push",
+            w = -1,
+            r,
+            u;
+        e.reverse ? (v = "unshift", n = -1, r = 0, k = g - 1, f = l - 1, u = function u() {
+          return -1 < k && -1 < f;
+        }) : (r = g - 1, u = function u() {
+          return k < g && f < l;
+        });
+
+        for (var y; u();) {
+          var x = h.charAt(k),
+              t = p.charAt(f),
+              q = m.translation[x];
+          if (q) t.match(q.pattern) ? (c[v](t), q.recursive && (-1 === w ? w = k : k === r && (k = w - n), r === w && (k -= n)), k += n) : t === y ? y = void 0 : q.optional ? (k += n, f -= n) : q.fallback ? (c[v](q.fallback), k += n, f -= n) : d.invalid.push({
+            p: f,
+            v: t,
+            e: q.pattern
+          }), f += n;else {
+            if (!a) c[v](x);
+            t === x ? f += n : y = x;
+            k += n;
+          }
+        }
+
+        p = h.charAt(r);
+        g !== l + 1 || m.translation[p] || c.push(p);
+        return c.join("");
+      },
+      callbacks: function callbacks(a) {
+        var f = d.val(),
+            p = f !== c,
+            g = [f, a, b, e],
+            k = function k(a, b, d) {
+          "function" === typeof e[a] && b && e[a].apply(this, d);
+        };
+
+        k("onChange", !0 === p, g);
+        k("onKeyPress", !0 === p, g);
+        k("onComplete", f.length === h.length, g);
+        k("onInvalid", 0 < d.invalid.length, [f, a, b, d.invalid, e]);
+      }
+    };
+    b = a(b);
+    var m = this,
+        c = d.val(),
+        g;
+    h = "function" === typeof h ? h(d.val(), void 0, b, e) : h;
+    m.mask = h;
+    m.options = e;
+
+    m.remove = function () {
+      var a = d.getCaret();
+      d.destroyEvents();
+      d.val(m.getCleanVal());
+      d.setCaret(a);
+      return b;
+    };
+
+    m.getCleanVal = function () {
+      return d.getMasked(!0);
+    };
+
+    m.getMaskedVal = function (a) {
+      return d.getMasked(!1, a);
+    };
+
+    m.init = function (c) {
+      c = c || !1;
+      e = e || {};
+      m.clearIfNotMatch = a.jMaskGlobals.clearIfNotMatch;
+      m.byPassKeys = a.jMaskGlobals.byPassKeys;
+      m.translation = a.extend({}, a.jMaskGlobals.translation, e.translation);
+      m = a.extend(!0, {}, m, e);
+      g = d.getRegexMask();
+      if (c) d.events(), d.val(d.getMasked());else {
+        e.placeholder && b.attr("placeholder", e.placeholder);
+        b.data("mask") && b.attr("autocomplete", "off");
+        c = 0;
+
+        for (var f = !0; c < h.length; c++) {
+          var l = m.translation[h.charAt(c)];
+
+          if (l && l.recursive) {
+            f = !1;
+            break;
+          }
+        }
+
+        f && b.attr("maxlength", h.length);
+        d.destroyEvents();
+        d.events();
+        c = d.getCaret();
+        d.val(d.getMasked());
+        d.setCaret(c);
+      }
+    };
+
+    m.init(!b.is("input"));
+  };
+
+  a.maskWatchers = {};
+
+  var c = function c() {
+    var b = a(this),
+        c = {},
+        e = b.attr("data-mask");
+    b.attr("data-mask-reverse") && (c.reverse = !0);
+    b.attr("data-mask-clearifnotmatch") && (c.clearIfNotMatch = !0);
+    "true" === b.attr("data-mask-selectonfocus") && (c.selectOnFocus = !0);
+    if (l(b, e, c)) return b.data("mask", new f(this, e, c));
+  },
+      l = function l(b, c, e) {
+    e = e || {};
+    var d = a(b).data("mask"),
+        h = JSON.stringify;
+    b = a(b).val() || a(b).text();
+
+    try {
+      return "function" === typeof c && (c = c(b)), "object" !== _typeof(d) || h(d.options) !== h(e) || d.mask !== c;
+    } catch (u) {}
+  },
+      g = function g(a) {
+    var b = document.createElement("div"),
+        c;
+    a = "on" + a;
+    c = a in b;
+    c || (b.setAttribute(a, "return;"), c = "function" === typeof b[a]);
+    return c;
+  };
+
+  a.fn.mask = function (b, c) {
+    c = c || {};
+
+    var e = this.selector,
+        d = a.jMaskGlobals,
+        h = d.watchInterval,
+        d = c.watchInputs || d.watchInputs,
+        g = function g() {
+      if (l(this, b, c)) return a(this).data("mask", new f(this, b, c));
+    };
+
+    a(this).each(g);
+    e && "" !== e && d && (clearInterval(a.maskWatchers[e]), a.maskWatchers[e] = setInterval(function () {
+      a(document).find(e).each(g);
+    }, h));
+    return this;
+  };
+
+  a.fn.masked = function (a) {
+    return this.data("mask").getMaskedVal(a);
+  };
+
+  a.fn.unmask = function () {
+    clearInterval(a.maskWatchers[this.selector]);
+    delete a.maskWatchers[this.selector];
+    return this.each(function () {
+      var b = a(this).data("mask");
+      b && b.remove().removeData("mask");
+    });
+  };
+
+  a.fn.cleanVal = function () {
+    return this.data("mask").getCleanVal();
+  };
+
+  a.applyDataMask = function (b) {
+    b = b || a.jMaskGlobals.maskElements;
+    (b instanceof a ? b : a(b)).filter(a.jMaskGlobals.dataMaskAttr).each(c);
+  };
+
+  g = {
+    maskElements: "input,td,span,div",
+    dataMaskAttr: "*[data-mask]",
+    dataMask: !0,
+    watchInterval: 300,
+    watchInputs: !0,
+    useInput: !/Chrome\/[2-4][0-9]|SamsungBrowser/.test(window.navigator.userAgent) && g("input"),
+    watchDataMask: !1,
+    byPassKeys: [9, 16, 17, 18, 36, 37, 38, 39, 40, 91],
+    translation: {
+      0: {
+        pattern: /\d/
+      },
+      9: {
+        pattern: /\d/,
+        optional: !0
+      },
+      "#": {
+        pattern: /\d/,
+        recursive: !0
+      },
+      A: {
+        pattern: /[a-zA-Z0-9]/
+      },
+      S: {
+        pattern: /[a-zA-Z]/
+      }
+    }
+  };
+  a.jMaskGlobals = a.jMaskGlobals || {};
+  g = a.jMaskGlobals = a.extend(!0, {}, g, a.jMaskGlobals);
+  g.dataMask && a.applyDataMask();
+  setInterval(function () {
+    a.jMaskGlobals.watchDataMask && a.applyDataMask();
+  }, g.watchInterval);
+}, window.jQuery, window.Zepto);
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(53)))
 
 /***/ }),
 
 /***/ 346:
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: SyntaxError: /Users/glebsimdyankin/Documents/work/redsoft/src/scripts/libs/jquery.validate.js: Unexpected keyword 'var' (4:1445)\n\n\u001b[0m \u001b[90m 2 | \u001b[39m\u001b[90m * http://jqueryvalidation.org/\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 3 | \u001b[39m\u001b[90m * Copyright (c) 2016 Jörn Zaefferer; Licensed MIT */\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 4 | \u001b[39m\u001b[33m!\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[32m\"function\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m define\u001b[33m&&\u001b[39mdefine\u001b[33m.\u001b[39mamd\u001b[33m?\u001b[39mdefine([\u001b[32m\"jquery\"\u001b[39m]\u001b[33m,\u001b[39ma)\u001b[33m:\u001b[39m\u001b[32m\"object\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m module\u001b[33m&&\u001b[39mmodule\u001b[33m.\u001b[39mexports\u001b[33m?\u001b[39mmodule\u001b[33m.\u001b[39mexports\u001b[33m=\u001b[39ma(require(\u001b[32m\"jquery\"\u001b[39m))\u001b[33m:\u001b[39ma(jQuery)}(\u001b[36mfunction\u001b[39m(a){a\u001b[33m.\u001b[39mextend(a\u001b[33m.\u001b[39mfn\u001b[33m,\u001b[39m{validate\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlength)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m(b\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mdebug\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mwarn(\u001b[32m\"Nothing selected, can't validate, returning nothing.\"\u001b[39m))\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mdata(\u001b[36mthis\u001b[39m[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"validator\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m?\u001b[39mc\u001b[33m:\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mattr(\u001b[32m\"novalidate\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"novalidate\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m a\u001b[33m.\u001b[39mvalidator(b\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m[\u001b[35m0\u001b[39m])\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mdata(\u001b[36mthis\u001b[39m[\u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m\u001b[32m\"validator\"\u001b[39m\u001b[33m,\u001b[39mc)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39monsubmit\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mon(\u001b[32m\"click.validate\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\":submit\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b){c\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39msubmitHandler\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39msubmitButton\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mtarget)\u001b[33m,\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mhasClass(\u001b[32m\"cancel\"\u001b[39m)\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39mcancelSubmit\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mattr(\u001b[32m\"formnovalidate\"\u001b[39m)\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39mcancelSubmit\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mon(\u001b[32m\"submit.validate\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mfunction\u001b[39m d(){\u001b[36mvar\u001b[39m d\u001b[33m,\u001b[39me\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39msubmitHandler\u001b[33m?\u001b[39m(c\u001b[33m.\u001b[39msubmitButton\u001b[33m&&\u001b[39m(d\u001b[33m=\u001b[39ma(\u001b[32m\"<input type='hidden'/>\"\u001b[39m)\u001b[33m.\u001b[39mattr(\u001b[32m\"name\"\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39msubmitButton\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mval(a(c\u001b[33m.\u001b[39msubmitButton)\u001b[33m.\u001b[39mval())\u001b[33m.\u001b[39mappendTo(c\u001b[33m.\u001b[39mcurrentForm))\u001b[33m,\u001b[39me\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39msubmitHandler\u001b[33m.\u001b[39mcall(c\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mcurrentForm\u001b[33m,\u001b[39mb)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39msubmitButton\u001b[33m&&\u001b[39md\u001b[33m.\u001b[39mremove()\u001b[33m,\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39me\u001b[33m?\u001b[39me\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mdebug\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mpreventDefault()\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mcancelSubmit\u001b[33m?\u001b[39m(c\u001b[33m.\u001b[39mcancelSubmit\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39md())\u001b[33m:\u001b[39mc\u001b[33m.\u001b[39mform()\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39mpendingRequest\u001b[33m?\u001b[39m(c\u001b[33m.\u001b[39mformSubmitted\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m:\u001b[39md()\u001b[33m:\u001b[39m(c\u001b[33m.\u001b[39mfocusInvalid()\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)}))\u001b[33m,\u001b[39mc)}\u001b[33m,\u001b[39mvalid\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m a(\u001b[36mthis\u001b[39m[\u001b[35m0\u001b[39m])\u001b[33m.\u001b[39mis(\u001b[32m\"form\"\u001b[39m)\u001b[33m?\u001b[39mb\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mvalidate()\u001b[33m.\u001b[39mform()\u001b[33m:\u001b[39m(d\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39ma(\u001b[36mthis\u001b[39m[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39mform)\u001b[33m.\u001b[39mvalidate()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39meach(\u001b[36mfunction\u001b[39m(){b\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39melement(\u001b[36mthis\u001b[39m)\u001b[33m&&\u001b[39mb\u001b[33m,\u001b[39mb\u001b[33m||\u001b[39m(d\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mconcat(c\u001b[33m.\u001b[39merrorList))})\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39merrorList\u001b[33m=\u001b[39md)\u001b[33m,\u001b[39mb}\u001b[33m,\u001b[39mrules\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlength){\u001b[36mvar\u001b[39m d\u001b[33m,\u001b[39me\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mg\u001b[33m,\u001b[39mh\u001b[33m,\u001b[39mi\u001b[33m,\u001b[39mj\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m[\u001b[35m0\u001b[39m]\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(b)\u001b[36mswitch\u001b[39m(d\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mdata(j\u001b[33m.\u001b[39mform\u001b[33m,\u001b[39m\u001b[32m\"validator\"\u001b[39m)\u001b[33m.\u001b[39msettings\u001b[33m,\u001b[39me\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mrules\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mstaticRules(j)\u001b[33m,\u001b[39mb){\u001b[36mcase\u001b[39m\u001b[32m\"add\"\u001b[39m\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mextend(f\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mnormalizeRule(c))\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m f\u001b[33m.\u001b[39mmessages\u001b[33m,\u001b[39me[j\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39mf\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mmessages\u001b[33m&&\u001b[39m(d\u001b[33m.\u001b[39mmessages[j\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend(d\u001b[33m.\u001b[39mmessages[j\u001b[33m.\u001b[39mname]\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mmessages))\u001b[33m;\u001b[39m\u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m\u001b[36mcase\u001b[39m\u001b[32m\"remove\"\u001b[39m\u001b[33m:\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m?\u001b[39m(i\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39meach(c\u001b[33m.\u001b[39msplit(\u001b[35m/\\s/\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){i[c]\u001b[33m=\u001b[39mf[c]\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m f[c]\u001b[33m,\u001b[39m\u001b[32m\"required\"\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m&&\u001b[39ma(j)\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"aria-required\"\u001b[39m)})\u001b[33m,\u001b[39mi)\u001b[33m:\u001b[39m(\u001b[36mdelete\u001b[39m e[j\u001b[33m.\u001b[39mname]\u001b[33m,\u001b[39mf)}\u001b[36mreturn\u001b[39m g\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mnormalizeRules(a\u001b[33m.\u001b[39mextend({}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mclassRules(j)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mattributeRules(j)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mdataRules(j)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mstaticRules(j))\u001b[33m,\u001b[39mj)\u001b[33m,\u001b[39mg\u001b[33m.\u001b[39mrequired\u001b[33m&&\u001b[39m(h\u001b[33m=\u001b[39mg\u001b[33m.\u001b[39mrequired\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m g\u001b[33m.\u001b[39mrequired\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend({required\u001b[33m:\u001b[39mh}\u001b[33m,\u001b[39mg)\u001b[33m,\u001b[39ma(j)\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-required\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"true\"\u001b[39m))\u001b[33m,\u001b[39mg\u001b[33m.\u001b[39mremote\u001b[33m&&\u001b[39m(h\u001b[33m=\u001b[39mg\u001b[33m.\u001b[39mremote\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m g\u001b[33m.\u001b[39mremote\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend(g\u001b[33m,\u001b[39m{remote\u001b[33m:\u001b[39mh}))\u001b[33m,\u001b[39mg}}})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mextend(a\u001b[33m.\u001b[39mexpr[\u001b[32m\":\"\u001b[39m]\u001b[33m,\u001b[39m{blank\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39ma\u001b[33m.\u001b[39mtrim(\u001b[32m\"\"\u001b[39m\u001b[33m+\u001b[39ma(b)\u001b[33m.\u001b[39mval())}\u001b[33m,\u001b[39mfilled\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39ma(b)\u001b[33m.\u001b[39mval()\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mnull\u001b[39m\u001b[33m!==\u001b[39mc\u001b[33m&&\u001b[39m\u001b[33m!\u001b[39m\u001b[33m!\u001b[39ma\u001b[33m.\u001b[39mtrim(\u001b[32m\"\"\u001b[39m\u001b[33m+\u001b[39mc)}\u001b[33m,\u001b[39munchecked\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39ma(b)\u001b[33m.\u001b[39mprop(\u001b[32m\"checked\"\u001b[39m)}})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mdefaults\u001b[33m,\u001b[39mb)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minit()}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mformat\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m \u001b[35m1\u001b[39m\u001b[33m===\u001b[39marguments\u001b[33m.\u001b[39mlength\u001b[33m?\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mmakeArray(arguments)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m.\u001b[39munshift(b)\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mformat\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc)}\u001b[33m:\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m?\u001b[39mb\u001b[33m:\u001b[39m(arguments\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m2\u001b[39m\u001b[33m&&\u001b[39mc\u001b[33m.\u001b[39mconstructor\u001b[33m!==\u001b[39m\u001b[33mArray\u001b[39m\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mmakeArray(arguments)\u001b[33m.\u001b[39mslice(\u001b[35m1\u001b[39m))\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mconstructor\u001b[33m!==\u001b[39m\u001b[33mArray\u001b[39m\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39m[c])\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39meach(c\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mc){b\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mreplace(\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m\"\\\\{\"\u001b[39m\u001b[33m+\u001b[39ma\u001b[33m+\u001b[39m\u001b[32m\"\\\\}\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"g\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m c})})\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mextend(a\u001b[33m.\u001b[39mvalidator\u001b[33m,\u001b[39m{defaults\u001b[33m:\u001b[39m{messages\u001b[33m:\u001b[39m{}\u001b[33m,\u001b[39mgroups\u001b[33m:\u001b[39m{}\u001b[33m,\u001b[39mrules\u001b[33m:\u001b[39m{}\u001b[33m,\u001b[39merrorClass\u001b[33m:\u001b[39m\u001b[32m\"error\"\u001b[39m\u001b[33m,\u001b[39mpendingClass\u001b[33m:\u001b[39m\u001b[32m\"pending\"\u001b[39m\u001b[33m,\u001b[39mvalidClass\u001b[33m:\u001b[39m\u001b[32m\"valid\"\u001b[39m\u001b[33m,\u001b[39merrorElement\u001b[33m:\u001b[39m\u001b[32m\"label\"\u001b[39m\u001b[33m,\u001b[39mfocusCleanup\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mfocusInvalid\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39merrorContainer\u001b[33m:\u001b[39ma([])\u001b[33m,\u001b[39merrorLabelContainer\u001b[33m:\u001b[39ma([])\u001b[33m,\u001b[39monsubmit\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mignore\u001b[33m:\u001b[39m\u001b[32m\":hidden\"\u001b[39m\u001b[33m,\u001b[39mignoreTitle\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39monfocusin\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlastActive\u001b[33m=\u001b[39ma\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mfocusCleanup\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39munhighlight\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39munhighlight\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorClass\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mvalidClass)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhideThese(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorsFor(a)))}\u001b[33m,\u001b[39monfocusout\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcheckable(a)\u001b[33m||\u001b[39m\u001b[33m!\u001b[39m(a\u001b[33m.\u001b[39mname \u001b[36min\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msubmitted)\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(a)\u001b[33m||\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39melement(a)}\u001b[33m,\u001b[39monkeyup\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m[\u001b[35m16\u001b[39m\u001b[33m,\u001b[39m\u001b[35m17\u001b[39m\u001b[33m,\u001b[39m\u001b[35m18\u001b[39m\u001b[33m,\u001b[39m\u001b[35m20\u001b[39m\u001b[33m,\u001b[39m\u001b[35m35\u001b[39m\u001b[33m,\u001b[39m\u001b[35m36\u001b[39m\u001b[33m,\u001b[39m\u001b[35m37\u001b[39m\u001b[33m,\u001b[39m\u001b[35m38\u001b[39m\u001b[33m,\u001b[39m\u001b[35m39\u001b[39m\u001b[33m,\u001b[39m\u001b[35m40\u001b[39m\u001b[33m,\u001b[39m\u001b[35m45\u001b[39m\u001b[33m,\u001b[39m\u001b[35m144\u001b[39m\u001b[33m,\u001b[39m\u001b[35m225\u001b[39m]\u001b[33m;\u001b[39m\u001b[35m9\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39mwhich\u001b[33m&&\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m===\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39melementValue(b)\u001b[33m||\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m\u001b[33m!==\u001b[39ma\u001b[33m.\u001b[39minArray(c\u001b[33m.\u001b[39mkeyCode\u001b[33m,\u001b[39md)\u001b[33m||\u001b[39m(b\u001b[33m.\u001b[39mname \u001b[36min\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msubmitted\u001b[33m||\u001b[39mb\u001b[33m.\u001b[39mname \u001b[36min\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvalid)\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39melement(b)}\u001b[33m,\u001b[39monclick\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){a\u001b[33m.\u001b[39mname \u001b[36min\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msubmitted\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39melement(a)\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mparentNode\u001b[33m.\u001b[39mname \u001b[36min\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msubmitted\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39melement(a\u001b[33m.\u001b[39mparentNode)}\u001b[33m,\u001b[39mhighlight\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[32m\"radio\"\u001b[39m\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mtype\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfindByName(b\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39maddClass(c)\u001b[33m.\u001b[39mremoveClass(d)\u001b[33m:\u001b[39ma(b)\u001b[33m.\u001b[39maddClass(c)\u001b[33m.\u001b[39mremoveClass(d)}\u001b[33m,\u001b[39munhighlight\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[32m\"radio\"\u001b[39m\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mtype\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfindByName(b\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mremoveClass(c)\u001b[33m.\u001b[39maddClass(d)\u001b[33m:\u001b[39ma(b)\u001b[33m.\u001b[39mremoveClass(c)\u001b[33m.\u001b[39maddClass(d)}}\u001b[33m,\u001b[39msetDefaults\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){a\u001b[33m.\u001b[39mextend(a\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mdefaults\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39mmessages\u001b[33m:\u001b[39m{required\u001b[33m:\u001b[39m\u001b[32m\"This field is required.\"\u001b[39m\u001b[33m,\u001b[39mremote\u001b[33m:\u001b[39m\u001b[32m\"Please fix this field.\"\u001b[39m\u001b[33m,\u001b[39memail\u001b[33m:\u001b[39m\u001b[32m\"Please enter a valid email address.\"\u001b[39m\u001b[33m,\u001b[39murl\u001b[33m:\u001b[39m\u001b[32m\"Please enter a valid URL.\"\u001b[39m\u001b[33m,\u001b[39mdate\u001b[33m:\u001b[39m\u001b[32m\"Please enter a valid date.\"\u001b[39m\u001b[33m,\u001b[39mdateISO\u001b[33m:\u001b[39m\u001b[32m\"Please enter a valid date ( ISO ).\"\u001b[39m\u001b[33m,\u001b[39mnumber\u001b[33m:\u001b[39m\u001b[32m\"Please enter a valid number.\"\u001b[39m\u001b[33m,\u001b[39mdigits\u001b[33m:\u001b[39m\u001b[32m\"Please enter only digits.\"\u001b[39m\u001b[33m,\u001b[39mequalTo\u001b[33m:\u001b[39m\u001b[32m\"Please enter the same value again.\"\u001b[39m\u001b[33m,\u001b[39mmaxlength\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mformat(\u001b[32m\"Please enter no more than {0} characters.\"\u001b[39m)\u001b[33m,\u001b[39mminlength\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mformat(\u001b[32m\"Please enter at least {0} characters.\"\u001b[39m)\u001b[33m,\u001b[39mrangelength\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mformat(\u001b[32m\"Please enter a value between {0} and {1} characters long.\"\u001b[39m)\u001b[33m,\u001b[39mrange\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mformat(\u001b[32m\"Please enter a value between {0} and {1}.\"\u001b[39m)\u001b[33m,\u001b[39mmax\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mformat(\u001b[32m\"Please enter a value less than or equal to {0}.\"\u001b[39m)\u001b[33m,\u001b[39mmin\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mformat(\u001b[32m\"Please enter a value greater than or equal to {0}.\"\u001b[39m)\u001b[33m,\u001b[39mstep\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mformat(\u001b[32m\"Please enter a multiple of {0}.\"\u001b[39m)}\u001b[33m,\u001b[39mautoCreateRanges\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mprototype\u001b[33m:\u001b[39m{init\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mfunction\u001b[39m b(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mdata(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mform\u001b[33m,\u001b[39m\u001b[32m\"validator\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[32m\"on\"\u001b[39m\u001b[33m+\u001b[39mb\u001b[33m.\u001b[39mtype\u001b[33m.\u001b[39mreplace(\u001b[35m/^validate/\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39msettings\u001b[33m;\u001b[39me[d]\u001b[33m&&\u001b[39m\u001b[33m!\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mis(e\u001b[33m.\u001b[39mignore)\u001b[33m&&\u001b[39me[d]\u001b[33m.\u001b[39mcall(c\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb)}\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlabelContainer\u001b[33m=\u001b[39ma(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorLabelContainer)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorContext\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlabelContainer\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlabelContainer\u001b[33m||\u001b[39ma(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcontainers\u001b[33m=\u001b[39ma(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorContainer)\u001b[33m.\u001b[39madd(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorLabelContainer)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msubmitted\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mvalueCache\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpendingRequest\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpending\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvalid\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mreset()\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m c\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgroups\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39meach(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mgroups\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m c\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39msplit(\u001b[35m/\\s/\u001b[39m))\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39meach(c\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mc){d[c]\u001b[33m=\u001b[39mb})})\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mrules\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39meach(c\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39md){c[b]\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mnormalizeRule(d)})\u001b[33m,\u001b[39ma(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39mon(\u001b[32m\"focusin.validate focusout.validate keyup.validate\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\":text, [type='password'], [type='file'], select, textarea, [type='number'], [type='search'], [type='tel'], [type='url'], [type='email'], [type='datetime'], [type='date'], [type='month'], [type='week'], [type='time'], [type='datetime-local'], [type='range'], [type='color'], [type='radio'], [type='checkbox'], [contenteditable]\"\u001b[39m\u001b[33m,\u001b[39mb)\u001b[33m.\u001b[39mon(\u001b[32m\"click.validate\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"select, option, [type='radio'], [type='checkbox']\"\u001b[39m\u001b[33m,\u001b[39mb)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39minvalidHandler\u001b[33m&&\u001b[39ma(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39mon(\u001b[32m\"invalid-form.validate\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39minvalidHandler)\u001b[33m,\u001b[39ma(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39mfind(\u001b[32m\"[required], [data-rule-required], .required\"\u001b[39m)\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-required\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"true\"\u001b[39m)}\u001b[33m,\u001b[39mform\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcheckForm()\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msubmitted\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMap)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvalid\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mextend({}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMap)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mvalid()\u001b[33m||\u001b[39ma(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39mtriggerHandler(\u001b[32m\"invalid-form\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[36mthis\u001b[39m])\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mshowErrors()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mvalid()}\u001b[33m,\u001b[39mcheckForm\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mprepareForm()\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentElements\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39melements()\u001b[33m;\u001b[39mb[a]\u001b[33m;\u001b[39ma\u001b[33m++\u001b[39m)\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcheck(b[a])\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mvalid()}\u001b[33m,\u001b[39melement\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclean(b)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mvalidationTargetFor(e)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m===\u001b[39mf\u001b[33m?\u001b[39m\u001b[36mdelete\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvalid[e\u001b[33m.\u001b[39mname]\u001b[33m:\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mprepareElement(f)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentElements\u001b[33m=\u001b[39ma(f)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgroups[f\u001b[33m.\u001b[39mname]\u001b[33m,\u001b[39md\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39meach(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgroups\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){b\u001b[33m===\u001b[39md\u001b[33m&&\u001b[39ma\u001b[33m!==\u001b[39mf\u001b[33m.\u001b[39mname\u001b[33m&&\u001b[39m(e\u001b[33m=\u001b[39mg\u001b[33m.\u001b[39mvalidationTargetFor(g\u001b[33m.\u001b[39mclean(g\u001b[33m.\u001b[39mfindByName(a)))\u001b[33m,\u001b[39me\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39mname \u001b[36min\u001b[39m g\u001b[33m.\u001b[39minvalid\u001b[33m&&\u001b[39m(g\u001b[33m.\u001b[39mcurrentElements\u001b[33m.\u001b[39mpush(e)\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39mh\u001b[33m&&\u001b[39mg\u001b[33m.\u001b[39mcheck(e)))})\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcheck(f)\u001b[33m!==\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39mh\u001b[33m&&\u001b[39mc\u001b[33m,\u001b[39mc\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvalid[f\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvalid[f\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mnumberOfInvalids()\u001b[33m||\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoHide\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoHide\u001b[33m.\u001b[39madd(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcontainers))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mshowErrors()\u001b[33m,\u001b[39ma(b)\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-invalid\"\u001b[39m\u001b[33m,\u001b[39m\u001b[33m!\u001b[39mc))\u001b[33m,\u001b[39mh}\u001b[33m,\u001b[39mshowErrors\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mif\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMap\u001b[33m,\u001b[39mb)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mmap(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMap\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m{message\u001b[33m:\u001b[39ma\u001b[33m,\u001b[39melement\u001b[33m:\u001b[39mc\u001b[33m.\u001b[39mfindByName(b)[\u001b[35m0\u001b[39m]}})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msuccessList\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mgrep(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msuccessList\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m(a\u001b[33m.\u001b[39mname \u001b[36min\u001b[39m b)})}\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mshowErrors\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mshowErrors\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMap\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList)\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdefaultShowErrors()}\u001b[33m,\u001b[39mresetForm\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){a\u001b[33m.\u001b[39mfn\u001b[33m.\u001b[39mresetForm\u001b[33m&&\u001b[39ma(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39mresetForm()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvalid\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msubmitted\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mprepareForm()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhideErrors()\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39melements()\u001b[33m.\u001b[39mremoveData(\u001b[32m\"previousValue\"\u001b[39m)\u001b[33m.\u001b[39mremoveAttr(\u001b[32m\"aria-invalid\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresetElements(b)}\u001b[33m,\u001b[39mresetElements\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39munhighlight)\u001b[36mfor\u001b[39m(b\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39ma[b]\u001b[33m;\u001b[39mb\u001b[33m++\u001b[39m)\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39munhighlight\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39ma[b]\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorClass\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfindByName(a[b]\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mremoveClass(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mvalidClass)\u001b[33m;\u001b[39m\u001b[36melse\u001b[39m a\u001b[33m.\u001b[39mremoveClass(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorClass)\u001b[33m.\u001b[39mremoveClass(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mvalidClass)}\u001b[33m,\u001b[39mnumberOfInvalids\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mobjectLength(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvalid)}\u001b[33m,\u001b[39mobjectLength\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m b\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(b \u001b[36min\u001b[39m a)a[b]\u001b[33m&&\u001b[39mc\u001b[33m++\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c}\u001b[33m,\u001b[39mhideErrors\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhideThese(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoHide)}\u001b[33m,\u001b[39mhideThese\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){a\u001b[33m.\u001b[39mnot(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcontainers)\u001b[33m.\u001b[39mtext(\u001b[32m\"\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39maddWrapper(a)\u001b[33m.\u001b[39mhide()}\u001b[33m,\u001b[39mvalid\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[35m0\u001b[39m\u001b[33m===\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msize()}\u001b[33m,\u001b[39msize\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList\u001b[33m.\u001b[39mlength}\u001b[33m,\u001b[39mfocusInvalid\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mfocusInvalid)\u001b[36mtry\u001b[39m{a(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfindLastActive()\u001b[33m||\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39melement\u001b[33m||\u001b[39m[])\u001b[33m.\u001b[39mfilter(\u001b[32m\":visible\"\u001b[39m)\u001b[33m.\u001b[39mfocus()\u001b[33m.\u001b[39mtrigger(\u001b[32m\"focusin\"\u001b[39m)}\u001b[36mcatch\u001b[39m(b){}}\u001b[33m,\u001b[39mfindLastActive\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlastActive\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m b\u001b[33m&&\u001b[39m\u001b[35m1\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mgrep(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39melement\u001b[33m.\u001b[39mname\u001b[33m===\u001b[39mb\u001b[33m.\u001b[39mname})\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39mb}\u001b[33m,\u001b[39melements\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m a(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39mfind(\u001b[32m\"input, select, textarea, [contenteditable]\"\u001b[39m)\u001b[33m.\u001b[39mnot(\u001b[32m\":submit, :reset, :image, :disabled\"\u001b[39m)\u001b[33m.\u001b[39mnot(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mignore)\u001b[33m.\u001b[39mfilter(\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mname\u001b[33m||\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mattr(\u001b[32m\"name\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39md\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mdebug\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39merror(\u001b[32m\"%o has no name assigned\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhasAttribute(\u001b[32m\"contenteditable\"\u001b[39m)\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mform\u001b[33m=\u001b[39ma(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mclosest(\u001b[32m\"form\"\u001b[39m)[\u001b[35m0\u001b[39m])\u001b[33m,\u001b[39md \u001b[36min\u001b[39m c\u001b[33m||\u001b[39m\u001b[33m!\u001b[39mb\u001b[33m.\u001b[39mobjectLength(a(\u001b[36mthis\u001b[39m)\u001b[33m.\u001b[39mrules())\u001b[33m?\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m:\u001b[39m(c[d]\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)})}\u001b[33m,\u001b[39mclean\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mreturn\u001b[39m a(b)[\u001b[35m0\u001b[39m]}\u001b[33m,\u001b[39merrors\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorClass\u001b[33m.\u001b[39msplit(\u001b[32m\" \"\u001b[39m)\u001b[33m.\u001b[39mjoin(\u001b[32m\".\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m a(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorElement\u001b[33m+\u001b[39m\u001b[32m\".\"\u001b[39m\u001b[33m+\u001b[39mb\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorContext)}\u001b[33m,\u001b[39mresetInternals\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msuccessList\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList\u001b[33m=\u001b[39m[]\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMap\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoShow\u001b[33m=\u001b[39ma([])\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoHide\u001b[33m=\u001b[39ma([])}\u001b[33m,\u001b[39mreset\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresetInternals()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentElements\u001b[33m=\u001b[39ma([])}\u001b[33m,\u001b[39mprepareForm\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mreset()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoHide\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrors()\u001b[33m.\u001b[39madd(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcontainers)}\u001b[33m,\u001b[39mprepareElement\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mreset()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoHide\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorsFor(a)}\u001b[33m,\u001b[39melementValue\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me\u001b[33m=\u001b[39ma(b)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mtype\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m\u001b[32m\"radio\"\u001b[39m\u001b[33m===\u001b[39mf\u001b[33m||\u001b[39m\u001b[32m\"checkbox\"\u001b[39m\u001b[33m===\u001b[39mf\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfindByName(b\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mfilter(\u001b[32m\":checked\"\u001b[39m)\u001b[33m.\u001b[39mval()\u001b[33m:\u001b[39m\u001b[32m\"number\"\u001b[39m\u001b[33m===\u001b[39mf\u001b[33m&&\u001b[39m\u001b[32m\"undefined\"\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mtypeof\u001b[39m b\u001b[33m.\u001b[39mvalidity\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mvalidity\u001b[33m.\u001b[39mbadInput\u001b[33m?\u001b[39m\u001b[32m\"NaN\"\u001b[39m\u001b[33m:\u001b[39me\u001b[33m.\u001b[39mval()\u001b[33m:\u001b[39m(c\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mhasAttribute(\u001b[32m\"contenteditable\"\u001b[39m)\u001b[33m?\u001b[39me\u001b[33m.\u001b[39mtext()\u001b[33m:\u001b[39me\u001b[33m.\u001b[39mval()\u001b[33m,\u001b[39m\u001b[32m\"file\"\u001b[39m\u001b[33m===\u001b[39mf\u001b[33m?\u001b[39m\u001b[32m\"C:\\\\fakepath\\\\\"\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39msubstr(\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m\u001b[35m12\u001b[39m)\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39msubstr(\u001b[35m12\u001b[39m)\u001b[33m:\u001b[39m(d\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mlastIndexOf(\u001b[32m\"/\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m>=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39msubstr(d\u001b[33m+\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m:\u001b[39m(d\u001b[33m=\u001b[39mc\u001b[33m.\u001b[39mlastIndexOf(\u001b[32m\"\\\\\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m>=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39msubstr(d\u001b[33m+\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m:\u001b[39mc))\u001b[33m:\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m c\u001b[33m?\u001b[39mc\u001b[33m.\u001b[39mreplace(\u001b[35m/\\r/g\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m:\u001b[39mc)}\u001b[33m,\u001b[39mcheck\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mvalidationTargetFor(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclean(b))\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m c\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39ma(b)\u001b[33m.\u001b[39mrules()\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mmap(f\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m b})\u001b[33m.\u001b[39mlength\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39melementValue(b)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[32m\"function\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m f\u001b[33m.\u001b[39mnormalizer){\u001b[36mif\u001b[39m(i\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mnormalizer\u001b[33m.\u001b[39mcall(b\u001b[33m,\u001b[39mi)\u001b[33m,\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m!=\u001b[39m\u001b[36mtypeof\u001b[39m i)\u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mTypeError\u001b[39m(\u001b[32m\"The normalizer should return a string value.\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mdelete\u001b[39m f\u001b[33m.\u001b[39mnormalizer}\u001b[36mfor\u001b[39m(d \u001b[36min\u001b[39m f){e\u001b[33m=\u001b[39m{method\u001b[33m:\u001b[39md\u001b[33m,\u001b[39mparameters\u001b[33m:\u001b[39mf[d]}\u001b[33m;\u001b[39m\u001b[36mtry\u001b[39m{\u001b[36mif\u001b[39m(c\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mmethods[d]\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mi\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39me\u001b[33m.\u001b[39mparameters)\u001b[33m,\u001b[39m\u001b[32m\"dependency-mismatch\"\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m&&\u001b[39m\u001b[35m1\u001b[39m\u001b[33m===\u001b[39mg){h\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mcontinue\u001b[39m}\u001b[36mif\u001b[39m(h\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"pending\"\u001b[39m\u001b[33m===\u001b[39mc)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoHide\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoHide\u001b[33m.\u001b[39mnot(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorsFor(b)))\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39mc)\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mformatAndAdd(b\u001b[33m,\u001b[39me)\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m}\u001b[36mcatch\u001b[39m(j){\u001b[36mthrow\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mdebug\u001b[33m&&\u001b[39mwindow\u001b[33m.\u001b[39mconsole\u001b[33m&&\u001b[39mconsole\u001b[33m.\u001b[39mlog(\u001b[32m\"Exception occurred when checking element \"\u001b[39m\u001b[33m+\u001b[39mb\u001b[33m.\u001b[39mid\u001b[33m+\u001b[39m\u001b[32m\", check the '\"\u001b[39m\u001b[33m+\u001b[39me\u001b[33m.\u001b[39mmethod\u001b[33m+\u001b[39m\u001b[32m\"' method.\"\u001b[39m\u001b[33m,\u001b[39mj)\u001b[33m,\u001b[39mj \u001b[36minstanceof\u001b[39m \u001b[33mTypeError\u001b[39m\u001b[33m&&\u001b[39m(j\u001b[33m.\u001b[39mmessage\u001b[33m+=\u001b[39m\u001b[32m\".  Exception occurred when checking element \"\u001b[39m\u001b[33m+\u001b[39mb\u001b[33m.\u001b[39mid\u001b[33m+\u001b[39m\u001b[32m\", check the '\"\u001b[39m\u001b[33m+\u001b[39me\u001b[33m.\u001b[39mmethod\u001b[33m+\u001b[39m\u001b[32m\"' method.\"\u001b[39m)\u001b[33m,\u001b[39mj}}\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39mh)\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mobjectLength(f)\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msuccessList\u001b[33m.\u001b[39mpush(b)\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39mcustomDataMessage\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m a(b)\u001b[33m.\u001b[39mdata(\u001b[32m\"msg\"\u001b[39m\u001b[33m+\u001b[39mc\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m)\u001b[33m.\u001b[39mtoUpperCase()\u001b[33m+\u001b[39mc\u001b[33m.\u001b[39msubstring(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoLowerCase())\u001b[33m||\u001b[39ma(b)\u001b[33m.\u001b[39mdata(\u001b[32m\"msg\"\u001b[39m)}\u001b[33m,\u001b[39mcustomMessage\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mmessages[a]\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m c\u001b[33m&&\u001b[39m(c\u001b[33m.\u001b[39mconstructor\u001b[33m===\u001b[39m\u001b[33mString\u001b[39m\u001b[33m?\u001b[39mc\u001b[33m:\u001b[39mc[b])}\u001b[33m,\u001b[39mfindDefined\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mfor\u001b[39m(\u001b[36mvar\u001b[39m a\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39ma\u001b[33m<\u001b[39m\u001b[33marguments\u001b[39m\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39ma\u001b[33m++\u001b[39m)\u001b[36mif\u001b[39m(\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39marguments[a])\u001b[36mreturn\u001b[39m arguments[a]}\u001b[33m,\u001b[39mdefaultMessage\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfindDefined(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcustomMessage(b\u001b[33m.\u001b[39mname\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mmethod)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcustomDataMessage(b\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mmethod)\u001b[33m,\u001b[39m\u001b[33m!\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mignoreTitle\u001b[33m&&\u001b[39mb\u001b[33m.\u001b[39mtitle\u001b[33m||\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mmessages[c\u001b[33m.\u001b[39mmethod]\u001b[33m,\u001b[39m\u001b[32m\"<strong>Warning: No message defined for \"\u001b[39m\u001b[33m+\u001b[39mb\u001b[33m.\u001b[39mname\u001b[33m+\u001b[39m\u001b[32m\"</strong>\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[35m/\\$?\\{(\\d+)\\}/g\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m\u001b[32m\"function\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m d\u001b[33m?\u001b[39md\u001b[33m=\u001b[39md\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mparameters\u001b[33m,\u001b[39mb)\u001b[33m:\u001b[39me\u001b[33m.\u001b[39mtest(d)\u001b[33m&&\u001b[39m(d\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mformat(d\u001b[33m.\u001b[39mreplace(e\u001b[33m,\u001b[39m\u001b[32m\"{$1}\"\u001b[39m)\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mparameters))\u001b[33m,\u001b[39md}\u001b[33m,\u001b[39mformatAndAdd\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdefaultMessage(a\u001b[33m,\u001b[39mb)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList\u001b[33m.\u001b[39mpush({message\u001b[33m:\u001b[39mc\u001b[33m,\u001b[39melement\u001b[33m:\u001b[39ma\u001b[33m,\u001b[39mmethod\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mmethod})\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMap[a\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msubmitted[a\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39mc}\u001b[33m,\u001b[39maddWrapper\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mwrapper\u001b[33m&&\u001b[39m(a\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39madd(a\u001b[33m.\u001b[39mparent(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mwrapper)))\u001b[33m,\u001b[39ma}\u001b[33m,\u001b[39mdefaultShowErrors\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(a\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList[a]\u001b[33m;\u001b[39ma\u001b[33m++\u001b[39m)c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList[a]\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mhighlight\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mhighlight\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39melement\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorClass\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mvalidClass)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mshowLabel(c\u001b[33m.\u001b[39melement\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mmessage)\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoShow\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoShow\u001b[33m.\u001b[39madd(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcontainers))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39msuccess)\u001b[36mfor\u001b[39m(a\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msuccessList[a]\u001b[33m;\u001b[39ma\u001b[33m++\u001b[39m)\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mshowLabel(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msuccessList[a])\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39munhighlight)\u001b[36mfor\u001b[39m(a\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mvalidElements()\u001b[33m;\u001b[39mb[a]\u001b[33m;\u001b[39ma\u001b[33m++\u001b[39m)\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39munhighlight\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mb[a]\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorClass\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mvalidClass)\u001b[33m;\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoHide\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoHide\u001b[33m.\u001b[39mnot(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoShow)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhideErrors()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39maddWrapper(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoShow)\u001b[33m.\u001b[39mshow()}\u001b[33m,\u001b[39mvalidElements\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentElements\u001b[33m.\u001b[39mnot(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39minvalidElements())}\u001b[33m,\u001b[39minvalidElements\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m a(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorList)\u001b[33m.\u001b[39mmap(\u001b[36mfunction\u001b[39m(){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39melement})}\u001b[33m,\u001b[39mshowLabel\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mvar\u001b[39m d\u001b[33m,\u001b[39me\u001b[33m,\u001b[39mf\u001b[33m,\u001b[39mg\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorsFor(b)\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39midOrName(b)\u001b[33m,\u001b[39mj\u001b[33m=\u001b[39ma(b)\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-describedby\"\u001b[39m)\u001b[33m;\u001b[39mh\u001b[33m.\u001b[39mlength\u001b[33m?\u001b[39m(h\u001b[33m.\u001b[39mremoveClass(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mvalidClass)\u001b[33m.\u001b[39maddClass(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorClass)\u001b[33m,\u001b[39mh\u001b[33m.\u001b[39mhtml(c))\u001b[33m:\u001b[39m(h\u001b[33m=\u001b[39ma(\u001b[32m\"<\"\u001b[39m\u001b[33m+\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorElement\u001b[33m+\u001b[39m\u001b[32m\">\"\u001b[39m)\u001b[33m.\u001b[39mattr(\u001b[32m\"id\"\u001b[39m\u001b[33m,\u001b[39mi\u001b[33m+\u001b[39m\u001b[32m\"-error\"\u001b[39m)\u001b[33m.\u001b[39maddClass(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorClass)\u001b[33m.\u001b[39mhtml(c\u001b[33m||\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39mh\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mwrapper\u001b[33m&&\u001b[39m(d\u001b[33m=\u001b[39mh\u001b[33m.\u001b[39mhide()\u001b[33m.\u001b[39mshow()\u001b[33m.\u001b[39mwrap(\u001b[32m\"<\"\u001b[39m\u001b[33m+\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mwrapper\u001b[33m+\u001b[39m\u001b[32m\"/>\"\u001b[39m)\u001b[33m.\u001b[39mparent())\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlabelContainer\u001b[33m.\u001b[39mlength\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mlabelContainer\u001b[33m.\u001b[39mappend(d)\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorPlacement\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39merrorPlacement(d\u001b[33m,\u001b[39ma(b))\u001b[33m:\u001b[39md\u001b[33m.\u001b[39minsertAfter(b)\u001b[33m,\u001b[39mh\u001b[33m.\u001b[39mis(\u001b[32m\"label\"\u001b[39m)\u001b[33m?\u001b[39mh\u001b[33m.\u001b[39mattr(\u001b[32m\"for\"\u001b[39m\u001b[33m,\u001b[39mi)\u001b[33m:\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39mh\u001b[33m.\u001b[39mparents(\u001b[32m\"label[for='\"\u001b[39m\u001b[33m+\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mescapeCssMeta(i)\u001b[33m+\u001b[39m\u001b[32m\"']\"\u001b[39m)\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39m(f\u001b[33m=\u001b[39mh\u001b[33m.\u001b[39mattr(\u001b[32m\"id\"\u001b[39m)\u001b[33m,\u001b[39mj\u001b[33m?\u001b[39mj\u001b[33m.\u001b[39mmatch(\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m\"\\\\b\"\u001b[39m\u001b[33m+\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mescapeCssMeta(f)\u001b[33m+\u001b[39m\u001b[32m\"\\\\b\"\u001b[39m))\u001b[33m||\u001b[39m(j\u001b[33m+=\u001b[39m\u001b[32m\" \"\u001b[39m\u001b[33m+\u001b[39mf)\u001b[33m:\u001b[39mj\u001b[33m=\u001b[39mf\u001b[33m,\u001b[39ma(b)\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-describedby\"\u001b[39m\u001b[33m,\u001b[39mj)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgroups[b\u001b[33m.\u001b[39mname]\u001b[33m,\u001b[39me\u001b[33m&&\u001b[39m(g\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39meach(g\u001b[33m.\u001b[39mgroups\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){c\u001b[33m===\u001b[39me\u001b[33m&&\u001b[39ma(\u001b[32m\"[name='\"\u001b[39m\u001b[33m+\u001b[39mg\u001b[33m.\u001b[39mescapeCssMeta(b)\u001b[33m+\u001b[39m\u001b[32m\"']\"\u001b[39m\u001b[33m,\u001b[39mg\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-describedby\"\u001b[39m\u001b[33m,\u001b[39mh\u001b[33m.\u001b[39mattr(\u001b[32m\"id\"\u001b[39m))}))))\u001b[33m,\u001b[39m\u001b[33m!\u001b[39mc\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39msuccess\u001b[33m&&\u001b[39m(h\u001b[33m.\u001b[39mtext(\u001b[32m\"\"\u001b[39m)\u001b[33m,\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39msuccess\u001b[33m?\u001b[39mh\u001b[33m.\u001b[39maddClass(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39msuccess)\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39msuccess(h\u001b[33m,\u001b[39mb))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoShow\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtoShow\u001b[33m.\u001b[39madd(h)}\u001b[33m,\u001b[39merrorsFor\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mescapeCssMeta(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39midOrName(b))\u001b[33m,\u001b[39md\u001b[33m=\u001b[39ma(b)\u001b[33m.\u001b[39mattr(\u001b[32m\"aria-describedby\"\u001b[39m)\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m\u001b[32m\"label[for='\"\u001b[39m\u001b[33m+\u001b[39mc\u001b[33m+\u001b[39m\u001b[32m\"'], label[for='\"\u001b[39m\u001b[33m+\u001b[39mc\u001b[33m+\u001b[39m\u001b[32m\"'] *\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m d\u001b[33m&&\u001b[39m(e\u001b[33m=\u001b[39me\u001b[33m+\u001b[39m\u001b[32m\", #\"\u001b[39m\u001b[33m+\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mescapeCssMeta(d)\u001b[33m.\u001b[39mreplace(\u001b[35m/\\s+/g\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\", #\"\u001b[39m))\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrors()\u001b[33m.\u001b[39mfilter(e)}\u001b[33m,\u001b[39mescapeCssMeta\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mreplace(\u001b[35m/([\\\\!\"#$%&'()*+,./:;<=>?@\\[\\]^`{|}~])/g\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"\\\\$1\"\u001b[39m)}\u001b[33m,\u001b[39midOrName\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgroups[a\u001b[33m.\u001b[39mname]\u001b[33m||\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcheckable(a)\u001b[33m?\u001b[39ma\u001b[33m.\u001b[39mname\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mid\u001b[33m||\u001b[39ma\u001b[33m.\u001b[39mname)}\u001b[33m,\u001b[39mvalidationTargetFor\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcheckable(b)\u001b[33m&&\u001b[39m(b\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfindByName(b\u001b[33m.\u001b[39mname))\u001b[33m,\u001b[39ma(b)\u001b[33m.\u001b[39mnot(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mignore)[\u001b[35m0\u001b[39m]}\u001b[33m,\u001b[39mcheckable\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m\u001b[35m/radio|checkbox/i\u001b[39m\u001b[33m.\u001b[39mtest(a\u001b[33m.\u001b[39mtype)}\u001b[33m,\u001b[39mfindByName\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mreturn\u001b[39m a(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39mfind(\u001b[32m\"[name='\"\u001b[39m\u001b[33m+\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mescapeCssMeta(b)\u001b[33m+\u001b[39m\u001b[32m\"']\"\u001b[39m)}\u001b[33m,\u001b[39mgetLength\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mswitch\u001b[39m(c\u001b[33m.\u001b[39mnodeName\u001b[33m.\u001b[39mtoLowerCase()){\u001b[36mcase\u001b[39m\u001b[32m\"select\"\u001b[39m\u001b[33m:\u001b[39m\u001b[36mreturn\u001b[39m a(\u001b[32m\"option:selected\"\u001b[39m\u001b[33m,\u001b[39mc)\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39m\u001b[36mcase\u001b[39m\u001b[32m\"input\"\u001b[39m\u001b[33m:\u001b[39m\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcheckable(c))\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfindByName(c\u001b[33m.\u001b[39mname)\u001b[33m.\u001b[39mfilter(\u001b[32m\":checked\"\u001b[39m)\u001b[33m.\u001b[39mlength}\u001b[36mreturn\u001b[39m b\u001b[33m.\u001b[39mlength}\u001b[33m,\u001b[39mdepend\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdependTypes[\u001b[36mtypeof\u001b[39m a]\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdependTypes[\u001b[36mtypeof\u001b[39m a](a\u001b[33m,\u001b[39mb)\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39mdependTypes\u001b[33m:\u001b[39m{\u001b[32m\"boolean\"\u001b[39m\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mreturn\u001b[39m a}\u001b[33m,\u001b[39mstring\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39m\u001b[33m!\u001b[39ma(b\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mform)\u001b[33m.\u001b[39mlength}\u001b[33m,\u001b[39m\u001b[32m\"function\"\u001b[39m\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m a(b)}}\u001b[33m,\u001b[39moptional\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39melementValue(b)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m\u001b[33m!\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mmethods\u001b[33m.\u001b[39mrequired\u001b[33m.\u001b[39mcall(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39mb)\u001b[33m&&\u001b[39m\u001b[32m\"dependency-mismatch\"\u001b[39m}\u001b[33m,\u001b[39mstartRequest\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpending[b\u001b[33m.\u001b[39mname]\u001b[33m||\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpendingRequest\u001b[33m++\u001b[39m\u001b[33m,\u001b[39ma(b)\u001b[33m.\u001b[39maddClass(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mpendingClass)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpending[b\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)}\u001b[33m,\u001b[39mstopRequest\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpendingRequest\u001b[33m--\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpendingRequest\u001b[33m<\u001b[39m\u001b[35m0\u001b[39m\u001b[33m&&\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpendingRequest\u001b[33m=\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpending[b\u001b[33m.\u001b[39mname]\u001b[33m,\u001b[39ma(b)\u001b[33m.\u001b[39mremoveClass(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mpendingClass)\u001b[33m,\u001b[39mc\u001b[33m&&\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpendingRequest\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mformSubmitted\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mform()\u001b[33m?\u001b[39m(a(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39msubmit()\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mformSubmitted\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m:\u001b[39m\u001b[33m!\u001b[39mc\u001b[33m&&\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpendingRequest\u001b[33m&&\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mformSubmitted\u001b[33m&&\u001b[39m(a(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39mtriggerHandler(\u001b[32m\"invalid-form\"\u001b[39m\u001b[33m,\u001b[39m[\u001b[36mthis\u001b[39m])\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mformSubmitted\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)}\u001b[33m,\u001b[39mpreviousValue\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39mdata(b\u001b[33m,\u001b[39m\u001b[32m\"previousValue\"\u001b[39m)\u001b[33m||\u001b[39ma\u001b[33m.\u001b[39mdata(b\u001b[33m,\u001b[39m\u001b[32m\"previousValue\"\u001b[39m\u001b[33m,\u001b[39m{old\u001b[33m:\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39mvalid\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mmessage\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdefaultMessage(b\u001b[33m,\u001b[39m{method\u001b[33m:\u001b[39mc})})}\u001b[33m,\u001b[39mdestroy\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mresetForm()\u001b[33m,\u001b[39ma(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcurrentForm)\u001b[33m.\u001b[39moff(\u001b[32m\".validate\"\u001b[39m)\u001b[33m.\u001b[39mremoveData(\u001b[32m\"validator\"\u001b[39m)\u001b[33m.\u001b[39mfind(\u001b[32m\".validate-equalTo-blur\"\u001b[39m)\u001b[33m.\u001b[39moff(\u001b[32m\".validate-equalTo\"\u001b[39m)\u001b[33m.\u001b[39mremoveClass(\u001b[32m\"validate-equalTo-blur\"\u001b[39m)}}\u001b[33m,\u001b[39mclassRuleSettings\u001b[33m:\u001b[39m{required\u001b[33m:\u001b[39m{required\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39memail\u001b[33m:\u001b[39m{email\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39murl\u001b[33m:\u001b[39m{url\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39mdate\u001b[33m:\u001b[39m{date\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39mdateISO\u001b[33m:\u001b[39m{dateISO\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39mnumber\u001b[33m:\u001b[39m{number\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39mdigits\u001b[33m:\u001b[39m{digits\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39mcreditcard\u001b[33m:\u001b[39m{creditcard\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m}}\u001b[33m,\u001b[39maddClassRules\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){b\u001b[33m.\u001b[39mconstructor\u001b[33m===\u001b[39m\u001b[33mString\u001b[39m\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclassRuleSettings[b]\u001b[33m=\u001b[39mc\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mextend(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mclassRuleSettings\u001b[33m,\u001b[39mb)}\u001b[33m,\u001b[39mclassRules\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39md\u001b[33m=\u001b[39ma(b)\u001b[33m.\u001b[39mattr(\u001b[32m\"class\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m d\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39meach(d\u001b[33m.\u001b[39msplit(\u001b[32m\" \"\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mthis\u001b[39m \u001b[36min\u001b[39m a\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mclassRuleSettings\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mextend(c\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mclassRuleSettings[\u001b[36mthis\u001b[39m])})\u001b[33m,\u001b[39mc}\u001b[33m,\u001b[39mnormalizeAttributeRule\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[35m/min|max|step/\u001b[39m\u001b[33m.\u001b[39mtest(c)\u001b[33m&&\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m===\u001b[39mb\u001b[33m||\u001b[39m\u001b[35m/number|range|text/\u001b[39m\u001b[33m.\u001b[39mtest(b))\u001b[33m&&\u001b[39m(d\u001b[33m=\u001b[39m\u001b[33mNumber\u001b[39m(d)\u001b[33m,\u001b[39misNaN(d)\u001b[33m&&\u001b[39m(d\u001b[33m=\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m))\u001b[33m,\u001b[39md\u001b[33m||\u001b[39m\u001b[35m0\u001b[39m\u001b[33m===\u001b[39md\u001b[33m?\u001b[39ma[c]\u001b[33m=\u001b[39md\u001b[33m:\u001b[39mb\u001b[33m===\u001b[39mc\u001b[33m&&\u001b[39m\u001b[32m\"range\"\u001b[39m\u001b[33m!==\u001b[39mb\u001b[33m&&\u001b[39m(a[c]\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)}\u001b[33m,\u001b[39mattributeRules\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39ma(b)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mgetAttribute(\u001b[32m\"type\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(c \u001b[36min\u001b[39m a\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mmethods)\u001b[32m\"required\"\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m?\u001b[39m(d\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mgetAttribute(c)\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m\u001b[33m===\u001b[39md\u001b[33m&&\u001b[39m(d\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m)\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[33m!\u001b[39md)\u001b[33m:\u001b[39md\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mattr(c)\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mnormalizeAttributeRule(e\u001b[33m,\u001b[39mg\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m e\u001b[33m.\u001b[39mmaxlength\u001b[33m&&\u001b[39m\u001b[35m/-1|2147483647|524288/\u001b[39m\u001b[33m.\u001b[39mtest(e\u001b[33m.\u001b[39mmaxlength)\u001b[33m&&\u001b[39m\u001b[36mdelete\u001b[39m e\u001b[33m.\u001b[39mmaxlength\u001b[33m,\u001b[39me}\u001b[33m,\u001b[39mdataRules\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39ma(b)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mgetAttribute(\u001b[32m\"type\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mfor\u001b[39m(c \u001b[36min\u001b[39m a\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mmethods)d\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mdata(\u001b[32m\"rule\"\u001b[39m\u001b[33m+\u001b[39mc\u001b[33m.\u001b[39mcharAt(\u001b[35m0\u001b[39m)\u001b[33m.\u001b[39mtoUpperCase()\u001b[33m+\u001b[39mc\u001b[33m.\u001b[39msubstring(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoLowerCase())\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mnormalizeAttributeRule(e\u001b[33m,\u001b[39mg\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m e}\u001b[33m,\u001b[39mstaticRules\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39md\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mdata(b\u001b[33m.\u001b[39mform\u001b[33m,\u001b[39m\u001b[32m\"validator\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m d\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mrules\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mnormalizeRule(d\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mrules[b\u001b[33m.\u001b[39mname])\u001b[33m||\u001b[39m{})\u001b[33m,\u001b[39mc}\u001b[33m,\u001b[39mnormalizeRules\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m a\u001b[33m.\u001b[39meach(b\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(d\u001b[33m,\u001b[39me){\u001b[36mif\u001b[39m(e\u001b[33m===\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m)\u001b[36mreturn\u001b[39m \u001b[36mvoid\u001b[39m \u001b[36mdelete\u001b[39m b[d]\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(e\u001b[33m.\u001b[39mparam\u001b[33m||\u001b[39me\u001b[33m.\u001b[39mdepends){\u001b[36mvar\u001b[39m f\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[36mswitch\u001b[39m(\u001b[36mtypeof\u001b[39m e\u001b[33m.\u001b[39mdepends){\u001b[36mcase\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m:\u001b[39mf\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[33m!\u001b[39ma(e\u001b[33m.\u001b[39mdepends\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mform)\u001b[33m.\u001b[39mlength\u001b[33m;\u001b[39m\u001b[36mbreak\u001b[39m\u001b[33m;\u001b[39m\u001b[36mcase\u001b[39m\u001b[32m\"function\"\u001b[39m\u001b[33m:\u001b[39mf\u001b[33m=\u001b[39me\u001b[33m.\u001b[39mdepends\u001b[33m.\u001b[39mcall(c\u001b[33m,\u001b[39mc)}f\u001b[33m?\u001b[39mb[d]\u001b[33m=\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39me\u001b[33m.\u001b[39mparam\u001b[33m?\u001b[39me\u001b[33m.\u001b[39mparam\u001b[33m:\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m:\u001b[39m(a\u001b[33m.\u001b[39mdata(c\u001b[33m.\u001b[39mform\u001b[33m,\u001b[39m\u001b[32m\"validator\"\u001b[39m)\u001b[33m.\u001b[39mresetElements(a(c))\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m b[d])}})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39meach(b\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(d\u001b[33m,\u001b[39me){b[d]\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39misFunction(e)\u001b[33m&&\u001b[39m\u001b[32m\"normalizer\"\u001b[39m\u001b[33m!==\u001b[39md\u001b[33m?\u001b[39me(c)\u001b[33m:\u001b[39me})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39meach([\u001b[32m\"minlength\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"maxlength\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){b[\u001b[36mthis\u001b[39m]\u001b[33m&&\u001b[39m(b[\u001b[36mthis\u001b[39m]\u001b[33m=\u001b[39m\u001b[33mNumber\u001b[39m(b[\u001b[36mthis\u001b[39m]))})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39meach([\u001b[32m\"rangelength\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"range\"\u001b[39m]\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){\u001b[36mvar\u001b[39m c\u001b[33m;\u001b[39mb[\u001b[36mthis\u001b[39m]\u001b[33m&&\u001b[39m(a\u001b[33m.\u001b[39misArray(b[\u001b[36mthis\u001b[39m])\u001b[33m?\u001b[39mb[\u001b[36mthis\u001b[39m]\u001b[33m=\u001b[39m[\u001b[33mNumber\u001b[39m(b[\u001b[36mthis\u001b[39m][\u001b[35m0\u001b[39m])\u001b[33m,\u001b[39m\u001b[33mNumber\u001b[39m(b[\u001b[36mthis\u001b[39m][\u001b[35m1\u001b[39m])]\u001b[33m:\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m b[\u001b[36mthis\u001b[39m]\u001b[33m&&\u001b[39m(c\u001b[33m=\u001b[39mb[\u001b[36mthis\u001b[39m]\u001b[33m.\u001b[39mreplace(\u001b[35m/[\\[\\]]/g\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"\"\u001b[39m)\u001b[33m.\u001b[39msplit(\u001b[35m/[\\s,]+/\u001b[39m)\u001b[33m,\u001b[39mb[\u001b[36mthis\u001b[39m]\u001b[33m=\u001b[39m[\u001b[33mNumber\u001b[39m(c[\u001b[35m0\u001b[39m])\u001b[33m,\u001b[39m\u001b[33mNumber\u001b[39m(c[\u001b[35m1\u001b[39m])]))})\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mautoCreateRanges\u001b[33m&&\u001b[39m(\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mb\u001b[33m.\u001b[39mmin\u001b[33m&&\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mb\u001b[33m.\u001b[39mmax\u001b[33m&&\u001b[39m(b\u001b[33m.\u001b[39mrange\u001b[33m=\u001b[39m[b\u001b[33m.\u001b[39mmin\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mmax]\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m b\u001b[33m.\u001b[39mmin\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m b\u001b[33m.\u001b[39mmax)\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mb\u001b[33m.\u001b[39mminlength\u001b[33m&&\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m!=\u001b[39mb\u001b[33m.\u001b[39mmaxlength\u001b[33m&&\u001b[39m(b\u001b[33m.\u001b[39mrangelength\u001b[33m=\u001b[39m[b\u001b[33m.\u001b[39mminlength\u001b[33m,\u001b[39mb\u001b[33m.\u001b[39mmaxlength]\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m b\u001b[33m.\u001b[39mminlength\u001b[33m,\u001b[39m\u001b[36mdelete\u001b[39m b\u001b[33m.\u001b[39mmaxlength))\u001b[33m,\u001b[39mb}\u001b[33m,\u001b[39mnormalizeRule\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b){\u001b[36mif\u001b[39m(\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m b){\u001b[36mvar\u001b[39m c\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39meach(b\u001b[33m.\u001b[39msplit(\u001b[35m/\\s/\u001b[39m)\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){c[\u001b[36mthis\u001b[39m]\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m})\u001b[33m,\u001b[39mb\u001b[33m=\u001b[39mc}\u001b[36mreturn\u001b[39m b}\u001b[33m,\u001b[39maddMethod\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){a\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mmethods[b]\u001b[33m=\u001b[39mc\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mmessages[b]\u001b[33m=\u001b[39m\u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m\u001b[33m!==\u001b[39md\u001b[33m?\u001b[39md\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mmessages[b]\u001b[33m,\u001b[39mc\u001b[33m.\u001b[39mlength\u001b[33m<\u001b[39m\u001b[35m3\u001b[39m\u001b[33m&&\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39maddClassRules(b\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39mvalidator\u001b[33m.\u001b[39mnormalizeRule(b))}\u001b[33m,\u001b[39mmethods\u001b[33m:\u001b[39m{required\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mif\u001b[39m(\u001b[33m!\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mdepend(d\u001b[33m,\u001b[39mc))\u001b[36mreturn\u001b[39m\u001b[32m\"dependency-mismatch\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(\u001b[32m\"select\"\u001b[39m\u001b[33m===\u001b[39mc\u001b[33m.\u001b[39mnodeName\u001b[33m.\u001b[39mtoLowerCase()){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma(c)\u001b[33m.\u001b[39mval()\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m e\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m}\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mcheckable(c)\u001b[33m?\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgetLength(b\u001b[33m,\u001b[39mc)\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mlength\u001b[33m>\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39memail\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(b)\u001b[33m||\u001b[39m\u001b[35m/^[a-zA-Z0-9.!#$%&'*+\\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/\u001b[39m\u001b[33m.\u001b[39mtest(a)}\u001b[33m,\u001b[39murl\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(b)\u001b[33m||\u001b[39m\u001b[35m/^(?:(?:(?:https?|ftp):)?\\/\\/)(?:\\S+(?::\\S*)?@)?(?:(?!(?:10|127)(?:\\.\\d{1,3}){3})(?!(?:169\\.254|192\\.168)(?:\\.\\d{1,3}){2})(?!172\\.(?:1[6-9]|2\\d|3[0-1])(?:\\.\\d{1,3}){2})(?:[1-9]\\d?|1\\d\\d|2[01]\\d|22[0-3])(?:\\.(?:1?\\d{1,2}|2[0-4]\\d|25[0-5])){2}(?:\\.(?:[1-9]\\d?|1\\d\\d|2[0-4]\\d|25[0-4]))|(?:(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)(?:\\.(?:[a-z\\u00a1-\\uffff0-9]-*)*[a-z\\u00a1-\\uffff0-9]+)*(?:\\.(?:[a-z\\u00a1-\\uffff]{2,})).?)(?::\\d{2,5})?(?:[/?#]\\S*)?$/i\u001b[39m\u001b[33m.\u001b[39mtest(a)}\u001b[33m,\u001b[39mdate\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(b)\u001b[33m||\u001b[39m\u001b[33m!\u001b[39m\u001b[35m/Invalid|NaN/\u001b[39m\u001b[33m.\u001b[39mtest(\u001b[36mnew\u001b[39m \u001b[33mDate\u001b[39m(a)\u001b[33m.\u001b[39mtoString())}\u001b[33m,\u001b[39mdateISO\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(b)\u001b[33m||\u001b[39m\u001b[35m/^\\d{4}[\\/\\-](0?[1-9]|1[012])[\\/\\-](0?[1-9]|[12][0-9]|3[01])$/\u001b[39m\u001b[33m.\u001b[39mtest(a)}\u001b[33m,\u001b[39mnumber\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(b)\u001b[33m||\u001b[39m\u001b[35m/^(?:-?\\d+|-?\\d{1,3}(?:,\\d{3})+)?(?:\\.\\d+)?$/\u001b[39m\u001b[33m.\u001b[39mtest(a)}\u001b[33m,\u001b[39mdigits\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(b)\u001b[33m||\u001b[39m\u001b[35m/^\\d+$/\u001b[39m\u001b[33m.\u001b[39mtest(a)}\u001b[33m,\u001b[39mminlength\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39misArray(b)\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mlength\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgetLength(b\u001b[33m,\u001b[39mc)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(c)\u001b[33m||\u001b[39me\u001b[33m>=\u001b[39md}\u001b[33m,\u001b[39mmaxlength\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39misArray(b)\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mlength\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgetLength(b\u001b[33m,\u001b[39mc)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(c)\u001b[33m||\u001b[39md\u001b[33m>=\u001b[39me}\u001b[33m,\u001b[39mrangelength\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39misArray(b)\u001b[33m?\u001b[39mb\u001b[33m.\u001b[39mlength\u001b[33m:\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mgetLength(b\u001b[33m,\u001b[39mc)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(c)\u001b[33m||\u001b[39me\u001b[33m>=\u001b[39md[\u001b[35m0\u001b[39m]\u001b[33m&&\u001b[39me\u001b[33m<=\u001b[39md[\u001b[35m1\u001b[39m]}\u001b[33m,\u001b[39mmin\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(b)\u001b[33m||\u001b[39ma\u001b[33m>=\u001b[39mc}\u001b[33m,\u001b[39mmax\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(b)\u001b[33m||\u001b[39mc\u001b[33m>=\u001b[39ma}\u001b[33m,\u001b[39mrange\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39mc){\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(b)\u001b[33m||\u001b[39ma\u001b[33m>=\u001b[39mc[\u001b[35m0\u001b[39m]\u001b[33m&&\u001b[39ma\u001b[33m<=\u001b[39mc[\u001b[35m1\u001b[39m]}\u001b[33m,\u001b[39mstep\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma(c)\u001b[33m.\u001b[39mattr(\u001b[32m\"type\"\u001b[39m)\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[32m\"Step attribute on input type \"\u001b[39m\u001b[33m+\u001b[39me\u001b[33m+\u001b[39m\u001b[32m\" is not supported.\"\u001b[39m\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m[\u001b[32m\"text\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"number\"\u001b[39m\u001b[33m,\u001b[39m\u001b[32m\"range\"\u001b[39m]\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39m\u001b[36mnew\u001b[39m \u001b[33mRegExp\u001b[39m(\u001b[32m\"\\\\b\"\u001b[39m\u001b[33m+\u001b[39me\u001b[33m+\u001b[39m\u001b[32m\"\\\\b\"\u001b[39m)\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39me\u001b[33m&&\u001b[39m\u001b[33m!\u001b[39mh\u001b[33m.\u001b[39mtest(g\u001b[33m.\u001b[39mjoin())\u001b[33m;\u001b[39m\u001b[36mif\u001b[39m(i)\u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(f)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(c)\u001b[33m||\u001b[39mb\u001b[33m%\u001b[39md\u001b[33m===\u001b[39m\u001b[35m0\u001b[39m}\u001b[33m,\u001b[39mequalTo\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma(d)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39monfocusout\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39mnot(\u001b[32m\".validate-equalTo-blur\"\u001b[39m)\u001b[33m.\u001b[39mlength\u001b[33m&&\u001b[39me\u001b[33m.\u001b[39maddClass(\u001b[32m\"validate-equalTo-blur\"\u001b[39m)\u001b[33m.\u001b[39mon(\u001b[32m\"blur.validate-equalTo\"\u001b[39m\u001b[33m,\u001b[39m\u001b[36mfunction\u001b[39m(){a(c)\u001b[33m.\u001b[39mvalid()})\u001b[33m,\u001b[39mb\u001b[33m===\u001b[39me\u001b[33m.\u001b[39mval()}\u001b[33m,\u001b[39mremote\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(b\u001b[33m,\u001b[39mc\u001b[33m,\u001b[39md\u001b[33m,\u001b[39me){\u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39moptional(c))\u001b[36mreturn\u001b[39m\u001b[32m\"dependency-mismatch\"\u001b[39m\u001b[33m;\u001b[39me\u001b[33m=\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m e\u001b[33m&&\u001b[39me\u001b[33m||\u001b[39m\u001b[32m\"remote\"\u001b[39m\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m f\u001b[33m,\u001b[39mg\u001b[33m,\u001b[39mh\u001b[33m,\u001b[39mi\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpreviousValue(c\u001b[33m,\u001b[39me)\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mmessages[c\u001b[33m.\u001b[39mname]\u001b[33m||\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mmessages[c\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39m{})\u001b[33m,\u001b[39mi\u001b[33m.\u001b[39moriginalMessage\u001b[33m=\u001b[39mi\u001b[33m.\u001b[39moriginalMessage\u001b[33m||\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mmessages[c\u001b[33m.\u001b[39mname][e]\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mmessages[c\u001b[33m.\u001b[39mname][e]\u001b[33m=\u001b[39mi\u001b[33m.\u001b[39mmessage\u001b[33m,\u001b[39md\u001b[33m=\u001b[39m\u001b[32m\"string\"\u001b[39m\u001b[33m==\u001b[39m\u001b[36mtypeof\u001b[39m d\u001b[33m&&\u001b[39m{url\u001b[33m:\u001b[39md}\u001b[33m||\u001b[39md\u001b[33m,\u001b[39mh\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mparam(a\u001b[33m.\u001b[39mextend({data\u001b[33m:\u001b[39mb}\u001b[33m,\u001b[39md\u001b[33m.\u001b[39mdata))\u001b[33m,\u001b[39mi\u001b[33m.\u001b[39mold\u001b[33m===\u001b[39mh\u001b[33m?\u001b[39mi\u001b[33m.\u001b[39mvalid\u001b[33m:\u001b[39m(i\u001b[33m.\u001b[39mold\u001b[33m=\u001b[39mh\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39m\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mstartRequest(c)\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39mg[c\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39mb\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39majax(a\u001b[33m.\u001b[39mextend(\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39m{mode\u001b[33m:\u001b[39m\u001b[32m\"abort\"\u001b[39m\u001b[33m,\u001b[39mport\u001b[33m:\u001b[39m\u001b[32m\"validate\"\u001b[39m\u001b[33m+\u001b[39mc\u001b[33m.\u001b[39mname\u001b[33m,\u001b[39mdataType\u001b[33m:\u001b[39m\u001b[32m\"json\"\u001b[39m\u001b[33m,\u001b[39mdata\u001b[33m:\u001b[39mg\u001b[33m,\u001b[39mcontext\u001b[33m:\u001b[39mf\u001b[33m.\u001b[39mcurrentForm\u001b[33m,\u001b[39msuccess\u001b[33m:\u001b[39m\u001b[36mfunction\u001b[39m(a){\u001b[36mvar\u001b[39m d\u001b[33m,\u001b[39mg\u001b[33m,\u001b[39mh\u001b[33m,\u001b[39mj\u001b[33m=\u001b[39ma\u001b[33m===\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m||\u001b[39m\u001b[32m\"true\"\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m;\u001b[39mf\u001b[33m.\u001b[39msettings\u001b[33m.\u001b[39mmessages[c\u001b[33m.\u001b[39mname][e]\u001b[33m=\u001b[39mi\u001b[33m.\u001b[39moriginalMessage\u001b[33m,\u001b[39mj\u001b[33m?\u001b[39m(h\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39mformSubmitted\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39mresetInternals()\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39mtoHide\u001b[33m=\u001b[39mf\u001b[33m.\u001b[39merrorsFor(c)\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39mformSubmitted\u001b[33m=\u001b[39mh\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39msuccessList\u001b[33m.\u001b[39mpush(c)\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39minvalid[c\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m1\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39mshowErrors())\u001b[33m:\u001b[39m(d\u001b[33m=\u001b[39m{}\u001b[33m,\u001b[39mg\u001b[33m=\u001b[39ma\u001b[33m||\u001b[39mf\u001b[33m.\u001b[39mdefaultMessage(c\u001b[33m,\u001b[39m{method\u001b[33m:\u001b[39me\u001b[33m,\u001b[39mparameters\u001b[33m:\u001b[39mb})\u001b[33m,\u001b[39md[c\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39mi\u001b[33m.\u001b[39mmessage\u001b[33m=\u001b[39mg\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39minvalid[c\u001b[33m.\u001b[39mname]\u001b[33m=\u001b[39m\u001b[33m!\u001b[39m\u001b[35m0\u001b[39m\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39mshowErrors(d))\u001b[33m,\u001b[39mi\u001b[33m.\u001b[39mvalid\u001b[33m=\u001b[39mj\u001b[33m,\u001b[39mf\u001b[33m.\u001b[39mstopRequest(c\u001b[33m,\u001b[39mj)}}\u001b[33m,\u001b[39md))\u001b[33m,\u001b[39m\u001b[32m\"pending\"\u001b[39m)}}})\u001b[33m;\u001b[39m\u001b[36mvar\u001b[39m b\u001b[33m,\u001b[39mc\u001b[33m=\u001b[39m{}\u001b[33m;\u001b[39ma\u001b[33m.\u001b[39majaxPrefilter\u001b[33m?\u001b[39ma\u001b[33m.\u001b[39majaxPrefilter(\u001b[36mfunction\u001b[39m(a\u001b[33m,\u001b[39mb\u001b[33m,\u001b[39md){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39mport\u001b[33m;\u001b[39m\u001b[32m\"abort\"\u001b[39m\u001b[33m===\u001b[39ma\u001b[33m.\u001b[39mmode\u001b[33m&&\u001b[39m(c[e]\u001b[33m&&\u001b[39mc[e]\u001b[33m.\u001b[39mabort()\u001b[33m,\u001b[39mc[e]\u001b[33m=\u001b[39md)})\u001b[33m:\u001b[39m(b\u001b[33m=\u001b[39ma\u001b[33m.\u001b[39majax\u001b[33m,\u001b[39ma\u001b[33m.\u001b[39majax\u001b[33m=\u001b[39m\u001b[36mfunction\u001b[39m(d){\u001b[36mvar\u001b[39m e\u001b[33m=\u001b[39m(\u001b[32m\"mode\"\u001b[39m\u001b[36min\u001b[39m d\u001b[33m?\u001b[39md\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39majaxSettings)\u001b[33m.\u001b[39mmode\u001b[33m,\u001b[39mf\u001b[33m=\u001b[39m(\u001b[32m\"port\"\u001b[39m\u001b[36min\u001b[39m d\u001b[33m?\u001b[39md\u001b[33m:\u001b[39ma\u001b[33m.\u001b[39majaxSettings)\u001b[33m.\u001b[39mport\u001b[33m;\u001b[39m\u001b[36mreturn\u001b[39m\u001b[32m\"abort\"\u001b[39m\u001b[33m===\u001b[39me\u001b[33m?\u001b[39m(c[f]\u001b[33m&&\u001b[39mc[f]\u001b[33m.\u001b[39mabort()\u001b[33m,\u001b[39mc[f]\u001b[33m=\u001b[39mb\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39marguments)\u001b[33m,\u001b[39mc[f])\u001b[33m:\u001b[39mb\u001b[33m.\u001b[39mapply(\u001b[36mthis\u001b[39m\u001b[33m,\u001b[39marguments)})})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   | \u001b[39m                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 5 | \u001b[39m\u001b[0m\n    at raise (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:6325:17)\n    at checkReservedWord (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9546:12)\n    at parseObjectProperty (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9286:12)\n    at parseObjPropValue (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9306:101)\n    at parseObjectMember (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9230:10)\n    at parseObj (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9154:25)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8784:28)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:3601:20)\n    at parseExprSubscripts (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8412:23)\n    at parseMaybeUnary (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8392:21)\n    at parseExprOps (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8267:23)\n    at parseMaybeConditional (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8240:23)\n    at parseMaybeAssign (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8187:21)\n    at parseExpression (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8135:23)\n    at parseStatementContent (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9958:23)\n    at parseStatement (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9829:17)");
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+/*! jQuery Validation Plugin - v1.15.0 - 2/24/2016
+ * http://jqueryvalidation.org/
+ * Copyright (c) 2016 Jörn Zaefferer; Licensed MIT */
+!function (a) {
+   true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(23)], __WEBPACK_AMD_DEFINE_FACTORY__ = (a),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : "object" == (typeof module === "undefined" ? "undefined" : _typeof(module)) && module.exports ? module.exports = a(require("jquery")) : a(jQuery);
+}(function (a) {
+  a.extend(a.fn, {
+    validate: function validate(b) {
+      if (!this.length) return void (b && b.debug && window.console && console.warn("Nothing selected, can't validate, returning nothing."));
+      var c = a.data(this[0], "validator");
+      return c ? c : (this.attr("novalidate", "novalidate"), c = new a.validator(b, this[0]), a.data(this[0], "validator", c), c.settings.onsubmit && (this.on("click.validate", ":submit", function (b) {
+        c.settings.submitHandler && (c.submitButton = b.target), a(this).hasClass("cancel") && (c.cancelSubmit = !0), void 0 !== a(this).attr("formnovalidate") && (c.cancelSubmit = !0);
+      }), this.on("submit.validate", function (b) {
+        function d() {
+          var d, e;
+          return c.settings.submitHandler ? (c.submitButton && (d = a("<input type='hidden'/>").attr("name", c.submitButton.name).val(a(c.submitButton).val()).appendTo(c.currentForm)), e = c.settings.submitHandler.call(c, c.currentForm, b), c.submitButton && d.remove(), void 0 !== e ? e : !1) : !0;
+        }
+
+        return c.settings.debug && b.preventDefault(), c.cancelSubmit ? (c.cancelSubmit = !1, d()) : c.form() ? c.pendingRequest ? (c.formSubmitted = !0, !1) : d() : (c.focusInvalid(), !1);
+      })), c);
+    },
+    valid: function valid() {
+      var b, c, d;
+      return a(this[0]).is("form") ? b = this.validate().form() : (d = [], b = !0, c = a(this[0].form).validate(), this.each(function () {
+        b = c.element(this) && b, b || (d = d.concat(c.errorList));
+      }), c.errorList = d), b;
+    },
+    rules: function rules(b, c) {
+      if (this.length) {
+        var d,
+            e,
+            f,
+            g,
+            h,
+            i,
+            j = this[0];
+        if (b) switch (d = a.data(j.form, "validator").settings, e = d.rules, f = a.validator.staticRules(j), b) {
+          case "add":
+            a.extend(f, a.validator.normalizeRule(c)), delete f.messages, e[j.name] = f, c.messages && (d.messages[j.name] = a.extend(d.messages[j.name], c.messages));
+            break;
+
+          case "remove":
+            return c ? (i = {}, a.each(c.split(/\s/), function (b, c) {
+              i[c] = f[c], delete f[c], "required" === c && a(j).removeAttr("aria-required");
+            }), i) : (delete e[j.name], f);
+        }
+        return g = a.validator.normalizeRules(a.extend({}, a.validator.classRules(j), a.validator.attributeRules(j), a.validator.dataRules(j), a.validator.staticRules(j)), j), g.required && (h = g.required, delete g.required, g = a.extend({
+          required: h
+        }, g), a(j).attr("aria-required", "true")), g.remote && (h = g.remote, delete g.remote, g = a.extend(g, {
+          remote: h
+        })), g;
+      }
+    }
+  }), a.extend(a.expr[":"], {
+    blank: function blank(b) {
+      return !a.trim("" + a(b).val());
+    },
+    filled: function filled(b) {
+      var c = a(b).val();
+      return null !== c && !!a.trim("" + c);
+    },
+    unchecked: function unchecked(b) {
+      return !a(b).prop("checked");
+    }
+  }), a.validator = function (b, c) {
+    this.settings = a.extend(!0, {}, a.validator.defaults, b), this.currentForm = c, this.init();
+  }, a.validator.format = function (b, c) {
+    return 1 === arguments.length ? function () {
+      var c = a.makeArray(arguments);
+      return c.unshift(b), a.validator.format.apply(this, c);
+    } : void 0 === c ? b : (arguments.length > 2 && c.constructor !== Array && (c = a.makeArray(arguments).slice(1)), c.constructor !== Array && (c = [c]), a.each(c, function (a, c) {
+      b = b.replace(new RegExp("\\{" + a + "\\}", "g"), function () {
+        return c;
+      });
+    }), b);
+  }, a.extend(a.validator, {
+    defaults: {
+      messages: {},
+      groups: {},
+      rules: {},
+      errorClass: "error",
+      pendingClass: "pending",
+      validClass: "valid",
+      errorElement: "label",
+      focusCleanup: !1,
+      focusInvalid: !0,
+      errorContainer: a([]),
+      errorLabelContainer: a([]),
+      onsubmit: !0,
+      ignore: ":hidden",
+      ignoreTitle: !1,
+      onfocusin: function onfocusin(a) {
+        this.lastActive = a, this.settings.focusCleanup && (this.settings.unhighlight && this.settings.unhighlight.call(this, a, this.settings.errorClass, this.settings.validClass), this.hideThese(this.errorsFor(a)));
+      },
+      onfocusout: function onfocusout(a) {
+        this.checkable(a) || !(a.name in this.submitted) && this.optional(a) || this.element(a);
+      },
+      onkeyup: function onkeyup(b, c) {
+        var d = [16, 17, 18, 20, 35, 36, 37, 38, 39, 40, 45, 144, 225];
+        9 === c.which && "" === this.elementValue(b) || -1 !== a.inArray(c.keyCode, d) || (b.name in this.submitted || b.name in this.invalid) && this.element(b);
+      },
+      onclick: function onclick(a) {
+        a.name in this.submitted ? this.element(a) : a.parentNode.name in this.submitted && this.element(a.parentNode);
+      },
+      highlight: function highlight(b, c, d) {
+        "radio" === b.type ? this.findByName(b.name).addClass(c).removeClass(d) : a(b).addClass(c).removeClass(d);
+      },
+      unhighlight: function unhighlight(b, c, d) {
+        "radio" === b.type ? this.findByName(b.name).removeClass(c).addClass(d) : a(b).removeClass(c).addClass(d);
+      }
+    },
+    setDefaults: function setDefaults(b) {
+      a.extend(a.validator.defaults, b);
+    },
+    messages: {
+      required: "This field is required.",
+      remote: "Please fix this field.",
+      email: "Please enter a valid email address.",
+      url: "Please enter a valid URL.",
+      date: "Please enter a valid date.",
+      dateISO: "Please enter a valid date ( ISO ).",
+      number: "Please enter a valid number.",
+      digits: "Please enter only digits.",
+      equalTo: "Please enter the same value again.",
+      maxlength: a.validator.format("Please enter no more than {0} characters."),
+      minlength: a.validator.format("Please enter at least {0} characters."),
+      rangelength: a.validator.format("Please enter a value between {0} and {1} characters long."),
+      range: a.validator.format("Please enter a value between {0} and {1}."),
+      max: a.validator.format("Please enter a value less than or equal to {0}."),
+      min: a.validator.format("Please enter a value greater than or equal to {0}."),
+      step: a.validator.format("Please enter a multiple of {0}.")
+    },
+    autoCreateRanges: !1,
+    prototype: {
+      init: function init() {
+        function b(b) {
+          var c = a.data(this.form, "validator"),
+              d = "on" + b.type.replace(/^validate/, ""),
+              e = c.settings;
+          e[d] && !a(this).is(e.ignore) && e[d].call(c, this, b);
+        }
+
+        this.labelContainer = a(this.settings.errorLabelContainer), this.errorContext = this.labelContainer.length && this.labelContainer || a(this.currentForm), this.containers = a(this.settings.errorContainer).add(this.settings.errorLabelContainer), this.submitted = {}, this.valueCache = {}, this.pendingRequest = 0, this.pending = {}, this.invalid = {}, this.reset();
+        var c,
+            d = this.groups = {};
+        a.each(this.settings.groups, function (b, c) {
+          "string" == typeof c && (c = c.split(/\s/)), a.each(c, function (a, c) {
+            d[c] = b;
+          });
+        }), c = this.settings.rules, a.each(c, function (b, d) {
+          c[b] = a.validator.normalizeRule(d);
+        }), a(this.currentForm).on("focusin.validate focusout.validate keyup.validate", ":text, [type='password'], [type='file'], select, textarea, [type='number'], [type='search'], [type='tel'], [type='url'], [type='email'], [type='datetime'], [type='date'], [type='month'], [type='week'], [type='time'], [type='datetime-local'], [type='range'], [type='color'], [type='radio'], [type='checkbox'], [contenteditable]", b).on("click.validate", "select, option, [type='radio'], [type='checkbox']", b), this.settings.invalidHandler && a(this.currentForm).on("invalid-form.validate", this.settings.invalidHandler), a(this.currentForm).find("[required], [data-rule-required], .required").attr("aria-required", "true");
+      },
+      form: function form() {
+        return this.checkForm(), a.extend(this.submitted, this.errorMap), this.invalid = a.extend({}, this.errorMap), this.valid() || a(this.currentForm).triggerHandler("invalid-form", [this]), this.showErrors(), this.valid();
+      },
+      checkForm: function checkForm() {
+        this.prepareForm();
+
+        for (var a = 0, b = this.currentElements = this.elements(); b[a]; a++) {
+          this.check(b[a]);
+        }
+
+        return this.valid();
+      },
+      element: function element(b) {
+        var c,
+            d,
+            e = this.clean(b),
+            f = this.validationTargetFor(e),
+            g = this,
+            h = !0;
+        return void 0 === f ? delete this.invalid[e.name] : (this.prepareElement(f), this.currentElements = a(f), d = this.groups[f.name], d && a.each(this.groups, function (a, b) {
+          b === d && a !== f.name && (e = g.validationTargetFor(g.clean(g.findByName(a))), e && e.name in g.invalid && (g.currentElements.push(e), h = h && g.check(e)));
+        }), c = this.check(f) !== !1, h = h && c, c ? this.invalid[f.name] = !1 : this.invalid[f.name] = !0, this.numberOfInvalids() || (this.toHide = this.toHide.add(this.containers)), this.showErrors(), a(b).attr("aria-invalid", !c)), h;
+      },
+      showErrors: function showErrors(b) {
+        if (b) {
+          var c = this;
+          a.extend(this.errorMap, b), this.errorList = a.map(this.errorMap, function (a, b) {
+            return {
+              message: a,
+              element: c.findByName(b)[0]
+            };
+          }), this.successList = a.grep(this.successList, function (a) {
+            return !(a.name in b);
+          });
+        }
+
+        this.settings.showErrors ? this.settings.showErrors.call(this, this.errorMap, this.errorList) : this.defaultShowErrors();
+      },
+      resetForm: function resetForm() {
+        a.fn.resetForm && a(this.currentForm).resetForm(), this.invalid = {}, this.submitted = {}, this.prepareForm(), this.hideErrors();
+        var b = this.elements().removeData("previousValue").removeAttr("aria-invalid");
+        this.resetElements(b);
+      },
+      resetElements: function resetElements(a) {
+        var b;
+        if (this.settings.unhighlight) for (b = 0; a[b]; b++) {
+          this.settings.unhighlight.call(this, a[b], this.settings.errorClass, ""), this.findByName(a[b].name).removeClass(this.settings.validClass);
+        } else a.removeClass(this.settings.errorClass).removeClass(this.settings.validClass);
+      },
+      numberOfInvalids: function numberOfInvalids() {
+        return this.objectLength(this.invalid);
+      },
+      objectLength: function objectLength(a) {
+        var b,
+            c = 0;
+
+        for (b in a) {
+          a[b] && c++;
+        }
+
+        return c;
+      },
+      hideErrors: function hideErrors() {
+        this.hideThese(this.toHide);
+      },
+      hideThese: function hideThese(a) {
+        a.not(this.containers).text(""), this.addWrapper(a).hide();
+      },
+      valid: function valid() {
+        return 0 === this.size();
+      },
+      size: function size() {
+        return this.errorList.length;
+      },
+      focusInvalid: function focusInvalid() {
+        if (this.settings.focusInvalid) try {
+          a(this.findLastActive() || this.errorList.length && this.errorList[0].element || []).filter(":visible").focus().trigger("focusin");
+        } catch (b) {}
+      },
+      findLastActive: function findLastActive() {
+        var b = this.lastActive;
+        return b && 1 === a.grep(this.errorList, function (a) {
+          return a.element.name === b.name;
+        }).length && b;
+      },
+      elements: function elements() {
+        var b = this,
+            c = {};
+        return a(this.currentForm).find("input, select, textarea, [contenteditable]").not(":submit, :reset, :image, :disabled").not(this.settings.ignore).filter(function () {
+          var d = this.name || a(this).attr("name");
+          return !d && b.settings.debug && window.console && console.error("%o has no name assigned", this), this.hasAttribute("contenteditable") && (this.form = a(this).closest("form")[0]), d in c || !b.objectLength(a(this).rules()) ? !1 : (c[d] = !0, !0);
+        });
+      },
+      clean: function clean(b) {
+        return a(b)[0];
+      },
+      errors: function errors() {
+        var b = this.settings.errorClass.split(" ").join(".");
+        return a(this.settings.errorElement + "." + b, this.errorContext);
+      },
+      resetInternals: function resetInternals() {
+        this.successList = [], this.errorList = [], this.errorMap = {}, this.toShow = a([]), this.toHide = a([]);
+      },
+      reset: function reset() {
+        this.resetInternals(), this.currentElements = a([]);
+      },
+      prepareForm: function prepareForm() {
+        this.reset(), this.toHide = this.errors().add(this.containers);
+      },
+      prepareElement: function prepareElement(a) {
+        this.reset(), this.toHide = this.errorsFor(a);
+      },
+      elementValue: function elementValue(b) {
+        var c,
+            d,
+            e = a(b),
+            f = b.type;
+        return "radio" === f || "checkbox" === f ? this.findByName(b.name).filter(":checked").val() : "number" === f && "undefined" != typeof b.validity ? b.validity.badInput ? "NaN" : e.val() : (c = b.hasAttribute("contenteditable") ? e.text() : e.val(), "file" === f ? "C:\\fakepath\\" === c.substr(0, 12) ? c.substr(12) : (d = c.lastIndexOf("/"), d >= 0 ? c.substr(d + 1) : (d = c.lastIndexOf("\\"), d >= 0 ? c.substr(d + 1) : c)) : "string" == typeof c ? c.replace(/\r/g, "") : c);
+      },
+      check: function check(b) {
+        b = this.validationTargetFor(this.clean(b));
+        var c,
+            d,
+            e,
+            f = a(b).rules(),
+            g = a.map(f, function (a, b) {
+          return b;
+        }).length,
+            h = !1,
+            i = this.elementValue(b);
+
+        if ("function" == typeof f.normalizer) {
+          if (i = f.normalizer.call(b, i), "string" != typeof i) throw new TypeError("The normalizer should return a string value.");
+          delete f.normalizer;
+        }
+
+        for (d in f) {
+          e = {
+            method: d,
+            parameters: f[d]
+          };
+
+          try {
+            if (c = a.validator.methods[d].call(this, i, b, e.parameters), "dependency-mismatch" === c && 1 === g) {
+              h = !0;
+              continue;
+            }
+
+            if (h = !1, "pending" === c) return void (this.toHide = this.toHide.not(this.errorsFor(b)));
+            if (!c) return this.formatAndAdd(b, e), !1;
+          } catch (j) {
+            throw this.settings.debug && window.console && console.log("Exception occurred when checking element " + b.id + ", check the '" + e.method + "' method.", j), j instanceof TypeError && (j.message += ".  Exception occurred when checking element " + b.id + ", check the '" + e.method + "' method."), j;
+          }
+        }
+
+        if (!h) return this.objectLength(f) && this.successList.push(b), !0;
+      },
+      customDataMessage: function customDataMessage(b, c) {
+        return a(b).data("msg" + c.charAt(0).toUpperCase() + c.substring(1).toLowerCase()) || a(b).data("msg");
+      },
+      customMessage: function customMessage(a, b) {
+        var c = this.settings.messages[a];
+        return c && (c.constructor === String ? c : c[b]);
+      },
+      findDefined: function findDefined() {
+        for (var a = 0; a < arguments.length; a++) {
+          if (void 0 !== arguments[a]) return arguments[a];
+        }
+      },
+      defaultMessage: function defaultMessage(b, c) {
+        var d = this.findDefined(this.customMessage(b.name, c.method), this.customDataMessage(b, c.method), !this.settings.ignoreTitle && b.title || void 0, a.validator.messages[c.method], "<strong>Warning: No message defined for " + b.name + "</strong>"),
+            e = /\$?\{(\d+)\}/g;
+        return "function" == typeof d ? d = d.call(this, c.parameters, b) : e.test(d) && (d = a.validator.format(d.replace(e, "{$1}"), c.parameters)), d;
+      },
+      formatAndAdd: function formatAndAdd(a, b) {
+        var c = this.defaultMessage(a, b);
+        this.errorList.push({
+          message: c,
+          element: a,
+          method: b.method
+        }), this.errorMap[a.name] = c, this.submitted[a.name] = c;
+      },
+      addWrapper: function addWrapper(a) {
+        return this.settings.wrapper && (a = a.add(a.parent(this.settings.wrapper))), a;
+      },
+      defaultShowErrors: function defaultShowErrors() {
+        var a, b, c;
+
+        for (a = 0; this.errorList[a]; a++) {
+          c = this.errorList[a], this.settings.highlight && this.settings.highlight.call(this, c.element, this.settings.errorClass, this.settings.validClass), this.showLabel(c.element, c.message);
+        }
+
+        if (this.errorList.length && (this.toShow = this.toShow.add(this.containers)), this.settings.success) for (a = 0; this.successList[a]; a++) {
+          this.showLabel(this.successList[a]);
+        }
+        if (this.settings.unhighlight) for (a = 0, b = this.validElements(); b[a]; a++) {
+          this.settings.unhighlight.call(this, b[a], this.settings.errorClass, this.settings.validClass);
+        }
+        this.toHide = this.toHide.not(this.toShow), this.hideErrors(), this.addWrapper(this.toShow).show();
+      },
+      validElements: function validElements() {
+        return this.currentElements.not(this.invalidElements());
+      },
+      invalidElements: function invalidElements() {
+        return a(this.errorList).map(function () {
+          return this.element;
+        });
+      },
+      showLabel: function showLabel(b, c) {
+        var d,
+            e,
+            f,
+            g,
+            h = this.errorsFor(b),
+            i = this.idOrName(b),
+            j = a(b).attr("aria-describedby");
+        h.length ? (h.removeClass(this.settings.validClass).addClass(this.settings.errorClass), h.html(c)) : (h = a("<" + this.settings.errorElement + ">").attr("id", i + "-error").addClass(this.settings.errorClass).html(c || ""), d = h, this.settings.wrapper && (d = h.hide().show().wrap("<" + this.settings.wrapper + "/>").parent()), this.labelContainer.length ? this.labelContainer.append(d) : this.settings.errorPlacement ? this.settings.errorPlacement(d, a(b)) : d.insertAfter(b), h.is("label") ? h.attr("for", i) : 0 === h.parents("label[for='" + this.escapeCssMeta(i) + "']").length && (f = h.attr("id"), j ? j.match(new RegExp("\\b" + this.escapeCssMeta(f) + "\\b")) || (j += " " + f) : j = f, a(b).attr("aria-describedby", j), e = this.groups[b.name], e && (g = this, a.each(g.groups, function (b, c) {
+          c === e && a("[name='" + g.escapeCssMeta(b) + "']", g.currentForm).attr("aria-describedby", h.attr("id"));
+        })))), !c && this.settings.success && (h.text(""), "string" == typeof this.settings.success ? h.addClass(this.settings.success) : this.settings.success(h, b)), this.toShow = this.toShow.add(h);
+      },
+      errorsFor: function errorsFor(b) {
+        var c = this.escapeCssMeta(this.idOrName(b)),
+            d = a(b).attr("aria-describedby"),
+            e = "label[for='" + c + "'], label[for='" + c + "'] *";
+        return d && (e = e + ", #" + this.escapeCssMeta(d).replace(/\s+/g, ", #")), this.errors().filter(e);
+      },
+      escapeCssMeta: function escapeCssMeta(a) {
+        return a.replace(/([\\!"#$%&'()*+,./:;<=>?@\[\]^`{|}~])/g, "\\$1");
+      },
+      idOrName: function idOrName(a) {
+        return this.groups[a.name] || (this.checkable(a) ? a.name : a.id || a.name);
+      },
+      validationTargetFor: function validationTargetFor(b) {
+        return this.checkable(b) && (b = this.findByName(b.name)), a(b).not(this.settings.ignore)[0];
+      },
+      checkable: function checkable(a) {
+        return /radio|checkbox/i.test(a.type);
+      },
+      findByName: function findByName(b) {
+        return a(this.currentForm).find("[name='" + this.escapeCssMeta(b) + "']");
+      },
+      getLength: function getLength(b, c) {
+        switch (c.nodeName.toLowerCase()) {
+          case "select":
+            return a("option:selected", c).length;
+
+          case "input":
+            if (this.checkable(c)) return this.findByName(c.name).filter(":checked").length;
+        }
+
+        return b.length;
+      },
+      depend: function depend(a, b) {
+        return this.dependTypes[_typeof(a)] ? this.dependTypes[_typeof(a)](a, b) : !0;
+      },
+      dependTypes: {
+        "boolean": function boolean(a) {
+          return a;
+        },
+        string: function string(b, c) {
+          return !!a(b, c.form).length;
+        },
+        "function": function _function(a, b) {
+          return a(b);
+        }
+      },
+      optional: function optional(b) {
+        var c = this.elementValue(b);
+        return !a.validator.methods.required.call(this, c, b) && "dependency-mismatch";
+      },
+      startRequest: function startRequest(b) {
+        this.pending[b.name] || (this.pendingRequest++, a(b).addClass(this.settings.pendingClass), this.pending[b.name] = !0);
+      },
+      stopRequest: function stopRequest(b, c) {
+        this.pendingRequest--, this.pendingRequest < 0 && (this.pendingRequest = 0), delete this.pending[b.name], a(b).removeClass(this.settings.pendingClass), c && 0 === this.pendingRequest && this.formSubmitted && this.form() ? (a(this.currentForm).submit(), this.formSubmitted = !1) : !c && 0 === this.pendingRequest && this.formSubmitted && (a(this.currentForm).triggerHandler("invalid-form", [this]), this.formSubmitted = !1);
+      },
+      previousValue: function previousValue(b, c) {
+        return a.data(b, "previousValue") || a.data(b, "previousValue", {
+          old: null,
+          valid: !0,
+          message: this.defaultMessage(b, {
+            method: c
+          })
+        });
+      },
+      destroy: function destroy() {
+        this.resetForm(), a(this.currentForm).off(".validate").removeData("validator").find(".validate-equalTo-blur").off(".validate-equalTo").removeClass("validate-equalTo-blur");
+      }
+    },
+    classRuleSettings: {
+      required: {
+        required: !0
+      },
+      email: {
+        email: !0
+      },
+      url: {
+        url: !0
+      },
+      date: {
+        date: !0
+      },
+      dateISO: {
+        dateISO: !0
+      },
+      number: {
+        number: !0
+      },
+      digits: {
+        digits: !0
+      },
+      creditcard: {
+        creditcard: !0
+      }
+    },
+    addClassRules: function addClassRules(b, c) {
+      b.constructor === String ? this.classRuleSettings[b] = c : a.extend(this.classRuleSettings, b);
+    },
+    classRules: function classRules(b) {
+      var c = {},
+          d = a(b).attr("class");
+      return d && a.each(d.split(" "), function () {
+        this in a.validator.classRuleSettings && a.extend(c, a.validator.classRuleSettings[this]);
+      }), c;
+    },
+    normalizeAttributeRule: function normalizeAttributeRule(a, b, c, d) {
+      /min|max|step/.test(c) && (null === b || /number|range|text/.test(b)) && (d = Number(d), isNaN(d) && (d = void 0)), d || 0 === d ? a[c] = d : b === c && "range" !== b && (a[c] = !0);
+    },
+    attributeRules: function attributeRules(b) {
+      var c,
+          d,
+          e = {},
+          f = a(b),
+          g = b.getAttribute("type");
+
+      for (c in a.validator.methods) {
+        "required" === c ? (d = b.getAttribute(c), "" === d && (d = !0), d = !!d) : d = f.attr(c), this.normalizeAttributeRule(e, g, c, d);
+      }
+
+      return e.maxlength && /-1|2147483647|524288/.test(e.maxlength) && delete e.maxlength, e;
+    },
+    dataRules: function dataRules(b) {
+      var c,
+          d,
+          e = {},
+          f = a(b),
+          g = b.getAttribute("type");
+
+      for (c in a.validator.methods) {
+        d = f.data("rule" + c.charAt(0).toUpperCase() + c.substring(1).toLowerCase()), this.normalizeAttributeRule(e, g, c, d);
+      }
+
+      return e;
+    },
+    staticRules: function staticRules(b) {
+      var c = {},
+          d = a.data(b.form, "validator");
+      return d.settings.rules && (c = a.validator.normalizeRule(d.settings.rules[b.name]) || {}), c;
+    },
+    normalizeRules: function normalizeRules(b, c) {
+      return a.each(b, function (d, e) {
+        if (e === !1) return void delete b[d];
+
+        if (e.param || e.depends) {
+          var f = !0;
+
+          switch (_typeof(e.depends)) {
+            case "string":
+              f = !!a(e.depends, c.form).length;
+              break;
+
+            case "function":
+              f = e.depends.call(c, c);
+          }
+
+          f ? b[d] = void 0 !== e.param ? e.param : !0 : (a.data(c.form, "validator").resetElements(a(c)), delete b[d]);
+        }
+      }), a.each(b, function (d, e) {
+        b[d] = a.isFunction(e) && "normalizer" !== d ? e(c) : e;
+      }), a.each(["minlength", "maxlength"], function () {
+        b[this] && (b[this] = Number(b[this]));
+      }), a.each(["rangelength", "range"], function () {
+        var c;
+        b[this] && (a.isArray(b[this]) ? b[this] = [Number(b[this][0]), Number(b[this][1])] : "string" == typeof b[this] && (c = b[this].replace(/[\[\]]/g, "").split(/[\s,]+/), b[this] = [Number(c[0]), Number(c[1])]));
+      }), a.validator.autoCreateRanges && (null != b.min && null != b.max && (b.range = [b.min, b.max], delete b.min, delete b.max), null != b.minlength && null != b.maxlength && (b.rangelength = [b.minlength, b.maxlength], delete b.minlength, delete b.maxlength)), b;
+    },
+    normalizeRule: function normalizeRule(b) {
+      if ("string" == typeof b) {
+        var c = {};
+        a.each(b.split(/\s/), function () {
+          c[this] = !0;
+        }), b = c;
+      }
+
+      return b;
+    },
+    addMethod: function addMethod(b, c, d) {
+      a.validator.methods[b] = c, a.validator.messages[b] = void 0 !== d ? d : a.validator.messages[b], c.length < 3 && a.validator.addClassRules(b, a.validator.normalizeRule(b));
+    },
+    methods: {
+      required: function required(b, c, d) {
+        if (!this.depend(d, c)) return "dependency-mismatch";
+
+        if ("select" === c.nodeName.toLowerCase()) {
+          var e = a(c).val();
+          return e && e.length > 0;
+        }
+
+        return this.checkable(c) ? this.getLength(b, c) > 0 : b.length > 0;
+      },
+      email: function email(a, b) {
+        return this.optional(b) || /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(a);
+      },
+      url: function url(a, b) {
+        return this.optional(b) || /^(?:(?:(?:https?|ftp):)?\/\/)(?:\S+(?::\S*)?@)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})).?)(?::\d{2,5})?(?:[/?#]\S*)?$/i.test(a);
+      },
+      date: function date(a, b) {
+        return this.optional(b) || !/Invalid|NaN/.test(new Date(a).toString());
+      },
+      dateISO: function dateISO(a, b) {
+        return this.optional(b) || /^\d{4}[\/\-](0?[1-9]|1[012])[\/\-](0?[1-9]|[12][0-9]|3[01])$/.test(a);
+      },
+      number: function number(a, b) {
+        return this.optional(b) || /^(?:-?\d+|-?\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test(a);
+      },
+      digits: function digits(a, b) {
+        return this.optional(b) || /^\d+$/.test(a);
+      },
+      minlength: function minlength(b, c, d) {
+        var e = a.isArray(b) ? b.length : this.getLength(b, c);
+        return this.optional(c) || e >= d;
+      },
+      maxlength: function maxlength(b, c, d) {
+        var e = a.isArray(b) ? b.length : this.getLength(b, c);
+        return this.optional(c) || d >= e;
+      },
+      rangelength: function rangelength(b, c, d) {
+        var e = a.isArray(b) ? b.length : this.getLength(b, c);
+        return this.optional(c) || e >= d[0] && e <= d[1];
+      },
+      min: function min(a, b, c) {
+        return this.optional(b) || a >= c;
+      },
+      max: function max(a, b, c) {
+        return this.optional(b) || c >= a;
+      },
+      range: function range(a, b, c) {
+        return this.optional(b) || a >= c[0] && a <= c[1];
+      },
+      step: function step(b, c, d) {
+        var e = a(c).attr("type"),
+            f = "Step attribute on input type " + e + " is not supported.",
+            g = ["text", "number", "range"],
+            h = new RegExp("\\b" + e + "\\b"),
+            i = e && !h.test(g.join());
+        if (i) throw new Error(f);
+        return this.optional(c) || b % d === 0;
+      },
+      equalTo: function equalTo(b, c, d) {
+        var e = a(d);
+        return this.settings.onfocusout && e.not(".validate-equalTo-blur").length && e.addClass("validate-equalTo-blur").on("blur.validate-equalTo", function () {
+          a(c).valid();
+        }), b === e.val();
+      },
+      remote: function remote(b, c, d, e) {
+        if (this.optional(c)) return "dependency-mismatch";
+        e = "string" == typeof e && e || "remote";
+        var f,
+            g,
+            h,
+            i = this.previousValue(c, e);
+        return this.settings.messages[c.name] || (this.settings.messages[c.name] = {}), i.originalMessage = i.originalMessage || this.settings.messages[c.name][e], this.settings.messages[c.name][e] = i.message, d = "string" == typeof d && {
+          url: d
+        } || d, h = a.param(a.extend({
+          data: b
+        }, d.data)), i.old === h ? i.valid : (i.old = h, f = this, this.startRequest(c), g = {}, g[c.name] = b, a.ajax(a.extend(!0, {
+          mode: "abort",
+          port: "validate" + c.name,
+          dataType: "json",
+          data: g,
+          context: f.currentForm,
+          success: function success(a) {
+            var d,
+                g,
+                h,
+                j = a === !0 || "true" === a;
+            f.settings.messages[c.name][e] = i.originalMessage, j ? (h = f.formSubmitted, f.resetInternals(), f.toHide = f.errorsFor(c), f.formSubmitted = h, f.successList.push(c), f.invalid[c.name] = !1, f.showErrors()) : (d = {}, g = a || f.defaultMessage(c, {
+              method: e,
+              parameters: b
+            }), d[c.name] = i.message = g, f.invalid[c.name] = !0, f.showErrors(d)), i.valid = j, f.stopRequest(c, j);
+          }
+        }, d)), "pending");
+      }
+    }
+  });
+  var b,
+      c = {};
+  a.ajaxPrefilter ? a.ajaxPrefilter(function (a, b, d) {
+    var e = a.port;
+    "abort" === a.mode && (c[e] && c[e].abort(), c[e] = d);
+  }) : (b = a.ajax, a.ajax = function (d) {
+    var e = ("mode" in d ? d : a.ajaxSettings).mode,
+        f = ("port" in d ? d : a.ajaxSettings).port;
+    return "abort" === e ? (c[f] && c[f].abort(), c[f] = b.apply(this, arguments), c[f]) : b.apply(this, arguments);
+  });
+});
 
 /***/ }),
 
@@ -13340,23 +17905,8913 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /***/ }),
 
 /***/ 348:
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed: SyntaxError: /Users/glebsimdyankin/Documents/work/redsoft/src/scripts/libs/swiper.js: Unexpected token, expected \",\" (34:9)\n\n\u001b[0m \u001b[90m 32 | \u001b[39m            \u001b[33mImage\u001b[39m\u001b[33m:\u001b[39m \u001b[36mfunction\u001b[39m \u001b[33mImage\u001b[39m() {}\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 | \u001b[39m            \u001b[33mDate\u001b[39m\u001b[33m:\u001b[39m \u001b[36mfunction\u001b[39m \u001b[33mDate\u001b[39m() {}\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 34 | \u001b[39m        }\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 | \u001b[39m    } \u001b[36melse\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 36 | \u001b[39m        w \u001b[33m=\u001b[39m window\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 | \u001b[39m    }\u001b[0m\n    at raise (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:6325:17)\n    at unexpected (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:7642:16)\n    at expect (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:7628:28)\n    at parseObj (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9150:14)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8784:28)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:3601:20)\n    at parseExprSubscripts (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8412:23)\n    at parseMaybeUnary (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8392:21)\n    at parseExprOps (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8267:23)\n    at parseMaybeConditional (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8240:23)\n    at parseMaybeAssign (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8187:21)\n    at parseExpression (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8135:23)\n    at parseStatementContent (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9958:23)\n    at parseStatement (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9829:17)\n    at parseIfStatement (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:10183:28)\n    at parseStatementContent (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9874:21)");
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+/**
+ * Swiper 4.0.5
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * http://www.idangero.us/swiper/
+ *
+ * Copyright 2014-2017 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: November 7, 2017
+ */
+(function (global, factory) {
+  ( false ? "undefined" : _typeof(exports)) === 'object' && typeof module !== 'undefined' ? module.exports = factory() :  true ? !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
+				__WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : global.Swiper = factory();
+})(this, function () {
+  'use strict';
+
+  var w;
+
+  if (typeof window === 'undefined') {
+    w = {
+      navigator: {
+        userAgent: ''
+      },
+      location: {},
+      history: {},
+      addEventListener: function addEventListener() {},
+      removeEventListener: function removeEventListener() {},
+      getComputedStyle: function getComputedStyle() {
+        return {};
+      },
+      Image: function Image() {},
+      Date: function Date() {}
+    };
+  } else {
+    w = window;
+  }
+
+  var win = w;
+  /**
+   * Dom7 2.0.1
+   * Minimalistic JavaScript library for DOM manipulation, with a jQuery-compatible API
+   * http://framework7.io/docs/dom.html
+   *
+   * Copyright 2017, Vladimir Kharlampidi
+   * The iDangero.us
+   * http://www.idangero.us/
+   *
+   * Licensed under MIT
+   *
+   * Released on: October 2, 2017
+   */
+
+  var Dom7 = function Dom7(arr) {
+    var self = this; // Create array-like object
+
+    for (var i = 0; i < arr.length; i += 1) {
+      self[i] = arr[i];
+    }
+
+    self.length = arr.length; // Return collection with methods
+
+    return this;
+  };
+
+  function $$1(selector, context) {
+    var arr = [];
+    var i = 0;
+
+    if (selector && !context) {
+      if (selector instanceof Dom7) {
+        return selector;
+      }
+    }
+
+    if (selector) {
+      // String
+      if (typeof selector === 'string') {
+        var els;
+        var tempParent;
+        var html = selector.trim();
+
+        if (html.indexOf('<') >= 0 && html.indexOf('>') >= 0) {
+          var toCreate = 'div';
+
+          if (html.indexOf('<li') === 0) {
+            toCreate = 'ul';
+          }
+
+          if (html.indexOf('<tr') === 0) {
+            toCreate = 'tbody';
+          }
+
+          if (html.indexOf('<td') === 0 || html.indexOf('<th') === 0) {
+            toCreate = 'tr';
+          }
+
+          if (html.indexOf('<tbody') === 0) {
+            toCreate = 'table';
+          }
+
+          if (html.indexOf('<option') === 0) {
+            toCreate = 'select';
+          }
+
+          tempParent = document.createElement(toCreate);
+          tempParent.innerHTML = html;
+
+          for (i = 0; i < tempParent.childNodes.length; i += 1) {
+            arr.push(tempParent.childNodes[i]);
+          }
+        } else {
+          if (!context && selector[0] === '#' && !selector.match(/[ .<>:~]/)) {
+            // Pure ID selector
+            els = [document.getElementById(selector.trim().split('#')[1])];
+          } else {
+            // Other selectors
+            els = (context || document).querySelectorAll(selector.trim());
+          }
+
+          for (i = 0; i < els.length; i += 1) {
+            if (els[i]) {
+              arr.push(els[i]);
+            }
+          }
+        }
+      } else if (selector.nodeType || selector === window || selector === document) {
+        // Node/element
+        arr.push(selector);
+      } else if (selector.length > 0 && selector[0].nodeType) {
+        // Array of elements or instance of Dom
+        for (i = 0; i < selector.length; i += 1) {
+          arr.push(selector[i]);
+        }
+      }
+    }
+
+    return new Dom7(arr);
+  }
+
+  $$1.fn = Dom7.prototype;
+  $$1.Class = Dom7;
+  $$1.Dom7 = Dom7;
+
+  function unique(arr) {
+    var uniqueArray = [];
+
+    for (var i = 0; i < arr.length; i += 1) {
+      if (uniqueArray.indexOf(arr[i]) === -1) {
+        uniqueArray.push(arr[i]);
+      }
+    }
+
+    return uniqueArray;
+  } // Classes and attributes
+
+
+  function addClass(className) {
+    var this$1 = this;
+
+    if (typeof className === 'undefined') {
+      return this;
+    }
+
+    var classes = className.split(' ');
+
+    for (var i = 0; i < classes.length; i += 1) {
+      for (var j = 0; j < this.length; j += 1) {
+        if (typeof this$1[j].classList !== 'undefined') {
+          this$1[j].classList.add(classes[i]);
+        }
+      }
+    }
+
+    return this;
+  }
+
+  function removeClass(className) {
+    var this$1 = this;
+    var classes = className.split(' ');
+
+    for (var i = 0; i < classes.length; i += 1) {
+      for (var j = 0; j < this.length; j += 1) {
+        if (typeof this$1[j].classList !== 'undefined') {
+          this$1[j].classList.remove(classes[i]);
+        }
+      }
+    }
+
+    return this;
+  }
+
+  function hasClass(className) {
+    if (!this[0]) {
+      return false;
+    }
+
+    return this[0].classList.contains(className);
+  }
+
+  function toggleClass(className) {
+    var this$1 = this;
+    var classes = className.split(' ');
+
+    for (var i = 0; i < classes.length; i += 1) {
+      for (var j = 0; j < this.length; j += 1) {
+        if (typeof this$1[j].classList !== 'undefined') {
+          this$1[j].classList.toggle(classes[i]);
+        }
+      }
+    }
+
+    return this;
+  }
+
+  function attr(attrs, value) {
+    var arguments$1 = arguments;
+    var this$1 = this;
+
+    if (arguments.length === 1 && typeof attrs === 'string') {
+      // Get attr
+      if (this[0]) {
+        return this[0].getAttribute(attrs);
+      }
+
+      return undefined;
+    } // Set attrs
+
+
+    for (var i = 0; i < this.length; i += 1) {
+      if (arguments$1.length === 2) {
+        // String
+        this$1[i].setAttribute(attrs, value);
+      } else {
+        // Object
+        // eslint-disable-next-line
+        for (var attrName in attrs) {
+          this$1[i][attrName] = attrs[attrName];
+          this$1[i].setAttribute(attrName, attrs[attrName]);
+        }
+      }
+    }
+
+    return this;
+  } // eslint-disable-next-line
+
+
+  function removeAttr(attr) {
+    var this$1 = this;
+
+    for (var i = 0; i < this.length; i += 1) {
+      this$1[i].removeAttribute(attr);
+    }
+
+    return this;
+  }
+
+  function data(key, value) {
+    var this$1 = this;
+    var el;
+
+    if (typeof value === 'undefined') {
+      el = this[0]; // Get value
+
+      if (el) {
+        if (el.dom7ElementDataStorage && key in el.dom7ElementDataStorage) {
+          return el.dom7ElementDataStorage[key];
+        }
+
+        var dataKey = el.getAttribute("data-" + key);
+
+        if (dataKey) {
+          return dataKey;
+        }
+
+        return undefined;
+      }
+
+      return undefined;
+    } // Set value
+
+
+    for (var i = 0; i < this.length; i += 1) {
+      el = this$1[i];
+
+      if (!el.dom7ElementDataStorage) {
+        el.dom7ElementDataStorage = {};
+      }
+
+      el.dom7ElementDataStorage[key] = value;
+    }
+
+    return this;
+  } // Transforms
+  // eslint-disable-next-line
+
+
+  function transform(transform) {
+    var this$1 = this;
+
+    for (var i = 0; i < this.length; i += 1) {
+      var elStyle = this$1[i].style;
+      elStyle.webkitTransform = transform;
+      elStyle.transform = transform;
+    }
+
+    return this;
+  }
+
+  function transition(duration) {
+    var this$1 = this;
+
+    if (typeof duration !== 'string') {
+      duration = duration + "ms"; // eslint-disable-line
+    }
+
+    for (var i = 0; i < this.length; i += 1) {
+      var elStyle = this$1[i].style;
+      elStyle.webkitTransitionDuration = duration;
+      elStyle.transitionDuration = duration;
+    }
+
+    return this;
+  } // Events
+
+
+  function on() {
+    var this$1 = this;
+    var args = [],
+        len = arguments.length;
+
+    while (len--) {
+      args[len] = arguments[len];
+    }
+
+    var eventType = args[0];
+    var targetSelector = args[1];
+    var listener = args[2];
+    var capture = args[3];
+
+    if (typeof args[1] === 'function') {
+      var assign;
+      assign = args, eventType = assign[0], listener = assign[1], capture = assign[2];
+      targetSelector = undefined;
+    }
+
+    if (!capture) {
+      capture = false;
+    }
+
+    function handleLiveEvent(e) {
+      var target = e.target;
+
+      if (!target) {
+        return;
+      }
+
+      var eventData = e.target.dom7EventData || [];
+      eventData.unshift(e);
+
+      if ($$1(target).is(targetSelector)) {
+        listener.apply(target, eventData);
+      } else {
+        var parents = $$1(target).parents(); // eslint-disable-line
+
+        for (var k = 0; k < parents.length; k += 1) {
+          if ($$1(parents[k]).is(targetSelector)) {
+            listener.apply(parents[k], eventData);
+          }
+        }
+      }
+    }
+
+    function handleEvent(e) {
+      var eventData = e && e.target ? e.target.dom7EventData || [] : [];
+      eventData.unshift(e);
+      listener.apply(this, eventData);
+    }
+
+    var events = eventType.split(' ');
+    var j;
+
+    for (var i = 0; i < this.length; i += 1) {
+      var el = this$1[i];
+
+      if (!targetSelector) {
+        for (j = 0; j < events.length; j += 1) {
+          if (!el.dom7Listeners) {
+            el.dom7Listeners = [];
+          }
+
+          el.dom7Listeners.push({
+            type: eventType,
+            listener: listener,
+            proxyListener: handleEvent
+          });
+          el.addEventListener(events[j], handleEvent, capture);
+        }
+      } else {
+        // Live events
+        for (j = 0; j < events.length; j += 1) {
+          if (!el.dom7LiveListeners) {
+            el.dom7LiveListeners = [];
+          }
+
+          el.dom7LiveListeners.push({
+            type: eventType,
+            listener: listener,
+            proxyListener: handleLiveEvent
+          });
+          el.addEventListener(events[j], handleLiveEvent, capture);
+        }
+      }
+    }
+
+    return this;
+  }
+
+  function off() {
+    var this$1 = this;
+    var args = [],
+        len = arguments.length;
+
+    while (len--) {
+      args[len] = arguments[len];
+    }
+
+    var eventType = args[0];
+    var targetSelector = args[1];
+    var listener = args[2];
+    var capture = args[3];
+
+    if (typeof args[1] === 'function') {
+      var assign;
+      assign = args, eventType = assign[0], listener = assign[1], capture = assign[2];
+      targetSelector = undefined;
+    }
+
+    if (!capture) {
+      capture = false;
+    }
+
+    var events = eventType.split(' ');
+
+    for (var i = 0; i < events.length; i += 1) {
+      for (var j = 0; j < this.length; j += 1) {
+        var el = this$1[j];
+
+        if (!targetSelector) {
+          if (el.dom7Listeners) {
+            for (var k = 0; k < el.dom7Listeners.length; k += 1) {
+              if (listener) {
+                if (el.dom7Listeners[k].listener === listener) {
+                  el.removeEventListener(events[i], el.dom7Listeners[k].proxyListener, capture);
+                }
+              } else if (el.dom7Listeners[k].type === events[i]) {
+                el.removeEventListener(events[i], el.dom7Listeners[k].proxyListener, capture);
+              }
+            }
+          }
+        } else if (el.dom7LiveListeners) {
+          for (var k$1 = 0; k$1 < el.dom7LiveListeners.length; k$1 += 1) {
+            if (listener) {
+              if (el.dom7LiveListeners[k$1].listener === listener) {
+                el.removeEventListener(events[i], el.dom7LiveListeners[k$1].proxyListener, capture);
+              }
+            } else if (el.dom7LiveListeners[k$1].type === events[i]) {
+              el.removeEventListener(events[i], el.dom7LiveListeners[k$1].proxyListener, capture);
+            }
+          }
+        }
+      }
+    }
+
+    return this;
+  }
+
+  function trigger() {
+    var this$1 = this;
+    var args = [],
+        len = arguments.length;
+
+    while (len--) {
+      args[len] = arguments[len];
+    }
+
+    var events = args[0].split(' ');
+    var eventData = args[1];
+
+    for (var i = 0; i < events.length; i += 1) {
+      for (var j = 0; j < this.length; j += 1) {
+        var evt = void 0;
+
+        try {
+          evt = new window.CustomEvent(events[i], {
+            detail: eventData,
+            bubbles: true,
+            cancelable: true
+          });
+        } catch (e) {
+          evt = document.createEvent('Event');
+          evt.initEvent(events[i], true, true);
+          evt.detail = eventData;
+        } // eslint-disable-next-line
+
+
+        this$1[j].dom7EventData = args.filter(function (data, dataIndex) {
+          return dataIndex > 0;
+        });
+        this$1[j].dispatchEvent(evt);
+        this$1[j].dom7EventData = [];
+        delete this$1[j].dom7EventData;
+      }
+    }
+
+    return this;
+  }
+
+  function transitionEnd(callback) {
+    var events = ['webkitTransitionEnd', 'transitionend'];
+    var dom = this;
+    var i;
+
+    function fireCallBack(e) {
+      /* jshint validthis:true */
+      if (e.target !== this) {
+        return;
+      }
+
+      callback.call(this, e);
+
+      for (i = 0; i < events.length; i += 1) {
+        dom.off(events[i], fireCallBack);
+      }
+    }
+
+    if (callback) {
+      for (i = 0; i < events.length; i += 1) {
+        dom.on(events[i], fireCallBack);
+      }
+    }
+
+    return this;
+  }
+
+  function outerWidth(includeMargins) {
+    if (this.length > 0) {
+      if (includeMargins) {
+        // eslint-disable-next-line
+        var styles = this.styles();
+        return this[0].offsetWidth + parseFloat(styles.getPropertyValue('margin-right')) + parseFloat(styles.getPropertyValue('margin-left'));
+      }
+
+      return this[0].offsetWidth;
+    }
+
+    return null;
+  }
+
+  function outerHeight(includeMargins) {
+    if (this.length > 0) {
+      if (includeMargins) {
+        // eslint-disable-next-line
+        var styles = this.styles();
+        return this[0].offsetHeight + parseFloat(styles.getPropertyValue('margin-top')) + parseFloat(styles.getPropertyValue('margin-bottom'));
+      }
+
+      return this[0].offsetHeight;
+    }
+
+    return null;
+  }
+
+  function offset() {
+    if (this.length > 0) {
+      var el = this[0];
+      var box = el.getBoundingClientRect();
+      var body = document.body;
+      var clientTop = el.clientTop || body.clientTop || 0;
+      var clientLeft = el.clientLeft || body.clientLeft || 0;
+      var scrollTop = el === window ? window.scrollY : el.scrollTop;
+      var scrollLeft = el === window ? window.scrollX : el.scrollLeft;
+      return {
+        top: box.top + scrollTop - clientTop,
+        left: box.left + scrollLeft - clientLeft
+      };
+    }
+
+    return null;
+  }
+
+  function styles() {
+    if (this[0]) {
+      return window.getComputedStyle(this[0], null);
+    }
+
+    return {};
+  }
+
+  function css(props, value) {
+    var this$1 = this;
+    var i;
+
+    if (arguments.length === 1) {
+      if (typeof props === 'string') {
+        if (this[0]) {
+          return window.getComputedStyle(this[0], null).getPropertyValue(props);
+        }
+      } else {
+        for (i = 0; i < this.length; i += 1) {
+          // eslint-disable-next-line
+          for (var prop in props) {
+            this$1[i].style[prop] = props[prop];
+          }
+        }
+
+        return this;
+      }
+    }
+
+    if (arguments.length === 2 && typeof props === 'string') {
+      for (i = 0; i < this.length; i += 1) {
+        this$1[i].style[props] = value;
+      }
+
+      return this;
+    }
+
+    return this;
+  } // Iterate over the collection passing elements to `callback`
+
+
+  function each(callback) {
+    var this$1 = this; // Don't bother continuing without a callback
+
+    if (!callback) {
+      return this;
+    } // Iterate over the current collection
+
+
+    for (var i = 0; i < this.length; i += 1) {
+      // If the callback returns false
+      if (callback.call(this$1[i], i, this$1[i]) === false) {
+        // End the loop early
+        return this$1;
+      }
+    } // Return `this` to allow chained DOM operations
+
+
+    return this;
+  } // eslint-disable-next-line
+
+
+  function html(html) {
+    var this$1 = this;
+
+    if (typeof html === 'undefined') {
+      return this[0] ? this[0].innerHTML : undefined;
+    }
+
+    for (var i = 0; i < this.length; i += 1) {
+      this$1[i].innerHTML = html;
+    }
+
+    return this;
+  } // eslint-disable-next-line
+
+
+  function text(text) {
+    var this$1 = this;
+
+    if (typeof text === 'undefined') {
+      if (this[0]) {
+        return this[0].textContent.trim();
+      }
+
+      return null;
+    }
+
+    for (var i = 0; i < this.length; i += 1) {
+      this$1[i].textContent = text;
+    }
+
+    return this;
+  }
+
+  function is(selector) {
+    var el = this[0];
+    var compareWith;
+    var i;
+
+    if (!el || typeof selector === 'undefined') {
+      return false;
+    }
+
+    if (typeof selector === 'string') {
+      if (el.matches) {
+        return el.matches(selector);
+      } else if (el.webkitMatchesSelector) {
+        return el.webkitMatchesSelector(selector);
+      } else if (el.msMatchesSelector) {
+        return el.msMatchesSelector(selector);
+      }
+
+      compareWith = $$1(selector);
+
+      for (i = 0; i < compareWith.length; i += 1) {
+        if (compareWith[i] === el) {
+          return true;
+        }
+      }
+
+      return false;
+    } else if (selector === document) {
+      return el === document;
+    } else if (selector === window) {
+      return el === window;
+    }
+
+    if (selector.nodeType || selector instanceof Dom7) {
+      compareWith = selector.nodeType ? [selector] : selector;
+
+      for (i = 0; i < compareWith.length; i += 1) {
+        if (compareWith[i] === el) {
+          return true;
+        }
+      }
+
+      return false;
+    }
+
+    return false;
+  }
+
+  function index() {
+    var child = this[0];
+    var i;
+
+    if (child) {
+      i = 0; // eslint-disable-next-line
+
+      while ((child = child.previousSibling) !== null) {
+        if (child.nodeType === 1) {
+          i += 1;
+        }
+      }
+
+      return i;
+    }
+
+    return undefined;
+  } // eslint-disable-next-line
+
+
+  function eq(index) {
+    if (typeof index === 'undefined') {
+      return this;
+    }
+
+    var length = this.length;
+    var returnIndex;
+
+    if (index > length - 1) {
+      return new Dom7([]);
+    }
+
+    if (index < 0) {
+      returnIndex = length + index;
+
+      if (returnIndex < 0) {
+        return new Dom7([]);
+      }
+
+      return new Dom7([this[returnIndex]]);
+    }
+
+    return new Dom7([this[index]]);
+  }
+
+  function append() {
+    var this$1 = this;
+    var args = [],
+        len = arguments.length;
+
+    while (len--) {
+      args[len] = arguments[len];
+    }
+
+    var newChild;
+
+    for (var k = 0; k < args.length; k += 1) {
+      newChild = args[k];
+
+      for (var i = 0; i < this.length; i += 1) {
+        if (typeof newChild === 'string') {
+          var tempDiv = document.createElement('div');
+          tempDiv.innerHTML = newChild;
+
+          while (tempDiv.firstChild) {
+            this$1[i].appendChild(tempDiv.firstChild);
+          }
+        } else if (newChild instanceof Dom7) {
+          for (var j = 0; j < newChild.length; j += 1) {
+            this$1[i].appendChild(newChild[j]);
+          }
+        } else {
+          this$1[i].appendChild(newChild);
+        }
+      }
+    }
+
+    return this;
+  }
+
+  function prepend(newChild) {
+    var this$1 = this;
+    var i;
+    var j;
+
+    for (i = 0; i < this.length; i += 1) {
+      if (typeof newChild === 'string') {
+        var tempDiv = document.createElement('div');
+        tempDiv.innerHTML = newChild;
+
+        for (j = tempDiv.childNodes.length - 1; j >= 0; j -= 1) {
+          this$1[i].insertBefore(tempDiv.childNodes[j], this$1[i].childNodes[0]);
+        }
+      } else if (newChild instanceof Dom7) {
+        for (j = 0; j < newChild.length; j += 1) {
+          this$1[i].insertBefore(newChild[j], this$1[i].childNodes[0]);
+        }
+      } else {
+        this$1[i].insertBefore(newChild, this$1[i].childNodes[0]);
+      }
+    }
+
+    return this;
+  }
+
+  function next(selector) {
+    if (this.length > 0) {
+      if (selector) {
+        if (this[0].nextElementSibling && $$1(this[0].nextElementSibling).is(selector)) {
+          return new Dom7([this[0].nextElementSibling]);
+        }
+
+        return new Dom7([]);
+      }
+
+      if (this[0].nextElementSibling) {
+        return new Dom7([this[0].nextElementSibling]);
+      }
+
+      return new Dom7([]);
+    }
+
+    return new Dom7([]);
+  }
+
+  function nextAll(selector) {
+    var nextEls = [];
+    var el = this[0];
+
+    if (!el) {
+      return new Dom7([]);
+    }
+
+    while (el.nextElementSibling) {
+      var next = el.nextElementSibling; // eslint-disable-line
+
+      if (selector) {
+        if ($$1(next).is(selector)) {
+          nextEls.push(next);
+        }
+      } else {
+        nextEls.push(next);
+      }
+
+      el = next;
+    }
+
+    return new Dom7(nextEls);
+  }
+
+  function prev(selector) {
+    if (this.length > 0) {
+      var el = this[0];
+
+      if (selector) {
+        if (el.previousElementSibling && $$1(el.previousElementSibling).is(selector)) {
+          return new Dom7([el.previousElementSibling]);
+        }
+
+        return new Dom7([]);
+      }
+
+      if (el.previousElementSibling) {
+        return new Dom7([el.previousElementSibling]);
+      }
+
+      return new Dom7([]);
+    }
+
+    return new Dom7([]);
+  }
+
+  function prevAll(selector) {
+    var prevEls = [];
+    var el = this[0];
+
+    if (!el) {
+      return new Dom7([]);
+    }
+
+    while (el.previousElementSibling) {
+      var prev = el.previousElementSibling; // eslint-disable-line
+
+      if (selector) {
+        if ($$1(prev).is(selector)) {
+          prevEls.push(prev);
+        }
+      } else {
+        prevEls.push(prev);
+      }
+
+      el = prev;
+    }
+
+    return new Dom7(prevEls);
+  }
+
+  function parent(selector) {
+    var this$1 = this;
+    var parents = []; // eslint-disable-line
+
+    for (var i = 0; i < this.length; i += 1) {
+      if (this$1[i].parentNode !== null) {
+        if (selector) {
+          if ($$1(this$1[i].parentNode).is(selector)) {
+            parents.push(this$1[i].parentNode);
+          }
+        } else {
+          parents.push(this$1[i].parentNode);
+        }
+      }
+    }
+
+    return $$1(unique(parents));
+  }
+
+  function parents(selector) {
+    var this$1 = this;
+    var parents = []; // eslint-disable-line
+
+    for (var i = 0; i < this.length; i += 1) {
+      var parent = this$1[i].parentNode; // eslint-disable-line
+
+      while (parent) {
+        if (selector) {
+          if ($$1(parent).is(selector)) {
+            parents.push(parent);
+          }
+        } else {
+          parents.push(parent);
+        }
+
+        parent = parent.parentNode;
+      }
+    }
+
+    return $$1(unique(parents));
+  }
+
+  function closest(selector) {
+    var closest = this; // eslint-disable-line
+
+    if (typeof selector === 'undefined') {
+      return new Dom7([]);
+    }
+
+    if (!closest.is(selector)) {
+      closest = closest.parents(selector).eq(0);
+    }
+
+    return closest;
+  }
+
+  function find(selector) {
+    var this$1 = this;
+    var foundElements = [];
+
+    for (var i = 0; i < this.length; i += 1) {
+      var found = this$1[i].querySelectorAll(selector);
+
+      for (var j = 0; j < found.length; j += 1) {
+        foundElements.push(found[j]);
+      }
+    }
+
+    return new Dom7(foundElements);
+  }
+
+  function children(selector) {
+    var this$1 = this;
+    var children = []; // eslint-disable-line
+
+    for (var i = 0; i < this.length; i += 1) {
+      var childNodes = this$1[i].childNodes;
+
+      for (var j = 0; j < childNodes.length; j += 1) {
+        if (!selector) {
+          if (childNodes[j].nodeType === 1) {
+            children.push(childNodes[j]);
+          }
+        } else if (childNodes[j].nodeType === 1 && $$1(childNodes[j]).is(selector)) {
+          children.push(childNodes[j]);
+        }
+      }
+    }
+
+    return new Dom7(unique(children));
+  }
+
+  function remove() {
+    var this$1 = this;
+
+    for (var i = 0; i < this.length; i += 1) {
+      if (this$1[i].parentNode) {
+        this$1[i].parentNode.removeChild(this$1[i]);
+      }
+    }
+
+    return this;
+  }
+
+  function add() {
+    var args = [],
+        len = arguments.length;
+
+    while (len--) {
+      args[len] = arguments[len];
+    }
+
+    var dom = this;
+    var i;
+    var j;
+
+    for (i = 0; i < args.length; i += 1) {
+      var toAdd = $$1(args[i]);
+
+      for (j = 0; j < toAdd.length; j += 1) {
+        dom[dom.length] = toAdd[j];
+        dom.length += 1;
+      }
+    }
+
+    return dom;
+  }
+
+  var noTrigger = 'resize scroll'.split(' ');
+  var Methods = {
+    addClass: addClass,
+    removeClass: removeClass,
+    hasClass: hasClass,
+    toggleClass: toggleClass,
+    attr: attr,
+    removeAttr: removeAttr,
+    data: data,
+    transform: transform,
+    transition: transition,
+    on: on,
+    off: off,
+    trigger: trigger,
+    transitionEnd: transitionEnd,
+    outerWidth: outerWidth,
+    outerHeight: outerHeight,
+    offset: offset,
+    css: css,
+    each: each,
+    html: html,
+    text: text,
+    is: is,
+    index: index,
+    eq: eq,
+    append: append,
+    prepend: prepend,
+    next: next,
+    nextAll: nextAll,
+    prev: prev,
+    prevAll: prevAll,
+    parent: parent,
+    parents: parents,
+    closest: closest,
+    find: find,
+    children: children,
+    remove: remove,
+    add: add,
+    styles: styles
+  };
+  Object.keys(Methods).forEach(function (methodName) {
+    $$1.fn[methodName] = Methods[methodName];
+  });
+  var Utils = {
+    deleteProps: function deleteProps(obj) {
+      var object = obj;
+      Object.keys(object).forEach(function (key) {
+        try {
+          object[key] = null;
+        } catch (e) {// no getter for object
+        }
+
+        try {
+          delete object[key];
+        } catch (e) {// something got wrong
+        }
+      });
+    },
+    nextTick: function nextTick(callback, delay) {
+      if (delay === void 0) delay = 0;
+      return setTimeout(callback, delay);
+    },
+    now: function now() {
+      return Date.now();
+    },
+    getTranslate: function getTranslate(el, axis) {
+      if (axis === void 0) axis = 'x';
+      var matrix;
+      var curTransform;
+      var transformMatrix;
+      var curStyle = win.getComputedStyle(el, null);
+
+      if (win.WebKitCSSMatrix) {
+        curTransform = curStyle.transform || curStyle.webkitTransform;
+
+        if (curTransform.split(',').length > 6) {
+          curTransform = curTransform.split(', ').map(function (a) {
+            return a.replace(',', '.');
+          }).join(', ');
+        } // Some old versions of Webkit choke when 'none' is passed; pass
+        // empty string instead in this case
+
+
+        transformMatrix = new win.WebKitCSSMatrix(curTransform === 'none' ? '' : curTransform);
+      } else {
+        transformMatrix = curStyle.MozTransform || curStyle.OTransform || curStyle.MsTransform || curStyle.msTransform || curStyle.transform || curStyle.getPropertyValue('transform').replace('translate(', 'matrix(1, 0, 0, 1,');
+        matrix = transformMatrix.toString().split(',');
+      }
+
+      if (axis === 'x') {
+        // Latest Chrome and webkits Fix
+        if (win.WebKitCSSMatrix) {
+          curTransform = transformMatrix.m41;
+        } // Crazy IE10 Matrix
+        else if (matrix.length === 16) {
+            curTransform = parseFloat(matrix[12]);
+          } // Normal Browsers
+          else {
+              curTransform = parseFloat(matrix[4]);
+            }
+      }
+
+      if (axis === 'y') {
+        // Latest Chrome and webkits Fix
+        if (win.WebKitCSSMatrix) {
+          curTransform = transformMatrix.m42;
+        } // Crazy IE10 Matrix
+        else if (matrix.length === 16) {
+            curTransform = parseFloat(matrix[13]);
+          } // Normal Browsers
+          else {
+              curTransform = parseFloat(matrix[5]);
+            }
+      }
+
+      return curTransform || 0;
+    },
+    parseUrlQuery: function parseUrlQuery(url) {
+      var query = {};
+      var urlToParse = url || win.location.href;
+      var i;
+      var params;
+      var param;
+      var length;
+
+      if (typeof urlToParse === 'string' && urlToParse.length) {
+        urlToParse = urlToParse.indexOf('?') > -1 ? urlToParse.replace(/\S*\?/, '') : '';
+        params = urlToParse.split('&').filter(function (paramsPart) {
+          return paramsPart !== '';
+        });
+        length = params.length;
+
+        for (i = 0; i < length; i += 1) {
+          param = params[i].replace(/#\S+/g, '').split('=');
+          query[decodeURIComponent(param[0])] = typeof param[1] === 'undefined' ? undefined : decodeURIComponent(param[1]) || '';
+        }
+      }
+
+      return query;
+    },
+    isObject: function isObject(o) {
+      return _typeof(o) === 'object' && o !== null && o.constructor && o.constructor === Object;
+    },
+    extend: function extend() {
+      var args = [],
+          len$1 = arguments.length;
+
+      while (len$1--) {
+        args[len$1] = arguments[len$1];
+      }
+
+      var to = Object(args[0]);
+
+      for (var i = 1; i < args.length; i += 1) {
+        var nextSource = args[i];
+
+        if (nextSource !== undefined && nextSource !== null) {
+          var keysArray = Object.keys(Object(nextSource));
+
+          for (var nextIndex = 0, len = keysArray.length; nextIndex < len; nextIndex += 1) {
+            var nextKey = keysArray[nextIndex];
+            var desc = Object.getOwnPropertyDescriptor(nextSource, nextKey);
+
+            if (desc !== undefined && desc.enumerable) {
+              if (Utils.isObject(to[nextKey]) && Utils.isObject(nextSource[nextKey])) {
+                Utils.extend(to[nextKey], nextSource[nextKey]);
+              } else if (!Utils.isObject(to[nextKey]) && Utils.isObject(nextSource[nextKey])) {
+                to[nextKey] = {};
+                Utils.extend(to[nextKey], nextSource[nextKey]);
+              } else {
+                to[nextKey] = nextSource[nextKey];
+              }
+            }
+          }
+        }
+      }
+
+      return to;
+    }
+  };
+  var d;
+
+  if (typeof document === 'undefined') {
+    d = {
+      addEventListener: function addEventListener() {},
+      removeEventListener: function removeEventListener() {},
+      activeElement: {
+        blur: function blur() {},
+        nodeName: ''
+      },
+      querySelector: function querySelector() {
+        return {};
+      },
+      querySelectorAll: function querySelectorAll() {
+        return [];
+      },
+      createElement: function createElement() {
+        return {
+          style: {},
+          setAttribute: function setAttribute() {},
+          getElementsByTagName: function getElementsByTagName() {
+            return [];
+          }
+        };
+      },
+      location: {
+        hash: ''
+      }
+    };
+  } else {
+    d = document;
+  }
+
+  var doc = d;
+
+  var Support = function Support() {
+    return {
+      touch: win.Modernizr && win.Modernizr.touch === true || function checkTouch() {
+        return !!('ontouchstart' in win || win.DocumentTouch && doc instanceof win.DocumentTouch);
+      }(),
+      transforms3d: win.Modernizr && win.Modernizr.csstransforms3d === true || function checkTransforms3d() {
+        var div = doc.createElement('div').style;
+        return 'webkitPerspective' in div || 'MozPerspective' in div || 'OPerspective' in div || 'MsPerspective' in div || 'perspective' in div;
+      }(),
+      flexbox: function checkFlexbox() {
+        var div = doc.createElement('div').style;
+        var styles = 'alignItems webkitAlignItems webkitBoxAlign msFlexAlign mozBoxAlign webkitFlexDirection msFlexDirection mozBoxDirection mozBoxOrient webkitBoxDirection webkitBoxOrient'.split(' ');
+
+        for (var i = 0; i < styles.length; i += 1) {
+          if (styles[i] in div) {
+            return true;
+          }
+        }
+
+        return false;
+      }(),
+      observer: function checkObserver() {
+        return 'MutationObserver' in win || 'WebkitMutationObserver' in win;
+      }(),
+      passiveListener: function checkPassiveListener() {
+        var supportsPassive = false;
+
+        try {
+          var opts = Object.defineProperty({}, 'passive', {
+            get: function get() {
+              supportsPassive = true;
+            }
+          });
+          win.addEventListener('testPassiveListener', null, opts);
+        } catch (e) {// No support
+        }
+
+        return supportsPassive;
+      }(),
+      gestures: function checkGestures() {
+        return 'ongesturestart' in win;
+      }()
+    };
+  }();
+
+  var SwiperClass = function SwiperClass(params) {
+    if (params === void 0) params = {};
+    var self = this;
+    self.params = params; // Events
+
+    self.eventsListeners = {};
+
+    if (self.params && self.params.on) {
+      Object.keys(self.params.on).forEach(function (eventName) {
+        self.on(eventName, self.params.on[eventName]);
+      });
+    }
+  };
+
+  var staticAccessors = {
+    components: {}
+  };
+
+  SwiperClass.prototype.on = function on(events, handler) {
+    var self = this;
+
+    if (typeof handler !== 'function') {
+      return self;
+    }
+
+    events.split(' ').forEach(function (event) {
+      if (!self.eventsListeners[event]) {
+        self.eventsListeners[event] = [];
+      }
+
+      self.eventsListeners[event].push(handler);
+    });
+    return self;
+  };
+
+  SwiperClass.prototype.once = function once(events, handler) {
+    var self = this;
+
+    if (typeof handler !== 'function') {
+      return self;
+    }
+
+    function onceHandler() {
+      var args = [],
+          len = arguments.length;
+
+      while (len--) {
+        args[len] = arguments[len];
+      }
+
+      handler.apply(self, args);
+      self.off(events, onceHandler);
+    }
+
+    return self.on(events, onceHandler);
+  };
+
+  SwiperClass.prototype.off = function off(events, handler) {
+    var self = this;
+    events.split(' ').forEach(function (event) {
+      if (typeof handler === 'undefined') {
+        self.eventsListeners[event] = [];
+      } else {
+        self.eventsListeners[event].forEach(function (eventHandler, index) {
+          if (eventHandler === handler) {
+            self.eventsListeners[event].splice(index, 1);
+          }
+        });
+      }
+    });
+    return self;
+  };
+
+  SwiperClass.prototype.emit = function emit() {
+    var args = [],
+        len = arguments.length;
+
+    while (len--) {
+      args[len] = arguments[len];
+    }
+
+    var self = this;
+
+    if (!self.eventsListeners) {
+      return self;
+    }
+
+    var events;
+    var data;
+    var context;
+
+    if (typeof args[0] === 'string' || Array.isArray(args[0])) {
+      events = args[0];
+      data = args.slice(1, args.length);
+      context = self;
+    } else {
+      events = args[0].events;
+      data = args[0].data;
+      context = args[0].context || self;
+    }
+
+    var eventsArray = Array.isArray(events) ? events : events.split(' ');
+    eventsArray.forEach(function (event) {
+      if (self.eventsListeners[event]) {
+        var handlers = [];
+        self.eventsListeners[event].forEach(function (eventHandler) {
+          handlers.push(eventHandler);
+        });
+        handlers.forEach(function (eventHandler) {
+          eventHandler.apply(context, data);
+        });
+      }
+    });
+    return self;
+  };
+
+  SwiperClass.prototype.useModulesParams = function useModulesParams(instanceParams) {
+    var instance = this;
+
+    if (!instance.modules) {
+      return;
+    }
+
+    Object.keys(instance.modules).forEach(function (moduleName) {
+      var module = instance.modules[moduleName]; // Extend params
+
+      if (module.params) {
+        Utils.extend(instanceParams, module.params);
+      }
+    });
+  };
+
+  SwiperClass.prototype.useModules = function useModules(modulesParams) {
+    if (modulesParams === void 0) modulesParams = {};
+    var instance = this;
+
+    if (!instance.modules) {
+      return;
+    }
+
+    Object.keys(instance.modules).forEach(function (moduleName) {
+      var module = instance.modules[moduleName];
+      var moduleParams = modulesParams[moduleName] || {}; // Extend instance methods and props
+
+      if (module.instance) {
+        Object.keys(module.instance).forEach(function (modulePropName) {
+          var moduleProp = module.instance[modulePropName];
+
+          if (typeof moduleProp === 'function') {
+            instance[modulePropName] = moduleProp.bind(instance);
+          } else {
+            instance[modulePropName] = moduleProp;
+          }
+        });
+      } // Add event listeners
+
+
+      if (module.on && instance.on) {
+        Object.keys(module.on).forEach(function (moduleEventName) {
+          instance.on(moduleEventName, module.on[moduleEventName]);
+        });
+      } // Module create callback
+
+
+      if (module.create) {
+        module.create.bind(instance)(moduleParams);
+      }
+    });
+  };
+
+  staticAccessors.components.set = function (components) {
+    var Class = this;
+
+    if (!Class.use) {
+      return;
+    }
+
+    Class.use(components);
+  };
+
+  SwiperClass.installModule = function installModule(module) {
+    var params = [],
+        len = arguments.length - 1;
+
+    while (len-- > 0) {
+      params[len] = arguments[len + 1];
+    }
+
+    var Class = this;
+
+    if (!Class.prototype.modules) {
+      Class.prototype.modules = {};
+    }
+
+    var name = module.name || Object.keys(Class.prototype.modules).length + "_" + Utils.now();
+    Class.prototype.modules[name] = module; // Prototype
+
+    if (module.proto) {
+      Object.keys(module.proto).forEach(function (key) {
+        Class.prototype[key] = module.proto[key];
+      });
+    } // Class
+
+
+    if (module["static"]) {
+      Object.keys(module["static"]).forEach(function (key) {
+        Class[key] = module["static"][key];
+      });
+    } // Callback
+
+
+    if (module.install) {
+      module.install.apply(Class, params);
+    }
+
+    return Class;
+  };
+
+  SwiperClass.use = function use(module) {
+    var params = [],
+        len = arguments.length - 1;
+
+    while (len-- > 0) {
+      params[len] = arguments[len + 1];
+    }
+
+    var Class = this;
+
+    if (Array.isArray(module)) {
+      module.forEach(function (m) {
+        return Class.installModule(m);
+      });
+      return Class;
+    }
+
+    return Class.installModule.apply(Class, [module].concat(params));
+  };
+
+  Object.defineProperties(SwiperClass, staticAccessors);
+
+  var updateSize = function updateSize() {
+    var swiper = this;
+    var width;
+    var height;
+    var $el = swiper.$el;
+
+    if (typeof swiper.params.width !== 'undefined') {
+      width = swiper.params.width;
+    } else {
+      width = $el[0].clientWidth;
+    }
+
+    if (typeof swiper.params.height !== 'undefined') {
+      height = swiper.params.height;
+    } else {
+      height = $el[0].clientHeight;
+    }
+
+    if (width === 0 && swiper.isHorizontal() || height === 0 && swiper.isVertical()) {
+      return;
+    } // Subtract paddings
+
+
+    width = width - parseInt($el.css('padding-left'), 10) - parseInt($el.css('padding-right'), 10);
+    height = height - parseInt($el.css('padding-top'), 10) - parseInt($el.css('padding-bottom'), 10);
+    Utils.extend(swiper, {
+      width: width,
+      height: height,
+      size: swiper.isHorizontal() ? width : height
+    });
+  };
+
+  var updateSlides = function updateSlides() {
+    var swiper = this;
+    var params = swiper.params;
+    var $wrapperEl = swiper.$wrapperEl;
+    var swiperSize = swiper.size;
+    var rtl = swiper.rtl;
+    var wrongRTL = swiper.wrongRTL;
+    var slides = $wrapperEl.children("." + swiper.params.slideClass);
+    var isVirtual = swiper.virtual && params.virtual.enabled;
+    var slidesLength = isVirtual ? swiper.virtual.slides.length : slides.length;
+    var snapGrid = [];
+    var slidesGrid = [];
+    var slidesSizesGrid = [];
+    var offsetBefore = params.slidesOffsetBefore;
+
+    if (typeof offsetBefore === 'function') {
+      offsetBefore = params.slidesOffsetBefore.call(swiper);
+    }
+
+    var offsetAfter = params.slidesOffsetAfter;
+
+    if (typeof offsetAfter === 'function') {
+      offsetAfter = params.slidesOffsetAfter.call(swiper);
+    }
+
+    var previousSlidesLength = slidesLength;
+    var previousSnapGridLength = swiper.snapGrid.length;
+    var previousSlidesGridLength = swiper.snapGrid.length;
+    var spaceBetween = params.spaceBetween;
+    var slidePosition = -offsetBefore;
+    var prevSlideSize = 0;
+    var index = 0;
+
+    if (typeof swiperSize === 'undefined') {
+      return;
+    }
+
+    if (typeof spaceBetween === 'string' && spaceBetween.indexOf('%') >= 0) {
+      spaceBetween = parseFloat(spaceBetween.replace('%', '')) / 100 * swiperSize;
+    }
+
+    swiper.virtualSize = -spaceBetween; // reset margins
+
+    if (rtl) {
+      slides.css({
+        marginLeft: '',
+        marginTop: ''
+      });
+    } else {
+      slides.css({
+        marginRight: '',
+        marginBottom: ''
+      });
+    }
+
+    var slidesNumberEvenToRows;
+
+    if (params.slidesPerColumn > 1) {
+      if (Math.floor(slidesLength / params.slidesPerColumn) === slidesLength / swiper.params.slidesPerColumn) {
+        slidesNumberEvenToRows = slidesLength;
+      } else {
+        slidesNumberEvenToRows = Math.ceil(slidesLength / params.slidesPerColumn) * params.slidesPerColumn;
+      }
+
+      if (params.slidesPerView !== 'auto' && params.slidesPerColumnFill === 'row') {
+        slidesNumberEvenToRows = Math.max(slidesNumberEvenToRows, params.slidesPerView * params.slidesPerColumn);
+      }
+    } // Calc slides
+
+
+    var slideSize;
+    var slidesPerColumn = params.slidesPerColumn;
+    var slidesPerRow = slidesNumberEvenToRows / slidesPerColumn;
+    var numFullColumns = slidesPerRow - (params.slidesPerColumn * slidesPerRow - slidesLength);
+
+    for (var i = 0; i < slidesLength; i += 1) {
+      slideSize = 0;
+      var slide = slides.eq(i);
+
+      if (params.slidesPerColumn > 1) {
+        // Set slides order
+        var newSlideOrderIndex = void 0;
+        var column = void 0;
+        var row = void 0;
+
+        if (params.slidesPerColumnFill === 'column') {
+          column = Math.floor(i / slidesPerColumn);
+          row = i - column * slidesPerColumn;
+
+          if (column > numFullColumns || column === numFullColumns && row === slidesPerColumn - 1) {
+            row += 1;
+
+            if (row >= slidesPerColumn) {
+              row = 0;
+              column += 1;
+            }
+          }
+
+          newSlideOrderIndex = column + row * slidesNumberEvenToRows / slidesPerColumn;
+          slide.css({
+            '-webkit-box-ordinal-group': newSlideOrderIndex,
+            '-moz-box-ordinal-group': newSlideOrderIndex,
+            '-ms-flex-order': newSlideOrderIndex,
+            '-webkit-order': newSlideOrderIndex,
+            order: newSlideOrderIndex
+          });
+        } else {
+          row = Math.floor(i / slidesPerRow);
+          column = i - row * slidesPerRow;
+        }
+
+        slide.css("margin-" + (swiper.isHorizontal() ? 'top' : 'left'), row !== 0 && params.spaceBetween && params.spaceBetween + "px").attr('data-swiper-column', column).attr('data-swiper-row', row);
+      }
+
+      if (slide.css('display') === 'none') {
+        continue;
+      } // eslint-disable-line
+
+
+      if (params.slidesPerView === 'auto') {
+        slideSize = swiper.isHorizontal() ? slide.outerWidth(true) : slide.outerHeight(true);
+
+        if (params.roundLengths) {
+          slideSize = Math.floor(slideSize);
+        }
+      } else {
+        slideSize = (swiperSize - (params.slidesPerView - 1) * spaceBetween) / params.slidesPerView;
+
+        if (params.roundLengths) {
+          slideSize = Math.floor(slideSize);
+        }
+
+        if (slides[i]) {
+          if (swiper.isHorizontal()) {
+            slides[i].style.width = slideSize + "px";
+          } else {
+            slides[i].style.height = slideSize + "px";
+          }
+        }
+      }
+
+      if (slides[i]) {
+        slides[i].swiperSlideSize = slideSize;
+      }
+
+      slidesSizesGrid.push(slideSize);
+
+      if (params.centeredSlides) {
+        slidePosition = slidePosition + slideSize / 2 + prevSlideSize / 2 + spaceBetween;
+
+        if (prevSlideSize === 0 && i !== 0) {
+          slidePosition = slidePosition - swiperSize / 2 - spaceBetween;
+        }
+
+        if (i === 0) {
+          slidePosition = slidePosition - swiperSize / 2 - spaceBetween;
+        }
+
+        if (Math.abs(slidePosition) < 1 / 1000) {
+          slidePosition = 0;
+        }
+
+        if (index % params.slidesPerGroup === 0) {
+          snapGrid.push(slidePosition);
+        }
+
+        slidesGrid.push(slidePosition);
+      } else {
+        if (index % params.slidesPerGroup === 0) {
+          snapGrid.push(slidePosition);
+        }
+
+        slidesGrid.push(slidePosition);
+        slidePosition = slidePosition + slideSize + spaceBetween;
+      }
+
+      swiper.virtualSize += slideSize + spaceBetween;
+      prevSlideSize = slideSize;
+      index += 1;
+    }
+
+    swiper.virtualSize = Math.max(swiper.virtualSize, swiperSize) + offsetAfter;
+    var newSlidesGrid;
+
+    if (rtl && wrongRTL && (params.effect === 'slide' || params.effect === 'coverflow')) {
+      $wrapperEl.css({
+        width: swiper.virtualSize + params.spaceBetween + "px"
+      });
+    }
+
+    if (!Support.flexbox || params.setWrapperSize) {
+      if (swiper.isHorizontal()) {
+        $wrapperEl.css({
+          width: swiper.virtualSize + params.spaceBetween + "px"
+        });
+      } else {
+        $wrapperEl.css({
+          height: swiper.virtualSize + params.spaceBetween + "px"
+        });
+      }
+    }
+
+    if (params.slidesPerColumn > 1) {
+      swiper.virtualSize = (slideSize + params.spaceBetween) * slidesNumberEvenToRows;
+      swiper.virtualSize = Math.ceil(swiper.virtualSize / params.slidesPerColumn) - params.spaceBetween;
+
+      if (swiper.isHorizontal()) {
+        $wrapperEl.css({
+          width: swiper.virtualSize + params.spaceBetween + "px"
+        });
+      } else {
+        $wrapperEl.css({
+          height: swiper.virtualSize + params.spaceBetween + "px"
+        });
+      }
+
+      if (params.centeredSlides) {
+        newSlidesGrid = [];
+
+        for (var i$1 = 0; i$1 < snapGrid.length; i$1 += 1) {
+          if (snapGrid[i$1] < swiper.virtualSize + snapGrid[0]) {
+            newSlidesGrid.push(snapGrid[i$1]);
+          }
+        }
+
+        snapGrid = newSlidesGrid;
+      }
+    } // Remove last grid elements depending on width
+
+
+    if (!params.centeredSlides) {
+      newSlidesGrid = [];
+
+      for (var i$2 = 0; i$2 < snapGrid.length; i$2 += 1) {
+        if (snapGrid[i$2] <= swiper.virtualSize - swiperSize) {
+          newSlidesGrid.push(snapGrid[i$2]);
+        }
+      }
+
+      snapGrid = newSlidesGrid;
+
+      if (Math.floor(swiper.virtualSize - swiperSize) - Math.floor(snapGrid[snapGrid.length - 1]) > 1) {
+        snapGrid.push(swiper.virtualSize - swiperSize);
+      }
+    }
+
+    if (snapGrid.length === 0) {
+      snapGrid = [0];
+    }
+
+    if (params.spaceBetween !== 0) {
+      if (swiper.isHorizontal()) {
+        if (rtl) {
+          slides.css({
+            marginLeft: spaceBetween + "px"
+          });
+        } else {
+          slides.css({
+            marginRight: spaceBetween + "px"
+          });
+        }
+      } else {
+        slides.css({
+          marginBottom: spaceBetween + "px"
+        });
+      }
+    }
+
+    Utils.extend(swiper, {
+      slides: slides,
+      snapGrid: snapGrid,
+      slidesGrid: slidesGrid,
+      slidesSizesGrid: slidesSizesGrid
+    });
+
+    if (slidesLength !== previousSlidesLength) {
+      swiper.emit('slidesLengthChange');
+    }
+
+    if (snapGrid.length !== previousSnapGridLength) {
+      swiper.emit('snapGridLengthChange');
+    }
+
+    if (slidesGrid.length !== previousSlidesGridLength) {
+      swiper.emit('slidesGridLengthChange');
+    }
+
+    if (params.watchSlidesProgress || params.watchSlidesVisibility) {
+      swiper.updateSlidesOffset();
+    }
+  };
+
+  var updateAutoHeight = function updateAutoHeight() {
+    var swiper = this;
+    var activeSlides = [];
+    var newHeight = 0;
+    var i; // Find slides currently in view
+
+    if (swiper.params.slidesPerView !== 'auto' && swiper.params.slidesPerView > 1) {
+      for (i = 0; i < Math.ceil(swiper.params.slidesPerView); i += 1) {
+        var index = swiper.activeIndex + i;
+
+        if (index > swiper.slides.length) {
+          break;
+        }
+
+        activeSlides.push(swiper.slides.eq(index)[0]);
+      }
+    } else {
+      activeSlides.push(swiper.slides.eq(swiper.activeIndex)[0]);
+    } // Find new height from highest slide in view
+
+
+    for (i = 0; i < activeSlides.length; i += 1) {
+      if (typeof activeSlides[i] !== 'undefined') {
+        var height = activeSlides[i].offsetHeight;
+        newHeight = height > newHeight ? height : newHeight;
+      }
+    } // Update Height
+
+
+    if (newHeight) {
+      swiper.$wrapperEl.css('height', newHeight + "px");
+    }
+  };
+
+  var updateSlidesOffset = function updateSlidesOffset() {
+    var swiper = this;
+    var slides = swiper.slides;
+
+    for (var i = 0; i < slides.length; i += 1) {
+      slides[i].swiperSlideOffset = swiper.isHorizontal() ? slides[i].offsetLeft : slides[i].offsetTop;
+    }
+  };
+
+  var updateSlidesProgress = function updateSlidesProgress(translate) {
+    if (translate === void 0) translate = this.translate || 0;
+    var swiper = this;
+    var params = swiper.params;
+    var slides = swiper.slides;
+    var rtl = swiper.rtl;
+
+    if (slides.length === 0) {
+      return;
+    }
+
+    if (typeof slides[0].swiperSlideOffset === 'undefined') {
+      swiper.updateSlidesOffset();
+    }
+
+    var offsetCenter = -translate;
+
+    if (rtl) {
+      offsetCenter = translate;
+    } // Visible Slides
+
+
+    slides.removeClass(params.slideVisibleClass);
+
+    for (var i = 0; i < slides.length; i += 1) {
+      var slide = slides[i];
+      var slideProgress = (offsetCenter + (params.centeredSlides ? swiper.minTranslate() : 0) - slide.swiperSlideOffset) / (slide.swiperSlideSize + params.spaceBetween);
+
+      if (params.watchSlidesVisibility) {
+        var slideBefore = -(offsetCenter - slide.swiperSlideOffset);
+        var slideAfter = slideBefore + swiper.slidesSizesGrid[i];
+        var isVisible = slideBefore >= 0 && slideBefore < swiper.size || slideAfter > 0 && slideAfter <= swiper.size || slideBefore <= 0 && slideAfter >= swiper.size;
+
+        if (isVisible) {
+          slides.eq(i).addClass(params.slideVisibleClass);
+        }
+      }
+
+      slide.progress = rtl ? -slideProgress : slideProgress;
+    }
+  };
+
+  var updateProgress = function updateProgress(translate) {
+    if (translate === void 0) translate = this.translate || 0;
+    var swiper = this;
+    var params = swiper.params;
+    var translatesDiff = swiper.maxTranslate() - swiper.minTranslate();
+    var progress = swiper.progress;
+    var isBeginning = swiper.isBeginning;
+    var isEnd = swiper.isEnd;
+    var wasBeginning = isBeginning;
+    var wasEnd = isEnd;
+
+    if (translatesDiff === 0) {
+      progress = 0;
+      isBeginning = true;
+      isEnd = true;
+    } else {
+      progress = (translate - swiper.minTranslate()) / translatesDiff;
+      isBeginning = progress <= 0;
+      isEnd = progress >= 1;
+    }
+
+    Utils.extend(swiper, {
+      progress: progress,
+      isBeginning: isBeginning,
+      isEnd: isEnd
+    });
+
+    if (params.watchSlidesProgress || params.watchSlidesVisibility) {
+      swiper.updateSlidesProgress(translate);
+    }
+
+    if (isBeginning && !wasBeginning) {
+      swiper.emit('reachBeginning toEdge');
+    }
+
+    if (isEnd && !wasEnd) {
+      swiper.emit('reachEnd toEdge');
+    }
+
+    if (wasBeginning && !isBeginning || wasEnd && !isEnd) {
+      swiper.emit('fromEdge');
+    }
+
+    swiper.emit('progress', progress);
+  };
+
+  var updateSlidesClasses = function updateSlidesClasses() {
+    var swiper = this;
+    var slides = swiper.slides;
+    var params = swiper.params;
+    var $wrapperEl = swiper.$wrapperEl;
+    var activeIndex = swiper.activeIndex;
+    var realIndex = swiper.realIndex;
+    var isVirtual = swiper.virtual && params.virtual.enabled;
+    slides.removeClass(params.slideActiveClass + " " + params.slideNextClass + " " + params.slidePrevClass + " " + params.slideDuplicateActiveClass + " " + params.slideDuplicateNextClass + " " + params.slideDuplicatePrevClass);
+    var activeSlide;
+
+    if (isVirtual) {
+      activeSlide = swiper.$wrapperEl.find("." + params.slideClass + "[data-swiper-slide-index=\"" + activeIndex + "\"]");
+    } else {
+      activeSlide = slides.eq(activeIndex);
+    } // Active classes
+
+
+    activeSlide.addClass(params.slideActiveClass);
+
+    if (params.loop) {
+      // Duplicate to all looped slides
+      if (activeSlide.hasClass(params.slideDuplicateClass)) {
+        $wrapperEl.children("." + params.slideClass + ":not(." + params.slideDuplicateClass + ")[data-swiper-slide-index=\"" + realIndex + "\"]").addClass(params.slideDuplicateActiveClass);
+      } else {
+        $wrapperEl.children("." + params.slideClass + "." + params.slideDuplicateClass + "[data-swiper-slide-index=\"" + realIndex + "\"]").addClass(params.slideDuplicateActiveClass);
+      }
+    } // Next Slide
+
+
+    var nextSlide = activeSlide.nextAll("." + params.slideClass).eq(0).addClass(params.slideNextClass);
+
+    if (params.loop && nextSlide.length === 0) {
+      nextSlide = slides.eq(0);
+      nextSlide.addClass(params.slideNextClass);
+    } // Prev Slide
+
+
+    var prevSlide = activeSlide.prevAll("." + params.slideClass).eq(0).addClass(params.slidePrevClass);
+
+    if (params.loop && prevSlide.length === 0) {
+      prevSlide = slides.eq(-1);
+      prevSlide.addClass(params.slidePrevClass);
+    }
+
+    if (params.loop) {
+      // Duplicate to all looped slides
+      if (nextSlide.hasClass(params.slideDuplicateClass)) {
+        $wrapperEl.children("." + params.slideClass + ":not(." + params.slideDuplicateClass + ")[data-swiper-slide-index=\"" + nextSlide.attr('data-swiper-slide-index') + "\"]").addClass(params.slideDuplicateNextClass);
+      } else {
+        $wrapperEl.children("." + params.slideClass + "." + params.slideDuplicateClass + "[data-swiper-slide-index=\"" + nextSlide.attr('data-swiper-slide-index') + "\"]").addClass(params.slideDuplicateNextClass);
+      }
+
+      if (prevSlide.hasClass(params.slideDuplicateClass)) {
+        $wrapperEl.children("." + params.slideClass + ":not(." + params.slideDuplicateClass + ")[data-swiper-slide-index=\"" + prevSlide.attr('data-swiper-slide-index') + "\"]").addClass(params.slideDuplicatePrevClass);
+      } else {
+        $wrapperEl.children("." + params.slideClass + "." + params.slideDuplicateClass + "[data-swiper-slide-index=\"" + prevSlide.attr('data-swiper-slide-index') + "\"]").addClass(params.slideDuplicatePrevClass);
+      }
+    }
+  };
+
+  var updateActiveIndex = function updateActiveIndex(newActiveIndex) {
+    var swiper = this;
+    var translate = swiper.rtl ? swiper.translate : -swiper.translate;
+    var slidesGrid = swiper.slidesGrid;
+    var snapGrid = swiper.snapGrid;
+    var params = swiper.params;
+    var previousIndex = swiper.activeIndex;
+    var previousRealIndex = swiper.realIndex;
+    var previousSnapIndex = swiper.snapIndex;
+    var activeIndex = newActiveIndex;
+    var snapIndex;
+
+    if (typeof activeIndex === 'undefined') {
+      for (var i = 0; i < slidesGrid.length; i += 1) {
+        if (typeof slidesGrid[i + 1] !== 'undefined') {
+          if (translate >= slidesGrid[i] && translate < slidesGrid[i + 1] - (slidesGrid[i + 1] - slidesGrid[i]) / 2) {
+            activeIndex = i;
+          } else if (translate >= slidesGrid[i] && translate < slidesGrid[i + 1]) {
+            activeIndex = i + 1;
+          }
+        } else if (translate >= slidesGrid[i]) {
+          activeIndex = i;
+        }
+      } // Normalize slideIndex
+
+
+      if (params.normalizeSlideIndex) {
+        if (activeIndex < 0 || typeof activeIndex === 'undefined') {
+          activeIndex = 0;
+        }
+      }
+    }
+
+    if (snapGrid.indexOf(translate) >= 0) {
+      snapIndex = snapGrid.indexOf(translate);
+    } else {
+      snapIndex = Math.floor(activeIndex / params.slidesPerGroup);
+    }
+
+    if (snapIndex >= snapGrid.length) {
+      snapIndex = snapGrid.length - 1;
+    }
+
+    if (activeIndex === previousIndex) {
+      if (snapIndex !== previousSnapIndex) {
+        swiper.snapIndex = snapIndex;
+        swiper.emit('snapIndexChange');
+      }
+
+      return;
+    } // Get real index
+
+
+    var realIndex = parseInt(swiper.slides.eq(activeIndex).attr('data-swiper-slide-index') || activeIndex, 10);
+    Utils.extend(swiper, {
+      snapIndex: snapIndex,
+      realIndex: realIndex,
+      previousIndex: previousIndex,
+      activeIndex: activeIndex
+    });
+    swiper.emit('activeIndexChange');
+    swiper.emit('snapIndexChange');
+
+    if (previousRealIndex !== realIndex) {
+      swiper.emit('realIndexChange');
+    }
+
+    swiper.emit('slideChange');
+  };
+
+  var updateClickedSlide = function updateClickedSlide(e) {
+    var swiper = this;
+    var params = swiper.params;
+    var slide = $$1(e.target).closest("." + params.slideClass)[0];
+    var slideFound = false;
+
+    if (slide) {
+      for (var i = 0; i < swiper.slides.length; i += 1) {
+        if (swiper.slides[i] === slide) {
+          slideFound = true;
+        }
+      }
+    }
+
+    if (slide && slideFound) {
+      swiper.clickedSlide = slide;
+
+      if (swiper.virtual && swiper.params.virtual.enabled) {
+        swiper.clickedIndex = parseInt($$1(slide).attr('data-swiper-slide-index'), 10);
+      } else {
+        swiper.clickedIndex = $$1(slide).index();
+      }
+    } else {
+      swiper.clickedSlide = undefined;
+      swiper.clickedIndex = undefined;
+      return;
+    }
+
+    if (params.slideToClickedSlide && swiper.clickedIndex !== undefined && swiper.clickedIndex !== swiper.activeIndex) {
+      swiper.slideToClickedSlide();
+    }
+  };
+
+  var update = {
+    updateSize: updateSize,
+    updateSlides: updateSlides,
+    updateAutoHeight: updateAutoHeight,
+    updateSlidesOffset: updateSlidesOffset,
+    updateSlidesProgress: updateSlidesProgress,
+    updateProgress: updateProgress,
+    updateSlidesClasses: updateSlidesClasses,
+    updateActiveIndex: updateActiveIndex,
+    updateClickedSlide: updateClickedSlide
+  };
+
+  var getTranslate = function getTranslate(axis) {
+    if (axis === void 0) axis = this.isHorizontal() ? 'x' : 'y';
+    var swiper = this;
+    var params = swiper.params;
+    var rtl = swiper.rtl;
+    var translate = swiper.translate;
+    var $wrapperEl = swiper.$wrapperEl;
+
+    if (params.virtualTranslate) {
+      return rtl ? -translate : translate;
+    }
+
+    var currentTranslate = Utils.getTranslate($wrapperEl[0], axis);
+
+    if (rtl) {
+      currentTranslate = -currentTranslate;
+    }
+
+    return currentTranslate || 0;
+  };
+
+  var setTranslate = function setTranslate(translate, byController) {
+    var swiper = this;
+    var rtl = swiper.rtl;
+    var params = swiper.params;
+    var $wrapperEl = swiper.$wrapperEl;
+    var progress = swiper.progress;
+    var x = 0;
+    var y = 0;
+    var z = 0;
+
+    if (swiper.isHorizontal()) {
+      x = rtl ? -translate : translate;
+    } else {
+      y = translate;
+    }
+
+    if (params.roundLengths) {
+      x = Math.floor(x);
+      y = Math.floor(y);
+    }
+
+    if (!params.virtualTranslate) {
+      if (Support.transforms3d) {
+        $wrapperEl.transform("translate3d(" + x + "px, " + y + "px, " + z + "px)");
+      } else {
+        $wrapperEl.transform("translate(" + x + "px, " + y + "px)");
+      }
+    }
+
+    swiper.translate = swiper.isHorizontal() ? x : y; // Check if we need to update progress
+
+    var newProgress;
+    var translatesDiff = swiper.maxTranslate() - swiper.minTranslate();
+
+    if (translatesDiff === 0) {
+      newProgress = 0;
+    } else {
+      newProgress = (translate - swiper.minTranslate()) / translatesDiff;
+    }
+
+    if (newProgress !== progress) {
+      swiper.updateProgress(translate);
+    }
+
+    swiper.emit('setTranslate', swiper.translate, byController);
+  };
+
+  var minTranslate = function minTranslate() {
+    return -this.snapGrid[0];
+  };
+
+  var maxTranslate = function maxTranslate() {
+    return -this.snapGrid[this.snapGrid.length - 1];
+  };
+
+  var translate = {
+    getTranslate: getTranslate,
+    setTranslate: setTranslate,
+    minTranslate: minTranslate,
+    maxTranslate: maxTranslate
+  };
+
+  var setTransition = function setTransition(duration, byController) {
+    var swiper = this;
+    swiper.$wrapperEl.transition(duration);
+    swiper.emit('setTransition', duration, byController);
+  };
+
+  var transitionStart = function transitionStart(runCallbacks) {
+    if (runCallbacks === void 0) runCallbacks = true;
+    var swiper = this;
+    var activeIndex = swiper.activeIndex;
+    var params = swiper.params;
+    var previousIndex = swiper.previousIndex;
+
+    if (params.autoHeight) {
+      swiper.updateAutoHeight();
+    }
+
+    swiper.emit('transitionStart');
+
+    if (!runCallbacks) {
+      return;
+    }
+
+    if (activeIndex !== previousIndex) {
+      swiper.emit('slideChangeTransitionStart');
+
+      if (activeIndex > previousIndex) {
+        swiper.emit('slideNextTransitionStart');
+      } else {
+        swiper.emit('slidePrevTransitionStart');
+      }
+    }
+  };
+
+  var transitionEnd$1 = function transitionEnd$1(runCallbacks) {
+    if (runCallbacks === void 0) runCallbacks = true;
+    var swiper = this;
+    var activeIndex = swiper.activeIndex;
+    var previousIndex = swiper.previousIndex;
+    swiper.animating = false;
+    swiper.setTransition(0);
+    swiper.emit('transitionEnd');
+
+    if (runCallbacks) {
+      if (activeIndex !== previousIndex) {
+        swiper.emit('slideChangeTransitionEnd');
+
+        if (activeIndex > previousIndex) {
+          swiper.emit('slideNextTransitionEnd');
+        } else {
+          swiper.emit('slidePrevTransitionEnd');
+        }
+      }
+    }
+  };
+
+  var transition$1 = {
+    setTransition: setTransition,
+    transitionStart: transitionStart,
+    transitionEnd: transitionEnd$1
+  };
+
+  var Browser = function Browser() {
+    function isIE9() {
+      // create temporary DIV
+      var div = doc.createElement('div'); // add content to tmp DIV which is wrapped into the IE HTML conditional statement
+
+      div.innerHTML = '<!--[if lte IE 9]><i></i><![endif]-->'; // return true / false value based on what will browser render
+
+      return div.getElementsByTagName('i').length === 1;
+    }
+
+    function isSafari() {
+      var ua = win.navigator.userAgent.toLowerCase();
+      return ua.indexOf('safari') >= 0 && ua.indexOf('chrome') < 0 && ua.indexOf('android') < 0;
+    }
+
+    return {
+      isSafari: isSafari(),
+      isUiWebView: /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(win.navigator.userAgent),
+      ie: win.navigator.pointerEnabled || win.navigator.msPointerEnabled,
+      ieTouch: win.navigator.msPointerEnabled && win.navigator.msMaxTouchPoints > 1 || win.navigator.pointerEnabled && win.navigator.maxTouchPoints > 1,
+      lteIE9: isIE9()
+    };
+  }();
+
+  var slideTo = function slideTo(index, speed, runCallbacks, internal) {
+    if (index === void 0) index = 0;
+    if (speed === void 0) speed = this.params.speed;
+    if (runCallbacks === void 0) runCallbacks = true;
+    var swiper = this;
+    var slideIndex = index;
+
+    if (slideIndex < 0) {
+      slideIndex = 0;
+    }
+
+    var params = swiper.params;
+    var snapGrid = swiper.snapGrid;
+    var slidesGrid = swiper.slidesGrid;
+    var previousIndex = swiper.previousIndex;
+    var activeIndex = swiper.activeIndex;
+    var rtl = swiper.rtl;
+    var $wrapperEl = swiper.$wrapperEl;
+    var snapIndex = Math.floor(slideIndex / params.slidesPerGroup);
+
+    if (snapIndex >= snapGrid.length) {
+      snapIndex = snapGrid.length - 1;
+    }
+
+    if ((activeIndex || params.initialSlide || 0) === (previousIndex || 0) && runCallbacks) {
+      swiper.emit('beforeSlideChangeStart');
+    }
+
+    var translate = -snapGrid[snapIndex]; // Update progress
+
+    swiper.updateProgress(translate); // Normalize slideIndex
+
+    if (params.normalizeSlideIndex) {
+      for (var i = 0; i < slidesGrid.length; i += 1) {
+        if (-Math.floor(translate * 100) >= Math.floor(slidesGrid[i] * 100)) {
+          slideIndex = i;
+        }
+      }
+    } // Directions locks
+
+
+    if (!swiper.allowSlideNext && translate < swiper.translate && translate < swiper.minTranslate()) {
+      return false;
+    }
+
+    if (!swiper.allowSlidePrev && translate > swiper.translate && translate > swiper.maxTranslate()) {
+      if ((activeIndex || 0) !== slideIndex) {
+        return false;
+      }
+    } // Update Index
+
+
+    if (rtl && -translate === swiper.translate || !rtl && translate === swiper.translate) {
+      swiper.updateActiveIndex(slideIndex); // Update Height
+
+      if (params.autoHeight) {
+        swiper.updateAutoHeight();
+      }
+
+      swiper.updateSlidesClasses();
+
+      if (params.effect !== 'slide') {
+        swiper.setTranslate(translate);
+      }
+
+      return false;
+    }
+
+    if (speed === 0 || Browser.lteIE9) {
+      swiper.setTransition(0);
+      swiper.setTranslate(translate);
+      swiper.updateActiveIndex(slideIndex);
+      swiper.updateSlidesClasses();
+      swiper.emit('beforeTransitionStart', speed, internal);
+      swiper.transitionStart(runCallbacks);
+      swiper.transitionEnd(runCallbacks);
+    } else {
+      swiper.setTransition(speed);
+      swiper.setTranslate(translate);
+      swiper.updateActiveIndex(slideIndex);
+      swiper.updateSlidesClasses();
+      swiper.emit('beforeTransitionStart', speed, internal);
+      swiper.transitionStart(runCallbacks);
+
+      if (!swiper.animating) {
+        swiper.animating = true;
+        $wrapperEl.transitionEnd(function () {
+          if (!swiper || swiper.destroyed) {
+            return;
+          }
+
+          swiper.transitionEnd(runCallbacks);
+        });
+      }
+    }
+
+    return true;
+  };
+  /* eslint no-unused-vars: "off" */
+
+
+  var slideNext = function slideNext(speed, runCallbacks, internal) {
+    if (speed === void 0) speed = this.params.speed;
+    if (runCallbacks === void 0) runCallbacks = true;
+    var swiper = this;
+    var params = swiper.params;
+    var animating = swiper.animating;
+
+    if (params.loop) {
+      if (animating) {
+        return false;
+      }
+
+      swiper.loopFix(); // eslint-disable-next-line
+
+      swiper._clientLeft = swiper.$wrapperEl[0].clientLeft;
+      return swiper.slideTo(swiper.activeIndex + params.slidesPerGroup, speed, runCallbacks, internal);
+    }
+
+    return swiper.slideTo(swiper.activeIndex + params.slidesPerGroup, speed, runCallbacks, internal);
+  };
+  /* eslint no-unused-vars: "off" */
+
+
+  var slidePrev = function slidePrev(speed, runCallbacks, internal) {
+    if (speed === void 0) speed = this.params.speed;
+    if (runCallbacks === void 0) runCallbacks = true;
+    var swiper = this;
+    var params = swiper.params;
+    var animating = swiper.animating;
+
+    if (params.loop) {
+      if (animating) {
+        return false;
+      }
+
+      swiper.loopFix(); // eslint-disable-next-line
+
+      swiper._clientLeft = swiper.$wrapperEl[0].clientLeft;
+      return swiper.slideTo(swiper.activeIndex - 1, speed, runCallbacks, internal);
+    }
+
+    return swiper.slideTo(swiper.activeIndex - 1, speed, runCallbacks, internal);
+  };
+  /* eslint no-unused-vars: "off" */
+
+
+  var slideReset = function slideReset(speed, runCallbacks, internal) {
+    if (speed === void 0) speed = this.params.speed;
+    if (runCallbacks === void 0) runCallbacks = true;
+    var swiper = this;
+    return swiper.slideTo(swiper.activeIndex, speed, runCallbacks, internal);
+  };
+
+  var slideToClickedSlide = function slideToClickedSlide() {
+    var swiper = this;
+    var params = swiper.params;
+    var $wrapperEl = swiper.$wrapperEl;
+    var slidesPerView = params.slidesPerView === 'auto' ? swiper.slidesPerViewDynamic() : params.slidesPerView;
+    var slideToIndex = swiper.clickedIndex;
+    var realIndex;
+
+    if (params.loop) {
+      if (swiper.animating) {
+        return;
+      }
+
+      realIndex = parseInt($$1(swiper.clickedSlide).attr('data-swiper-slide-index'), 10);
+
+      if (params.centeredSlides) {
+        if (slideToIndex < swiper.loopedSlides - slidesPerView / 2 || slideToIndex > swiper.slides.length - swiper.loopedSlides + slidesPerView / 2) {
+          swiper.loopFix();
+          slideToIndex = $wrapperEl.children("." + params.slideClass + "[data-swiper-slide-index=\"" + realIndex + "\"]:not(." + params.slideDuplicateClass + ")").eq(0).index();
+          Utils.nextTick(function () {
+            swiper.slideTo(slideToIndex);
+          });
+        } else {
+          swiper.slideTo(slideToIndex);
+        }
+      } else if (slideToIndex > swiper.slides.length - slidesPerView) {
+        swiper.loopFix();
+        slideToIndex = $wrapperEl.children("." + params.slideClass + "[data-swiper-slide-index=\"" + realIndex + "\"]:not(." + params.slideDuplicateClass + ")").eq(0).index();
+        Utils.nextTick(function () {
+          swiper.slideTo(slideToIndex);
+        });
+      } else {
+        swiper.slideTo(slideToIndex);
+      }
+    } else {
+      swiper.slideTo(slideToIndex);
+    }
+  };
+
+  var slide = {
+    slideTo: slideTo,
+    slideNext: slideNext,
+    slidePrev: slidePrev,
+    slideReset: slideReset,
+    slideToClickedSlide: slideToClickedSlide
+  };
+
+  var loopCreate = function loopCreate() {
+    var swiper = this;
+    var params = swiper.params;
+    var $wrapperEl = swiper.$wrapperEl; // Remove duplicated slides
+
+    $wrapperEl.children("." + params.slideClass + "." + params.slideDuplicateClass).remove();
+    var slides = $wrapperEl.children("." + params.slideClass);
+
+    if (params.loopFillGroupWithBlank) {
+      var blankSlidesNum = params.slidesPerGroup - slides.length % params.slidesPerGroup;
+
+      if (blankSlidesNum !== params.slidesPerGroup) {
+        for (var i = 0; i < blankSlidesNum; i += 1) {
+          var blankNode = $$1(doc.createElement('div')).addClass(params.slideClass + " " + params.slideBlankClass);
+          $wrapperEl.append(blankNode);
+        }
+
+        slides = $wrapperEl.children("." + params.slideClass);
+      }
+    }
+
+    if (params.slidesPerView === 'auto' && !params.loopedSlides) {
+      params.loopedSlides = slides.length;
+    }
+
+    swiper.loopedSlides = parseInt(params.loopedSlides || params.slidesPerView, 10);
+    swiper.loopedSlides += params.loopAdditionalSlides;
+
+    if (swiper.loopedSlides > slides.length) {
+      swiper.loopedSlides = slides.length;
+    }
+
+    var prependSlides = [];
+    var appendSlides = [];
+    slides.each(function (index, el) {
+      var slide = $$1(el);
+
+      if (index < swiper.loopedSlides) {
+        appendSlides.push(el);
+      }
+
+      if (index < slides.length && index >= slides.length - swiper.loopedSlides) {
+        prependSlides.push(el);
+      }
+
+      slide.attr('data-swiper-slide-index', index);
+    });
+
+    for (var i$1 = 0; i$1 < appendSlides.length; i$1 += 1) {
+      $wrapperEl.append($$1(appendSlides[i$1].cloneNode(true)).addClass(params.slideDuplicateClass));
+    }
+
+    for (var i$2 = prependSlides.length - 1; i$2 >= 0; i$2 -= 1) {
+      $wrapperEl.prepend($$1(prependSlides[i$2].cloneNode(true)).addClass(params.slideDuplicateClass));
+    }
+  };
+
+  var loopFix = function loopFix() {
+    var swiper = this;
+    var params = swiper.params;
+    var activeIndex = swiper.activeIndex;
+    var slides = swiper.slides;
+    var loopedSlides = swiper.loopedSlides;
+    var allowSlidePrev = swiper.allowSlidePrev;
+    var allowSlideNext = swiper.allowSlideNext;
+    var newIndex;
+    swiper.allowSlidePrev = true;
+    swiper.allowSlideNext = true; // Fix For Negative Oversliding
+
+    if (activeIndex < loopedSlides) {
+      newIndex = slides.length - loopedSlides * 3 + activeIndex;
+      newIndex += loopedSlides;
+      swiper.slideTo(newIndex, 0, false, true);
+    } else if (params.slidesPerView === 'auto' && activeIndex >= loopedSlides * 2 || activeIndex > slides.length - params.slidesPerView * 2) {
+      // Fix For Positive Oversliding
+      newIndex = -slides.length + activeIndex + loopedSlides;
+      newIndex += loopedSlides;
+      swiper.slideTo(newIndex, 0, false, true);
+    }
+
+    swiper.allowSlidePrev = allowSlidePrev;
+    swiper.allowSlideNext = allowSlideNext;
+  };
+
+  var loopDestroy = function loopDestroy() {
+    var swiper = this;
+    var $wrapperEl = swiper.$wrapperEl;
+    var params = swiper.params;
+    var slides = swiper.slides;
+    $wrapperEl.children("." + params.slideClass + "." + params.slideDuplicateClass).remove();
+    slides.removeAttr('data-swiper-slide-index');
+  };
+
+  var loop = {
+    loopCreate: loopCreate,
+    loopFix: loopFix,
+    loopDestroy: loopDestroy
+  };
+
+  var setGrabCursor = function setGrabCursor(moving) {
+    var swiper = this;
+
+    if (Support.touch || !swiper.params.simulateTouch) {
+      return;
+    }
+
+    var el = swiper.el;
+    el.style.cursor = 'move';
+    el.style.cursor = moving ? '-webkit-grabbing' : '-webkit-grab';
+    el.style.cursor = moving ? '-moz-grabbin' : '-moz-grab';
+    el.style.cursor = moving ? 'grabbing' : 'grab';
+  };
+
+  var unsetGrabCursor = function unsetGrabCursor() {
+    var swiper = this;
+
+    if (Support.touch) {
+      return;
+    }
+
+    swiper.el.style.cursor = '';
+  };
+
+  var grabCursor = {
+    setGrabCursor: setGrabCursor,
+    unsetGrabCursor: unsetGrabCursor
+  };
+
+  var appendSlide = function appendSlide(slides) {
+    var swiper = this;
+    var $wrapperEl = swiper.$wrapperEl;
+    var params = swiper.params;
+
+    if (params.loop) {
+      swiper.loopDestroy();
+    }
+
+    if (_typeof(slides) === 'object' && 'length' in slides) {
+      for (var i = 0; i < slides.length; i += 1) {
+        if (slides[i]) {
+          $wrapperEl.append(slides[i]);
+        }
+      }
+    } else {
+      $wrapperEl.append(slides);
+    }
+
+    if (params.loop) {
+      swiper.loopCreate();
+    }
+
+    if (!(params.observer && Support.observer)) {
+      swiper.update();
+    }
+  };
+
+  var prependSlide = function prependSlide(slides) {
+    var swiper = this;
+    var params = swiper.params;
+    var $wrapperEl = swiper.$wrapperEl;
+    var activeIndex = swiper.activeIndex;
+
+    if (params.loop) {
+      swiper.loopDestroy();
+    }
+
+    var newActiveIndex = activeIndex + 1;
+
+    if (_typeof(slides) === 'object' && 'length' in slides) {
+      for (var i = 0; i < slides.length; i += 1) {
+        if (slides[i]) {
+          $wrapperEl.prepend(slides[i]);
+        }
+      }
+
+      newActiveIndex = activeIndex + slides.length;
+    } else {
+      $wrapperEl.prepend(slides);
+    }
+
+    if (params.loop) {
+      swiper.loopCreate();
+    }
+
+    if (!(params.observer && Support.observer)) {
+      swiper.update();
+    }
+
+    swiper.slideTo(newActiveIndex, 0, false);
+  };
+
+  var removeSlide = function removeSlide(slidesIndexes) {
+    var swiper = this;
+    var params = swiper.params;
+    var $wrapperEl = swiper.$wrapperEl;
+    var activeIndex = swiper.activeIndex;
+
+    if (params.loop) {
+      swiper.loopDestroy();
+      swiper.slides = $wrapperEl.children("." + params.slideClass);
+    }
+
+    var newActiveIndex = activeIndex;
+    var indexToRemove;
+
+    if (_typeof(slidesIndexes) === 'object' && 'length' in slidesIndexes) {
+      for (var i = 0; i < slidesIndexes.length; i += 1) {
+        indexToRemove = slidesIndexes[i];
+
+        if (swiper.slides[indexToRemove]) {
+          swiper.slides.eq(indexToRemove).remove();
+        }
+
+        if (indexToRemove < newActiveIndex) {
+          newActiveIndex -= 1;
+        }
+      }
+
+      newActiveIndex = Math.max(newActiveIndex, 0);
+    } else {
+      indexToRemove = slidesIndexes;
+
+      if (swiper.slides[indexToRemove]) {
+        swiper.slides.eq(indexToRemove).remove();
+      }
+
+      if (indexToRemove < newActiveIndex) {
+        newActiveIndex -= 1;
+      }
+
+      newActiveIndex = Math.max(newActiveIndex, 0);
+    }
+
+    if (params.loop) {
+      swiper.loopCreate();
+    }
+
+    if (!(params.observer && Support.observer)) {
+      swiper.update();
+    }
+
+    if (params.loop) {
+      swiper.slideTo(newActiveIndex + swiper.loopedSlides, 0, false);
+    } else {
+      swiper.slideTo(newActiveIndex, 0, false);
+    }
+  };
+
+  var removeAllSlides = function removeAllSlides() {
+    var swiper = this;
+    var slidesIndexes = [];
+
+    for (var i = 0; i < swiper.slides.length; i += 1) {
+      slidesIndexes.push(i);
+    }
+
+    swiper.removeSlide(slidesIndexes);
+  };
+
+  var manipulation = {
+    appendSlide: appendSlide,
+    prependSlide: prependSlide,
+    removeSlide: removeSlide,
+    removeAllSlides: removeAllSlides
+  };
+
+  var Device = function Device() {
+    var ua = win.navigator.userAgent;
+    var device = {
+      ios: false,
+      android: false,
+      androidChrome: false,
+      desktop: false,
+      windows: false,
+      iphone: false,
+      ipod: false,
+      ipad: false,
+      cordova: win.cordova || win.phonegap,
+      phonegap: win.cordova || win.phonegap
+    };
+    var windows = ua.match(/(Windows Phone);?[\s\/]+([\d.]+)?/); // eslint-disable-line
+
+    var android = ua.match(/(Android);?[\s\/]+([\d.]+)?/); // eslint-disable-line
+
+    var ipad = ua.match(/(iPad).*OS\s([\d_]+)/);
+    var ipod = ua.match(/(iPod)(.*OS\s([\d_]+))?/);
+    var iphone = !ipad && ua.match(/(iPhone\sOS|iOS)\s([\d_]+)/); // Windows
+
+    if (windows) {
+      device.os = 'windows';
+      device.osVersion = windows[2];
+      device.windows = true;
+    } // Android
+
+
+    if (android && !windows) {
+      device.os = 'android';
+      device.osVersion = android[2];
+      device.android = true;
+      device.androidChrome = ua.toLowerCase().indexOf('chrome') >= 0;
+    }
+
+    if (ipad || iphone || ipod) {
+      device.os = 'ios';
+      device.ios = true;
+    } // iOS
+
+
+    if (iphone && !ipod) {
+      device.osVersion = iphone[2].replace(/_/g, '.');
+      device.iphone = true;
+    }
+
+    if (ipad) {
+      device.osVersion = ipad[2].replace(/_/g, '.');
+      device.ipad = true;
+    }
+
+    if (ipod) {
+      device.osVersion = ipod[3] ? ipod[3].replace(/_/g, '.') : null;
+      device.iphone = true;
+    } // iOS 8+ changed UA
+
+
+    if (device.ios && device.osVersion && ua.indexOf('Version/') >= 0) {
+      if (device.osVersion.split('.')[0] === '10') {
+        device.osVersion = ua.toLowerCase().split('version/')[1].split(' ')[0];
+      }
+    } // Desktop
+
+
+    device.desktop = !(device.os || device.android || device.webView); // Webview
+
+    device.webView = (iphone || ipad || ipod) && ua.match(/.*AppleWebKit(?!.*Safari)/i); // Minimal UI
+
+    if (device.os && device.os === 'ios') {
+      var osVersionArr = device.osVersion.split('.');
+      var metaViewport = doc.querySelector('meta[name="viewport"]');
+      device.minimalUi = !device.webView && (ipod || iphone) && (osVersionArr[0] * 1 === 7 ? osVersionArr[1] * 1 >= 1 : osVersionArr[0] * 1 > 7) && metaViewport && metaViewport.getAttribute('content').indexOf('minimal-ui') >= 0;
+    } // Pixel Ratio
+
+
+    device.pixelRatio = win.devicePixelRatio || 1; // Export object
+
+    return device;
+  }();
+
+  var onTouchStart = function onTouchStart(event) {
+    var swiper = this;
+    var data = swiper.touchEventsData;
+    var params = swiper.params;
+    var touches = swiper.touches;
+    var e = event;
+
+    if (e.originalEvent) {
+      e = e.originalEvent;
+    }
+
+    data.isTouchEvent = e.type === 'touchstart';
+
+    if (!data.isTouchEvent && 'which' in e && e.which === 3) {
+      return;
+    }
+
+    if (data.isTouched && data.isMoved) {
+      return;
+    }
+
+    if (params.noSwiping && $$1(e.target).closest("." + params.noSwipingClass)[0]) {
+      swiper.allowClick = true;
+      return;
+    }
+
+    if (params.swipeHandler) {
+      if (!$$1(e).closest(params.swipeHandler)[0]) {
+        return;
+      }
+    }
+
+    touches.currentX = e.type === 'touchstart' ? e.targetTouches[0].pageX : e.pageX;
+    touches.currentY = e.type === 'touchstart' ? e.targetTouches[0].pageY : e.pageY;
+    var startX = touches.currentX;
+    var startY = touches.currentY; // Do NOT start if iOS edge swipe is detected. Otherwise iOS app (UIWebView) cannot swipe-to-go-back anymore
+
+    if (Device.ios && params.iOSEdgeSwipeDetection && startX <= params.iOSEdgeSwipeThreshold) {
+      return;
+    }
+
+    Utils.extend(data, {
+      isTouched: true,
+      isMoved: false,
+      allowTouchCallbacks: true,
+      isScrolling: undefined,
+      startMoving: undefined
+    });
+    touches.startX = startX;
+    touches.startY = startY;
+    data.touchStartTime = Utils.now();
+    swiper.allowClick = true;
+    swiper.updateSize();
+    swiper.swipeDirection = undefined;
+
+    if (params.threshold > 0) {
+      data.allowThresholdMove = false;
+    }
+
+    if (e.type !== 'touchstart') {
+      var preventDefault = true;
+
+      if ($$1(e.target).is(data.formElements)) {
+        preventDefault = false;
+      }
+
+      if (doc.activeElement && $$1(doc.activeElement).is(data.formElements)) {
+        doc.activeElement.blur();
+      }
+
+      if (preventDefault) {
+        e.preventDefault();
+      }
+    }
+
+    swiper.emit('touchStart', e);
+  };
+
+  var onTouchMove = function onTouchMove(event) {
+    var swiper = this;
+    var data = swiper.touchEventsData;
+    var params = swiper.params;
+    var touches = swiper.touches;
+    var rtl = swiper.rtl;
+    var e = event;
+
+    if (e.originalEvent) {
+      e = e.originalEvent;
+    }
+
+    if (data.isTouchEvent && e.type === 'mousemove') {
+      return;
+    }
+
+    var pageX = e.type === 'touchmove' ? e.targetTouches[0].pageX : e.pageX;
+    var pageY = e.type === 'touchmove' ? e.targetTouches[0].pageY : e.pageY;
+
+    if (e.preventedByNestedSwiper) {
+      touches.startX = pageX;
+      touches.startY = pageY;
+      return;
+    }
+
+    if (!swiper.allowTouchMove) {
+      // isMoved = true;
+      swiper.allowClick = false;
+
+      if (data.isTouched) {
+        Utils.extend(touches, {
+          startX: pageX,
+          startY: pageY,
+          currentX: pageX,
+          currentY: pageY
+        });
+        data.touchStartTime = Utils.now();
+      }
+
+      return;
+    }
+
+    if (data.isTouchEvent && params.touchReleaseOnEdges && !params.loop) {
+      if (swiper.isVertical()) {
+        // Vertical
+        if (touches.currentY < touches.startY && swiper.translate <= swiper.maxTranslate() || touches.currentY > touches.startY && swiper.translate >= swiper.minTranslate()) {
+          return;
+        }
+      } else if (touches.currentX < touches.startX && swiper.translate <= swiper.maxTranslate() || touches.currentX > touches.startX && swiper.translate >= swiper.minTranslate()) {
+        return;
+      }
+    }
+
+    if (data.isTouchEvent && doc.activeElement) {
+      if (e.target === doc.activeElement && $$1(e.target).is(data.formElements)) {
+        data.isMoved = true;
+        swiper.allowClick = false;
+        return;
+      }
+    }
+
+    if (data.allowTouchCallbacks) {
+      swiper.emit('touchMove', e);
+    }
+
+    if (e.targetTouches && e.targetTouches.length > 1) {
+      return;
+    }
+
+    touches.currentX = e.type === 'touchmove' ? e.targetTouches[0].pageX : e.pageX;
+    touches.currentY = e.type === 'touchmove' ? e.targetTouches[0].pageY : e.pageY;
+
+    if (typeof data.isScrolling === 'undefined') {
+      var touchAngle;
+
+      if (swiper.isHorizontal() && touches.currentY === touches.startY || swiper.isVertical() && touches.currentX === touches.startX) {
+        data.isScrolling = false;
+      } else {
+        touchAngle = Math.atan2(Math.abs(touches.currentY - touches.startY), Math.abs(touches.currentX - touches.startX)) * 180 / Math.PI;
+        data.isScrolling = swiper.isHorizontal() ? touchAngle > params.touchAngle : 90 - touchAngle > params.touchAngle;
+      }
+    }
+
+    if (data.isScrolling) {
+      swiper.emit('touchMoveOpposite', e);
+    }
+
+    if (typeof startMoving === 'undefined') {
+      if (touches.currentX !== touches.startX || touches.currentY !== touches.startY) {
+        data.startMoving = true;
+      }
+    }
+
+    if (!data.isTouched) {
+      return;
+    }
+
+    if (data.isScrolling) {
+      data.isTouched = false;
+      return;
+    }
+
+    if (!data.startMoving) {
+      return;
+    }
+
+    swiper.allowClick = false;
+    e.preventDefault();
+
+    if (params.touchMoveStopPropagation && !params.nested) {
+      e.stopPropagation();
+    }
+
+    if (!data.isMoved) {
+      if (params.loop) {
+        swiper.loopFix();
+      }
+
+      data.startTranslate = swiper.getTranslate();
+      swiper.setTransition(0);
+
+      if (swiper.animating) {
+        swiper.$wrapperEl.trigger('webkitTransitionEnd transitionend');
+      }
+
+      data.allowMomentumBounce = false; // Grab Cursor
+
+      if (params.grabCursor && (swiper.allowSlideNext === true || swiper.allowSlidePrev === true)) {
+        swiper.setGrabCursor(true);
+      }
+
+      swiper.emit('sliderFirstMove', e);
+    }
+
+    swiper.emit('sliderMove', e);
+    data.isMoved = true;
+    var diff = swiper.isHorizontal() ? touches.currentX - touches.startX : touches.currentY - touches.startY;
+    touches.diff = diff;
+    diff *= params.touchRatio;
+
+    if (rtl) {
+      diff = -diff;
+    }
+
+    swiper.swipeDirection = diff > 0 ? 'prev' : 'next';
+    data.currentTranslate = diff + data.startTranslate;
+    var disableParentSwiper = true;
+    var resistanceRatio = params.resistanceRatio;
+
+    if (params.touchReleaseOnEdges) {
+      resistanceRatio = 0;
+    }
+
+    if (diff > 0 && data.currentTranslate > swiper.minTranslate()) {
+      disableParentSwiper = false;
+
+      if (params.resistance) {
+        data.currentTranslate = swiper.minTranslate() - 1 + Math.pow(-swiper.minTranslate() + data.startTranslate + diff, resistanceRatio);
+      }
+    } else if (diff < 0 && data.currentTranslate < swiper.maxTranslate()) {
+      disableParentSwiper = false;
+
+      if (params.resistance) {
+        data.currentTranslate = swiper.maxTranslate() + 1 - Math.pow(swiper.maxTranslate() - data.startTranslate - diff, resistanceRatio);
+      }
+    }
+
+    if (disableParentSwiper) {
+      e.preventedByNestedSwiper = true;
+    } // Directions locks
+
+
+    if (!swiper.allowSlideNext && swiper.swipeDirection === 'next' && data.currentTranslate < data.startTranslate) {
+      data.currentTranslate = data.startTranslate;
+    }
+
+    if (!swiper.allowSlidePrev && swiper.swipeDirection === 'prev' && data.currentTranslate > data.startTranslate) {
+      data.currentTranslate = data.startTranslate;
+    } // Threshold
+
+
+    if (params.threshold > 0) {
+      if (Math.abs(diff) > params.threshold || data.allowThresholdMove) {
+        if (!data.allowThresholdMove) {
+          data.allowThresholdMove = true;
+          touches.startX = touches.currentX;
+          touches.startY = touches.currentY;
+          data.currentTranslate = data.startTranslate;
+          touches.diff = swiper.isHorizontal() ? touches.currentX - touches.startX : touches.currentY - touches.startY;
+          return;
+        }
+      } else {
+        data.currentTranslate = data.startTranslate;
+        return;
+      }
+    }
+
+    if (!params.followFinger) {
+      return;
+    } // Update active index in free mode
+
+
+    if (params.freeMode || params.watchSlidesProgress || params.watchSlidesVisibility) {
+      swiper.updateActiveIndex();
+      swiper.updateSlidesClasses();
+    }
+
+    if (params.freeMode) {
+      // Velocity
+      if (data.velocities.length === 0) {
+        data.velocities.push({
+          position: touches[swiper.isHorizontal() ? 'startX' : 'startY'],
+          time: data.touchStartTime
+        });
+      }
+
+      data.velocities.push({
+        position: touches[swiper.isHorizontal() ? 'currentX' : 'currentY'],
+        time: Utils.now()
+      });
+    } // Update progress
+
+
+    swiper.updateProgress(data.currentTranslate); // Update translate
+
+    swiper.setTranslate(data.currentTranslate);
+  };
+
+  var onTouchEnd = function onTouchEnd(event) {
+    var swiper = this;
+    var data = swiper.touchEventsData;
+    var params = swiper.params;
+    var touches = swiper.touches;
+    var rtl = swiper.rtl;
+    var $wrapperEl = swiper.$wrapperEl;
+    var slidesGrid = swiper.slidesGrid;
+    var snapGrid = swiper.snapGrid;
+    var e = event;
+
+    if (e.originalEvent) {
+      e = e.originalEvent;
+    }
+
+    if (data.allowTouchCallbacks) {
+      swiper.emit('touchEnd', e);
+    }
+
+    data.allowTouchCallbacks = false;
+
+    if (!data.isTouched) {
+      return;
+    } // Return Grab Cursor
+
+
+    if (params.grabCursor && data.isMoved && data.isTouched && (swiper.allowSlideNext === true || swiper.allowSlidePrev === true)) {
+      swiper.setGrabCursor(false);
+    } // Time diff
+
+
+    var touchEndTime = Utils.now();
+    var timeDiff = touchEndTime - data.touchStartTime; // Tap, doubleTap, Click
+
+    if (swiper.allowClick) {
+      swiper.updateClickedSlide(e);
+      swiper.emit('tap', e);
+
+      if (timeDiff < 300 && touchEndTime - data.lastClickTime > 300) {
+        if (data.clickTimeout) {
+          clearTimeout(data.clickTimeout);
+        }
+
+        data.clickTimeout = Utils.nextTick(function () {
+          if (!swiper || swiper.destroyed) {
+            return;
+          }
+
+          swiper.emit('click', e);
+        }, 300);
+      }
+
+      if (timeDiff < 300 && touchEndTime - data.lastClickTime < 300) {
+        if (data.clickTimeout) {
+          clearTimeout(data.clickTimeout);
+        }
+
+        swiper.emit('doubleTap', e);
+      }
+    }
+
+    data.lastClickTime = Utils.now();
+    Utils.nextTick(function () {
+      if (!swiper.destroyed) {
+        swiper.allowClick = true;
+      }
+    });
+
+    if (!data.isTouched || !data.isMoved || !swiper.swipeDirection || touches.diff === 0 || data.currentTranslate === data.startTranslate) {
+      data.isTouched = false;
+      data.isMoved = false;
+      return;
+    }
+
+    data.isTouched = false;
+    data.isMoved = false;
+    var currentPos;
+
+    if (params.followFinger) {
+      currentPos = rtl ? swiper.translate : -swiper.translate;
+    } else {
+      currentPos = -data.currentTranslate;
+    }
+
+    if (params.freeMode) {
+      if (currentPos < -swiper.minTranslate()) {
+        swiper.slideTo(swiper.activeIndex);
+        return;
+      } else if (currentPos > -swiper.maxTranslate()) {
+        if (swiper.slides.length < snapGrid.length) {
+          swiper.slideTo(snapGrid.length - 1);
+        } else {
+          swiper.slideTo(swiper.slides.length - 1);
+        }
+
+        return;
+      }
+
+      if (params.freeModeMomentum) {
+        if (data.velocities.length > 1) {
+          var lastMoveEvent = data.velocities.pop();
+          var velocityEvent = data.velocities.pop();
+          var distance = lastMoveEvent.position - velocityEvent.position;
+          var time = lastMoveEvent.time - velocityEvent.time;
+          swiper.velocity = distance / time;
+          swiper.velocity /= 2;
+
+          if (Math.abs(swiper.velocity) < params.freeModeMinimumVelocity) {
+            swiper.velocity = 0;
+          } // this implies that the user stopped moving a finger then released.
+          // There would be no events with distance zero, so the last event is stale.
+
+
+          if (time > 150 || Utils.now() - lastMoveEvent.time > 300) {
+            swiper.velocity = 0;
+          }
+        } else {
+          swiper.velocity = 0;
+        }
+
+        swiper.velocity *= params.freeModeMomentumVelocityRatio;
+        data.velocities.length = 0;
+        var momentumDuration = 1000 * params.freeModeMomentumRatio;
+        var momentumDistance = swiper.velocity * momentumDuration;
+        var newPosition = swiper.translate + momentumDistance;
+
+        if (rtl) {
+          newPosition = -newPosition;
+        }
+
+        var doBounce = false;
+        var afterBouncePosition;
+        var bounceAmount = Math.abs(swiper.velocity) * 20 * params.freeModeMomentumBounceRatio;
+
+        if (newPosition < swiper.maxTranslate()) {
+          if (params.freeModeMomentumBounce) {
+            if (newPosition + swiper.maxTranslate() < -bounceAmount) {
+              newPosition = swiper.maxTranslate() - bounceAmount;
+            }
+
+            afterBouncePosition = swiper.maxTranslate();
+            doBounce = true;
+            data.allowMomentumBounce = true;
+          } else {
+            newPosition = swiper.maxTranslate();
+          }
+        } else if (newPosition > swiper.minTranslate()) {
+          if (params.freeModeMomentumBounce) {
+            if (newPosition - swiper.minTranslate() > bounceAmount) {
+              newPosition = swiper.minTranslate() + bounceAmount;
+            }
+
+            afterBouncePosition = swiper.minTranslate();
+            doBounce = true;
+            data.allowMomentumBounce = true;
+          } else {
+            newPosition = swiper.minTranslate();
+          }
+        } else if (params.freeModeSticky) {
+          var nextSlide;
+
+          for (var j = 0; j < snapGrid.length; j += 1) {
+            if (snapGrid[j] > -newPosition) {
+              nextSlide = j;
+              break;
+            }
+          }
+
+          if (Math.abs(snapGrid[nextSlide] - newPosition) < Math.abs(snapGrid[nextSlide - 1] - newPosition) || swiper.swipeDirection === 'next') {
+            newPosition = snapGrid[nextSlide];
+          } else {
+            newPosition = snapGrid[nextSlide - 1];
+          }
+
+          if (!rtl) {
+            newPosition = -newPosition;
+          }
+        } // Fix duration
+
+
+        if (swiper.velocity !== 0) {
+          if (rtl) {
+            momentumDuration = Math.abs((-newPosition - swiper.translate) / swiper.velocity);
+          } else {
+            momentumDuration = Math.abs((newPosition - swiper.translate) / swiper.velocity);
+          }
+        } else if (params.freeModeSticky) {
+          swiper.slideReset();
+          return;
+        }
+
+        if (params.freeModeMomentumBounce && doBounce) {
+          swiper.updateProgress(afterBouncePosition);
+          swiper.setTransition(momentumDuration);
+          swiper.setTranslate(newPosition);
+          swiper.transitionStart();
+          swiper.animating = true;
+          $wrapperEl.transitionEnd(function () {
+            if (!swiper || swiper.destroyed || !data.allowMomentumBounce) {
+              return;
+            }
+
+            swiper.emit('momentumBounce');
+            swiper.setTransition(params.speed);
+            swiper.setTranslate(afterBouncePosition);
+            $wrapperEl.transitionEnd(function () {
+              if (!swiper || swiper.destroyed) {
+                return;
+              }
+
+              swiper.transitionEnd();
+            });
+          });
+        } else if (swiper.velocity) {
+          swiper.updateProgress(newPosition);
+          swiper.setTransition(momentumDuration);
+          swiper.setTranslate(newPosition);
+          swiper.transitionStart();
+
+          if (!swiper.animating) {
+            swiper.animating = true;
+            $wrapperEl.transitionEnd(function () {
+              if (!swiper || swiper.destroyed) {
+                return;
+              }
+
+              swiper.transitionEnd();
+            });
+          }
+        } else {
+          swiper.updateProgress(newPosition);
+        }
+
+        swiper.updateActiveIndex();
+        swiper.updateSlidesClasses();
+      }
+
+      if (!params.freeModeMomentum || timeDiff >= params.longSwipesMs) {
+        swiper.updateProgress();
+        swiper.updateActiveIndex();
+        swiper.updateSlidesClasses();
+      }
+
+      return;
+    } // Find current slide
+
+
+    var stopIndex = 0;
+    var groupSize = swiper.slidesSizesGrid[0];
+
+    for (var i = 0; i < slidesGrid.length; i += params.slidesPerGroup) {
+      if (typeof slidesGrid[i + params.slidesPerGroup] !== 'undefined') {
+        if (currentPos >= slidesGrid[i] && currentPos < slidesGrid[i + params.slidesPerGroup]) {
+          stopIndex = i;
+          groupSize = slidesGrid[i + params.slidesPerGroup] - slidesGrid[i];
+        }
+      } else if (currentPos >= slidesGrid[i]) {
+        stopIndex = i;
+        groupSize = slidesGrid[slidesGrid.length - 1] - slidesGrid[slidesGrid.length - 2];
+      }
+    } // Find current slide size
+
+
+    var ratio = (currentPos - slidesGrid[stopIndex]) / groupSize;
+
+    if (timeDiff > params.longSwipesMs) {
+      // Long touches
+      if (!params.longSwipes) {
+        swiper.slideTo(swiper.activeIndex);
+        return;
+      }
+
+      if (swiper.swipeDirection === 'next') {
+        if (ratio >= params.longSwipesRatio) {
+          swiper.slideTo(stopIndex + params.slidesPerGroup);
+        } else {
+          swiper.slideTo(stopIndex);
+        }
+      }
+
+      if (swiper.swipeDirection === 'prev') {
+        if (ratio > 1 - params.longSwipesRatio) {
+          swiper.slideTo(stopIndex + params.slidesPerGroup);
+        } else {
+          swiper.slideTo(stopIndex);
+        }
+      }
+    } else {
+      // Short swipes
+      if (!params.shortSwipes) {
+        swiper.slideTo(swiper.activeIndex);
+        return;
+      }
+
+      if (swiper.swipeDirection === 'next') {
+        swiper.slideTo(stopIndex + params.slidesPerGroup);
+      }
+
+      if (swiper.swipeDirection === 'prev') {
+        swiper.slideTo(stopIndex);
+      }
+    }
+  };
+
+  var onResize = function onResize() {
+    var swiper = this;
+    var params = swiper.params;
+    var el = swiper.el;
+    var allowSlideNext = swiper.allowSlideNext;
+    var allowSlidePrev = swiper.allowSlidePrev;
+
+    if (el && el.offsetWidth === 0) {
+      return;
+    } // Breakpoints
+
+
+    if (params.breakpoints) {
+      swiper.setBreakpoint();
+    } // Disable locks on resize
+
+
+    swiper.allowSlideNext = true;
+    swiper.allowSlidePrev = true;
+    swiper.updateSize();
+    swiper.updateSlides();
+
+    if (params.freeMode) {
+      var newTranslate = Math.min(Math.max(swiper.translate, swiper.maxTranslate()), swiper.minTranslate());
+      swiper.setTranslate(newTranslate);
+      swiper.updateActiveIndex();
+      swiper.updateSlidesClasses();
+
+      if (params.autoHeight) {
+        swiper.updateAutoHeight();
+      }
+    } else {
+      swiper.updateSlidesClasses();
+
+      if ((params.slidesPerView === 'auto' || params.slidesPerView > 1) && swiper.isEnd && !swiper.params.centeredSlides) {
+        swiper.slideTo(swiper.slides.length - 1, 0, false, true);
+      } else {
+        swiper.slideTo(swiper.activeIndex, 0, false, true);
+      }
+    } // Return locks after resize
+
+
+    swiper.allowSlidePrev = allowSlidePrev;
+    swiper.allowSlideNext = allowSlideNext;
+  };
+
+  var onClick = function onClick(e) {
+    var swiper = this;
+
+    if (!swiper.allowClick) {
+      if (swiper.params.preventClicks) {
+        e.preventDefault();
+      }
+
+      if (swiper.params.preventClicksPropagation && swiper.animating) {
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+      }
+    }
+  };
+
+  function attachEvents() {
+    var swiper = this;
+    var params = swiper.params;
+    var touchEvents = swiper.touchEvents;
+    var el = swiper.el;
+    var wrapperEl = swiper.wrapperEl;
+    {
+      swiper.onTouchStart = onTouchStart.bind(swiper);
+      swiper.onTouchMove = onTouchMove.bind(swiper);
+      swiper.onTouchEnd = onTouchEnd.bind(swiper);
+    }
+    swiper.onClick = onClick.bind(swiper);
+    var target = params.touchEventsTarget === 'container' ? el : wrapperEl;
+    var capture = !!params.nested; // Touch Events
+
+    {
+      if (Browser.ie) {
+        target.addEventListener(touchEvents.start, swiper.onTouchStart, false);
+        (Support.touch ? target : doc).addEventListener(touchEvents.move, swiper.onTouchMove, capture);
+        (Support.touch ? target : doc).addEventListener(touchEvents.end, swiper.onTouchEnd, false);
+      } else {
+        if (Support.touch) {
+          var passiveListener = touchEvents.start === 'onTouchStart' && Support.passiveListener && params.passiveListeners ? {
+            passive: true,
+            capture: false
+          } : false;
+          target.addEventListener(touchEvents.start, swiper.onTouchStart, passiveListener);
+          target.addEventListener(touchEvents.move, swiper.onTouchMove, capture);
+          target.addEventListener(touchEvents.end, swiper.onTouchEnd, passiveListener);
+        }
+
+        if (params.simulateTouch && !Device.ios && !Device.android || params.simulateTouch && !Support.touch && Device.ios) {
+          target.addEventListener('mousedown', swiper.onTouchStart, false);
+          doc.addEventListener('mousemove', swiper.onTouchMove, capture);
+          doc.addEventListener('mouseup', swiper.onTouchEnd, false);
+        }
+      } // Prevent Links Clicks
+
+
+      if (params.preventClicks || params.preventClicksPropagation) {
+        target.addEventListener('click', swiper.onClick, true);
+      }
+    } // Resize handler
+
+    swiper.on('resize observerUpdate', onResize);
+  }
+
+  function detachEvents() {
+    var swiper = this;
+    var params = swiper.params;
+    var touchEvents = swiper.touchEvents;
+    var el = swiper.el;
+    var wrapperEl = swiper.wrapperEl;
+    var target = params.touchEventsTarget === 'container' ? el : wrapperEl;
+    var capture = !!params.nested; // Touch Events
+
+    {
+      if (Browser.ie) {
+        target.removeEventListener(touchEvents.start, swiper.onTouchStart, false);
+        (Support.touch ? target : doc).removeEventListener(touchEvents.move, swiper.onTouchMove, capture);
+        (Support.touch ? target : doc).removeEventListener(touchEvents.end, swiper.onTouchEnd, false);
+      } else {
+        if (Support.touch) {
+          var passiveListener = touchEvents.start === 'onTouchStart' && Support.passiveListener && params.passiveListeners ? {
+            passive: true,
+            capture: false
+          } : false;
+          target.removeEventListener(touchEvents.start, swiper.onTouchStart, passiveListener);
+          target.removeEventListener(touchEvents.move, swiper.onTouchMove, capture);
+          target.removeEventListener(touchEvents.end, swiper.onTouchEnd, passiveListener);
+        }
+
+        if (params.simulateTouch && !Device.ios && !Device.android || params.simulateTouch && !Support.touch && Device.ios) {
+          target.removeEventListener('mousedown', swiper.onTouchStart, false);
+          doc.removeEventListener('mousemove', swiper.onTouchMove, capture);
+          doc.removeEventListener('mouseup', swiper.onTouchEnd, false);
+        }
+      } // Prevent Links Clicks
+
+
+      if (params.preventClicks || params.preventClicksPropagation) {
+        target.removeEventListener('click', swiper.onClick, true);
+      }
+    } // Resize handler
+
+    swiper.off('resize observerUpdate', onResize);
+  }
+
+  var events = {
+    attachEvents: attachEvents,
+    detachEvents: detachEvents
+  };
+
+  var setBreakpoint = function setBreakpoint() {
+    var swiper = this;
+    var activeIndex = swiper.activeIndex;
+    var loopedSlides = swiper.loopedSlides;
+    if (loopedSlides === void 0) loopedSlides = 0;
+    var params = swiper.params;
+    var breakpoints = params.breakpoints;
+
+    if (!breakpoints || breakpoints && Object.keys(breakpoints).length === 0) {
+      return;
+    } // Set breakpoint for window width and update parameters
+
+
+    var breakpoint = swiper.getBreakpoint(breakpoints);
+
+    if (breakpoint && swiper.currentBreakpoint !== breakpoint) {
+      var breakPointsParams = breakpoint in breakpoints ? breakpoints[breakpoint] : swiper.originalParams;
+      var needsReLoop = params.loop && breakPointsParams.slidesPerView !== params.slidesPerView;
+      Utils.extend(swiper.params, breakPointsParams);
+      Utils.extend(swiper, {
+        allowTouchMove: swiper.params.allowTouchMove,
+        allowSlideNext: swiper.params.allowSlideNext,
+        allowSlidePrev: swiper.params.allowSlidePrev
+      });
+      swiper.currentBreakpoint = breakpoint;
+
+      if (needsReLoop) {
+        var oldIndex = activeIndex - loopedSlides;
+        swiper.loopDestroy();
+        swiper.loopCreate();
+        swiper.updateSlides();
+        swiper.slideTo(oldIndex + loopedSlides, 0, false);
+      }
+    }
+  };
+
+  var getBreakpoint = function getBreakpoint(breakpoints) {
+    // Get breakpoint for window width
+    if (!breakpoints) {
+      return undefined;
+    }
+
+    var breakpoint = false;
+    var points = [];
+    Object.keys(breakpoints).forEach(function (point) {
+      points.push(point);
+    });
+    points.sort(function (a, b) {
+      return parseInt(a, 10) > parseInt(b, 10);
+    });
+
+    for (var i = 0; i < points.length; i += 1) {
+      var point = points[i];
+
+      if (point >= win.innerWidth && !breakpoint) {
+        breakpoint = point;
+      }
+    }
+
+    return breakpoint || 'max';
+  };
+
+  var breakpoints = {
+    setBreakpoint: setBreakpoint,
+    getBreakpoint: getBreakpoint
+  };
+
+  var addClasses = function addClasses() {
+    var swiper = this;
+    var classNames = swiper.classNames;
+    var params = swiper.params;
+    var rtl = swiper.rtl;
+    var $el = swiper.$el;
+    var suffixes = [];
+    suffixes.push(params.direction);
+
+    if (params.freeMode) {
+      suffixes.push('free-mode');
+    }
+
+    if (!Support.flexbox) {
+      suffixes.push('no-flexbox');
+    }
+
+    if (params.autoHeight) {
+      suffixes.push('autoheight');
+    }
+
+    if (rtl) {
+      suffixes.push('rtl');
+    }
+
+    if (params.slidesPerColumn > 1) {
+      suffixes.push('multirow');
+    }
+
+    if (Device.android) {
+      suffixes.push('android');
+    }
+
+    if (Device.ios) {
+      suffixes.push('ios');
+    } // WP8 Touch Events Fix
+
+
+    if (win.navigator.pointerEnabled || win.navigator.msPointerEnabled) {
+      suffixes.push("wp8-" + params.direction);
+    }
+
+    suffixes.forEach(function (suffix) {
+      classNames.push(params.containerModifierClass + suffix);
+    });
+    $el.addClass(classNames.join(' '));
+  };
+
+  var removeClasses = function removeClasses() {
+    var swiper = this;
+    var $el = swiper.$el;
+    var classNames = swiper.classNames;
+    $el.removeClass(classNames.join(' '));
+  };
+
+  var classes = {
+    addClasses: addClasses,
+    removeClasses: removeClasses
+  };
+
+  var loadImage = function loadImage(imageEl, src, srcset, sizes, checkForComplete, callback) {
+    var image;
+
+    function onReady() {
+      if (callback) {
+        callback();
+      }
+    }
+
+    if (!imageEl.complete || !checkForComplete) {
+      if (src) {
+        image = new win.Image();
+        image.onload = onReady;
+        image.onerror = onReady;
+
+        if (sizes) {
+          image.sizes = sizes;
+        }
+
+        if (srcset) {
+          image.srcset = srcset;
+        }
+
+        if (src) {
+          image.src = src;
+        }
+      } else {
+        onReady();
+      }
+    } else {
+      // image already loaded...
+      onReady();
+    }
+  };
+
+  var preloadImages = function preloadImages() {
+    var swiper = this;
+    swiper.imagesToLoad = swiper.$el.find('img');
+
+    function onReady() {
+      if (typeof swiper === 'undefined' || swiper === null || !swiper || swiper.destroyed) {
+        return;
+      }
+
+      if (swiper.imagesLoaded !== undefined) {
+        swiper.imagesLoaded += 1;
+      }
+
+      if (swiper.imagesLoaded === swiper.imagesToLoad.length) {
+        if (swiper.params.updateOnImagesReady) {
+          swiper.update();
+        }
+
+        swiper.emit('imagesReady');
+      }
+    }
+
+    for (var i = 0; i < swiper.imagesToLoad.length; i += 1) {
+      var imageEl = swiper.imagesToLoad[i];
+      swiper.loadImage(imageEl, imageEl.currentSrc || imageEl.getAttribute('src'), imageEl.srcset || imageEl.getAttribute('srcset'), imageEl.sizes || imageEl.getAttribute('sizes'), true, onReady);
+    }
+  };
+
+  var images = {
+    loadImage: loadImage,
+    preloadImages: preloadImages
+  };
+  var defaults = {
+    init: true,
+    direction: 'horizontal',
+    touchEventsTarget: 'container',
+    initialSlide: 0,
+    speed: 300,
+    // To support iOS's swipe-to-go-back gesture (when being used in-app, with UIWebView).
+    iOSEdgeSwipeDetection: false,
+    iOSEdgeSwipeThreshold: 20,
+    // Free mode
+    freeMode: false,
+    freeModeMomentum: true,
+    freeModeMomentumRatio: 1,
+    freeModeMomentumBounce: true,
+    freeModeMomentumBounceRatio: 1,
+    freeModeMomentumVelocityRatio: 1,
+    freeModeSticky: false,
+    freeModeMinimumVelocity: 0.02,
+    // Autoheight
+    autoHeight: false,
+    // Set wrapper width
+    setWrapperSize: false,
+    // Virtual Translate
+    virtualTranslate: false,
+    // Effects
+    effect: 'slide',
+    // 'slide' or 'fade' or 'cube' or 'coverflow' or 'flip'
+    // Breakpoints
+    breakpoints: undefined,
+    // Slides grid
+    spaceBetween: 0,
+    slidesPerView: 1,
+    slidesPerColumn: 1,
+    slidesPerColumnFill: 'column',
+    slidesPerGroup: 1,
+    centeredSlides: false,
+    slidesOffsetBefore: 0,
+    // in px
+    slidesOffsetAfter: 0,
+    // in px
+    normalizeSlideIndex: true,
+    // Round length
+    roundLengths: false,
+    // Touches
+    touchRatio: 1,
+    touchAngle: 45,
+    simulateTouch: true,
+    shortSwipes: true,
+    longSwipes: true,
+    longSwipesRatio: 0.5,
+    longSwipesMs: 300,
+    followFinger: true,
+    allowTouchMove: true,
+    threshold: 0,
+    touchMoveStopPropagation: true,
+    touchReleaseOnEdges: false,
+    // Unique Navigation Elements
+    uniqueNavElements: true,
+    // Resistance
+    resistance: true,
+    resistanceRatio: 0.85,
+    // Progress
+    watchSlidesProgress: false,
+    watchSlidesVisibility: false,
+    // Cursor
+    grabCursor: false,
+    // Clicks
+    preventClicks: true,
+    preventClicksPropagation: true,
+    slideToClickedSlide: false,
+    // Images
+    preloadImages: true,
+    updateOnImagesReady: true,
+    // loop
+    loop: false,
+    loopAdditionalSlides: 0,
+    loopedSlides: null,
+    loopFillGroupWithBlank: false,
+    // Swiping/no swiping
+    allowSlidePrev: true,
+    allowSlideNext: true,
+    swipeHandler: null,
+    // '.swipe-handler',
+    noSwiping: true,
+    noSwipingClass: 'swiper-no-swiping',
+    // Passive Listeners
+    passiveListeners: true,
+    // NS
+    containerModifierClass: 'swiper-container-',
+    // NEW
+    slideClass: 'swiper-slide',
+    slideBlankClass: 'swiper-slide-invisible-blank',
+    slideActiveClass: 'swiper-slide-active',
+    slideDuplicateActiveClass: 'swiper-slide-duplicate-active',
+    slideVisibleClass: 'swiper-slide-visible',
+    slideDuplicateClass: 'swiper-slide-duplicate',
+    slideNextClass: 'swiper-slide-next',
+    slideDuplicateNextClass: 'swiper-slide-duplicate-next',
+    slidePrevClass: 'swiper-slide-prev',
+    slideDuplicatePrevClass: 'swiper-slide-duplicate-prev',
+    wrapperClass: 'swiper-wrapper',
+    // Callbacks
+    runCallbacksOnInit: true
+  };
+  var prototypes = {
+    update: update,
+    translate: translate,
+    transition: transition$1,
+    slide: slide,
+    loop: loop,
+    grabCursor: grabCursor,
+    manipulation: manipulation,
+    events: events,
+    breakpoints: breakpoints,
+    classes: classes,
+    images: images
+  };
+  var extendedDefaults = {};
+
+  var Swiper$1 = function (SwiperClass$$1) {
+    function Swiper() {
+      var args = [],
+          len = arguments.length;
+
+      while (len--) {
+        args[len] = arguments[len];
+      }
+
+      var el;
+      var params;
+
+      if (args.length === 1 && args[0].constructor && args[0].constructor === Object) {
+        params = args[0];
+      } else {
+        var assign;
+        assign = args, el = assign[0], params = assign[1];
+      }
+
+      if (!params) {
+        params = {};
+      }
+
+      params = Utils.extend({}, params);
+
+      if (el && !params.el) {
+        params.el = el;
+      }
+
+      SwiperClass$$1.call(this, params);
+      Object.keys(prototypes).forEach(function (prototypeGroup) {
+        Object.keys(prototypes[prototypeGroup]).forEach(function (protoMethod) {
+          if (!Swiper.prototype[protoMethod]) {
+            Swiper.prototype[protoMethod] = prototypes[prototypeGroup][protoMethod];
+          }
+        });
+      }); // Swiper Instance
+
+      var swiper = this;
+      Object.keys(swiper.modules).forEach(function (moduleName) {
+        var module = swiper.modules[moduleName];
+
+        if (module.params) {
+          var moduleParamName = Object.keys(module.params)[0];
+          var moduleParams = module.params[moduleParamName];
+
+          if (_typeof(moduleParams) !== 'object') {
+            return;
+          }
+
+          if (!(moduleParamName in params && 'enabled' in moduleParams)) {
+            return;
+          }
+
+          if (params[moduleParamName] === true) {
+            params[moduleParamName] = {
+              enabled: true
+            };
+          }
+
+          if (_typeof(params[moduleParamName]) === 'object' && !('enabled' in params[moduleParamName])) {
+            params[moduleParamName].enabled = true;
+          }
+
+          if (!params[moduleParamName]) {
+            params[moduleParamName] = {
+              enabled: false
+            };
+          }
+        }
+      }); // Extend defaults with modules params
+
+      var swiperParams = Utils.extend({}, defaults);
+      swiper.useModulesParams(swiperParams); // Extend defaults with passed params
+
+      swiper.params = Utils.extend({}, swiperParams, extendedDefaults, params);
+      swiper.originalParams = Utils.extend({}, swiper.params);
+      swiper.passedParams = Utils.extend({}, params); // Find el
+
+      var $el = $$1(swiper.params.el);
+      el = $el[0];
+
+      if (!el) {
+        return undefined;
+      }
+
+      if ($el.length > 1) {
+        var swipers = [];
+        $el.each(function (index, containerEl) {
+          var newParams = Utils.extend({}, params, {
+            el: containerEl
+          });
+          swipers.push(new Swiper(newParams));
+        });
+        return swipers;
+      }
+
+      el.swiper = swiper;
+      $el.data('swiper', swiper); // Find Wrapper
+
+      var $wrapperEl = $el.children("." + swiper.params.wrapperClass); // Extend Swiper
+
+      Utils.extend(swiper, {
+        $el: $el,
+        el: el,
+        $wrapperEl: $wrapperEl,
+        wrapperEl: $wrapperEl[0],
+        // Classes
+        classNames: [],
+        // Slides
+        slides: $$1(),
+        slidesGrid: [],
+        snapGrid: [],
+        slidesSizesGrid: [],
+        // isDirection
+        isHorizontal: function isHorizontal() {
+          return swiper.params.direction === 'horizontal';
+        },
+        isVertical: function isVertical() {
+          return swiper.params.direction === 'vertical';
+        },
+        // RTL
+        rtl: swiper.params.direction === 'horizontal' && (el.dir.toLowerCase() === 'rtl' || $el.css('direction') === 'rtl'),
+        wrongRTL: $wrapperEl.css('display') === '-webkit-box',
+        // Indexes
+        activeIndex: 0,
+        realIndex: 0,
+        //
+        isBeginning: true,
+        isEnd: false,
+        // Props
+        translate: 0,
+        progress: 0,
+        velocity: 0,
+        animating: false,
+        // Locks
+        allowSlideNext: swiper.params.allowSlideNext,
+        allowSlidePrev: swiper.params.allowSlidePrev,
+        // Touch Events
+        touchEvents: function touchEvents() {
+          var touch = ['touchstart', 'touchmove', 'touchend'];
+          var desktop = ['mousedown', 'mousemove', 'mouseup'];
+
+          if (win.navigator.pointerEnabled) {
+            desktop = ['pointerdown', 'pointermove', 'pointerup'];
+          } else if (win.navigator.msPointerEnabled) {
+            desktop = ['MSPointerDown', 'MsPointerMove', 'MsPointerUp'];
+          }
+
+          return {
+            start: Support.touch || !swiper.params.simulateTouch ? touch[0] : desktop[0],
+            move: Support.touch || !swiper.params.simulateTouch ? touch[1] : desktop[1],
+            end: Support.touch || !swiper.params.simulateTouch ? touch[2] : desktop[2]
+          };
+        }(),
+        touchEventsData: {
+          isTouched: undefined,
+          isMoved: undefined,
+          allowTouchCallbacks: undefined,
+          touchStartTime: undefined,
+          isScrolling: undefined,
+          currentTranslate: undefined,
+          startTranslate: undefined,
+          allowThresholdMove: undefined,
+          // Form elements to match
+          formElements: 'input, select, option, textarea, button, video',
+          // Last click time
+          lastClickTime: Utils.now(),
+          clickTimeout: undefined,
+          // Velocities
+          velocities: [],
+          allowMomentumBounce: undefined,
+          isTouchEvent: undefined,
+          startMoving: undefined
+        },
+        // Clicks
+        allowClick: true,
+        // Touches
+        allowTouchMove: swiper.params.allowTouchMove,
+        touches: {
+          startX: 0,
+          startY: 0,
+          currentX: 0,
+          currentY: 0,
+          diff: 0
+        },
+        // Images
+        imagesToLoad: [],
+        imagesLoaded: 0
+      }); // Install Modules
+
+      swiper.useModules(); // Init
+
+      if (swiper.params.init) {
+        swiper.init();
+      } // Return app instance
+
+
+      return swiper;
+    }
+
+    if (SwiperClass$$1) Swiper.__proto__ = SwiperClass$$1;
+    Swiper.prototype = Object.create(SwiperClass$$1 && SwiperClass$$1.prototype);
+    Swiper.prototype.constructor = Swiper;
+    var staticAccessors = {
+      extendedDefaults: {},
+      defaults: {},
+      Class: {},
+      $: {}
+    };
+
+    Swiper.prototype.slidesPerViewDynamic = function slidesPerViewDynamic() {
+      var swiper = this;
+      var params = swiper.params;
+      var slides = swiper.slides;
+      var slidesGrid = swiper.slidesGrid;
+      var swiperSize = swiper.size;
+      var activeIndex = swiper.activeIndex;
+      var spv = 1;
+
+      if (params.centeredSlides) {
+        var slideSize = slides[activeIndex].swiperSlideSize;
+        var breakLoop;
+
+        for (var i = activeIndex + 1; i < slides.length; i += 1) {
+          if (slides[i] && !breakLoop) {
+            slideSize += slides[i].swiperSlideSize;
+            spv += 1;
+
+            if (slideSize > swiperSize) {
+              breakLoop = true;
+            }
+          }
+        }
+
+        for (var i$1 = activeIndex - 1; i$1 >= 0; i$1 -= 1) {
+          if (slides[i$1] && !breakLoop) {
+            slideSize += slides[i$1].swiperSlideSize;
+            spv += 1;
+
+            if (slideSize > swiperSize) {
+              breakLoop = true;
+            }
+          }
+        }
+      } else {
+        for (var i$2 = activeIndex + 1; i$2 < slides.length; i$2 += 1) {
+          if (slidesGrid[i$2] - slidesGrid[activeIndex] < swiperSize) {
+            spv += 1;
+          }
+        }
+      }
+
+      return spv;
+    };
+
+    Swiper.prototype.update = function update$$1() {
+      var swiper = this;
+
+      if (!swiper || swiper.destroyed) {
+        return;
+      }
+
+      swiper.updateSize();
+      swiper.updateSlides();
+      swiper.updateProgress();
+      swiper.updateSlidesClasses();
+      var newTranslate;
+
+      function setTranslate() {
+        newTranslate = Math.min(Math.max(swiper.translate, swiper.maxTranslate()), swiper.minTranslate());
+        swiper.setTranslate(newTranslate);
+        swiper.updateActiveIndex();
+        swiper.updateSlidesClasses();
+      }
+
+      var translated;
+
+      if (swiper.params.freeMode) {
+        setTranslate();
+
+        if (swiper.params.autoHeight) {
+          swiper.updateAutoHeight();
+        }
+      } else {
+        if ((swiper.params.slidesPerView === 'auto' || swiper.params.slidesPerView > 1) && swiper.isEnd && !swiper.params.centeredSlides) {
+          translated = swiper.slideTo(swiper.slides.length - 1, 0, false, true);
+        } else {
+          translated = swiper.slideTo(swiper.activeIndex, 0, false, true);
+        }
+
+        if (!translated) {
+          setTranslate();
+        }
+      }
+
+      swiper.emit('update');
+    };
+
+    Swiper.prototype.init = function init() {
+      var swiper = this;
+
+      if (swiper.initialized) {
+        return;
+      }
+
+      swiper.emit('beforeInit'); // Set breakpoint
+
+      if (swiper.params.breakpoints) {
+        swiper.setBreakpoint();
+      } // Add Classes
+
+
+      swiper.addClasses(); // Create loop
+
+      if (swiper.params.loop) {
+        swiper.loopCreate();
+      } // Update size
+
+
+      swiper.updateSize(); // Update slides
+
+      swiper.updateSlides(); // Set Grab Cursor
+
+      if (swiper.params.grabCursor) {
+        swiper.setGrabCursor();
+      }
+
+      if (swiper.params.preloadImages) {
+        swiper.preloadImages();
+      } // Slide To Initial Slide
+
+
+      if (swiper.params.loop) {
+        swiper.slideTo(swiper.params.initialSlide + swiper.loopedSlides, 0, swiper.params.runCallbacksOnInit);
+      } else {
+        swiper.slideTo(swiper.params.initialSlide, 0, swiper.params.runCallbacksOnInit);
+      } // Attach events
+
+
+      swiper.attachEvents(); // Init Flag
+
+      swiper.initialized = true; // Emit
+
+      swiper.emit('init');
+    };
+
+    Swiper.prototype.destroy = function destroy(deleteInstance, cleanStyles) {
+      if (deleteInstance === void 0) deleteInstance = true;
+      if (cleanStyles === void 0) cleanStyles = true;
+      var swiper = this;
+      var params = swiper.params;
+      var $el = swiper.$el;
+      var $wrapperEl = swiper.$wrapperEl;
+      var slides = swiper.slides;
+      swiper.emit('beforeDestroy'); // Init Flag
+
+      swiper.initialized = false; // Detach events
+
+      swiper.detachEvents(); // Destroy loop
+
+      if (params.loop) {
+        swiper.loopDestroy();
+      } // Cleanup styles
+
+
+      if (cleanStyles) {
+        swiper.removeClasses();
+        $el.removeAttr('style');
+        $wrapperEl.removeAttr('style');
+
+        if (slides && slides.length) {
+          slides.removeClass([params.slideVisibleClass, params.slideActiveClass, params.slideNextClass, params.slidePrevClass].join(' ')).removeAttr('style').removeAttr('data-swiper-slide-index').removeAttr('data-swiper-column').removeAttr('data-swiper-row');
+        }
+      }
+
+      swiper.emit('destroy'); // Detach emitter events
+
+      Object.keys(swiper.eventsListeners).forEach(function (eventName) {
+        swiper.off(eventName);
+      });
+
+      if (deleteInstance !== false) {
+        swiper.$el[0].swiper = null;
+        swiper.$el.data('swiper', null);
+        Utils.deleteProps(swiper);
+      }
+
+      swiper.destroyed = true;
+    };
+
+    Swiper.extendDefaults = function extendDefaults(newDefaults) {
+      Utils.extend(extendedDefaults, newDefaults);
+    };
+
+    staticAccessors.extendedDefaults.get = function () {
+      return extendedDefaults;
+    };
+
+    staticAccessors.defaults.get = function () {
+      return defaults;
+    };
+
+    staticAccessors.Class.get = function () {
+      return SwiperClass$$1;
+    };
+
+    staticAccessors.$.get = function () {
+      return $$1;
+    };
+
+    Object.defineProperties(Swiper, staticAccessors);
+    return Swiper;
+  }(SwiperClass);
+
+  var Device$2 = {
+    name: 'device',
+    proto: {
+      device: Device
+    },
+    "static": {
+      device: Device
+    }
+  };
+  var Support$2 = {
+    name: 'support',
+    proto: {
+      support: Support
+    },
+    "static": {
+      support: Support
+    }
+  };
+  var Browser$2 = {
+    name: 'browser',
+    proto: {
+      browser: Browser
+    },
+    "static": {
+      browser: Browser
+    }
+  };
+  var Resize = {
+    name: 'resize',
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        resize: {
+          resizeHandler: function resizeHandler() {
+            if (!swiper || swiper.destroyed || !swiper.initialized) {
+              return;
+            }
+
+            swiper.emit('beforeResize');
+            swiper.emit('resize');
+          },
+          orientationChangeHandler: function orientationChangeHandler() {
+            if (!swiper || swiper.destroyed || !swiper.initialized) {
+              return;
+            }
+
+            swiper.emit('orientationchange');
+          }
+        }
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this; // Emit resize
+
+        win.addEventListener('resize', swiper.resize.resizeHandler); // Emit orientationchange
+
+        win.addEventListener('orientationchange', swiper.resize.orientationChangeHandler);
+      },
+      destroy: function destroy() {
+        var swiper = this;
+        win.removeEventListener('resize', swiper.resize.resizeHandler);
+        win.removeEventListener('orientationchange', swiper.resize.orientationChangeHandler);
+      }
+    }
+  };
+  var Observer = {
+    func: win.MutationObserver || win.WebkitMutationObserver,
+    attach: function attach(target, options) {
+      if (options === void 0) options = {};
+      var swiper = this;
+      var ObserverFunc = Observer.func;
+      var observer = new ObserverFunc(function (mutations) {
+        mutations.forEach(function (mutation) {
+          swiper.emit('observerUpdate', mutation);
+        });
+      });
+      observer.observe(target, {
+        attributes: typeof options.attributes === 'undefined' ? true : options.attributes,
+        childList: typeof options.childList === 'undefined' ? true : options.childList,
+        characterData: typeof options.characterData === 'undefined' ? true : options.characterData
+      });
+      swiper.observer.observers.push(observer);
+    },
+    init: function init() {
+      var swiper = this;
+
+      if (!Support.observer || !swiper.params.observer) {
+        return;
+      }
+
+      if (swiper.params.observeParents) {
+        var containerParents = swiper.$el.parents();
+
+        for (var i = 0; i < containerParents.length; i += 1) {
+          swiper.observer.attach(containerParents[i]);
+        }
+      } // Observe container
+
+
+      swiper.observer.attach(swiper.$el[0], {
+        childList: false
+      }); // Observe wrapper
+
+      swiper.observer.attach(swiper.$wrapperEl[0], {
+        attributes: false
+      });
+    },
+    destroy: function destroy() {
+      var swiper = this;
+      swiper.observer.observers.forEach(function (observer) {
+        observer.disconnect();
+      });
+      swiper.observer.observers = [];
+    }
+  };
+  var Observer$1 = {
+    name: 'observer',
+    params: {
+      observer: false,
+      observeParents: false
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        observer: {
+          init: Observer.init.bind(swiper),
+          attach: Observer.attach.bind(swiper),
+          destroy: Observer.destroy.bind(swiper),
+          observers: []
+        }
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+        swiper.observer.init();
+      },
+      destroy: function destroy() {
+        var swiper = this;
+        swiper.observer.destroy();
+      }
+    }
+  };
+  var Virtual = {
+    update: function update(force) {
+      var swiper = this;
+      var ref = swiper.params;
+      var slidesPerView = ref.slidesPerView;
+      var slidesPerGroup = ref.slidesPerGroup;
+      var centeredSlides = ref.centeredSlides;
+      var ref$1 = swiper.virtual;
+      var previousFrom = ref$1.from;
+      var previousTo = ref$1.to;
+      var slides = ref$1.slides;
+      var previousSlidesGrid = ref$1.slidesGrid;
+      var renderSlide = ref$1.renderSlide;
+      var previousOffset = ref$1.offset;
+      swiper.updateActiveIndex();
+      var activeIndex = swiper.activeIndex || 0;
+      var offsetProp;
+
+      if (swiper.rtl && swiper.isHorizontal()) {
+        offsetProp = 'right';
+      } else {
+        offsetProp = swiper.isHorizontal() ? 'left' : 'top';
+      }
+
+      var slidesAfter;
+      var slidesBefore;
+
+      if (centeredSlides) {
+        slidesAfter = Math.floor(slidesPerView / 2) + slidesPerGroup;
+        slidesBefore = Math.floor(slidesPerView / 2) + slidesPerGroup;
+      } else {
+        slidesAfter = slidesPerView + (slidesPerGroup - 1);
+        slidesBefore = slidesPerGroup;
+      }
+
+      var from = Math.max((activeIndex || 0) - slidesBefore, 0);
+      var to = Math.min((activeIndex || 0) + slidesAfter, slides.length - 1);
+      var offset = (swiper.slidesGrid[from] || 0) - (swiper.slidesGrid[0] || 0);
+      Utils.extend(swiper.virtual, {
+        from: from,
+        to: to,
+        offset: offset,
+        slidesGrid: swiper.slidesGrid
+      });
+
+      function onRendered() {
+        swiper.updateSlides();
+        swiper.updateProgress();
+        swiper.updateSlidesClasses();
+
+        if (swiper.lazy && swiper.params.lazy.enabled) {
+          swiper.lazy.load();
+        }
+      }
+
+      if (previousFrom === from && previousTo === to && !force) {
+        if (swiper.slidesGrid !== previousSlidesGrid && offset !== previousOffset) {
+          swiper.slides.css(offsetProp, offset + "px");
+        }
+
+        swiper.updateProgress();
+        return;
+      }
+
+      if (swiper.params.virtual.renderExternal) {
+        swiper.params.virtual.renderExternal.call(swiper, {
+          offset: offset,
+          from: from,
+          to: to,
+          slides: function getSlides() {
+            var slidesToRender = [];
+
+            for (var i = from; i <= to; i += 1) {
+              slidesToRender.push(slides[i]);
+            }
+
+            return slidesToRender;
+          }()
+        });
+        onRendered();
+        return;
+      }
+
+      var prependIndexes = [];
+      var appendIndexes = [];
+
+      if (force) {
+        swiper.$wrapperEl.find("." + swiper.params.slideClass).remove();
+      } else {
+        for (var i = previousFrom; i <= previousTo; i += 1) {
+          if (i < from || i > to) {
+            swiper.$wrapperEl.find("." + swiper.params.slideClass + "[data-swiper-slide-index=\"" + i + "\"]").remove();
+          }
+        }
+      }
+
+      for (var i$1 = 0; i$1 < slides.length; i$1 += 1) {
+        if (i$1 >= from && i$1 <= to) {
+          if (typeof previousTo === 'undefined' || force) {
+            appendIndexes.push(i$1);
+          } else {
+            if (i$1 > previousTo) {
+              appendIndexes.push(i$1);
+            }
+
+            if (i$1 < previousFrom) {
+              prependIndexes.push(i$1);
+            }
+          }
+        }
+      }
+
+      appendIndexes.forEach(function (index) {
+        swiper.$wrapperEl.append(renderSlide(slides[index], index));
+      });
+      prependIndexes.sort(function (a, b) {
+        return a < b;
+      }).forEach(function (index) {
+        swiper.$wrapperEl.prepend(renderSlide(slides[index], index));
+      });
+      swiper.$wrapperEl.children('.swiper-slide').css(offsetProp, offset + "px");
+      onRendered();
+    },
+    renderSlide: function renderSlide(slide, index) {
+      var swiper = this;
+      var params = swiper.params.virtual;
+
+      if (params.cache && swiper.virtual.cache[index]) {
+        return swiper.virtual.cache[index];
+      }
+
+      var $slideEl = params.renderSlide ? $$1(params.renderSlide.call(swiper, slide, index)) : $$1("<div class=\"" + swiper.params.slideClass + "\" data-swiper-slide-index=\"" + index + "\">" + slide + "</div>");
+
+      if (!$slideEl.attr('data-swiper-slide-index')) {
+        $slideEl.attr('data-swiper-slide-index', index);
+      }
+
+      if (params.cache) {
+        swiper.virtual.cache[index] = $slideEl;
+      }
+
+      return $slideEl;
+    },
+    appendSlide: function appendSlide(slide) {
+      var swiper = this;
+      swiper.virtual.slides.push(slide);
+      swiper.virtual.update(true);
+    },
+    prependSlide: function prependSlide(slide) {
+      var swiper = this;
+      swiper.virtual.slides.unshift(slide);
+
+      if (swiper.params.virtual.cache) {
+        var cache = swiper.virtual.cache;
+        var newCache = {};
+        Object.keys(cache).forEach(function (cachedIndex) {
+          newCache[cachedIndex + 1] = cache[cachedIndex];
+        });
+        swiper.virtual.cache = newCache;
+      }
+
+      swiper.virtual.update(true);
+      swiper.slideNext(0);
+    }
+  };
+  var Virtual$1 = {
+    name: 'virtual',
+    params: {
+      virtual: {
+        enabled: false,
+        slides: [],
+        cache: true,
+        renderSlide: null,
+        renderExternal: null
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        virtual: {
+          update: Virtual.update.bind(swiper),
+          appendSlide: Virtual.appendSlide.bind(swiper),
+          prependSlide: Virtual.prependSlide.bind(swiper),
+          renderSlide: Virtual.renderSlide.bind(swiper),
+          slides: swiper.params.virtual.slides,
+          cache: {}
+        }
+      });
+    },
+    on: {
+      beforeInit: function beforeInit() {
+        var swiper = this;
+
+        if (!swiper.params.virtual.enabled) {
+          return;
+        }
+
+        swiper.classNames.push(swiper.params.containerModifierClass + "virtual");
+        var overwriteParams = {
+          watchSlidesProgress: true
+        };
+        Utils.extend(swiper.params, overwriteParams);
+        Utils.extend(swiper.originalParams, overwriteParams);
+        swiper.virtual.update();
+      },
+      setTranslate: function setTranslate() {
+        var swiper = this;
+
+        if (!swiper.params.virtual.enabled) {
+          return;
+        }
+
+        swiper.virtual.update();
+      }
+    }
+  };
+  var Keyboard = {
+    handle: function handle(event) {
+      var swiper = this;
+      var e = event;
+
+      if (e.originalEvent) {
+        e = e.originalEvent;
+      } // jquery fix
+
+
+      var kc = e.keyCode || e.charCode; // Directions locks
+
+      if (!swiper.allowSlideNext && (swiper.isHorizontal() && kc === 39 || swiper.isVertical() && kc === 40)) {
+        return false;
+      }
+
+      if (!swiper.allowSlidePrev && (swiper.isHorizontal() && kc === 37 || swiper.isVertical() && kc === 38)) {
+        return false;
+      }
+
+      if (e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) {
+        return undefined;
+      }
+
+      if (doc.activeElement && doc.activeElement.nodeName && (doc.activeElement.nodeName.toLowerCase() === 'input' || doc.activeElement.nodeName.toLowerCase() === 'textarea')) {
+        return undefined;
+      }
+
+      if (kc === 37 || kc === 39 || kc === 38 || kc === 40) {
+        var inView = false; // Check that swiper should be inside of visible area of window
+
+        if (swiper.$el.parents("." + swiper.params.slideClass).length > 0 && swiper.$el.parents("." + swiper.params.slideActiveClass).length === 0) {
+          return undefined;
+        }
+
+        var windowScroll = {
+          left: win.pageXOffset,
+          top: win.pageYOffset
+        };
+        var windowWidth = win.innerWidth;
+        var windowHeight = win.innerHeight;
+        var swiperOffset = swiper.$el.offset();
+
+        if (swiper.rtl) {
+          swiperOffset.left -= swiper.$el[0].scrollLeft;
+        }
+
+        var swiperCoord = [[swiperOffset.left, swiperOffset.top], [swiperOffset.left + swiper.width, swiperOffset.top], [swiperOffset.left, swiperOffset.top + swiper.height], [swiperOffset.left + swiper.width, swiperOffset.top + swiper.height]];
+
+        for (var i = 0; i < swiperCoord.length; i += 1) {
+          var point = swiperCoord[i];
+
+          if (point[0] >= windowScroll.left && point[0] <= windowScroll.left + windowWidth && point[1] >= windowScroll.top && point[1] <= windowScroll.top + windowHeight) {
+            inView = true;
+          }
+        }
+
+        if (!inView) {
+          return undefined;
+        }
+      }
+
+      if (swiper.isHorizontal()) {
+        if (kc === 37 || kc === 39) {
+          if (e.preventDefault) {
+            e.preventDefault();
+          } else {
+            e.returnValue = false;
+          }
+        }
+
+        if (kc === 39 && !swiper.rtl || kc === 37 && swiper.rtl) {
+          swiper.slideNext();
+        }
+
+        if (kc === 37 && !swiper.rtl || kc === 39 && swiper.rtl) {
+          swiper.slidePrev();
+        }
+      } else {
+        if (kc === 38 || kc === 40) {
+          if (e.preventDefault) {
+            e.preventDefault();
+          } else {
+            e.returnValue = false;
+          }
+        }
+
+        if (kc === 40) {
+          swiper.slideNext();
+        }
+
+        if (kc === 38) {
+          swiper.slidePrev();
+        }
+      }
+
+      swiper.emit('keyPress', kc);
+      return undefined;
+    },
+    enable: function enable() {
+      var swiper = this;
+
+      if (swiper.keyboard.enabled) {
+        return;
+      }
+
+      $$1(doc).on('keydown', swiper.keyboard.handle);
+      swiper.keyboard.enabled = true;
+    },
+    disable: function disable() {
+      var swiper = this;
+
+      if (!swiper.keyboard.enabled) {
+        return;
+      }
+
+      $$1(doc).off('keydown', swiper.keyboard.handle);
+      swiper.keyboard.enabled = false;
+    }
+  };
+  var Keyboard$1 = {
+    name: 'keyboard',
+    params: {
+      keyboard: {
+        enabled: false
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        keyboard: {
+          enabled: false,
+          enable: Keyboard.enable.bind(swiper),
+          disable: Keyboard.disable.bind(swiper),
+          handle: Keyboard.handle.bind(swiper)
+        }
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+
+        if (swiper.params.keyboard.enabled) {
+          swiper.keyboard.enable();
+        }
+      },
+      destroy: function destroy() {
+        var swiper = this;
+
+        if (swiper.keyboard.enabled) {
+          swiper.keyboard.disable();
+        }
+      }
+    }
+  };
+
+  function isEventSupported() {
+    var eventName = 'onwheel';
+    var isSupported = eventName in doc;
+
+    if (!isSupported) {
+      var element = doc.createElement('div');
+      element.setAttribute(eventName, 'return;');
+      isSupported = typeof element[eventName] === 'function';
+    }
+
+    if (!isSupported && doc.implementation && doc.implementation.hasFeature && // always returns true in newer browsers as per the standard.
+    // @see http://dom.spec.whatwg.org/#dom-domimplementation-hasfeature
+    doc.implementation.hasFeature('', '') !== true) {
+      // This is the only way to test support for the `wheel` event in IE9+.
+      isSupported = doc.implementation.hasFeature('Events.wheel', '3.0');
+    }
+
+    return isSupported;
+  }
+
+  var Mousewheel = {
+    lastScrollTime: Utils.now(),
+    event: function getEvent() {
+      if (win.navigator.userAgent.indexOf('firefox') > -1) {
+        return 'DOMMouseScroll';
+      }
+
+      return isEventSupported() ? 'wheel' : 'mousewheel';
+    }(),
+    normalize: function normalize(e) {
+      // Reasonable defaults
+      var PIXEL_STEP = 10;
+      var LINE_HEIGHT = 40;
+      var PAGE_HEIGHT = 800;
+      var sX = 0;
+      var sY = 0; // spinX, spinY
+
+      var pX = 0;
+      var pY = 0; // pixelX, pixelY
+      // Legacy
+
+      if ('detail' in e) {
+        sY = e.detail;
+      }
+
+      if ('wheelDelta' in e) {
+        sY = -e.wheelDelta / 120;
+      }
+
+      if ('wheelDeltaY' in e) {
+        sY = -e.wheelDeltaY / 120;
+      }
+
+      if ('wheelDeltaX' in e) {
+        sX = -e.wheelDeltaX / 120;
+      } // side scrolling on FF with DOMMouseScroll
+
+
+      if ('axis' in e && e.axis === e.HORIZONTAL_AXIS) {
+        sX = sY;
+        sY = 0;
+      }
+
+      pX = sX * PIXEL_STEP;
+      pY = sY * PIXEL_STEP;
+
+      if ('deltaY' in e) {
+        pY = e.deltaY;
+      }
+
+      if ('deltaX' in e) {
+        pX = e.deltaX;
+      }
+
+      if ((pX || pY) && e.deltaMode) {
+        if (e.deltaMode === 1) {
+          // delta in LINE units
+          pX *= LINE_HEIGHT;
+          pY *= LINE_HEIGHT;
+        } else {
+          // delta in PAGE units
+          pX *= PAGE_HEIGHT;
+          pY *= PAGE_HEIGHT;
+        }
+      } // Fall-back if spin cannot be determined
+
+
+      if (pX && !sX) {
+        sX = pX < 1 ? -1 : 1;
+      }
+
+      if (pY && !sY) {
+        sY = pY < 1 ? -1 : 1;
+      }
+
+      return {
+        spinX: sX,
+        spinY: sY,
+        pixelX: pX,
+        pixelY: pY
+      };
+    },
+    handle: function handle(event) {
+      var e = event;
+      var swiper = this;
+      var params = swiper.params.mousewheel;
+
+      if (e.originalEvent) {
+        e = e.originalEvent;
+      } // jquery fix
+
+
+      var delta = 0;
+      var rtlFactor = swiper.rtl ? -1 : 1;
+      var data = Mousewheel.normalize(e);
+
+      if (params.forceToAxis) {
+        if (swiper.isHorizontal()) {
+          if (Math.abs(data.pixelX) > Math.abs(data.pixelY)) {
+            delta = data.pixelX * rtlFactor;
+          } else {
+            return true;
+          }
+        } else if (Math.abs(data.pixelY) > Math.abs(data.pixelX)) {
+          delta = data.pixelY;
+        } else {
+          return true;
+        }
+      } else {
+        delta = Math.abs(data.pixelX) > Math.abs(data.pixelY) ? -data.pixelX * rtlFactor : -data.pixelY;
+      }
+
+      if (delta === 0) {
+        return true;
+      }
+
+      if (params.invert) {
+        delta = -delta;
+      }
+
+      if (!swiper.params.freeMode) {
+        if (Utils.now() - swiper.mousewheel.lastScrollTime > 60) {
+          if (delta < 0) {
+            if ((!swiper.isEnd || swiper.params.loop) && !swiper.animating) {
+              swiper.slideNext();
+              swiper.emit('scroll', e);
+            } else if (params.releaseOnEdges) {
+              return true;
+            }
+          } else if ((!swiper.isBeginning || swiper.params.loop) && !swiper.animating) {
+            swiper.slidePrev();
+            swiper.emit('scroll', e);
+          } else if (params.releaseOnEdges) {
+            return true;
+          }
+        }
+
+        swiper.mousewheel.lastScrollTime = new win.Date().getTime();
+      } else {
+        // Freemode or scrollContainer:
+        var position = swiper.getTranslate() + delta * params.sensitivity;
+        var wasBeginning = swiper.isBeginning;
+        var wasEnd = swiper.isEnd;
+
+        if (position >= swiper.minTranslate()) {
+          position = swiper.minTranslate();
+        }
+
+        if (position <= swiper.maxTranslate()) {
+          position = swiper.maxTranslate();
+        }
+
+        swiper.setTransition(0);
+        swiper.setTranslate(position);
+        swiper.updateProgress();
+        swiper.updateActiveIndex();
+        swiper.updateSlidesClasses();
+
+        if (!wasBeginning && swiper.isBeginning || !wasEnd && swiper.isEnd) {
+          swiper.updateSlidesClasses();
+        }
+
+        if (swiper.params.freeModeSticky) {
+          clearTimeout(swiper.mousewheel.timeout);
+          swiper.mousewheel.timeout = Utils.nextTick(function () {
+            swiper.slideReset();
+          }, 300);
+        } // Emit event
+
+
+        swiper.emit('scroll', e); // Stop autoplay
+
+        if (swiper.params.autoplay && swiper.params.autoplayDisableOnInteraction) {
+          swiper.stopAutoplay();
+        } // Return page scroll on edge positions
+
+
+        if (position === 0 || position === swiper.maxTranslate()) {
+          return true;
+        }
+      }
+
+      if (e.preventDefault) {
+        e.preventDefault();
+      } else {
+        e.returnValue = false;
+      }
+
+      return false;
+    },
+    enable: function enable() {
+      var swiper = this;
+
+      if (!Mousewheel.event) {
+        return false;
+      }
+
+      if (swiper.mousewheel.enabled) {
+        return false;
+      }
+
+      var target = swiper.$el;
+
+      if (swiper.params.mousewheel.eventsTarged !== 'container') {
+        target = $$1(swiper.params.mousewheel.eventsTarged);
+      }
+
+      target.on(Mousewheel.event, swiper.mousewheel.handle);
+      swiper.mousewheel.enabled = true;
+      return true;
+    },
+    disable: function disable() {
+      var swiper = this;
+
+      if (!Mousewheel.event) {
+        return false;
+      }
+
+      if (!swiper.mousewheel.enabled) {
+        return false;
+      }
+
+      var target = swiper.$el;
+
+      if (swiper.params.mousewheel.eventsTarged !== 'container') {
+        target = $$1(swiper.params.mousewheel.eventsTarged);
+      }
+
+      target.off(Mousewheel.event, swiper.mousewheel.handle);
+      swiper.mousewheel.enabled = false;
+      return true;
+    }
+  };
+  var Mousewheel$1 = {
+    name: 'mousewheel',
+    params: {
+      mousewheel: {
+        enabled: false,
+        releaseOnEdges: false,
+        invert: false,
+        forceToAxis: false,
+        sensitivity: 1,
+        eventsTarged: 'container'
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        mousewheel: {
+          enabled: false,
+          enable: Mousewheel.enable.bind(swiper),
+          disable: Mousewheel.disable.bind(swiper),
+          handle: Mousewheel.handle.bind(swiper),
+          lastScrollTime: Utils.now()
+        }
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+
+        if (swiper.params.mousewheel.enabled) {
+          swiper.mousewheel.enable();
+        }
+      },
+      destroy: function destroy() {
+        var swiper = this;
+
+        if (swiper.mousewheel.enabled) {
+          swiper.mousewheel.disable();
+        }
+      }
+    }
+  };
+  var Navigation = {
+    update: function update() {
+      // Update Navigation Buttons
+      var swiper = this;
+      var params = swiper.params.navigation;
+
+      if (swiper.params.loop) {
+        return;
+      }
+
+      var ref = swiper.navigation;
+      var $nextEl = ref.$nextEl;
+      var $prevEl = ref.$prevEl;
+
+      if ($prevEl && $prevEl.length > 0) {
+        if (swiper.isBeginning) {
+          $prevEl.addClass(params.disabledClass);
+        } else {
+          $prevEl.removeClass(params.disabledClass);
+        }
+      }
+
+      if ($nextEl && $nextEl.length > 0) {
+        if (swiper.isEnd) {
+          $nextEl.addClass(params.disabledClass);
+        } else {
+          $nextEl.removeClass(params.disabledClass);
+        }
+      }
+    },
+    init: function init() {
+      var swiper = this;
+      var params = swiper.params.navigation;
+
+      if (!(params.nextEl || params.prevEl)) {
+        return;
+      }
+
+      var $nextEl;
+      var $prevEl;
+
+      if (params.nextEl) {
+        $nextEl = $$1(params.nextEl);
+
+        if (swiper.params.uniqueNavElements && typeof params.nextEl === 'string' && $nextEl.length > 1 && swiper.$el.find(params.nextEl).length === 1) {
+          $nextEl = swiper.$el.find(params.nextEl);
+        }
+      }
+
+      if (params.prevEl) {
+        $prevEl = $$1(params.prevEl);
+
+        if (swiper.params.uniqueNavElements && typeof params.prevEl === 'string' && $prevEl.length > 1 && swiper.$el.find(params.prevEl).length === 1) {
+          $prevEl = swiper.$el.find(params.prevEl);
+        }
+      }
+
+      if ($nextEl && $nextEl.length > 0) {
+        $nextEl.on('click', function (e) {
+          e.preventDefault();
+
+          if (swiper.isEnd && !swiper.params.loop) {
+            return;
+          }
+
+          swiper.slideNext();
+        });
+      }
+
+      if ($prevEl && $prevEl.length > 0) {
+        $prevEl.on('click', function (e) {
+          e.preventDefault();
+
+          if (swiper.isBeginning && !swiper.params.loop) {
+            return;
+          }
+
+          swiper.slidePrev();
+        });
+      }
+
+      Utils.extend(swiper.navigation, {
+        $nextEl: $nextEl,
+        nextEl: $nextEl && $nextEl[0],
+        $prevEl: $prevEl,
+        prevEl: $prevEl && $prevEl[0]
+      });
+    },
+    destroy: function destroy() {
+      var swiper = this;
+      var ref = swiper.navigation;
+      var $nextEl = ref.$nextEl;
+      var $prevEl = ref.$prevEl;
+
+      if ($nextEl && $nextEl.length) {
+        $nextEl.off('click');
+        $nextEl.removeClass(swiper.params.navigation.disabledClass);
+      }
+
+      if ($prevEl && $prevEl.length) {
+        $prevEl.off('click');
+        $prevEl.removeClass(swiper.params.navigation.disabledClass);
+      }
+    }
+  };
+  var Navigation$1 = {
+    name: 'navigation',
+    params: {
+      navigation: {
+        nextEl: null,
+        prevEl: null,
+        hideOnClick: false,
+        disabledClass: 'swiper-button-disabled',
+        hiddenClass: 'swiper-button-hidden'
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        navigation: {
+          init: Navigation.init.bind(swiper),
+          update: Navigation.update.bind(swiper),
+          destroy: Navigation.destroy.bind(swiper)
+        }
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+        swiper.navigation.init();
+        swiper.navigation.update();
+      },
+      toEdge: function toEdge() {
+        var swiper = this;
+        swiper.navigation.update();
+      },
+      fromEdge: function fromEdge() {
+        var swiper = this;
+        swiper.navigation.update();
+      },
+      destroy: function destroy() {
+        var swiper = this;
+        swiper.navigation.destroy();
+      },
+      click: function click(e) {
+        var swiper = this;
+        var ref = swiper.navigation;
+        var $nextEl = ref.$nextEl;
+        var $prevEl = ref.$prevEl;
+
+        if (swiper.params.navigation.hideOnClick && !$$1(e.target).is($prevEl) && !$$1(e.target).is($nextEl)) {
+          if ($nextEl) {
+            $nextEl.toggleClass(swiper.params.navigation.hiddenClass);
+          }
+
+          if ($prevEl) {
+            $prevEl.toggleClass(swiper.params.navigation.hiddenClass);
+          }
+        }
+      }
+    }
+  };
+  var Pagination = {
+    update: function update() {
+      // Render || Update Pagination bullets/items
+      var swiper = this;
+      var rtl = swiper.rtl;
+      var params = swiper.params.pagination;
+
+      if (!params.el || !swiper.pagination.el || !swiper.pagination.$el || swiper.pagination.$el.length === 0) {
+        return;
+      }
+
+      var slidesLength = swiper.virtual && swiper.params.virtual.enabled ? swiper.virtual.slides.length : swiper.slides.length;
+      var $el = swiper.pagination.$el; // Current/Total
+
+      var current;
+      var total = swiper.params.loop ? Math.ceil((slidesLength - swiper.loopedSlides * 2) / swiper.params.slidesPerGroup) : swiper.snapGrid.length;
+
+      if (swiper.params.loop) {
+        current = Math.ceil((swiper.activeIndex - swiper.loopedSlides) / swiper.params.slidesPerGroup);
+
+        if (current > slidesLength - 1 - swiper.loopedSlides * 2) {
+          current -= slidesLength - swiper.loopedSlides * 2;
+        }
+
+        if (current > total - 1) {
+          current -= total;
+        }
+
+        if (current < 0 && swiper.params.paginationType !== 'bullets') {
+          current = total + current;
+        }
+      } else if (typeof swiper.snapIndex !== 'undefined') {
+        current = swiper.snapIndex;
+      } else {
+        current = swiper.activeIndex || 0;
+      } // Types
+
+
+      if (params.type === 'bullets' && swiper.pagination.bullets && swiper.pagination.bullets.length > 0) {
+        var bullets = swiper.pagination.bullets;
+
+        if (params.dynamicBullets) {
+          swiper.pagination.bulletSize = bullets.eq(0)[swiper.isHorizontal() ? 'outerWidth' : 'outerHeight'](true);
+          $el.css(swiper.isHorizontal() ? 'width' : 'height', swiper.pagination.bulletSize * 5 + "px");
+        }
+
+        bullets.removeClass(params.bulletActiveClass + " " + params.bulletActiveClass + "-next " + params.bulletActiveClass + "-next-next " + params.bulletActiveClass + "-prev " + params.bulletActiveClass + "-prev-prev");
+
+        if ($el.length > 1) {
+          bullets.each(function (index, bullet) {
+            var $bullet = $$1(bullet);
+
+            if ($bullet.index() === current) {
+              $bullet.addClass(params.bulletActiveClass);
+
+              if (params.dynamicBullets) {
+                $bullet.prev().addClass(params.bulletActiveClass + "-prev").prev().addClass(params.bulletActiveClass + "-prev-prev");
+                $bullet.next().addClass(params.bulletActiveClass + "-next").next().addClass(params.bulletActiveClass + "-next-next");
+              }
+            }
+          });
+        } else {
+          var $bullet = bullets.eq(current);
+          $bullet.addClass(params.bulletActiveClass);
+
+          if (params.dynamicBullets) {
+            $bullet.prev().addClass(params.bulletActiveClass + "-prev").prev().addClass(params.bulletActiveClass + "-prev-prev");
+            $bullet.next().addClass(params.bulletActiveClass + "-next").next().addClass(params.bulletActiveClass + "-next-next");
+          }
+        }
+
+        if (params.dynamicBullets) {
+          var dynamicBulletsLength = Math.min(bullets.length, 5);
+          var bulletsOffset = (swiper.pagination.bulletSize * dynamicBulletsLength - swiper.pagination.bulletSize) / 2 - current * swiper.pagination.bulletSize;
+          var offsetProp = rtl ? 'right' : 'left';
+          bullets.css(swiper.isHorizontal() ? offsetProp : 'top', bulletsOffset + "px");
+        }
+      }
+
+      if (params.type === 'fraction') {
+        $el.find("." + params.currentClass).text('0' + (current + 1));
+        $el.find("." + params.totalClass).text('0' + total);
+      }
+
+      if (params.type === 'progressbar') {
+        var scale = (current + 1) / total;
+        var scaleX = scale;
+        var scaleY = 1;
+
+        if (!swiper.isHorizontal()) {
+          scaleY = scale;
+          scaleX = 1;
+        }
+
+        $el.find("." + params.progressbarFillClass).transform("translate3d(0,0,0) scaleX(" + scaleX + ") scaleY(" + scaleY + ")").transition(swiper.params.speed);
+      }
+
+      if (params.type === 'custom' && params.renderCustom) {
+        $el.html(params.renderCustom(swiper, current + 1, total));
+        swiper.emit('paginationRender', swiper, $el[0]);
+      } else {
+        swiper.emit('paginationUpdate', swiper, $el[0]);
+      }
+    },
+    render: function render() {
+      // Render Container
+      var swiper = this;
+      var params = swiper.params.pagination;
+
+      if (!params.el || !swiper.pagination.el || !swiper.pagination.$el || swiper.pagination.$el.length === 0) {
+        return;
+      }
+
+      var slidesLength = swiper.virtual && swiper.params.virtual.enabled ? swiper.virtual.slides.length : swiper.slides.length;
+      var $el = swiper.pagination.$el;
+      var paginationHTML = '';
+
+      if (params.type === 'bullets') {
+        var numberOfBullets = swiper.params.loop ? Math.ceil((slidesLength - swiper.loopedSlides * 2) / swiper.params.slidesPerGroup) : swiper.snapGrid.length;
+
+        for (var i = 0; i < numberOfBullets; i += 1) {
+          if (params.renderBullet) {
+            paginationHTML += params.renderBullet.call(swiper, i, params.bulletClass);
+          } else {
+            paginationHTML += "<" + params.bulletElement + " class=\"" + params.bulletClass + "\"></" + params.bulletElement + ">";
+          }
+        }
+
+        $el.html(paginationHTML);
+        swiper.pagination.bullets = $el.find("." + params.bulletClass);
+      }
+
+      if (params.type === 'fraction') {
+        if (params.renderFraction) {
+          paginationHTML = params.renderFraction.call(swiper, params.currentClass, params.totalClass);
+        } else {
+          paginationHTML = "<span class=\"" + params.currentClass + "\"></span>" + ' / ' + "<span class=\"" + params.totalClass + "\"></span>";
+        }
+
+        $el.html(paginationHTML);
+      }
+
+      if (params.type === 'progressbar') {
+        if (params.renderProgressbar) {
+          paginationHTML = params.renderProgressbar.call(swiper, params.progressbarFillClass);
+        } else {
+          paginationHTML = "<span class=\"" + params.progressbarFillClass + "\"></span>";
+        }
+
+        $el.html(paginationHTML);
+      }
+
+      if (params.type !== 'custom') {
+        swiper.emit('paginationRender', swiper.pagination.$el[0]);
+      }
+    },
+    init: function init() {
+      var swiper = this;
+      var params = swiper.params.pagination;
+
+      if (!params.el) {
+        return;
+      }
+
+      var $el = $$1(params.el);
+
+      if ($el.length === 0) {
+        return;
+      }
+
+      if (swiper.params.uniqueNavElements && typeof params.el === 'string' && $el.length > 1 && swiper.$el.find(params.el).length === 1) {
+        $el = swiper.$el.find(params.el);
+      }
+
+      if (params.type === 'bullets' && params.clickable) {
+        $el.addClass(params.clickableClass);
+      }
+
+      $el.addClass(params.modifierClass + params.type);
+
+      if (params.type === 'bullets' && params.dynamicBullets) {
+        $el.addClass("" + params.modifierClass + params.type + "-dynamic");
+      }
+
+      if (params.clickable) {
+        $el.on('click', "." + params.bulletClass, function onClick(e) {
+          e.preventDefault();
+          var index = $$1(this).index() * swiper.params.slidesPerGroup;
+
+          if (swiper.params.loop) {
+            index += swiper.loopedSlides;
+          }
+
+          swiper.slideTo(index);
+        });
+      }
+
+      Utils.extend(swiper.pagination, {
+        $el: $el,
+        el: $el[0]
+      });
+    },
+    destroy: function destroy() {
+      var swiper = this;
+      var params = swiper.params.pagination;
+
+      if (!params.el || !swiper.pagination.el || !swiper.pagination.$el || swiper.pagination.$el.length === 0) {
+        return;
+      }
+
+      var $el = swiper.pagination.$el;
+      $el.removeClass(params.hiddenClass);
+      $el.removeClass(params.modifierClass + params.type);
+
+      if (swiper.pagination.bullets) {
+        swiper.pagination.bullets.removeClass(params.bulletActiveClass);
+      }
+
+      if (params.clickable) {
+        $el.off('click', "." + params.bulletClass);
+      }
+    }
+  };
+  var Pagination$1 = {
+    name: 'pagination',
+    params: {
+      pagination: {
+        el: null,
+        bulletElement: 'span',
+        clickable: false,
+        hideOnClick: false,
+        renderBullet: null,
+        renderProgressbar: null,
+        renderFraction: null,
+        renderCustom: null,
+        type: 'bullets',
+        // 'bullets' or 'progressbar' or 'fraction' or 'custom'
+        dynamicBullets: false,
+        bulletClass: 'swiper-pagination-bullet',
+        bulletActiveClass: 'swiper-pagination-bullet-active',
+        modifierClass: 'swiper-pagination-',
+        // NEW
+        currentClass: 'swiper-pagination-current',
+        totalClass: 'swiper-pagination-total',
+        hiddenClass: 'swiper-pagination-hidden',
+        progressbarFillClass: 'swiper-pagination-progressbar-fill',
+        clickableClass: 'swiper-pagination-clickable' // NEW
+
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        pagination: {
+          init: Pagination.init.bind(swiper),
+          render: Pagination.render.bind(swiper),
+          update: Pagination.update.bind(swiper),
+          destroy: Pagination.destroy.bind(swiper)
+        }
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+        swiper.pagination.init();
+        swiper.pagination.render();
+        swiper.pagination.update();
+      },
+      activeIndexChange: function activeIndexChange() {
+        var swiper = this;
+
+        if (swiper.params.loop) {
+          swiper.pagination.update();
+        } else if (typeof swiper.snapIndex === 'undefined') {
+          swiper.pagination.update();
+        }
+      },
+      snapIndexChange: function snapIndexChange() {
+        var swiper = this;
+
+        if (!swiper.params.loop) {
+          swiper.pagination.update();
+        }
+      },
+      slidesLengthChange: function slidesLengthChange() {
+        var swiper = this;
+
+        if (swiper.params.loop) {
+          swiper.pagination.render();
+          swiper.pagination.update();
+        }
+      },
+      snapGridLengthChange: function snapGridLengthChange() {
+        var swiper = this;
+
+        if (!swiper.params.loop) {
+          swiper.pagination.render();
+          swiper.pagination.update();
+        }
+      },
+      destroy: function destroy() {
+        var swiper = this;
+        swiper.pagination.destroy();
+      },
+      click: function click(e) {
+        var swiper = this;
+
+        if (swiper.params.pagination.el && swiper.params.pagination.hideOnClick && swiper.pagination.$el.length > 0 && !$$1(e.target).hasClass(swiper.params.pagination.bulletClass)) {
+          swiper.pagination.$el.toggleClass(swiper.params.pagination.hiddenClass);
+        }
+      }
+    }
+  };
+  var Scrollbar = {
+    setTranslate: function setTranslate() {
+      var swiper = this;
+
+      if (!swiper.params.scrollbar.el || !swiper.scrollbar.el) {
+        return;
+      }
+
+      var scrollbar = swiper.scrollbar;
+      var rtl = swiper.rtl;
+      var progress = swiper.progress;
+      var dragSize = scrollbar.dragSize;
+      var trackSize = scrollbar.trackSize;
+      var $dragEl = scrollbar.$dragEl;
+      var $el = scrollbar.$el;
+      var params = swiper.params.scrollbar;
+      var newSize = dragSize;
+      var newPos = (trackSize - dragSize) * progress;
+
+      if (rtl && swiper.isHorizontal()) {
+        newPos = -newPos;
+
+        if (newPos > 0) {
+          newSize = dragSize - newPos;
+          newPos = 0;
+        } else if (-newPos + dragSize > trackSize) {
+          newSize = trackSize + newPos;
+        }
+      } else if (newPos < 0) {
+        newSize = dragSize + newPos;
+        newPos = 0;
+      } else if (newPos + dragSize > trackSize) {
+        newSize = trackSize - newPos;
+      }
+
+      if (swiper.isHorizontal()) {
+        if (Support.transforms3d) {
+          $dragEl.transform("translate3d(" + newPos + "px, 0, 0)");
+        } else {
+          $dragEl.transform("translateX(" + newPos + "px)");
+        }
+
+        $dragEl[0].style.width = newSize + "px";
+      } else {
+        if (Support.transforms3d) {
+          $dragEl.transform("translate3d(0px, " + newPos + "px, 0)");
+        } else {
+          $dragEl.transform("translateY(" + newPos + "px)");
+        }
+
+        $dragEl[0].style.height = newSize + "px";
+      }
+
+      if (params.hide) {
+        clearTimeout(swiper.scrollbar.timeout);
+        $el[0].style.opacity = 1;
+        swiper.scrollbar.timeout = setTimeout(function () {
+          $el[0].style.opacity = 0;
+          $el.transition(400);
+        }, 1000);
+      }
+    },
+    setTransition: function setTransition(duration) {
+      var swiper = this;
+
+      if (!swiper.params.scrollbar.el || !swiper.scrollbar.el) {
+        return;
+      }
+
+      swiper.scrollbar.$dragEl.transition(duration);
+    },
+    updateSize: function updateSize() {
+      var swiper = this;
+
+      if (!swiper.params.scrollbar.el || !swiper.scrollbar.el) {
+        return;
+      }
+
+      var scrollbar = swiper.scrollbar;
+      var $dragEl = scrollbar.$dragEl;
+      var $el = scrollbar.$el;
+      $dragEl[0].style.width = '';
+      $dragEl[0].style.height = '';
+      var trackSize = swiper.isHorizontal() ? $el[0].offsetWidth : $el[0].offsetHeight;
+      var divider = swiper.size / swiper.virtualSize;
+      var moveDivider = divider * (trackSize / swiper.size);
+      var dragSize;
+
+      if (swiper.params.scrollbar.dragSize === 'auto') {
+        dragSize = trackSize * divider;
+      } else {
+        dragSize = parseInt(swiper.params.scrollbar.dragSize, 10);
+      }
+
+      if (swiper.isHorizontal()) {
+        $dragEl[0].style.width = dragSize + "px";
+      } else {
+        $dragEl[0].style.height = dragSize + "px";
+      }
+
+      if (divider >= 1) {
+        $el[0].style.display = 'none';
+      } else {
+        $el[0].style.display = '';
+      }
+
+      if (swiper.params.scrollbarHide) {
+        $el[0].style.opacity = 0;
+      }
+
+      Utils.extend(scrollbar, {
+        trackSize: trackSize,
+        divider: divider,
+        moveDivider: moveDivider,
+        dragSize: dragSize
+      });
+    },
+    setDragPosition: function setDragPosition(e) {
+      var swiper = this;
+      var scrollbar = swiper.scrollbar;
+      var $el = scrollbar.$el;
+      var dragSize = scrollbar.dragSize;
+      var moveDivider = scrollbar.moveDivider;
+      var pointerPosition;
+
+      if (swiper.isHorizontal()) {
+        pointerPosition = e.type === 'touchstart' || e.type === 'touchmove' ? e.targetTouches[0].pageX : e.pageX || e.clientX;
+      } else {
+        pointerPosition = e.type === 'touchstart' || e.type === 'touchmove' ? e.targetTouches[0].pageY : e.pageY || e.clientY;
+      }
+
+      var position = pointerPosition - $el.offset()[swiper.isHorizontal() ? 'left' : 'top'] - dragSize / 2;
+      var positionMin = -swiper.minTranslate() * moveDivider;
+      var positionMax = -swiper.maxTranslate() * moveDivider;
+
+      if (position < positionMin) {
+        position = positionMin;
+      } else if (position > positionMax) {
+        position = positionMax;
+      }
+
+      if (swiper.rtl) {
+        position = positionMax - position;
+      }
+
+      position = -position / moveDivider;
+      swiper.updateProgress(position);
+      swiper.setTranslate(position);
+      swiper.updateActiveIndex();
+      swiper.updateSlidesClasses();
+    },
+    onDragStart: function onDragStart(e) {
+      var swiper = this;
+      var params = swiper.params.scrollbar;
+      var scrollbar = swiper.scrollbar;
+      var $wrapperEl = swiper.$wrapperEl;
+      var $el = scrollbar.$el;
+      var $dragEl = scrollbar.$dragEl;
+      swiper.scrollbar.isTouched = true;
+      e.preventDefault();
+      e.stopPropagation();
+      $wrapperEl.transition(100);
+      $dragEl.transition(100);
+      scrollbar.setDragPosition(e);
+      clearTimeout(swiper.scrollbar.dragTimeout);
+      $el.transition(0);
+
+      if (params.hide) {
+        $el.css('opacity', 1);
+      }
+
+      swiper.emit('scrollbarDragStart', e);
+    },
+    onDragMove: function onDragMove(e) {
+      var swiper = this;
+      var scrollbar = swiper.scrollbar;
+      var $wrapperEl = swiper.$wrapperEl;
+      var $el = scrollbar.$el;
+      var $dragEl = scrollbar.$dragEl;
+
+      if (!swiper.scrollbar.isTouched) {
+        return;
+      }
+
+      if (e.preventDefault) {
+        e.preventDefault();
+      } else {
+        e.returnValue = false;
+      }
+
+      scrollbar.setDragPosition(e);
+      $wrapperEl.transition(0);
+      $el.transition(0);
+      $dragEl.transition(0);
+      swiper.emit('scrollbarDragMove', e);
+    },
+    onDragEnd: function onDragEnd(e) {
+      var swiper = this;
+      var params = swiper.params.scrollbar;
+      var scrollbar = swiper.scrollbar;
+      var $el = scrollbar.$el;
+
+      if (!swiper.scrollbar.isTouched) {
+        return;
+      }
+
+      swiper.scrollbar.isTouched = false;
+
+      if (params.hide) {
+        clearTimeout(swiper.scrollbar.dragTimeout);
+        swiper.scrollbar.dragTimeout = Utils.nextTick(function () {
+          $el.css('opacity', 0);
+          $el.transition(400);
+        }, 1000);
+      }
+
+      swiper.emit('scrollbarDragEnd', e);
+
+      if (params.snapOnRelease) {
+        swiper.slideReset();
+      }
+    },
+    enableDraggable: function enableDraggable() {
+      var swiper = this;
+
+      if (!swiper.params.scrollbar.el) {
+        return;
+      }
+
+      var scrollbar = swiper.scrollbar;
+      var $el = scrollbar.$el;
+      var target = Support.touch ? $el[0] : document;
+      $el.on(swiper.scrollbar.dragEvents.start, swiper.scrollbar.onDragStart);
+      $$1(target).on(swiper.scrollbar.dragEvents.move, swiper.scrollbar.onDragMove);
+      $$1(target).on(swiper.scrollbar.dragEvents.end, swiper.scrollbar.onDragEnd);
+    },
+    disableDraggable: function disableDraggable() {
+      var swiper = this;
+
+      if (!swiper.params.scrollbar.el) {
+        return;
+      }
+
+      var scrollbar = swiper.scrollbar;
+      var $el = scrollbar.$el;
+      var target = Support.touch ? $el[0] : document;
+      $el.off(swiper.scrollbar.dragEvents.start);
+      $$1(target).off(swiper.scrollbar.dragEvents.move);
+      $$1(target).off(swiper.scrollbar.dragEvents.end);
+    },
+    init: function init() {
+      var swiper = this;
+
+      if (!swiper.params.scrollbar.el) {
+        return;
+      }
+
+      var scrollbar = swiper.scrollbar;
+      var $swiperEl = swiper.$el;
+      var touchEvents = swiper.touchEvents;
+      var params = swiper.params.scrollbar;
+      var $el = $$1(params.el);
+
+      if (swiper.params.uniqueNavElements && typeof params.el === 'string' && $el.length > 1 && $swiperEl.find(params.el).length === 1) {
+        $el = $swiperEl.find(params.el);
+      }
+
+      var $dragEl = $el.find('.swiper-scrollbar-drag');
+
+      if ($dragEl.length === 0) {
+        $dragEl = $$1('<div class="swiper-scrollbar-drag"></div>');
+        $el.append($dragEl);
+      }
+
+      swiper.scrollbar.dragEvents = function dragEvents() {
+        if (swiper.params.simulateTouch === false && !Support.touch) {
+          return {
+            start: 'mousedown',
+            move: 'mousemove',
+            end: 'mouseup'
+          };
+        }
+
+        return touchEvents;
+      }();
+
+      Utils.extend(scrollbar, {
+        $el: $el,
+        el: $el[0],
+        $dragEl: $dragEl,
+        dragEl: $dragEl[0]
+      });
+
+      if (params.draggable) {
+        scrollbar.enableDraggable();
+      }
+    },
+    destroy: function destroy() {
+      var swiper = this;
+      swiper.scrollbar.disableDraggable();
+    }
+  };
+  var Scrollbar$1 = {
+    name: 'scrollbar',
+    params: {
+      scrollbar: {
+        el: null,
+        dragSize: 'auto',
+        hide: false,
+        draggable: false,
+        snapOnRelease: true
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        scrollbar: {
+          init: Scrollbar.init.bind(swiper),
+          destroy: Scrollbar.destroy.bind(swiper),
+          updateSize: Scrollbar.updateSize.bind(swiper),
+          setTranslate: Scrollbar.setTranslate.bind(swiper),
+          setTransition: Scrollbar.setTransition.bind(swiper),
+          enableDraggable: Scrollbar.enableDraggable.bind(swiper),
+          disableDraggable: Scrollbar.disableDraggable.bind(swiper),
+          setDragPosition: Scrollbar.setDragPosition.bind(swiper),
+          onDragStart: Scrollbar.onDragStart.bind(swiper),
+          onDragMove: Scrollbar.onDragMove.bind(swiper),
+          onDragEnd: Scrollbar.onDragEnd.bind(swiper),
+          isTouched: false,
+          timeout: null,
+          dragTimeout: null
+        }
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+        swiper.scrollbar.init();
+        swiper.scrollbar.updateSize();
+        swiper.scrollbar.setTranslate();
+      },
+      update: function update() {
+        var swiper = this;
+        swiper.scrollbar.updateSize();
+      },
+      resize: function resize() {
+        var swiper = this;
+        swiper.scrollbar.updateSize();
+      },
+      observerUpdate: function observerUpdate() {
+        var swiper = this;
+        swiper.scrollbar.updateSize();
+      },
+      setTranslate: function setTranslate() {
+        var swiper = this;
+        swiper.scrollbar.setTranslate();
+      },
+      setTransition: function setTransition(duration) {
+        var swiper = this;
+        swiper.scrollbar.setTransition(duration);
+      },
+      destroy: function destroy() {
+        var swiper = this;
+        swiper.scrollbar.destroy();
+      }
+    }
+  };
+  var Parallax = {
+    setTransform: function setTransform(el, progress) {
+      var swiper = this;
+      var rtl = swiper.rtl;
+      var $el = $$1(el);
+      var rtlFactor = rtl ? -1 : 1;
+      var p = $el.attr('data-swiper-parallax') || '0';
+      var x = $el.attr('data-swiper-parallax-x');
+      var y = $el.attr('data-swiper-parallax-y');
+      var scale = $el.attr('data-swiper-parallax-scale');
+      var opacity = $el.attr('data-swiper-parallax-opacity');
+
+      if (x || y) {
+        x = x || '0';
+        y = y || '0';
+      } else if (swiper.isHorizontal()) {
+        x = p;
+        y = '0';
+      } else {
+        y = p;
+        x = '0';
+      }
+
+      if (x.indexOf('%') >= 0) {
+        x = parseInt(x, 10) * progress * rtlFactor + "%";
+      } else {
+        x = x * progress * rtlFactor + "px";
+      }
+
+      if (y.indexOf('%') >= 0) {
+        y = parseInt(y, 10) * progress + "%";
+      } else {
+        y = y * progress + "px";
+      }
+
+      if (typeof opacity !== 'undefined' && opacity !== null) {
+        var currentOpacity = opacity - (opacity - 1) * (1 - Math.abs(progress));
+        $el[0].style.opacity = currentOpacity;
+      }
+
+      if (typeof scale === 'undefined' || scale === null) {
+        $el.transform("translate3d(" + x + ", " + y + ", 0px)");
+      } else {
+        var currentScale = scale - (scale - 1) * (1 - Math.abs(progress));
+        $el.transform("translate3d(" + x + ", " + y + ", 0px) scale(" + currentScale + ")");
+      }
+    },
+    setTranslate: function setTranslate() {
+      var swiper = this;
+      var $el = swiper.$el;
+      var slides = swiper.slides;
+      var progress = swiper.progress;
+      var snapGrid = swiper.snapGrid;
+      $el.children('[data-swiper-parallax], [data-swiper-parallax-x], [data-swiper-parallax-y]').each(function (index, el) {
+        swiper.parallax.setTransform(el, progress);
+      });
+      slides.each(function (slideIndex, slideEl) {
+        var slideProgress = slideEl.progress;
+
+        if (swiper.params.slidesPerGroup > 1 && swiper.params.slidesPerView !== 'auto') {
+          slideProgress += Math.ceil(slideIndex / 2) - progress * (snapGrid.length - 1);
+        }
+
+        slideProgress = Math.min(Math.max(slideProgress, -1), 1);
+        $$1(slideEl).find('[data-swiper-parallax], [data-swiper-parallax-x], [data-swiper-parallax-y]').each(function (index, el) {
+          swiper.parallax.setTransform(el, slideProgress);
+        });
+      });
+    },
+    setTransition: function setTransition(duration) {
+      if (duration === void 0) duration = this.params.speed;
+      var swiper = this;
+      var $el = swiper.$el;
+      $el.find('[data-swiper-parallax], [data-swiper-parallax-x], [data-swiper-parallax-y]').each(function (index, parallaxEl) {
+        var $parallaxEl = $$1(parallaxEl);
+        var parallaxDuration = parseInt($parallaxEl.attr('data-swiper-parallax-duration'), 10) || duration;
+
+        if (duration === 0) {
+          parallaxDuration = 0;
+        }
+
+        $parallaxEl.transition(parallaxDuration);
+      });
+    }
+  };
+  var Parallax$1 = {
+    name: 'parallax',
+    params: {
+      parallax: {
+        enabled: false
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        parallax: {
+          setTransform: Parallax.setTransform.bind(swiper),
+          setTranslate: Parallax.setTranslate.bind(swiper),
+          setTransition: Parallax.setTransition.bind(swiper)
+        }
+      });
+    },
+    on: {
+      beforeInit: function beforeInit() {
+        var swiper = this;
+        swiper.params.watchSlidesProgress = true;
+      },
+      init: function init() {
+        var swiper = this;
+
+        if (!swiper.params.parallax) {
+          return;
+        }
+
+        swiper.parallax.setTranslate();
+      },
+      setTranslate: function setTranslate() {
+        var swiper = this;
+
+        if (!swiper.params.parallax) {
+          return;
+        }
+
+        swiper.parallax.setTranslate();
+      },
+      setTransition: function setTransition(duration) {
+        var swiper = this;
+
+        if (!swiper.params.parallax) {
+          return;
+        }
+
+        swiper.parallax.setTransition(duration);
+      }
+    }
+  };
+  var Zoom = {
+    // Calc Scale From Multi-touches
+    getDistanceBetweenTouches: function getDistanceBetweenTouches(e) {
+      if (e.targetTouches.length < 2) {
+        return 1;
+      }
+
+      var x1 = e.targetTouches[0].pageX;
+      var y1 = e.targetTouches[0].pageY;
+      var x2 = e.targetTouches[1].pageX;
+      var y2 = e.targetTouches[1].pageY;
+      var distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+      return distance;
+    },
+    // Events
+    onGestureStart: function onGestureStart(e) {
+      var swiper = this;
+      var params = swiper.params.zoom;
+      var zoom = swiper.zoom;
+      var gesture = zoom.gesture;
+      zoom.fakeGestureTouched = false;
+      zoom.fakeGestureMoved = false;
+
+      if (!Support.gestures) {
+        if (e.type !== 'touchstart' || e.type === 'touchstart' && e.targetTouches.length < 2) {
+          return;
+        }
+
+        zoom.fakeGestureTouched = true;
+        gesture.scaleStart = Zoom.getDistanceBetweenTouches(e);
+      }
+
+      if (!gesture.$slideEl || !gesture.$slideEl.length) {
+        gesture.$slideEl = $$1(this);
+
+        if (gesture.$slideEl.length === 0) {
+          gesture.$slideEl = swiper.slides.eq(swiper.activeIndex);
+        }
+
+        gesture.$imageEl = gesture.$slideEl.find('img, svg, canvas');
+        gesture.$imageWrapEl = gesture.$imageEl.parent("." + params.containerClass);
+        gesture.maxRatio = gesture.$imageWrapEl.attr('data-swiper-zoom') || params.maxRatio;
+
+        if (gesture.$imageWrapEl.length === 0) {
+          gesture.$imageEl = undefined;
+          return;
+        }
+      }
+
+      gesture.$imageEl.transition(0);
+      swiper.zoom.isScaling = true;
+    },
+    onGestureChange: function onGestureChange(e) {
+      var swiper = this;
+      var params = swiper.params.zoom;
+      var zoom = swiper.zoom;
+      var gesture = zoom.gesture;
+
+      if (!Support.gestures) {
+        if (e.type !== 'touchmove' || e.type === 'touchmove' && e.targetTouches.length < 2) {
+          return;
+        }
+
+        zoom.fakeGestureMoved = true;
+        gesture.scaleMove = Zoom.getDistanceBetweenTouches(e);
+      }
+
+      if (!gesture.$imageEl || gesture.$imageEl.length === 0) {
+        return;
+      }
+
+      if (Support.gestures) {
+        swiper.zoom.scale = e.scale * zoom.currentScale;
+      } else {
+        zoom.scale = gesture.scaleMove / gesture.scaleStart * zoom.currentScale;
+      }
+
+      if (zoom.scale > gesture.maxRatio) {
+        zoom.scale = gesture.maxRatio - 1 + Math.pow(zoom.scale - gesture.maxRatio + 1, 0.5);
+      }
+
+      if (zoom.scale < params.minRatio) {
+        zoom.scale = params.minRatio + 1 - Math.pow(params.minRatio - zoom.scale + 1, 0.5);
+      }
+
+      gesture.$imageEl.transform("translate3d(0,0,0) scale(" + zoom.scale + ")");
+    },
+    onGestureEnd: function onGestureEnd(e) {
+      var swiper = this;
+      var params = swiper.params.zoom;
+      var zoom = swiper.zoom;
+      var gesture = zoom.gesture;
+
+      if (!Support.gestures) {
+        if (!zoom.fakeGestureTouched || !zoom.fakeGestureMoved) {
+          return;
+        }
+
+        if (e.type !== 'touchend' || e.type === 'touchend' && e.changedTouches.length < 2 && !Device.android) {
+          return;
+        }
+
+        zoom.fakeGestureTouched = false;
+        zoom.fakeGestureMoved = false;
+      }
+
+      if (!gesture.$imageEl || gesture.$imageEl.length === 0) {
+        return;
+      }
+
+      zoom.scale = Math.max(Math.min(zoom.scale, gesture.maxRatio), params.minRatio);
+      gesture.$imageEl.transition(swiper.params.speed).transform("translate3d(0,0,0) scale(" + zoom.scale + ")");
+      zoom.currentScale = zoom.scale;
+      zoom.isScaling = false;
+
+      if (zoom.scale === 1) {
+        gesture.$slideEl = undefined;
+      }
+    },
+    onTouchStart: function onTouchStart(e) {
+      var swiper = this;
+      var zoom = swiper.zoom;
+      var gesture = zoom.gesture;
+      var image = zoom.image;
+
+      if (!gesture.$imageEl || gesture.$imageEl.length === 0) {
+        return;
+      }
+
+      if (image.isTouched) {
+        return;
+      }
+
+      if (Device.android) {
+        e.preventDefault();
+      }
+
+      image.isTouched = true;
+      image.touchesStart.x = e.type === 'touchstart' ? e.targetTouches[0].pageX : e.pageX;
+      image.touchesStart.y = e.type === 'touchstart' ? e.targetTouches[0].pageY : e.pageY;
+    },
+    onTouchMove: function onTouchMove(e) {
+      var swiper = this;
+      var zoom = swiper.zoom;
+      var gesture = zoom.gesture;
+      var image = zoom.image;
+      var velocity = zoom.velocity;
+
+      if (!gesture.$imageEl || gesture.$imageEl.length === 0) {
+        return;
+      }
+
+      swiper.allowClick = false;
+
+      if (!image.isTouched || !gesture.$slideEl) {
+        return;
+      }
+
+      if (!image.isMoved) {
+        image.width = gesture.$imageEl[0].offsetWidth;
+        image.height = gesture.$imageEl[0].offsetHeight;
+        image.startX = Utils.getTranslate(gesture.$imageWrapEl[0], 'x') || 0;
+        image.startY = Utils.getTranslate(gesture.$imageWrapEl[0], 'y') || 0;
+        gesture.slideWidth = gesture.$slideEl[0].offsetWidth;
+        gesture.slideHeight = gesture.$slideEl[0].offsetHeight;
+        gesture.$imageWrapEl.transition(0);
+
+        if (swiper.rtl) {
+          image.startX = -image.startX;
+        }
+
+        if (swiper.rtl) {
+          image.startY = -image.startY;
+        }
+      } // Define if we need image drag
+
+
+      var scaledWidth = image.width * zoom.scale;
+      var scaledHeight = image.height * zoom.scale;
+
+      if (scaledWidth < gesture.slideWidth && scaledHeight < gesture.slideHeight) {
+        return;
+      }
+
+      image.minX = Math.min(gesture.slideWidth / 2 - scaledWidth / 2, 0);
+      image.maxX = -image.minX;
+      image.minY = Math.min(gesture.slideHeight / 2 - scaledHeight / 2, 0);
+      image.maxY = -image.minY;
+      image.touchesCurrent.x = e.type === 'touchmove' ? e.targetTouches[0].pageX : e.pageX;
+      image.touchesCurrent.y = e.type === 'touchmove' ? e.targetTouches[0].pageY : e.pageY;
+
+      if (!image.isMoved && !zoom.isScaling) {
+        if (swiper.isHorizontal() && (Math.floor(image.minX) === Math.floor(image.startX) && image.touchesCurrent.x < image.touchesStart.x || Math.floor(image.maxX) === Math.floor(image.startX) && image.touchesCurrent.x > image.touchesStart.x)) {
+          image.isTouched = false;
+          return;
+        } else if (!swiper.isHorizontal() && (Math.floor(image.minY) === Math.floor(image.startY) && image.touchesCurrent.y < image.touchesStart.y || Math.floor(image.maxY) === Math.floor(image.startY) && image.touchesCurrent.y > image.touchesStart.y)) {
+          image.isTouched = false;
+          return;
+        }
+      }
+
+      e.preventDefault();
+      e.stopPropagation();
+      image.isMoved = true;
+      image.currentX = image.touchesCurrent.x - image.touchesStart.x + image.startX;
+      image.currentY = image.touchesCurrent.y - image.touchesStart.y + image.startY;
+
+      if (image.currentX < image.minX) {
+        image.currentX = image.minX + 1 - Math.pow(image.minX - image.currentX + 1, 0.8);
+      }
+
+      if (image.currentX > image.maxX) {
+        image.currentX = image.maxX - 1 + Math.pow(image.currentX - image.maxX + 1, 0.8);
+      }
+
+      if (image.currentY < image.minY) {
+        image.currentY = image.minY + 1 - Math.pow(image.minY - image.currentY + 1, 0.8);
+      }
+
+      if (image.currentY > image.maxY) {
+        image.currentY = image.maxY - 1 + Math.pow(image.currentY - image.maxY + 1, 0.8);
+      } // Velocity
+
+
+      if (!velocity.prevPositionX) {
+        velocity.prevPositionX = image.touchesCurrent.x;
+      }
+
+      if (!velocity.prevPositionY) {
+        velocity.prevPositionY = image.touchesCurrent.y;
+      }
+
+      if (!velocity.prevTime) {
+        velocity.prevTime = Date.now();
+      }
+
+      velocity.x = (image.touchesCurrent.x - velocity.prevPositionX) / (Date.now() - velocity.prevTime) / 2;
+      velocity.y = (image.touchesCurrent.y - velocity.prevPositionY) / (Date.now() - velocity.prevTime) / 2;
+
+      if (Math.abs(image.touchesCurrent.x - velocity.prevPositionX) < 2) {
+        velocity.x = 0;
+      }
+
+      if (Math.abs(image.touchesCurrent.y - velocity.prevPositionY) < 2) {
+        velocity.y = 0;
+      }
+
+      velocity.prevPositionX = image.touchesCurrent.x;
+      velocity.prevPositionY = image.touchesCurrent.y;
+      velocity.prevTime = Date.now();
+      gesture.$imageWrapEl.transform("translate3d(" + image.currentX + "px, " + image.currentY + "px,0)");
+    },
+    onTouchEnd: function onTouchEnd() {
+      var swiper = this;
+      var zoom = swiper.zoom;
+      var gesture = zoom.gesture;
+      var image = zoom.image;
+      var velocity = zoom.velocity;
+
+      if (!gesture.$imageEl || gesture.$imageEl.length === 0) {
+        return;
+      }
+
+      if (!image.isTouched || !image.isMoved) {
+        image.isTouched = false;
+        image.isMoved = false;
+        return;
+      }
+
+      image.isTouched = false;
+      image.isMoved = false;
+      var momentumDurationX = 300;
+      var momentumDurationY = 300;
+      var momentumDistanceX = velocity.x * momentumDurationX;
+      var newPositionX = image.currentX + momentumDistanceX;
+      var momentumDistanceY = velocity.y * momentumDurationY;
+      var newPositionY = image.currentY + momentumDistanceY; // Fix duration
+
+      if (velocity.x !== 0) {
+        momentumDurationX = Math.abs((newPositionX - image.currentX) / velocity.x);
+      }
+
+      if (velocity.y !== 0) {
+        momentumDurationY = Math.abs((newPositionY - image.currentY) / velocity.y);
+      }
+
+      var momentumDuration = Math.max(momentumDurationX, momentumDurationY);
+      image.currentX = newPositionX;
+      image.currentY = newPositionY; // Define if we need image drag
+
+      var scaledWidth = image.width * zoom.scale;
+      var scaledHeight = image.height * zoom.scale;
+      image.minX = Math.min(gesture.slideWidth / 2 - scaledWidth / 2, 0);
+      image.maxX = -image.minX;
+      image.minY = Math.min(gesture.slideHeight / 2 - scaledHeight / 2, 0);
+      image.maxY = -image.minY;
+      image.currentX = Math.max(Math.min(image.currentX, image.maxX), image.minX);
+      image.currentY = Math.max(Math.min(image.currentY, image.maxY), image.minY);
+      gesture.$imageWrapEl.transition(momentumDuration).transform("translate3d(" + image.currentX + "px, " + image.currentY + "px,0)");
+    },
+    onTransitionEnd: function onTransitionEnd() {
+      var swiper = this;
+      var zoom = swiper.zoom;
+      var gesture = zoom.gesture;
+
+      if (gesture.$slideEl && swiper.previousIndex !== swiper.activeIndex) {
+        gesture.$imageEl.transform('translate3d(0,0,0) scale(1)');
+        gesture.$imageWrapEl.transform('translate3d(0,0,0)');
+        gesture.$slideEl = undefined;
+        gesture.$imageEl = undefined;
+        gesture.$imageWrapEl = undefined;
+        zoom.scale = 1;
+        zoom.currentScale = 1;
+      }
+    },
+    // Toggle Zoom
+    toggle: function toggle(e) {
+      var swiper = this;
+      var zoom = swiper.zoom;
+
+      if (zoom.scale && zoom.scale !== 1) {
+        // Zoom Out
+        zoom.out();
+      } else {
+        // Zoom In
+        zoom["in"](e);
+      }
+    },
+    "in": function in$1(e) {
+      var swiper = this;
+      var zoom = swiper.zoom;
+      var params = swiper.params.zoom;
+      var gesture = zoom.gesture;
+      var image = zoom.image;
+
+      if (!gesture.$slideEl) {
+        gesture.$slideEl = swiper.clickedSlide ? $$1(swiper.clickedSlide) : swiper.slides.eq(swiper.activeIndex);
+        gesture.$imageEl = gesture.$slideEl.find('img, svg, canvas');
+        gesture.$imageWrapEl = gesture.$imageEl.parent("." + params.containerClass);
+      }
+
+      if (!gesture.$imageEl || gesture.$imageEl.length === 0) {
+        return;
+      }
+
+      gesture.$slideEl.addClass("" + params.zoomedSlideClass);
+      var touchX;
+      var touchY;
+      var offsetX;
+      var offsetY;
+      var diffX;
+      var diffY;
+      var translateX;
+      var translateY;
+      var imageWidth;
+      var imageHeight;
+      var scaledWidth;
+      var scaledHeight;
+      var translateMinX;
+      var translateMinY;
+      var translateMaxX;
+      var translateMaxY;
+      var slideWidth;
+      var slideHeight;
+
+      if (typeof image.touchesStart.x === 'undefined' && e) {
+        touchX = e.type === 'touchend' ? e.changedTouches[0].pageX : e.pageX;
+        touchY = e.type === 'touchend' ? e.changedTouches[0].pageY : e.pageY;
+      } else {
+        touchX = image.touchesStart.x;
+        touchY = image.touchesStart.y;
+      }
+
+      zoom.scale = gesture.$imageWrapEl.attr('data-swiper-zoom') || params.maxRatio;
+      zoom.currentScale = gesture.$imageWrapEl.attr('data-swiper-zoom') || params.maxRatio;
+
+      if (e) {
+        slideWidth = gesture.$slideEl[0].offsetWidth;
+        slideHeight = gesture.$slideEl[0].offsetHeight;
+        offsetX = gesture.$slideEl.offset().left;
+        offsetY = gesture.$slideEl.offset().top;
+        diffX = offsetX + slideWidth / 2 - touchX;
+        diffY = offsetY + slideHeight / 2 - touchY;
+        imageWidth = gesture.$imageEl[0].offsetWidth;
+        imageHeight = gesture.$imageEl[0].offsetHeight;
+        scaledWidth = imageWidth * zoom.scale;
+        scaledHeight = imageHeight * zoom.scale;
+        translateMinX = Math.min(slideWidth / 2 - scaledWidth / 2, 0);
+        translateMinY = Math.min(slideHeight / 2 - scaledHeight / 2, 0);
+        translateMaxX = -translateMinX;
+        translateMaxY = -translateMinY;
+        translateX = diffX * zoom.scale;
+        translateY = diffY * zoom.scale;
+
+        if (translateX < translateMinX) {
+          translateX = translateMinX;
+        }
+
+        if (translateX > translateMaxX) {
+          translateX = translateMaxX;
+        }
+
+        if (translateY < translateMinY) {
+          translateY = translateMinY;
+        }
+
+        if (translateY > translateMaxY) {
+          translateY = translateMaxY;
+        }
+      } else {
+        translateX = 0;
+        translateY = 0;
+      }
+
+      gesture.$imageWrapEl.transition(300).transform("translate3d(" + translateX + "px, " + translateY + "px,0)");
+      gesture.$imageEl.transition(300).transform("translate3d(0,0,0) scale(" + zoom.scale + ")");
+    },
+    out: function out() {
+      var swiper = this;
+      var zoom = swiper.zoom;
+      var params = swiper.params.zoom;
+      var gesture = zoom.gesture;
+
+      if (!gesture.$slideEl) {
+        gesture.$slideEl = swiper.clickedSlide ? $$1(swiper.clickedSlide) : swiper.slides.eq(swiper.activeIndex);
+        gesture.$imageEl = gesture.$slideEl.find('img, svg, canvas');
+        gesture.$imageWrapEl = gesture.$imageEl.parent("." + params.containerClass);
+      }
+
+      if (!gesture.$imageEl || gesture.$imageEl.length === 0) {
+        return;
+      }
+
+      zoom.scale = 1;
+      zoom.currentScale = 1;
+      gesture.$imageWrapEl.transition(300).transform('translate3d(0,0,0)');
+      gesture.$imageEl.transition(300).transform('translate3d(0,0,0) scale(1)');
+      gesture.$slideEl.removeClass("" + params.zoomedSlideClass);
+      gesture.$slideEl = undefined;
+    },
+    // Attach/Detach Events
+    enable: function enable() {
+      var swiper = this;
+      var zoom = swiper.zoom;
+
+      if (zoom.enabled) {
+        return;
+      }
+
+      zoom.enabled = true;
+      var slides = swiper.slides;
+      var passiveListener = swiper.touchEvents.start === 'touchstart' && Support.passiveListener && swiper.params.passiveListeners ? {
+        passive: true,
+        capture: false
+      } : false; // Scale image
+
+      if (Support.gestures) {
+        slides.on('gesturestart', zoom.onGestureStart, passiveListener);
+        slides.on('gesturechange', zoom.onGestureChange, passiveListener);
+        slides.on('gestureend', zoom.onGestureEnd, passiveListener);
+      } else if (swiper.touchEvents.start === 'touchstart') {
+        slides.on(swiper.touchEvents.start, zoom.onGestureStart, passiveListener);
+        slides.on(swiper.touchEvents.move, zoom.onGestureChange, passiveListener);
+        slides.on(swiper.touchEvents.end, zoom.onGestureEnd, passiveListener);
+      } // Move image
+
+
+      swiper.slides.each(function (index, slideEl) {
+        var $slideEl = $$1(slideEl);
+
+        if ($slideEl.find("." + swiper.params.zoom.containerClass).length > 0) {
+          $slideEl.on(swiper.touchEvents.move, zoom.onTouchMove);
+        }
+      });
+    },
+    disable: function disable() {
+      var swiper = this;
+      var zoom = swiper.zoom;
+
+      if (!zoom.enabled) {
+        return;
+      }
+
+      swiper.zoom.enabled = false;
+      var slides = swiper.slides;
+      var passiveListener = swiper.touchEvents.start === 'touchstart' && Support.passiveListener && swiper.params.passiveListeners ? {
+        passive: true,
+        capture: false
+      } : false; // Scale image
+
+      if (Support.gestures) {
+        slides.off('gesturestart', zoom.onGestureStart, passiveListener);
+        slides.off('gesturechange', zoom.onGestureChange, passiveListener);
+        slides.off('gestureend', zoom.onGestureEnd, passiveListener);
+      } else if (swiper.touchEvents.start === 'touchstart') {
+        slides.off(swiper.touchEvents.start, zoom.onGestureStart, passiveListener);
+        slides.off(swiper.touchEvents.move, zoom.onGestureChange, passiveListener);
+        slides.off(swiper.touchEvents.end, zoom.onGestureEnd, passiveListener);
+      } // Move image
+
+
+      swiper.slides.each(function (index, slideEl) {
+        var $slideEl = $$1(slideEl);
+
+        if ($slideEl.find("." + swiper.params.zoom.containerClass).length > 0) {
+          $slideEl.off(swiper.touchEvents.move, zoom.onTouchMove);
+        }
+      });
+    }
+  };
+  var Zoom$1 = {
+    name: 'zoom',
+    params: {
+      zoom: {
+        enabled: false,
+        maxRatio: 3,
+        minRatio: 1,
+        toggle: true,
+        containerClass: 'swiper-zoom-container',
+        zoomedSlideClass: 'swiper-slide-zoomed'
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      var zoom = {
+        enabled: false,
+        scale: 1,
+        currentScale: 1,
+        isScaling: false,
+        gesture: {
+          $slideEl: undefined,
+          slideWidth: undefined,
+          slideHeight: undefined,
+          $imageEl: undefined,
+          $imageWrapEl: undefined,
+          maxRatio: 3
+        },
+        image: {
+          isTouched: undefined,
+          isMoved: undefined,
+          currentX: undefined,
+          currentY: undefined,
+          minX: undefined,
+          minY: undefined,
+          maxX: undefined,
+          maxY: undefined,
+          width: undefined,
+          height: undefined,
+          startX: undefined,
+          startY: undefined,
+          touchesStart: {},
+          touchesCurrent: {}
+        },
+        velocity: {
+          x: undefined,
+          y: undefined,
+          prevPositionX: undefined,
+          prevPositionY: undefined,
+          prevTime: undefined
+        }
+      };
+      'onGestureStart onGestureChange onGestureEnd onTouchStart onTouchMove onTouchEnd onTransitionEnd toggle enable disable in out'.split(' ').forEach(function (methodName) {
+        zoom[methodName] = Zoom[methodName].bind(swiper);
+      });
+      Utils.extend(swiper, {
+        zoom: zoom
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+
+        if (swiper.params.zoom.enabled) {
+          swiper.zoom.enable();
+        }
+      },
+      destroy: function destroy() {
+        var swiper = this;
+        swiper.zoom.disable();
+      },
+      touchStart: function touchStart(e) {
+        var swiper = this;
+
+        if (!swiper.zoom.enabled) {
+          return;
+        }
+
+        swiper.zoom.onTouchStart(e);
+      },
+      touchEnd: function touchEnd(e) {
+        var swiper = this;
+
+        if (!swiper.zoom.enabled) {
+          return;
+        }
+
+        swiper.zoom.onTouchEnd(e);
+      },
+      doubleTap: function doubleTap(e) {
+        var swiper = this;
+
+        if (swiper.params.zoom.enabled && swiper.zoom.enabled && swiper.params.zoom.toggle) {
+          swiper.zoom.toggle(e);
+        }
+      },
+      transitionEnd: function transitionEnd() {
+        var swiper = this;
+
+        if (swiper.zoom.enabled && swiper.params.zoom.enabled) {
+          swiper.zoom.onTransitionEnd();
+        }
+      }
+    }
+  };
+  var Lazy = {
+    loadInSlide: function loadInSlide(index, loadInDuplicate) {
+      if (loadInDuplicate === void 0) loadInDuplicate = true;
+      var swiper = this;
+      var params = swiper.params.lazy;
+
+      if (typeof index === 'undefined') {
+        return;
+      }
+
+      if (swiper.slides.length === 0) {
+        return;
+      }
+
+      var isVirtual = swiper.virtual && swiper.params.virtual.enabled;
+      var $slideEl = isVirtual ? swiper.$wrapperEl.children("." + swiper.params.slideClass + "[data-swiper-slide-index=\"" + index + "\"]") : swiper.slides.eq(index);
+      var $images = $slideEl.find("." + params.elementClass + ":not(." + params.loadedClass + "):not(." + params.loadingClass + ")");
+
+      if ($slideEl.hasClass(params.elementClass) && !$slideEl.hasClass(params.loadedClass) && !$slideEl.hasClass(params.loadingClass)) {
+        $images = $images.add($slideEl[0]);
+      }
+
+      if ($images.length === 0) {
+        return;
+      }
+
+      $images.each(function (imageIndex, imageEl) {
+        var $imageEl = $$1(imageEl);
+        $imageEl.addClass(params.loadingClass);
+        var background = $imageEl.attr('data-background');
+        var src = $imageEl.attr('data-src');
+        var srcset = $imageEl.attr('data-srcset');
+        var sizes = $imageEl.attr('data-sizes');
+        swiper.loadImage($imageEl[0], src || background, srcset, sizes, false, function () {
+          if (typeof swiper === 'undefined' || swiper === null || !swiper || swiper && !swiper.params || swiper.destroyed) {
+            return;
+          }
+
+          if (background) {
+            $imageEl.css('background-image', "url(\"" + background + "\")");
+            $imageEl.removeAttr('data-background');
+          } else {
+            if (srcset) {
+              $imageEl.attr('srcset', srcset);
+              $imageEl.removeAttr('data-srcset');
+            }
+
+            if (sizes) {
+              $imageEl.attr('sizes', sizes);
+              $imageEl.removeAttr('data-sizes');
+            }
+
+            if (src) {
+              $imageEl.attr('src', src);
+              $imageEl.removeAttr('data-src');
+            }
+          }
+
+          $imageEl.addClass(params.loadedClass).removeClass(params.loadingClass);
+          $slideEl.find("." + params.preloaderClass).remove();
+
+          if (swiper.params.loop && loadInDuplicate) {
+            var slideOriginalIndex = $slideEl.attr('data-swiper-slide-index');
+
+            if ($slideEl.hasClass(swiper.params.slideDuplicateClass)) {
+              var originalSlide = swiper.$wrapperEl.children("[data-swiper-slide-index=\"" + slideOriginalIndex + "\"]:not(." + swiper.params.slideDuplicateClass + ")");
+              swiper.lazy.loadInSlide(originalSlide.index(), false);
+            } else {
+              var duplicatedSlide = swiper.$wrapperEl.children("." + swiper.params.slideDuplicateClass + "[data-swiper-slide-index=\"" + slideOriginalIndex + "\"]");
+              swiper.lazy.loadInSlide(duplicatedSlide.index(), false);
+            }
+          }
+
+          swiper.emit('lazyImageReady', $slideEl[0], $imageEl[0]);
+        });
+        swiper.emit('lazyImageLoad', $slideEl[0], $imageEl[0]);
+      });
+    },
+    load: function load() {
+      var swiper = this;
+      var $wrapperEl = swiper.$wrapperEl;
+      var swiperParams = swiper.params;
+      var slides = swiper.slides;
+      var activeIndex = swiper.activeIndex;
+      var isVirtual = swiper.virtual && swiperParams.virtual.enabled;
+      var params = swiperParams.lazy;
+      var slidesPerView = swiperParams.slidesPerView;
+
+      if (slidesPerView === 'auto') {
+        slidesPerView = 0;
+      }
+
+      function slideExist(index) {
+        if (isVirtual) {
+          if ($wrapperEl.children("." + swiperParams.slideClass + "[data-swiper-slide-index=\"" + index + "\"]").length) {
+            return true;
+          }
+        } else if (slides[index]) {
+          return true;
+        }
+
+        return false;
+      }
+
+      function slideIndex(slideEl) {
+        if (isVirtual) {
+          return $$1(slideEl).attr('data-swiper-slide-index');
+        }
+
+        return $$1(slideEl).index();
+      }
+
+      if (!swiper.lazy.initialImageLoaded) {
+        swiper.lazy.initialImageLoaded = true;
+      }
+
+      if (swiper.params.watchSlidesVisibility) {
+        $wrapperEl.children("." + swiperParams.slideVisibleClass).each(function (elIndex, slideEl) {
+          var index = isVirtual ? $$1(slideEl).attr('data-swiper-slide-index') : $$1(slideEl).index();
+          swiper.lazy.loadInSlide(index);
+        });
+      } else if (slidesPerView > 1) {
+        for (var i = activeIndex; i < activeIndex + slidesPerView; i += 1) {
+          if (slideExist(i)) {
+            swiper.lazy.loadInSlide(i);
+          }
+        }
+      } else {
+        swiper.lazy.loadInSlide(activeIndex);
+      }
+
+      if (params.loadPrevNext) {
+        if (slidesPerView > 1 || params.loadPrevNextAmount && params.loadPrevNextAmount > 1) {
+          var amount = params.loadPrevNextAmount;
+          var spv = slidesPerView;
+          var maxIndex = Math.min(activeIndex + spv + Math.max(amount, spv), slides.length);
+          var minIndex = Math.max(activeIndex - Math.max(spv, amount), 0); // Next Slides
+
+          for (var i$1 = activeIndex + slidesPerView; i$1 < maxIndex; i$1 += 1) {
+            if (slideExist(i$1)) {
+              swiper.lazy.loadInSlide(i$1);
+            }
+          } // Prev Slides
+
+
+          for (var i$2 = minIndex; i$2 < activeIndex; i$2 += 1) {
+            if (slideExist(i$2)) {
+              swiper.lazy.loadInSlide(i$2);
+            }
+          }
+        } else {
+          var nextSlide = $wrapperEl.children("." + swiperParams.slideNextClass);
+
+          if (nextSlide.length > 0) {
+            swiper.lazy.loadInSlide(slideIndex(nextSlide));
+          }
+
+          var prevSlide = $wrapperEl.children("." + swiperParams.slidePrevClass);
+
+          if (prevSlide.length > 0) {
+            swiper.lazy.loadInSlide(slideIndex(prevSlide));
+          }
+        }
+      }
+    }
+  };
+  var Lazy$1 = {
+    name: 'lazy',
+    params: {
+      lazy: {
+        enabled: false,
+        loadPrevNext: false,
+        loadPrevNextAmount: 1,
+        loadOnTransitionStart: false,
+        elementClass: 'swiper-lazy',
+        loadingClass: 'swiper-lazy-loading',
+        loadedClass: 'swiper-lazy-loaded',
+        preloaderClass: 'swiper-lazy-preloader'
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        lazy: {
+          initialImageLoaded: false,
+          load: Lazy.load.bind(swiper),
+          loadInSlide: Lazy.loadInSlide.bind(swiper)
+        }
+      });
+    },
+    on: {
+      beforeInit: function beforeInit() {
+        var swiper = this;
+
+        if (swiper.params.preloadImages) {
+          swiper.params.preloadImages = false;
+        }
+      },
+      init: function init() {
+        var swiper = this;
+
+        if (swiper.params.lazy.enabled && !swiper.params.loop && swiper.params.initialSlide === 0) {
+          swiper.lazy.load();
+        }
+      },
+      scroll: function scroll() {
+        var swiper = this;
+
+        if (swiper.params.freeMode && !swiper.params.freeModeSticky) {
+          swiper.lazy.load();
+        }
+      },
+      resize: function resize() {
+        var swiper = this;
+
+        if (swiper.params.lazy.enabled) {
+          swiper.lazy.load();
+        }
+      },
+      scrollbarDragMove: function scrollbarDragMove() {
+        var swiper = this;
+
+        if (swiper.params.lazy.enabled) {
+          swiper.lazy.load();
+        }
+      },
+      transitionStart: function transitionStart() {
+        var swiper = this;
+
+        if (swiper.params.lazy.enabled) {
+          if (swiper.params.lazy.loadOnTransitionStart || !swiper.params.lazy.loadOnTransitionStart && !swiper.lazy.initialImageLoaded) {
+            swiper.lazy.load();
+          }
+        }
+      },
+      transitionEnd: function transitionEnd() {
+        var swiper = this;
+
+        if (swiper.params.lazy.enabled && !swiper.params.lazy.loadOnTransitionStart) {
+          swiper.lazy.load();
+        }
+      }
+    }
+  };
+  /* eslint no-bitwise: ["error", { "allow": [">>"] }] */
+
+  var Controller = {
+    LinearSpline: function LinearSpline(x, y) {
+      var binarySearch = function search() {
+        var maxIndex;
+        var minIndex;
+        var guess;
+        return function (array, val) {
+          minIndex = -1;
+          maxIndex = array.length;
+
+          while (maxIndex - minIndex > 1) {
+            guess = maxIndex + minIndex >> 1;
+
+            if (array[guess] <= val) {
+              minIndex = guess;
+            } else {
+              maxIndex = guess;
+            }
+          }
+
+          return maxIndex;
+        };
+      }();
+
+      this.x = x;
+      this.y = y;
+      this.lastIndex = x.length - 1; // Given an x value (x2), return the expected y2 value:
+      // (x1,y1) is the known point before given value,
+      // (x3,y3) is the known point after given value.
+
+      var i1;
+      var i3;
+
+      this.interpolate = function interpolate(x2) {
+        if (!x2) {
+          return 0;
+        } // Get the indexes of x1 and x3 (the array indexes before and after given x2):
+
+
+        i3 = binarySearch(this.x, x2);
+        i1 = i3 - 1; // We have our indexes i1 & i3, so we can calculate already:
+        // y2 := ((x2−x1) × (y3−y1)) ÷ (x3−x1) + y1
+
+        return (x2 - this.x[i1]) * (this.y[i3] - this.y[i1]) / (this.x[i3] - this.x[i1]) + this.y[i1];
+      };
+
+      return this;
+    },
+    // xxx: for now i will just save one spline function to to
+    getInterpolateFunction: function getInterpolateFunction(c) {
+      var swiper = this;
+
+      if (!swiper.controller.spline) {
+        swiper.controller.spline = swiper.params.loop ? new Controller.LinearSpline(swiper.slidesGrid, c.slidesGrid) : new Controller.LinearSpline(swiper.snapGrid, c.snapGrid);
+      }
+    },
+    setTranslate: function setTranslate(setTranslate$1, byController) {
+      var swiper = this;
+      var controlled = swiper.controller.control;
+      var multiplier;
+      var controlledTranslate;
+
+      function setControlledTranslate(c) {
+        // this will create an Interpolate function based on the snapGrids
+        // x is the Grid of the scrolled scroller and y will be the controlled scroller
+        // it makes sense to create this only once and recall it for the interpolation
+        // the function does a lot of value caching for performance
+        var translate = c.rtl && c.params.direction === 'horizontal' ? -swiper.translate : swiper.translate;
+
+        if (swiper.params.controller.by === 'slide') {
+          swiper.controller.getInterpolateFunction(c); // i am not sure why the values have to be multiplicated this way, tried to invert the snapGrid
+          // but it did not work out
+
+          controlledTranslate = -swiper.controller.spline.interpolate(-translate);
+        }
+
+        if (!controlledTranslate || swiper.params.controller.by === 'container') {
+          multiplier = (c.maxTranslate() - c.minTranslate()) / (swiper.maxTranslate() - swiper.minTranslate());
+          controlledTranslate = (translate - swiper.minTranslate()) * multiplier + c.minTranslate();
+        }
+
+        if (swiper.params.controller.inverse) {
+          controlledTranslate = c.maxTranslate() - controlledTranslate;
+        }
+
+        c.updateProgress(controlledTranslate);
+        c.setTranslate(controlledTranslate, swiper);
+        c.updateActiveIndex();
+        c.updateSlidesClasses();
+      }
+
+      if (Array.isArray(controlled)) {
+        for (var i = 0; i < controlled.length; i += 1) {
+          if (controlled[i] !== byController && controlled[i] instanceof Swiper$1) {
+            setControlledTranslate(controlled[i]);
+          }
+        }
+      } else if (controlled instanceof Swiper$1 && byController !== controlled) {
+        setControlledTranslate(controlled);
+      }
+    },
+    setTransition: function setTransition(duration, byController) {
+      var swiper = this;
+      var controlled = swiper.controller.control;
+      var i;
+
+      function setControlledTransition(c) {
+        c.setTransition(duration, swiper);
+
+        if (duration !== 0) {
+          c.transitionStart();
+          c.$wrapperEl.transitionEnd(function () {
+            if (!controlled) {
+              return;
+            }
+
+            if (c.params.loop && swiper.params.controller.by === 'slide') {
+              c.loopFix();
+            }
+
+            c.transitionEnd();
+          });
+        }
+      }
+
+      if (Array.isArray(controlled)) {
+        for (i = 0; i < controlled.length; i += 1) {
+          if (controlled[i] !== byController && controlled[i] instanceof Swiper$1) {
+            setControlledTransition(controlled[i]);
+          }
+        }
+      } else if (controlled instanceof Swiper$1 && byController !== controlled) {
+        setControlledTransition(controlled);
+      }
+    }
+  };
+  var Controller$1 = {
+    name: 'controller',
+    params: {
+      controller: {
+        control: undefined,
+        inverse: false,
+        by: 'slide' // or 'container'
+
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        controller: {
+          control: swiper.params.controller.control,
+          getInterpolateFunction: Controller.getInterpolateFunction.bind(swiper),
+          setTranslate: Controller.setTranslate.bind(swiper),
+          setTransition: Controller.setTransition.bind(swiper)
+        }
+      });
+    },
+    on: {
+      update: function update() {
+        var swiper = this;
+
+        if (!swiper.controller.control) {
+          return;
+        }
+
+        if (swiper.controller.spline) {
+          swiper.controller.spline = undefined;
+          delete swiper.controller.spline;
+        }
+      },
+      resize: function resize() {
+        var swiper = this;
+
+        if (!swiper.controller.control) {
+          return;
+        }
+
+        if (swiper.controller.spline) {
+          swiper.controller.spline = undefined;
+          delete swiper.controller.spline;
+        }
+      },
+      observerUpdate: function observerUpdate() {
+        var swiper = this;
+
+        if (!swiper.controller.control) {
+          return;
+        }
+
+        if (swiper.controller.spline) {
+          swiper.controller.spline = undefined;
+          delete swiper.controller.spline;
+        }
+      },
+      setTranslate: function setTranslate(translate, byController) {
+        var swiper = this;
+
+        if (!swiper.controller.control) {
+          return;
+        }
+
+        swiper.controller.setTranslate(translate, byController);
+      },
+      setTransition: function setTransition(duration, byController) {
+        var swiper = this;
+
+        if (!swiper.controller.control) {
+          return;
+        }
+
+        swiper.controller.setTransition(duration, byController);
+      }
+    }
+  };
+  var a11y = {
+    makeElFocusable: function makeElFocusable($el) {
+      $el.attr('tabIndex', '0');
+      return $el;
+    },
+    addElRole: function addElRole($el, role) {
+      $el.attr('role', role);
+      return $el;
+    },
+    addElLabel: function addElLabel($el, label) {
+      $el.attr('aria-label', label);
+      return $el;
+    },
+    disableEl: function disableEl($el) {
+      $el.attr('aria-disabled', true);
+      return $el;
+    },
+    enableEl: function enableEl($el) {
+      $el.attr('aria-disabled', false);
+      return $el;
+    },
+    onEnterKey: function onEnterKey(e) {
+      var swiper = this;
+      var params = swiper.params.a11y;
+
+      if (e.keyCode !== 13) {
+        return;
+      }
+
+      var $targetEl = $$1(e.target);
+
+      if (swiper.navigation && swiper.navigation.$nextEl && $targetEl.is(swiper.navigation.$nextEl)) {
+        if (!(swiper.isEnd && !swiper.params.loop)) {
+          swiper.slideNext();
+        }
+
+        if (swiper.isEnd) {
+          swiper.a11y.notify(params.lastSlideMessage);
+        } else {
+          swiper.a11y.notify(params.nextSlideMessage);
+        }
+      }
+
+      if (swiper.navigation && swiper.navigation.$prevEl && $targetEl.is(swiper.navigation.$prevEl)) {
+        if (!(swiper.isBeginning && !swiper.params.loop)) {
+          swiper.slidePrev();
+        }
+
+        if (swiper.isBeginning) {
+          swiper.a11y.notify(params.firstSlideMessage);
+        } else {
+          swiper.a11y.notify(params.prevSlideMessage);
+        }
+      }
+
+      if (swiper.pagination && $targetEl.is("." + swiper.params.pagination.bulletClass)) {
+        $targetEl[0].click();
+      }
+    },
+    notify: function notify(message) {
+      var swiper = this;
+      var notification = swiper.a11y.liveRegion;
+
+      if (notification.length === 0) {
+        return;
+      }
+
+      notification.html('');
+      notification.html(message);
+    },
+    updateNavigation: function updateNavigation() {
+      var swiper = this;
+
+      if (swiper.params.loop) {
+        return;
+      }
+
+      var ref = swiper.navigation;
+      var $nextEl = ref.$nextEl;
+      var $prevEl = ref.$prevEl;
+
+      if ($prevEl && $prevEl.length > 0) {
+        if (swiper.isBeginning) {
+          swiper.a11y.disableEl($prevEl);
+        } else {
+          swiper.a11y.enableEl($prevEl);
+        }
+      }
+
+      if ($nextEl && $nextEl.length > 0) {
+        if (swiper.isEnd) {
+          swiper.a11y.disableEl($nextEl);
+        } else {
+          swiper.a11y.enableEl($nextEl);
+        }
+      }
+    },
+    updatePagination: function updatePagination() {
+      var swiper = this;
+      var params = swiper.params.a11y;
+
+      if (swiper.pagination && swiper.params.pagination.clickable && swiper.pagination.bullets && swiper.pagination.bullets.length) {
+        swiper.pagination.bullets.each(function (bulletIndex, bulletEl) {
+          var $bulletEl = $$1(bulletEl);
+          swiper.a11y.makeElFocusable($bulletEl);
+          swiper.a11y.addElRole($bulletEl, 'button');
+          swiper.a11y.addElLabel($bulletEl, params.paginationBulletMessage.replace(/{{index}}/, $bulletEl.index() + 1));
+        });
+      }
+    },
+    init: function init() {
+      var swiper = this;
+      swiper.$el.append(swiper.a11y.liveRegion); // Navigation
+
+      var params = swiper.params.a11y;
+      var $nextEl;
+      var $prevEl;
+
+      if (swiper.navigation && swiper.navigation.$nextEl) {
+        $nextEl = swiper.navigation.$nextEl;
+      }
+
+      if (swiper.navigation && swiper.navigation.$prevEl) {
+        $prevEl = swiper.navigation.$prevEl;
+      }
+
+      if ($nextEl) {
+        swiper.a11y.makeElFocusable($nextEl);
+        swiper.a11y.addElRole($nextEl, 'button');
+        swiper.a11y.addElLabel($nextEl, params.nextSlideMessage);
+        $nextEl.on('keydown', swiper.a11y.onEnterKey);
+      }
+
+      if ($prevEl) {
+        swiper.a11y.makeElFocusable($prevEl);
+        swiper.a11y.addElRole($prevEl, 'button');
+        swiper.a11y.addElLabel($prevEl, params.prevSlideMessage);
+        $prevEl.on('keydown', swiper.a11y.onEnterKey);
+      } // Pagination
+
+
+      if (swiper.pagination && swiper.params.pagination.clickable && swiper.pagination.bullets && swiper.pagination.bullets.length) {
+        swiper.pagination.$el.on('keydown', "." + swiper.params.pagination.bulletClass, swiper.a11y.onEnterKey);
+      }
+    },
+    destroy: function destroy() {
+      var swiper = this;
+
+      if (swiper.a11y.liveRegion && swiper.a11y.liveRegion.length > 0) {
+        swiper.a11y.liveRegion.remove();
+      }
+
+      var $nextEl;
+      var $prevEl;
+
+      if (swiper.navigation && swiper.navigation.$nextEl) {
+        $nextEl = swiper.navigation.$nextEl;
+      }
+
+      if (swiper.navigation && swiper.navigation.$prevEl) {
+        $prevEl = swiper.navigation.$prevEl;
+      }
+
+      if ($nextEl) {
+        $nextEl.off('keydown', swiper.a11y.onEnterKey);
+      }
+
+      if ($prevEl) {
+        $prevEl.off('keydown', swiper.a11y.onEnterKey);
+      } // Pagination
+
+
+      if (swiper.pagination && swiper.params.pagination.clickable && swiper.pagination.bullets && swiper.pagination.bullets.length) {
+        swiper.pagination.$el.off('keydown', "." + swiper.params.pagination.bulletClass, swiper.a11y.onEnterKey);
+      }
+    }
+  };
+  var A11y = {
+    name: 'a11y',
+    params: {
+      a11y: {
+        enabled: false,
+        notificationClass: 'swiper-notification',
+        prevSlideMessage: 'Previous slide',
+        nextSlideMessage: 'Next slide',
+        firstSlideMessage: 'This is the first slide',
+        lastSlideMessage: 'This is the last slide',
+        paginationBulletMessage: 'Go to slide {{index}}'
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        a11y: {
+          liveRegion: $$1("<span class=\"" + swiper.params.a11y.notificationClass + "\" aria-live=\"assertive\" aria-atomic=\"true\"></span>")
+        }
+      });
+      Object.keys(a11y).forEach(function (methodName) {
+        swiper.a11y[methodName] = a11y[methodName].bind(swiper);
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+
+        if (!swiper.params.a11y.enabled) {
+          return;
+        }
+
+        swiper.a11y.init();
+        swiper.a11y.updateNavigation();
+      },
+      toEdge: function toEdge() {
+        var swiper = this;
+
+        if (!swiper.params.a11y.enabled) {
+          return;
+        }
+
+        swiper.a11y.updateNavigation();
+      },
+      fromEdge: function fromEdge() {
+        var swiper = this;
+
+        if (!swiper.params.a11y.enabled) {
+          return;
+        }
+
+        swiper.a11y.updateNavigation();
+      },
+      paginationUpdate: function paginationUpdate() {
+        var swiper = this;
+
+        if (!swiper.params.a11y.enabled) {
+          return;
+        }
+
+        swiper.a11y.updatePagination();
+      },
+      destroy: function destroy() {
+        var swiper = this;
+
+        if (!swiper.params.a11y.enabled) {
+          return;
+        }
+
+        swiper.a11y.destroy();
+      }
+    }
+  };
+  var History = {
+    init: function init() {
+      var swiper = this;
+
+      if (!swiper.params.history) {
+        return;
+      }
+
+      if (!win.history || !win.history.pushState) {
+        swiper.params.history.enabled = false;
+        swiper.params.hashNavigation.enabled = true;
+        return;
+      }
+
+      var history = swiper.history;
+      history.initialized = true;
+      history.paths = History.getPathValues();
+
+      if (!history.paths.key && !history.paths.value) {
+        return;
+      }
+
+      history.scrollToSlide(0, history.paths.value, swiper.params.runCallbacksOnInit);
+
+      if (!swiper.params.history.replaceState) {
+        win.addEventListener('popstate', swiper.history.setHistoryPopState);
+      }
+    },
+    destroy: function destroy() {
+      var swiper = this;
+
+      if (!swiper.params.history.replaceState) {
+        win.removeEventListener('popstate', swiper.history.setHistoryPopState);
+      }
+    },
+    setHistoryPopState: function setHistoryPopState() {
+      var swiper = this;
+      swiper.history.paths = History.getPathValues();
+      swiper.history.scrollToSlide(swiper.params.speed, swiper.history.paths.value, false);
+    },
+    getPathValues: function getPathValues() {
+      var pathArray = win.location.pathname.slice(1).split('/');
+      var total = pathArray.length;
+      var key = pathArray[total - 2];
+      var value = pathArray[total - 1];
+      return {
+        key: key,
+        value: value
+      };
+    },
+    setHistory: function setHistory(key, index) {
+      var swiper = this;
+
+      if (!swiper.history.initialized || !swiper.params.history.enabled) {
+        return;
+      }
+
+      var slide = swiper.slides.eq(index);
+      var value = History.slugify(slide.attr('data-history'));
+
+      if (!win.location.pathname.includes(key)) {
+        value = key + "/" + value;
+      }
+
+      var currentState = win.history.state;
+
+      if (currentState && currentState.value === value) {
+        return;
+      }
+
+      if (swiper.params.history.replaceState) {
+        win.history.replaceState({
+          value: value
+        }, null, value);
+      } else {
+        win.history.pushState({
+          value: value
+        }, null, value);
+      }
+    },
+    slugify: function slugify(text) {
+      return text.toString().toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]+/g, '').replace(/--+/g, '-').replace(/^-+/, '').replace(/-+$/, '');
+    },
+    scrollToSlide: function scrollToSlide(speed, value, runCallbacks) {
+      var swiper = this;
+
+      if (value) {
+        for (var i = 0, length = swiper.slides.length; i < length; i += 1) {
+          var slide = swiper.slides.eq(i);
+          var slideHistory = History.slugify(slide.attr('data-history'));
+
+          if (slideHistory === value && !slide.hasClass(swiper.params.slideDuplicateClass)) {
+            var index = slide.index();
+            swiper.slideTo(index, speed, runCallbacks);
+          }
+        }
+      } else {
+        swiper.slideTo(0, speed, runCallbacks);
+      }
+    }
+  };
+  var History$1 = {
+    name: 'history',
+    params: {
+      history: {
+        enabled: false,
+        replaceState: false,
+        key: 'slides'
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        history: {
+          init: History.init.bind(swiper),
+          setHistory: History.setHistory.bind(swiper),
+          setHistoryPopState: History.setHistoryPopState.bind(swiper),
+          scrollToSlide: History.scrollToSlide.bind(swiper)
+        }
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+
+        if (swiper.params.history.enabled) {
+          swiper.history.init();
+        }
+      },
+      destroy: function destroy() {
+        var swiper = this;
+
+        if (swiper.params.history.enabled) {
+          swiper.history.destroy();
+        }
+      },
+      transitionEnd: function transitionEnd() {
+        var swiper = this;
+
+        if (swiper.history.initialized) {
+          swiper.history.setHistory(swiper.params.history.key, swiper.activeIndex);
+        }
+      }
+    }
+  };
+  var HashNavigation = {
+    onHashCange: function onHashCange() {
+      var swiper = this;
+      var newHash = doc.location.hash.replace('#', '');
+      var activeSlideHash = swiper.slides.eq(swiper.activeIndex).attr('data-hash');
+
+      if (newHash !== activeSlideHash) {
+        swiper.slideTo(swiper.$wrapperEl.children("." + swiper.params.slideClass + "[data-hash=\"" + newHash + "\"]").index());
+      }
+    },
+    setHash: function setHash() {
+      var swiper = this;
+
+      if (!swiper.hashNavigation.initialized || !swiper.params.hashNavigation.enabled) {
+        return;
+      }
+
+      if (swiper.params.hashNavigation.replaceState && win.history && win.history.replaceState) {
+        win.history.replaceState(null, null, "#" + swiper.slides.eq(swiper.activeIndex).attr('data-hash') || '');
+      } else {
+        var slide = swiper.slides.eq(swiper.activeIndex);
+        var hash = slide.attr('data-hash') || slide.attr('data-history');
+        doc.location.hash = hash || '';
+      }
+    },
+    init: function init() {
+      var swiper = this;
+
+      if (!swiper.params.hashNavigation.enabled || swiper.params.history && swiper.params.history.enabled) {
+        return;
+      }
+
+      swiper.hashNavigation.initialized = true;
+      var hash = doc.location.hash.replace('#', '');
+
+      if (hash) {
+        var speed = 0;
+
+        for (var i = 0, length = swiper.slides.length; i < length; i += 1) {
+          var slide = swiper.slides.eq(i);
+          var slideHash = slide.attr('data-hash') || slide.attr('data-history');
+
+          if (slideHash === hash && !slide.hasClass(swiper.params.slideDuplicateClass)) {
+            var index = slide.index();
+            swiper.slideTo(index, speed, swiper.params.runCallbacksOnInit, true);
+          }
+        }
+      }
+
+      if (swiper.params.hashNavigation.watchState) {
+        $$1(win).on('hashchange', swiper.hashNavigation.onHashCange);
+      }
+    },
+    destroy: function destroy() {
+      var swiper = this;
+
+      if (swiper.params.hashNavigation.watchState) {
+        $$1(win).off('hashchange', swiper.hashNavigation.onHashCange);
+      }
+    }
+  };
+  var HashNavigation$1 = {
+    name: 'hash-navigation',
+    params: {
+      hashNavigation: {
+        enabled: false,
+        replaceState: false,
+        watchState: false
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        hashNavigation: {
+          initialized: false,
+          init: HashNavigation.init.bind(swiper),
+          destroy: HashNavigation.destroy.bind(swiper),
+          setHash: HashNavigation.setHash.bind(swiper),
+          onHashCange: HashNavigation.onHashCange.bind(swiper)
+        }
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+
+        if (swiper.params.hashNavigation.enabled) {
+          swiper.hashNavigation.init();
+        }
+      },
+      destroy: function destroy() {
+        var swiper = this;
+
+        if (swiper.params.hashNavigation.enabled) {
+          swiper.hashNavigation.destroy();
+        }
+      },
+      transitionEnd: function transitionEnd() {
+        var swiper = this;
+
+        if (swiper.hashNavigation.initialized) {
+          swiper.hashNavigation.setHash();
+        }
+      }
+    }
+  };
+  var Autoplay = {
+    run: function run() {
+      var swiper = this;
+      var $activeSlideEl = swiper.slides.eq(swiper.activeIndex);
+      var delay = swiper.params.autoplay.delay;
+
+      if ($activeSlideEl.attr('data-swiper-autoplay')) {
+        delay = $activeSlideEl.attr('data-swiper-autoplay') || swiper.params.autoplay.delay;
+      }
+
+      swiper.autoplay.timeout = Utils.nextTick(function () {
+        if (swiper.params.loop) {
+          swiper.loopFix();
+          swiper.slideNext(swiper.params.speed, true, true);
+          swiper.emit('autoplay');
+        } else if (!swiper.isEnd) {
+          swiper.slideNext(swiper.params.speed, true, true);
+          swiper.emit('autoplay');
+        } else if (!swiper.params.autoplay.stopOnLastSlide) {
+          swiper.slideTo(0, swiper.params.speed, true, true);
+          swiper.emit('autoplay');
+        } else {
+          swiper.autoplay.stop();
+        }
+      }, delay);
+    },
+    start: function start() {
+      var swiper = this;
+
+      if (typeof swiper.autoplay.timeout !== 'undefined') {
+        return false;
+      }
+
+      if (swiper.autoplay.running) {
+        return false;
+      }
+
+      swiper.autoplay.running = true;
+      swiper.emit('autoplayStart');
+      swiper.autoplay.run();
+      return true;
+    },
+    stop: function stop() {
+      var swiper = this;
+
+      if (!swiper.autoplay.running) {
+        return false;
+      }
+
+      if (typeof swiper.autoplay.timeout === 'undefined') {
+        return false;
+      }
+
+      if (swiper.autoplay.timeout) {
+        clearTimeout(swiper.autoplay.timeout);
+        swiper.autoplay.timeout = undefined;
+      }
+
+      swiper.autoplay.running = false;
+      swiper.emit('autoplayStop');
+      return true;
+    },
+    pause: function pause(speed) {
+      var swiper = this;
+
+      if (!swiper.autoplay.running) {
+        return;
+      }
+
+      if (swiper.autoplay.paused) {
+        return;
+      }
+
+      if (swiper.autoplay.timeout) {
+        clearTimeout(swiper.autoplay.timeout);
+      }
+
+      swiper.autoplay.paused = true;
+
+      if (speed === 0) {
+        swiper.autoplay.paused = false;
+        swiper.autoplay.run();
+      } else {
+        swiper.$wrapperEl.transitionEnd(function () {
+          if (!swiper || swiper.destroyed) {
+            return;
+          }
+
+          swiper.autoplay.paused = false;
+
+          if (!swiper.autoplay.running) {
+            swiper.autoplay.stop();
+          } else {
+            swiper.autoplay.run();
+          }
+        });
+      }
+    }
+  };
+  var Autoplay$1 = {
+    name: 'autoplay',
+    params: {
+      autoplay: {
+        enabled: false,
+        delay: 3000,
+        disableOnInteraction: true,
+        stopOnLastSlide: false
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        autoplay: {
+          running: false,
+          paused: false,
+          run: Autoplay.run.bind(swiper),
+          start: Autoplay.start.bind(swiper),
+          stop: Autoplay.stop.bind(swiper),
+          pause: Autoplay.pause.bind(swiper)
+        }
+      });
+    },
+    on: {
+      init: function init() {
+        var swiper = this;
+
+        if (swiper.params.autoplay.enabled) {
+          swiper.autoplay.start();
+        }
+      },
+      beforeTransitionStart: function beforeTransitionStart(speed, internal) {
+        var swiper = this;
+
+        if (swiper.autoplay.running) {
+          if (internal || !swiper.params.autoplay.disableOnInteraction) {
+            swiper.autoplay.pause(speed);
+          } else {
+            swiper.autoplay.stop();
+          }
+        }
+      },
+      sliderFirstMove: function sliderFirstMove() {
+        var swiper = this;
+
+        if (swiper.autoplay.running) {
+          if (swiper.params.autoplay.disableOnInteraction) {
+            swiper.autoplay.stop();
+          } else {
+            swiper.autoplay.pause();
+          }
+        }
+      },
+      destroy: function destroy() {
+        var swiper = this;
+
+        if (swiper.autoplay.running) {
+          swiper.autoplay.stop();
+        }
+      }
+    }
+  };
+  var Fade = {
+    setTranslate: function setTranslate() {
+      var swiper = this;
+      var slides = swiper.slides;
+
+      for (var i = 0; i < slides.length; i += 1) {
+        var $slideEl = swiper.slides.eq(i);
+        var offset = $slideEl[0].swiperSlideOffset;
+        var tx = -offset;
+
+        if (!swiper.params.virtualTranslate) {
+          tx -= swiper.translate;
+        }
+
+        var ty = 0;
+
+        if (!swiper.isHorizontal()) {
+          ty = tx;
+          tx = 0;
+        }
+
+        var slideOpacity = swiper.params.fadeEffect.crossFade ? Math.max(1 - Math.abs($slideEl[0].progress), 0) : 1 + Math.min(Math.max($slideEl[0].progress, -1), 0);
+        $slideEl.css({
+          opacity: slideOpacity
+        }).transform("translate3d(" + tx + "px, " + ty + "px, 0px)");
+      }
+    },
+    setTransition: function setTransition(duration) {
+      var swiper = this;
+      var slides = swiper.slides;
+      var $wrapperEl = swiper.$wrapperEl;
+      slides.transition(duration);
+
+      if (swiper.params.virtualTranslate && duration !== 0) {
+        var eventTriggered = false;
+        slides.transitionEnd(function () {
+          if (eventTriggered) {
+            return;
+          }
+
+          if (!swiper || swiper.destroyed) {
+            return;
+          }
+
+          eventTriggered = true;
+          swiper.animating = false;
+          var triggerEvents = ['webkitTransitionEnd', 'transitionend'];
+
+          for (var i = 0; i < triggerEvents.length; i += 1) {
+            $wrapperEl.trigger(triggerEvents[i]);
+          }
+        });
+      }
+    }
+  };
+  var EffectFade = {
+    name: 'effect-fade',
+    params: {
+      fadeEffect: {
+        crossFade: false
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        fadeEffect: {
+          setTranslate: Fade.setTranslate.bind(swiper),
+          setTransition: Fade.setTransition.bind(swiper)
+        }
+      });
+    },
+    on: {
+      beforeInit: function beforeInit() {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'fade') {
+          return;
+        }
+
+        swiper.classNames.push(swiper.params.containerModifierClass + "fade");
+        var overwriteParams = {
+          slidesPerView: 1,
+          slidesPerColumn: 1,
+          slidesPerGroup: 1,
+          watchSlidesProgress: true,
+          spaceBetween: 0,
+          virtualTranslate: true
+        };
+        Utils.extend(swiper.params, overwriteParams);
+        Utils.extend(swiper.originalParams, overwriteParams);
+      },
+      setTranslate: function setTranslate() {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'fade') {
+          return;
+        }
+
+        swiper.fadeEffect.setTranslate();
+      },
+      setTransition: function setTransition(duration) {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'fade') {
+          return;
+        }
+
+        swiper.fadeEffect.setTransition(duration);
+      }
+    }
+  };
+  var Cube = {
+    setTranslate: function setTranslate() {
+      var swiper = this;
+      var $el = swiper.$el;
+      var $wrapperEl = swiper.$wrapperEl;
+      var slides = swiper.slides;
+      var swiperWidth = swiper.width;
+      var swiperHeight = swiper.height;
+      var rtl = swiper.rtl;
+      var swiperSize = swiper.size;
+      var params = swiper.params.cubeEffect;
+      var isHorizontal = swiper.isHorizontal();
+      var isVirtual = swiper.virtual && swiper.params.virtual.enabled;
+      var wrapperRotate = 0;
+      var $cubeShadowEl;
+
+      if (params.shadow) {
+        if (isHorizontal) {
+          $cubeShadowEl = $wrapperEl.find('.swiper-cube-shadow');
+
+          if ($cubeShadowEl.length === 0) {
+            $cubeShadowEl = $$1('<div class="swiper-cube-shadow"></div>');
+            $wrapperEl.append($cubeShadowEl);
+          }
+
+          $cubeShadowEl.css({
+            height: swiperWidth + "px"
+          });
+        } else {
+          $cubeShadowEl = $el.find('.swiper-cube-shadow');
+
+          if ($cubeShadowEl.length === 0) {
+            $cubeShadowEl = $$1('<div class="swiper-cube-shadow"></div>');
+            $el.append($cubeShadowEl);
+          }
+        }
+      }
+
+      for (var i = 0; i < slides.length; i += 1) {
+        var $slideEl = slides.eq(i);
+        var slideIndex = i;
+
+        if (isVirtual) {
+          slideIndex = parseInt($slideEl.attr('data-swiper-slide-index'), 10);
+        }
+
+        var slideAngle = slideIndex * 90;
+        var round = Math.floor(slideAngle / 360);
+
+        if (rtl) {
+          slideAngle = -slideAngle;
+          round = Math.floor(-slideAngle / 360);
+        }
+
+        var progress = Math.max(Math.min($slideEl[0].progress, 1), -1);
+        var tx = 0;
+        var ty = 0;
+        var tz = 0;
+
+        if (slideIndex % 4 === 0) {
+          tx = -round * 4 * swiperSize;
+          tz = 0;
+        } else if ((slideIndex - 1) % 4 === 0) {
+          tx = 0;
+          tz = -round * 4 * swiperSize;
+        } else if ((slideIndex - 2) % 4 === 0) {
+          tx = swiperSize + round * 4 * swiperSize;
+          tz = swiperSize;
+        } else if ((slideIndex - 3) % 4 === 0) {
+          tx = -swiperSize;
+          tz = 3 * swiperSize + swiperSize * 4 * round;
+        }
+
+        if (rtl) {
+          tx = -tx;
+        }
+
+        if (!isHorizontal) {
+          ty = tx;
+          tx = 0;
+        }
+
+        var transform = "rotateX(" + (isHorizontal ? 0 : -slideAngle) + "deg) rotateY(" + (isHorizontal ? slideAngle : 0) + "deg) translate3d(" + tx + "px, " + ty + "px, " + tz + "px)";
+
+        if (progress <= 1 && progress > -1) {
+          wrapperRotate = slideIndex * 90 + progress * 90;
+
+          if (rtl) {
+            wrapperRotate = -slideIndex * 90 - progress * 90;
+          }
+        }
+
+        $slideEl.transform(transform);
+
+        if (params.slideShadows) {
+          // Set shadows
+          var shadowBefore = isHorizontal ? $slideEl.find('.swiper-slide-shadow-left') : $slideEl.find('.swiper-slide-shadow-top');
+          var shadowAfter = isHorizontal ? $slideEl.find('.swiper-slide-shadow-right') : $slideEl.find('.swiper-slide-shadow-bottom');
+
+          if (shadowBefore.length === 0) {
+            shadowBefore = $$1("<div class=\"swiper-slide-shadow-" + (isHorizontal ? 'left' : 'top') + "\"></div>");
+            $slideEl.append(shadowBefore);
+          }
+
+          if (shadowAfter.length === 0) {
+            shadowAfter = $$1("<div class=\"swiper-slide-shadow-" + (isHorizontal ? 'right' : 'bottom') + "\"></div>");
+            $slideEl.append(shadowAfter);
+          }
+
+          if (shadowBefore.length) {
+            shadowBefore[0].style.opacity = Math.max(-progress, 0);
+          }
+
+          if (shadowAfter.length) {
+            shadowAfter[0].style.opacity = Math.max(progress, 0);
+          }
+        }
+      }
+
+      $wrapperEl.css({
+        '-webkit-transform-origin': "50% 50% -" + swiperSize / 2 + "px",
+        '-moz-transform-origin': "50% 50% -" + swiperSize / 2 + "px",
+        '-ms-transform-origin': "50% 50% -" + swiperSize / 2 + "px",
+        'transform-origin': "50% 50% -" + swiperSize / 2 + "px"
+      });
+
+      if (params.shadow) {
+        if (isHorizontal) {
+          $cubeShadowEl.transform("translate3d(0px, " + (swiperWidth / 2 + params.shadowOffset) + "px, " + -swiperWidth / 2 + "px) rotateX(90deg) rotateZ(0deg) scale(" + params.shadowScale + ")");
+        } else {
+          var shadowAngle = Math.abs(wrapperRotate) - Math.floor(Math.abs(wrapperRotate) / 90) * 90;
+          var multiplier = 1.5 - (Math.sin(shadowAngle * 2 * Math.PI / 360) / 2 + Math.cos(shadowAngle * 2 * Math.PI / 360) / 2);
+          var scale1 = params.shadowScale;
+          var scale2 = params.shadowScale / multiplier;
+          var offset = params.shadowOffset;
+          $cubeShadowEl.transform("scale3d(" + scale1 + ", 1, " + scale2 + ") translate3d(0px, " + (swiperHeight / 2 + offset) + "px, " + -swiperHeight / 2 / scale2 + "px) rotateX(-90deg)");
+        }
+      }
+
+      var zFactor = Browser.isSafari || Browser.isUiWebView ? -swiperSize / 2 : 0;
+      $wrapperEl.transform("translate3d(0px,0," + zFactor + "px) rotateX(" + (swiper.isHorizontal() ? 0 : wrapperRotate) + "deg) rotateY(" + (swiper.isHorizontal() ? -wrapperRotate : 0) + "deg)");
+    },
+    setTransition: function setTransition(duration) {
+      var swiper = this;
+      var $el = swiper.$el;
+      var slides = swiper.slides;
+      slides.transition(duration).find('.swiper-slide-shadow-top, .swiper-slide-shadow-right, .swiper-slide-shadow-bottom, .swiper-slide-shadow-left').transition(duration);
+
+      if (swiper.params.cubeEffect.shadow && !swiper.isHorizontal()) {
+        $el.find('.swiper-cube-shadow').transition(duration);
+      }
+    }
+  };
+  var EffectCube = {
+    name: 'effect-cube',
+    params: {
+      cubeEffect: {
+        slideShadows: true,
+        shadow: true,
+        shadowOffset: 20,
+        shadowScale: 0.94
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        cubeEffect: {
+          setTranslate: Cube.setTranslate.bind(swiper),
+          setTransition: Cube.setTransition.bind(swiper)
+        }
+      });
+    },
+    on: {
+      beforeInit: function beforeInit() {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'cube') {
+          return;
+        }
+
+        swiper.classNames.push(swiper.params.containerModifierClass + "cube");
+        swiper.classNames.push(swiper.params.containerModifierClass + "3d");
+        var overwriteParams = {
+          slidesPerView: 1,
+          slidesPerColumn: 1,
+          slidesPerGroup: 1,
+          watchSlidesProgress: true,
+          resistanceRatio: 0,
+          spaceBetween: 0,
+          centeredSlides: false,
+          virtualTranslate: true
+        };
+        Utils.extend(swiper.params, overwriteParams);
+        Utils.extend(swiper.originalParams, overwriteParams);
+      },
+      setTranslate: function setTranslate() {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'cube') {
+          return;
+        }
+
+        swiper.cubeEffect.setTranslate();
+      },
+      setTransition: function setTransition(duration) {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'cube') {
+          return;
+        }
+
+        swiper.cubeEffect.setTransition(duration);
+      }
+    }
+  };
+  var Flip = {
+    setTranslate: function setTranslate() {
+      var swiper = this;
+      var slides = swiper.slides;
+
+      for (var i = 0; i < slides.length; i += 1) {
+        var $slideEl = slides.eq(i);
+        var progress = $slideEl[0].progress;
+
+        if (swiper.params.flipEffect.limitRotation) {
+          progress = Math.max(Math.min($slideEl[0].progress, 1), -1);
+        }
+
+        var offset = $slideEl[0].swiperSlideOffset;
+        var rotate = -180 * progress;
+        var rotateY = rotate;
+        var rotateX = 0;
+        var tx = -offset;
+        var ty = 0;
+
+        if (!swiper.isHorizontal()) {
+          ty = tx;
+          tx = 0;
+          rotateX = -rotateY;
+          rotateY = 0;
+        } else if (swiper.rtl) {
+          rotateY = -rotateY;
+        }
+
+        $slideEl[0].style.zIndex = -Math.abs(Math.round(progress)) + slides.length;
+
+        if (swiper.params.flipEffect.slideShadows) {
+          // Set shadows
+          var shadowBefore = swiper.isHorizontal() ? $slideEl.find('.swiper-slide-shadow-left') : $slideEl.find('.swiper-slide-shadow-top');
+          var shadowAfter = swiper.isHorizontal() ? $slideEl.find('.swiper-slide-shadow-right') : $slideEl.find('.swiper-slide-shadow-bottom');
+
+          if (shadowBefore.length === 0) {
+            shadowBefore = $$1("<div class=\"swiper-slide-shadow-" + (swiper.isHorizontal() ? 'left' : 'top') + "\"></div>");
+            $slideEl.append(shadowBefore);
+          }
+
+          if (shadowAfter.length === 0) {
+            shadowAfter = $$1("<div class=\"swiper-slide-shadow-" + (swiper.isHorizontal() ? 'right' : 'bottom') + "\"></div>");
+            $slideEl.append(shadowAfter);
+          }
+
+          if (shadowBefore.length) {
+            shadowBefore[0].style.opacity = Math.max(-progress, 0);
+          }
+
+          if (shadowAfter.length) {
+            shadowAfter[0].style.opacity = Math.max(progress, 0);
+          }
+        }
+
+        $slideEl.transform("translate3d(" + tx + "px, " + ty + "px, 0px) rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg)");
+      }
+    },
+    setTransition: function setTransition(duration) {
+      var swiper = this;
+      var slides = swiper.slides;
+      var activeIndex = swiper.activeIndex;
+      var $wrapperEl = swiper.$wrapperEl;
+      slides.transition(duration).find('.swiper-slide-shadow-top, .swiper-slide-shadow-right, .swiper-slide-shadow-bottom, .swiper-slide-shadow-left').transition(duration);
+
+      if (swiper.params.virtualTranslate && duration !== 0) {
+        var eventTriggered = false; // eslint-disable-next-line
+
+        slides.eq(activeIndex).transitionEnd(function onTransitionEnd() {
+          if (eventTriggered) {
+            return;
+          }
+
+          if (!swiper || swiper.destroyed) {
+            return;
+          } // if (!$(this).hasClass(swiper.params.slideActiveClass)) return;
+
+
+          eventTriggered = true;
+          swiper.animating = false;
+          var triggerEvents = ['webkitTransitionEnd', 'transitionend'];
+
+          for (var i = 0; i < triggerEvents.length; i += 1) {
+            $wrapperEl.trigger(triggerEvents[i]);
+          }
+        });
+      }
+    }
+  };
+  var EffectFlip = {
+    name: 'effect-flip',
+    params: {
+      flipEffect: {
+        slideShadows: true,
+        limitRotation: true
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        flipEffect: {
+          setTranslate: Flip.setTranslate.bind(swiper),
+          setTransition: Flip.setTransition.bind(swiper)
+        }
+      });
+    },
+    on: {
+      beforeInit: function beforeInit() {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'flip') {
+          return;
+        }
+
+        swiper.classNames.push(swiper.params.containerModifierClass + "flip");
+        swiper.classNames.push(swiper.params.containerModifierClass + "3d");
+        var overwriteParams = {
+          slidesPerView: 1,
+          slidesPerColumn: 1,
+          slidesPerGroup: 1,
+          watchSlidesProgress: true,
+          spaceBetween: 0,
+          virtualTranslate: true
+        };
+        Utils.extend(swiper.params, overwriteParams);
+        Utils.extend(swiper.originalParams, overwriteParams);
+      },
+      setTranslate: function setTranslate() {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'flip') {
+          return;
+        }
+
+        swiper.flipEffect.setTranslate();
+      },
+      setTransition: function setTransition(duration) {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'flip') {
+          return;
+        }
+
+        swiper.flipEffect.setTransition(duration);
+      }
+    }
+  };
+  var Coverflow = {
+    setTranslate: function setTranslate() {
+      var swiper = this;
+      var swiperWidth = swiper.width;
+      var swiperHeight = swiper.height;
+      var slides = swiper.slides;
+      var $wrapperEl = swiper.$wrapperEl;
+      var slidesSizesGrid = swiper.slidesSizesGrid;
+      var params = swiper.params.coverflowEffect;
+      var isHorizontal = swiper.isHorizontal();
+      var transform = swiper.translate;
+      var center = isHorizontal ? -transform + swiperWidth / 2 : -transform + swiperHeight / 2;
+      var rotate = isHorizontal ? params.rotate : -params.rotate;
+      var translate = params.depth; // Each slide offset from center
+
+      for (var i = 0, length = slides.length; i < length; i += 1) {
+        var $slideEl = slides.eq(i);
+        var slideSize = slidesSizesGrid[i];
+        var slideOffset = $slideEl[0].swiperSlideOffset;
+        var offsetMultiplier = (center - slideOffset - slideSize / 2) / slideSize * params.modifier;
+        var rotateY = isHorizontal ? rotate * offsetMultiplier : 0;
+        var rotateX = isHorizontal ? 0 : rotate * offsetMultiplier; // var rotateZ = 0
+
+        var translateZ = -translate * Math.abs(offsetMultiplier);
+        var translateY = isHorizontal ? 0 : params.stretch * offsetMultiplier;
+        var translateX = isHorizontal ? params.stretch * offsetMultiplier : 0; // Fix for ultra small values
+
+        if (Math.abs(translateX) < 0.001) {
+          translateX = 0;
+        }
+
+        if (Math.abs(translateY) < 0.001) {
+          translateY = 0;
+        }
+
+        if (Math.abs(translateZ) < 0.001) {
+          translateZ = 0;
+        }
+
+        if (Math.abs(rotateY) < 0.001) {
+          rotateY = 0;
+        }
+
+        if (Math.abs(rotateX) < 0.001) {
+          rotateX = 0;
+        }
+
+        var slideTransform = "translate3d(" + translateX + "px," + translateY + "px," + translateZ + "px)  rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg)";
+        $slideEl.transform(slideTransform);
+        $slideEl[0].style.zIndex = -Math.abs(Math.round(offsetMultiplier)) + 1;
+
+        if (params.slideShadows) {
+          // Set shadows
+          var $shadowBeforeEl = isHorizontal ? $slideEl.find('.swiper-slide-shadow-left') : $slideEl.find('.swiper-slide-shadow-top');
+          var $shadowAfterEl = isHorizontal ? $slideEl.find('.swiper-slide-shadow-right') : $slideEl.find('.swiper-slide-shadow-bottom');
+
+          if ($shadowBeforeEl.length === 0) {
+            $shadowBeforeEl = $$1("<div class=\"swiper-slide-shadow-" + (isHorizontal ? 'left' : 'top') + "\"></div>");
+            $slideEl.append($shadowBeforeEl);
+          }
+
+          if ($shadowAfterEl.length === 0) {
+            $shadowAfterEl = $$1("<div class=\"swiper-slide-shadow-" + (isHorizontal ? 'right' : 'bottom') + "\"></div>");
+            $slideEl.append($shadowAfterEl);
+          }
+
+          if ($shadowBeforeEl.length) {
+            $shadowBeforeEl[0].style.opacity = offsetMultiplier > 0 ? offsetMultiplier : 0;
+          }
+
+          if ($shadowAfterEl.length) {
+            $shadowAfterEl[0].style.opacity = -offsetMultiplier > 0 ? -offsetMultiplier : 0;
+          }
+        }
+      } // Set correct perspective for IE10
+
+
+      if (Browser.ie) {
+        var ws = $wrapperEl[0].style;
+        ws.perspectiveOrigin = center + "px 50%";
+      }
+    },
+    setTransition: function setTransition(duration) {
+      var swiper = this;
+      swiper.slides.transition(duration).find('.swiper-slide-shadow-top, .swiper-slide-shadow-right, .swiper-slide-shadow-bottom, .swiper-slide-shadow-left').transition(duration);
+    }
+  };
+  var EffectCoverflow = {
+    name: 'effect-coverflow',
+    params: {
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true
+      }
+    },
+    create: function create() {
+      var swiper = this;
+      Utils.extend(swiper, {
+        coverflowEffect: {
+          setTranslate: Coverflow.setTranslate.bind(swiper),
+          setTransition: Coverflow.setTransition.bind(swiper)
+        }
+      });
+    },
+    on: {
+      beforeInit: function beforeInit() {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'coverflow') {
+          return;
+        }
+
+        swiper.classNames.push(swiper.params.containerModifierClass + "coverflow");
+        swiper.classNames.push(swiper.params.containerModifierClass + "3d");
+        swiper.params.watchSlidesProgress = true;
+      },
+      setTranslate: function setTranslate() {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'coverflow') {
+          return;
+        }
+
+        swiper.coverflowEffect.setTranslate();
+      },
+      setTransition: function setTransition(duration) {
+        var swiper = this;
+
+        if (swiper.params.effect !== 'coverflow') {
+          return;
+        }
+
+        swiper.coverflowEffect.setTransition(duration);
+      }
+    }
+  }; // Swiper Class
+  // Core Modules
+
+  Swiper$1.components = [Device$2, Support$2, Browser$2, Resize, Observer$1, Virtual$1, Keyboard$1, Mousewheel$1, Navigation$1, Pagination$1, Scrollbar$1, Parallax$1, Zoom$1, Lazy$1, Controller$1, A11y, History$1, HashNavigation$1, Autoplay$1, EffectFade, EffectCube, EffectFlip, EffectCoverflow];
+  return Swiper$1;
+});
 
 /***/ }),
 
 /***/ 349:
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: SyntaxError: /Users/glebsimdyankin/Documents/work/redsoft/src/scripts/libs/jquery.customSelect.js: Unexpected keyword 'return' (18:16)\n\n\u001b[0m \u001b[90m 16 | \u001b[39m            \u001b[90m// filter out <= IE6\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 | \u001b[39m            \u001b[36mif\u001b[39m (\u001b[36mtypeof\u001b[39m document\u001b[33m.\u001b[39mbody\u001b[33m.\u001b[39mstyle\u001b[33m.\u001b[39mmaxHeight \u001b[33m===\u001b[39m \u001b[32m'undefined'\u001b[39m) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 18 | \u001b[39m                \u001b[36mreturn\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 | \u001b[39m            }\u001b[0m\n\u001b[0m \u001b[90m 20 | \u001b[39m            \u001b[36mvar\u001b[39m defaults \u001b[33m=\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 21 | \u001b[39m                    customClass\u001b[33m:\u001b[39m \u001b[32m'customSelect'\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n    at raise (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:6325:17)\n    at checkReservedWord (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9546:12)\n    at parseObjectProperty (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9286:12)\n    at parseObjPropValue (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9306:101)\n    at parseObjectMember (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9230:10)\n    at parseObj (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9154:25)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8784:28)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:3601:20)\n    at parseExprSubscripts (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8412:23)\n    at parseMaybeUnary (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8392:21)\n    at parseExprOps (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8267:23)\n    at parseMaybeConditional (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8240:23)\n    at parseMaybeAssign (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8187:21)\n    at parseExpression (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8135:23)\n    at parseStatementContent (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9958:23)\n    at parseStatement (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9829:17)");
+/*!
+ * jquery.customSelect() - v0.5.1
+ * http://adam.co/lab/jquery/customselect/
+ * 2014-03-19
+ *
+ * Copyright 2013 Adam Coulombe
+ * @license http://www.opensource.org/licenses/mit-license.html MIT License
+ * @license http://www.gnu.org/licenses/gpl.html GPL2 License 
+ */
+(function ($) {
+  'use strict';
+
+  $.fn.extend({
+    customSelect: function customSelect(options) {
+      // filter out <= IE6
+      if (typeof document.body.style.maxHeight === 'undefined') {
+        return this;
+      }
+
+      var defaults = {
+        customClass: 'customSelect',
+        mapClass: true,
+        mapStyle: true
+      },
+          options = $.extend(defaults, options),
+          prefix = options.customClass,
+          changed = function changed($select, customSelectSpan) {
+        var currentSelected = $select.find(':selected'),
+            customSelectSpanInner = customSelectSpan.children(':first'),
+            html = currentSelected.html() || '&nbsp;';
+        customSelectSpanInner.html(html);
+
+        if (currentSelected.attr('disabled')) {
+          customSelectSpan.addClass(getClass('DisabledOption'));
+        } else {
+          customSelectSpan.removeClass(getClass('DisabledOption'));
+        }
+
+        setTimeout(function () {
+          customSelectSpan.removeClass(getClass('Open'));
+          $(document).off('mouseup.customSelect');
+        }, 60);
+      },
+          getClass = function getClass(suffix) {
+        return prefix + suffix;
+      };
+
+      return this.each(function () {
+        var $select = $(this),
+            customSelectInnerSpan = $('<span />').addClass(getClass('Inner')),
+            customSelectSpan = $('<span />');
+        $select.after(customSelectSpan.append(customSelectInnerSpan));
+        customSelectSpan.addClass(prefix);
+
+        if (options.mapClass) {
+          customSelectSpan.addClass($select.attr('class'));
+        }
+
+        if (options.mapStyle) {
+          customSelectSpan.attr('style', $select.attr('style'));
+        }
+
+        $select.addClass('hasCustomSelect').on('render.customSelect', function () {
+          changed($select, customSelectSpan);
+          $select.css('width', '');
+          var selectBoxWidth = parseInt($select.outerWidth(), 10) - (parseInt(customSelectSpan.outerWidth(), 10) - parseInt(customSelectSpan.width(), 10)); // Set to inline-block before calculating outerHeight
+
+          customSelectSpan.css({
+            display: 'inline-block'
+          });
+          var selectBoxHeight = customSelectSpan.outerHeight();
+
+          if ($select.attr('disabled')) {
+            customSelectSpan.addClass(getClass('Disabled'));
+          } else {
+            customSelectSpan.removeClass(getClass('Disabled'));
+          }
+
+          customSelectInnerSpan.css({
+            width: selectBoxWidth,
+            display: 'inline-block'
+          });
+          $select.css({
+            '-webkit-appearance': 'menulist-button',
+            width: customSelectSpan.outerWidth(),
+            position: 'absolute',
+            opacity: 0,
+            height: selectBoxHeight,
+            fontSize: customSelectSpan.css('font-size')
+          });
+        }).on('change.customSelect', function () {
+          customSelectSpan.addClass(getClass('Changed'));
+          changed($select, customSelectSpan);
+        }).on('keyup.customSelect', function (e) {
+          if (!customSelectSpan.hasClass(getClass('Open'))) {
+            $select.trigger('blur.customSelect');
+            $select.trigger('focus.customSelect');
+          } else {
+            if (e.which == 13 || e.which == 27) {
+              changed($select, customSelectSpan);
+            }
+          }
+        }).on('mousedown.customSelect', function () {
+          customSelectSpan.removeClass(getClass('Changed'));
+        }).on('mouseup.customSelect', function (e) {
+          if (!customSelectSpan.hasClass(getClass('Open'))) {
+            // if FF and there are other selects open, just apply focus
+            if ($('.' + getClass('Open')).not(customSelectSpan).length > 0 && typeof InstallTrigger !== 'undefined') {
+              $select.trigger('focus.customSelect');
+            } else {
+              customSelectSpan.addClass(getClass('Open'));
+              e.stopPropagation();
+              $(document).one('mouseup.customSelect', function (e) {
+                if (e.target != $select.get(0) && $.inArray(e.target, $select.find('*').get()) < 0) {
+                  $select.trigger('blur.customSelect');
+                } else {
+                  changed($select, customSelectSpan);
+                }
+              });
+            }
+          }
+        }).on('focus.customSelect', function () {
+          customSelectSpan.removeClass(getClass('Changed')).addClass(getClass('Focus'));
+        }).on('blur.customSelect', function () {
+          customSelectSpan.removeClass(getClass('Focus') + ' ' + getClass('Open'));
+        }).on('mouseenter.customSelect', function () {
+          customSelectSpan.addClass(getClass('Hover'));
+        }).on('mouseleave.customSelect', function () {
+          customSelectSpan.removeClass(getClass('Hover'));
+        }).trigger('render.customSelect');
+      });
+    }
+  });
+})(jQuery);
 
 /***/ }),
 
 /***/ 350:
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: SyntaxError: /Users/glebsimdyankin/Documents/work/redsoft/src/scripts/libs/jquery.nselect.js: Unexpected token, expected \"{\" (46:48)\n\n\u001b[0m \u001b[90m 44 | \u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 | \u001b[39m                \u001b[36mif\u001b[39m ($nSelect\u001b[33m.\u001b[39mhasClass(\u001b[32m'_active'\u001b[39m)) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 | \u001b[39m                    closeSelect($that\u001b[33m,\u001b[39m $nSelect)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 | \u001b[39m                } \u001b[36melse\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 48 | \u001b[39m                    openSelect($that\u001b[33m,\u001b[39m $nSelect)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 49 | \u001b[39m                }\u001b[0m\n    at raise (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:6325:17)\n    at unexpected (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:7642:16)\n    at expect (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:7628:28)\n    at parseBlock (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:10370:10)\n    at parseFunctionBody (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9424:24)\n    at parseFunctionBodyAndFinish (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9394:10)\n    at parseMethod (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9348:10)\n    at parseObjectMethod (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9264:19)\n    at parseObjPropValue (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9306:23)\n    at parseObjectMember (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9230:10)\n    at parseObj (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:9154:25)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8784:28)\n    at parseExprAtom (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:3601:20)\n    at parseExprSubscripts (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8412:23)\n    at parseMaybeUnary (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8392:21)\n    at parseExprOps (/Users/glebsimdyankin/Documents/work/redsoft/node_modules/@babel/parser/lib/index.js:8267:23)");
+/*!
+== nSelect jQuery custom select plugin == 
+Version: 1.0.1
+Plugin URI: http://nselect.edbond.name/
+Author: Ed Bond
+Author URI: http://edbond.name/
+License: MIT License (MIT)
+*/
+
+/*
+Copyright 2015 Ed Bond (email: edbond88@gmail.com)
+*/
+(function ($) {
+  $.nSelect = function ($element, opt) {
+    var $this = this,
+        customScrollFlag = false,
+        defaults = {
+      topList: false,
+      firstTitle: '',
+      theme: 'nsOrange',
+      disabled: false,
+      scrollbarTheme: 'dark',
+      hideAfterSelect: false,
+      afterChange: function afterChange() {},
+      afterOpen: function afterOpen() {}
+    },
+        options = $.extend(defaults, opt);
+
+    function init() {
+      var $nSelect = renderSelect($element),
+          el = {
+        selectBtn: $('.nselect__head', $nSelect),
+        selectHeadInner: $('.nselect__head SPAN', $nSelect),
+        selectList: $('.nselect__list', $nSelect),
+        selectItem: $('.nselect__inner li', $nSelect)
+      };
+      el.selectBtn.on('click', selectBtnClick);
+      el.selectItem.on('click', selectItemClick);
+
+      function selectBtnClick() {
+        var $that = $(this);
+
+        if ($nSelect.hasClass('_active')) {
+          closeSelect($that, $nSelect);
+        } else {
+          openSelect($that, $nSelect);
+        } // Custom scrollbar activation
+
+
+        if (!customScrollFlag && jQuery.mCustomScrollbar) {
+          customScrollUpdate(el.selectList);
+        }
+      }
+
+      function selectItemClick() {
+        var $that = $(this);
+        changeSelectItem($nSelect, $that);
+        options.afterChange($that);
+        closeSelect($that);
+      }
+    }
+
+    function renderSelect($elem) {
+      var modClass = {
+        'top': '',
+        'disabled': ''
+      },
+          context = '',
+          el = {},
+          selectedOpt,
+          noSelected = false,
+          selectTitle = $elem.data('title') || '',
+          selectName = $elem.attr('name') || '',
+          titleHtml,
+          titleVal;
+      $elem.hide();
+
+      if (options.topList) {
+        modClass.top = '_top';
+      }
+
+      if ($elem.hasClass('_disabled') || options.disabled) {
+        modClass.disabled = '_disabled';
+      } // Create wrap around select
+
+
+      context = $elem.wrap('<div class="nselect ns-sys ' + modClass.top + ' ' + options.theme + ' ' + modClass.disabled + '" data-name="' + selectName + '" data-val=""></div>').closest('.nselect.ns-sys').prepend('<div class="nselect__inner">' + '<ul class="nselect__list"></ul>' + '</div>');
+      el = {
+        'selectList': $('.nselect__list', context),
+        'selectItem': {}
+      };
+      $elem.find('option').each(function (index) {
+        var $that = $(this),
+            val = $that.val(),
+            html = $that.html(),
+            activeClass = '',
+            hideClass = '',
+            newItem;
+
+        if ($that.attr('selected')) {
+          selectedOpt = $that;
+          activeClass = '_active';
+
+          if (options.hideAfterSelect == true) {
+            hideClass = '_hide';
+          }
+        } else {
+          activeClass = '';
+          hideClass = '';
+        }
+
+        newItem = '<li class="' + activeClass + ' ' + hideClass + '" data-val="' + val + '"><span>' + html + '</span></li>';
+        el.selectList.append(newItem);
+      });
+      el.selectItem = $('.nselect__inner li', context);
+
+      if (selectedOpt === undefined) {
+        // console.log('auto first title')
+        noSelected = true;
+        selectedOpt = $elem.find('option');
+        el.selectItem.eq(0).addClass('_active');
+
+        if (options.hideAfterSelect == true) {
+          el.selectItem.eq(0).addClass('_hide');
+        }
+      }
+
+      titleHtml = selectedOpt.html();
+      titleVal = selectedOpt.val();
+
+      if (options.firstTitle !== '' && noSelected) {
+        // console.log('options.firstTitle')
+        el.selectItem.removeClass('_active');
+        $elem.val('');
+        titleHtml = options.firstTitle;
+        titleVal = '';
+      }
+
+      if (selectTitle !== '' && noSelected) {
+        // console.log('data-title');
+        el.selectItem.removeClass('_active');
+        $elem.val('');
+        titleHtml = selectTitle;
+        titleVal = '';
+      }
+
+      context.prepend('<h6 class="nselect__head" data-val="' + titleVal + '"><span>' + titleHtml + '</span></h6>');
+      $('.nselect__head', context).attr('title', $('.nselect__head SPAN', context).html());
+      return context;
+    }
+
+    function closeSelect(el, ctx) {
+      if (ctx === undefined) {
+        $('.nselect').removeClass('_active');
+        return;
+      }
+
+      ctx.removeClass('_active');
+      $(window).trigger('niceClose');
+    }
+
+    function openSelect(el, ctx) {
+      ctx.addClass('_active');
+      options.afterOpen(el);
+      $(window).trigger('nOpen');
+    }
+
+    function setNewValue(newVal, ctx) {
+      $element.val(newVal);
+      ctx.data('val', newVal);
+    }
+
+    function changeSelectItem(ctx, item) {
+      var $that = $(item),
+          innerItem = $that.find('span').html(),
+          newVal = $that.data('val');
+      $that.addClass('_active').siblings('li').removeClass('_active');
+
+      if (options.hideAfterSelect == true) {
+        $that.addClass('_hide').siblings('li').removeClass('_hide');
+      }
+
+      ctx.addClass('_checked');
+      $('.nselect__head', ctx).attr('title', innerItem);
+      $('.nselect__head SPAN', ctx).html(innerItem);
+      setNewValue(newVal, ctx);
+      $(window).trigger('nChange');
+    }
+
+    function customScrollUpdate(el) {
+      el.mCustomScrollbar('destroy');
+      el.mCustomScrollbar({
+        theme: options.scrollbarTheme
+      });
+      customScrollFlag = true;
+    }
+
+    init();
+    return $this;
+  }; //TODO: refract this block
+
+
+  $(document).on('click', function (e) {
+    if (!$(e.target).closest('.nselect').length && $('.nselect._active').length != 0) {
+      $('.nselect').removeClass('_active');
+    }
+  });
+
+  $.fn.nSelect = function (options) {
+    return this.each(function () {
+      var np = new $.nSelect($(this), options);
+    });
+  };
+})(jQuery);
 
 /***/ }),
 
@@ -13462,6 +26917,34 @@ var main = {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 53:
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1,eval)("this");
+} catch(e) {
+	// This works if the window reference is available
+	if(typeof window === "object")
+		g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
 
 /***/ }),
 
